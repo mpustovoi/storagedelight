@@ -29,7 +29,7 @@ public class ModBlocks {
 
     // Glowberry Crate
     public static final RegistryObject<Block> GLOWBERRY_CRATE = registerBlock("glowberry_crate",
-            () -> new Block(Block.Properties.copy(Blocks.OAK_PLANKS).strength(2.0F, 3.0F).sound(SoundType.WOOD)));
+            () -> new Block(Block.Properties.copy(Blocks.OAK_PLANKS).strength(2.0F, 3.0F).sound(SoundType.WOOD).lightLevel((state) -> 7)));
 
     // Egg Crate
     public static final RegistryObject<Block> EGG_CRATE = registerBlock("egg_crate",
