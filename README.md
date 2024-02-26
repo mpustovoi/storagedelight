@@ -1,19 +1,16 @@
-![Crate Delight Forge Logo](https://cdn.modrinth.com/data/sTXl8gUt/images/103fd76aab4cacce12b288b85645c83cb0d2cb02.png)
+![Storage Delight Logo](https://cdn.modrinth.com/data/LTTvOp5L/images/fa93cf5d6d1e101e0783d9af61ebd7330881d791.png)
 ___
-**Upgrade your Farmer's Delight experience!** Forget chests and say hello to more food storage. Craft beautiful crates for your apples, berries, glowberries, and eggs.
+**Enhance your kitchen experience** with drawers and glass cabinets designed to keep everything tidy. Transform the aesthetic appeal of your kitchen while effortlessly organizing your essentials for a seamless and attractive culinary space.
 
-[Download on CurseForge](https://www.curseforge.com/minecraft/mc-mods/crate-delight-forge) | [Download on Modrinth](https://modrinth.com/mod/crate-delight-forge)
+[**Discord Community**](https://discord.gg/z2E7Q78v8X) | [**Fabric Download**](https://www.curseforge.com/minecraft/mc-mods/storage-delight-fabric)
 
-🍎 **Make More Crates:**
+🍅 **Drawers:**
+- Craft practical drawers using various any wood type like oak, birch, spruce, jungle, acacia, dark oak, mangrove, cherry, bamboo, crimson, and warped.
 
-- Apple Crate
-- Berry Crate
-- Egg Crate
-- Glowberry Crate
-- Cocoa Beans Bag
-- Sugar Bag
+🥕 **Glass Cabinets:**
+- Craft stylish glass cabinets, each meticulously designed to showcase your kitchen with a touch of gastronomic elegance, using any wood like oak, birch, spruce, jungle, acacia, dark oak, mangrove, cherry, bamboo, crimson, and warped.
 
-___
 **Additional Information:**
-
-- Feel free to use this mod in your modpacks, please give credits.
+- This project is based on [Farmer's Delight [Forge]](https://www.curseforge.com/minecraft/mc-mods/farmers-delight) by Zifiv & vectorwing.
+- See credits [here.](https://github.com/axperty/storagedelight-fabric/blob/master/CREDITS)
+- Feel free to use this mod in your modpacks, please give credits. 
