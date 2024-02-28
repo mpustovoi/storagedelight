@@ -14,7 +14,7 @@ public class ModCreativeTabs
 
     public static final RegistryObject<CreativeModeTab> TAB_FARMERS_DELIGHT = CREATIVE_TABS.register(StorageDelight.MOD_ID,
             () -> CreativeModeTab.builder()
-                    .title(Component.translatable("itemGroup.storagedelight.title"))
+                    .title(Component.translatable("itemGroup.storagedelight"))
                     .icon(() -> new ItemStack(ModBlocks.OAK_DRAWER.get()))
                     .displayItems((parameters, output) -> ModItems.CREATIVE_TAB_ITEMS.forEach((item) -> output.accept(item.get())))
                     .build());

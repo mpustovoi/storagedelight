@@ -11,6 +11,6 @@ ___
 - Craft stylish glass cabinets, each meticulously designed to showcase your kitchen with a touch of gastronomic elegance, using any wood like oak, birch, spruce, jungle, acacia, dark oak, mangrove, cherry, bamboo, crimson, and warped.
 
 **Additional Information:**
-- This project is based on [Farmer's Delight [Forge]](https://www.curseforge.com/minecraft/mc-mods/farmers-delight) by Zifiv & vectorwing.
+- This project is based on [Farmer's Delight](https://www.curseforge.com/minecraft/mc-mods/farmers-delight) by vectorwing.
 - See credits [here.](https://github.com/axperty/storagedelight-fabric/blob/master/CREDITS)
 - Feel free to use this mod in your modpacks, please give credits. 
