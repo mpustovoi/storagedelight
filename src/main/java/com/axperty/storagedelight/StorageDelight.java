@@ -17,18 +17,12 @@ public class StorageDelight {
 
     public StorageDelight() {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
-
+        System.out.println("[Storage Delight Forge]: Registering items, blocks, and entities...");
         ModItems.ITEMS.register(modEventBus);
         ModBlocks.BLOCKS.register(modEventBus);
         ModBlockEntityTypes.TILES.register(modEventBus);
         ModCreativeTabs.CREATIVE_TABS.register(modEventBus);
-
-        modEventBus.addListener(this::commonSetup);
-
         MinecraftForge.EVENT_BUS.register(this);
-    }
-
-    private void commonSetup(final FMLCommonSetupEvent event) {
-
+        System.out.println("[Storage Delight Forge]: Items, blocks, and entities registered registered successfully!");
     }
 }

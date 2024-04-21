@@ -1,6 +1,7 @@
 package com.axperty.storagedelight.registry;
 
 import com.axperty.storagedelight.StorageDelight;
+import com.axperty.storagedelight.block.CabinetWithGlassDoorsBlock;
 import com.axperty.storagedelight.block.DrawerBlock;
 import com.axperty.storagedelight.block.GlassCabinetBlock;
 import net.minecraft.world.level.block.Block;
@@ -68,4 +69,8 @@ public class ModBlocks {
             () -> new GlassCabinetBlock(Block.Properties.copy(Blocks.BARREL).sound(SoundType.NETHER_WOOD)));
     public static final RegistryObject<Block> GLASS_WARPED_CABINET = BLOCKS.register("glass_warped_cabinet",
             () -> new GlassCabinetBlock(Block.Properties.copy(Blocks.BARREL).sound(SoundType.NETHER_WOOD)));
+
+    // Cabinets with Glass Doors
+    public static final RegistryObject<Block> OAK_CABINET_WITH_GLASS_DOORS = BLOCKS.register("oak_cabinet_with_glass_doors",
+            () -> new CabinetWithGlassDoorsBlock(Block.Properties.copy(Blocks.BARREL)));
 }

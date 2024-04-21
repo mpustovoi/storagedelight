@@ -1,6 +1,6 @@
 package com.axperty.storagedelight.block;
 
-import com.axperty.storagedelight.block.entity.DrawerBlockEntity;
+import com.axperty.storagedelight.block.entity.CabinetWithGlassDoorsBlockEntity;
 import com.axperty.storagedelight.registry.ModBlockEntityTypes;
 import net.minecraft.core.BlockPos;
 import net.minecraft.core.Direction;
@@ -26,12 +26,12 @@ import net.minecraft.world.level.block.state.properties.DirectionProperty;
 import net.minecraft.world.phys.BlockHitResult;
 import org.jetbrains.annotations.Nullable;
 
-public class DrawerBlock extends BaseEntityBlock
+public class CabinetWithGlassDoorsBlock extends BaseEntityBlock
 {
     public static final DirectionProperty FACING = BlockStateProperties.HORIZONTAL_FACING;
     public static final BooleanProperty OPEN = BlockStateProperties.OPEN;
 
-    public DrawerBlock(Properties properties) {
+    public CabinetWithGlassDoorsBlock(Properties properties) {
         super(properties);
         this.registerDefaultState(this.stateDefinition.any().setValue(FACING, Direction.NORTH).setValue(OPEN, false));
     }
@@ -40,8 +40,8 @@ public class DrawerBlock extends BaseEntityBlock
     public InteractionResult use(BlockState state, Level level, BlockPos pos, Player player, InteractionHand hand, BlockHitResult hit) {
         if (!level.isClientSide) {
             BlockEntity tile = level.getBlockEntity(pos);
-            if (tile instanceof DrawerBlockEntity) {
-                player.openMenu((DrawerBlockEntity) tile);
+            if (tile instanceof CabinetWithGlassDoorsBlockEntity) {
+                player.openMenu((CabinetWithGlassDoorsBlockEntity) tile);
             }
         }
         return InteractionResult.SUCCESS;
@@ -62,8 +62,8 @@ public class DrawerBlock extends BaseEntityBlock
     @Override
     public void tick(BlockState state, ServerLevel level, BlockPos pos, RandomSource random) {
         BlockEntity tileEntity = level.getBlockEntity(pos);
-        if (tileEntity instanceof DrawerBlockEntity) {
-            ((DrawerBlockEntity) tileEntity).recheckOpen();
+        if (tileEntity instanceof CabinetWithGlassDoorsBlockEntity) {
+            ((CabinetWithGlassDoorsBlockEntity) tileEntity).recheckOpen();
         }
     }
 
@@ -76,8 +76,8 @@ public class DrawerBlock extends BaseEntityBlock
     public void setPlacedBy(Level level, BlockPos pos, BlockState state, @Nullable LivingEntity placer, ItemStack stack) {
         if (stack.hasCustomHoverName()) {
             BlockEntity tileEntity = level.getBlockEntity(pos);
-            if (tileEntity instanceof DrawerBlockEntity) {
-                ((DrawerBlockEntity) tileEntity).setCustomName(stack.getHoverName());
+            if (tileEntity instanceof CabinetWithGlassDoorsBlockEntity) {
+                ((CabinetWithGlassDoorsBlockEntity) tileEntity).setCustomName(stack.getHoverName());
             }
         }
     }
@@ -101,7 +101,7 @@ public class DrawerBlock extends BaseEntityBlock
     @Nullable
     @Override
     public BlockEntity newBlockEntity(BlockPos pos, BlockState state) {
-        return ModBlockEntityTypes.DRAWER.get().create(pos, state);
+        return ModBlockEntityTypes.CABINET_WITH_GLASS_DOORS.get().create(pos, state);
     }
 
     @Override

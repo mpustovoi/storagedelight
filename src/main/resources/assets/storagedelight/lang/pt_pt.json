@@ -26,5 +26,5 @@
   "block.storagedelight.glass_warped_cabinet": "Armário de Vidro Distorcido",
   "block.storagedelight.glass_bamboo_cabinet": "Armário de Vidro de Bambu",
 
-  "itemGroup.storagedelight": "Storage Delight"
+  "itemGroup.storagedelight.title": "Storage Delight"
 }

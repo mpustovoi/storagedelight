@@ -26,5 +26,5 @@
   "block.storagedelight.glass_warped_cabinet": "ガラスワープドキャビネット",
   "block.storagedelight.glass_bamboo_cabinet": "ガラス竹製キャビネット",
 
-  "itemGroup.storagedelight": "保存の喜び"
+  "itemGroup.storagedelight.title": "保存の喜び"
 }

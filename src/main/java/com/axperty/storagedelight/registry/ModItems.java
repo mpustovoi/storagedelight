@@ -74,4 +74,7 @@ public class ModItems {
     public static final RegistryObject<Item> GLASS_WARPED_CABINET = registerWithTab("glass_warped_cabinet",
             () -> new BlockItem(ModBlocks.GLASS_WARPED_CABINET.get(), basicItem()));
 
+    // Cabinets with Glass Doors
+    public static final RegistryObject<Item> OAK_CABINET_WITH_GLASS_DOORS = registerWithTab("oak_cabinet_with_glass_doors",
+            () -> new FuelBlockItem(ModBlocks.OAK_CABINET_WITH_GLASS_DOORS.get(), basicItem(), 300));
 }
