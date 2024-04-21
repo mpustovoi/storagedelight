@@ -2,15 +2,4 @@
 ___
 **Enhance your kitchen experience** with drawers and glass cabinets designed to keep everything tidy. Transform the aesthetic appeal of your kitchen while effortlessly organizing your essentials for a seamless and attractive culinary space.
 
-[**Forge Download**](https://www.curseforge.com/minecraft/mc-mods/storage-delight-forge) | [**Fabric Download**](https://www.curseforge.com/minecraft/mc-mods/storage-delight-fabric) | [**Discord Community**](https://discord.gg/z2E7Q78v8X)
-
-🍅 **Drawers:**
-- Craft practical drawers using various any wood type like oak, birch, spruce, jungle, acacia, dark oak, mangrove, cherry, bamboo, crimson, and warped.
-
-🥕 **Glass Cabinets:**
-- Craft stylish glass cabinets, each meticulously designed to showcase your kitchen with a touch of gastronomic elegance, using any wood like oak, birch, spruce, jungle, acacia, dark oak, mangrove, cherry, bamboo, crimson, and warped.
-
-**Additional Information:**
-- This project is based on [Farmer's Delight](https://www.curseforge.com/minecraft/mc-mods/farmers-delight) by vectorwing.
-- See credits [here.](https://github.com/axperty/storagedelight-fabric/blob/master/CREDITS)
-- Feel free to use this mod in your modpacks, please give credits. 
+[**Download for Forge**](https://www.curseforge.com/minecraft/mc-mods/storage-delight-forge) | [**Download for Fabric**](https://www.curseforge.com/minecraft/mc-mods/storage-delight-fabric)
