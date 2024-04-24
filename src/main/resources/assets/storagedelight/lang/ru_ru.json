@@ -1,6 +1,7 @@
 {
   "container.storagedelight.drawer": "Ящик",
   "container.storagedelight.glass_cabinet": "Стеклянный шкаф",
+  "container.storagedelight.cabinet_with_glass_doors": "Шкаф",
 
   "block.storagedelight.oak_drawer": "Дубовый ящик",
   "block.storagedelight.birch_drawer": "Берёзовый ящик",
@@ -25,6 +26,18 @@
   "block.storagedelight.glass_crimson_cabinet": "Стеклянный малиновый шкаф",
   "block.storagedelight.glass_warped_cabinet": "Стеклянный искажённый шкаф",
   "block.storagedelight.glass_bamboo_cabinet": "Стеклянный бамбуковый шкаф",
+
+  "block.storagedelight.oak_cabinet_with_glass_doors": "Дубовый шкаф с стеклянными дверцами",
+  "block.storagedelight.birch_cabinet_with_glass_doors": "Берёзовый шкаф с стеклянными дверцами",
+  "block.storagedelight.spruce_cabinet_with_glass_doors": "Еловый шкаф с стеклянными дверцами",
+  "block.storagedelight.jungle_cabinet_with_glass_doors": "Джунглевый шкаф с стеклянными дверцами",
+  "block.storagedelight.acacia_cabinet_with_glass_doors": "Акациевый шкаф с стеклянными дверцами",
+  "block.storagedelight.dark_oak_cabinet_with_glass_doors": "Тёмный дубовый шкаф с стеклянными дверцами",
+  "block.storagedelight.mangrove_cabinet_with_glass_doors": "Мангровый шкаф с стеклянными дверцами",
+  "block.storagedelight.cherry_cabinet_with_glass_doors": "Вишнёвый шкаф с стеклянными дверцами",
+  "block.storagedelight.bamboo_cabinet_with_glass_doors": "Бамбуковый шкаф с стеклянными дверцами",
+  "block.storagedelight.warped_cabinet_with_glass_doors": "Искривлённый шкаф с стеклянными дверцами",
+  "block.storagedelight.crimson_cabinet_with_glass_doors": "Малиновый шкаф с стеклянными дверцами",
 
   "itemGroup.storagedelight.title": "Удовольствие Хранения"
 }

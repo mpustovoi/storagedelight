@@ -17,7 +17,7 @@ license="MIT License"
 # The modid of the mod
 modId="storagedelight" #mandatory
 # The version number of the mod
-version="1.0.2" #mandatory
+version="1.1.0-1.20.1-forge" #mandatory
 # A display name for the mod
 displayName="Storage Delight" #mandatory
 # A URL to query for updates for this mod. See the JSON update specification https://docs.minecraftforge.net/en/latest/misc/updatechecker/
@@ -41,7 +41,7 @@ authors="Axperty" #optional
 # The description text for the mod (multi line!) (#mandatory)
 description='''An addon for Farmer's Delight that adds more storage options to the base game.'''
 # A dependency - use the . to indicate dependency for a specific modid. Dependencies are optional.
-[[dependencies.cratedelight]] #optional
+[[dependencies.storagedelight]] #optional
     # the modid of the dependency
     modId="forge" #mandatory
     # Does this dependency have to exist - if not, ordering below must be specified
@@ -55,7 +55,7 @@ description='''An addon for Farmer's Delight that adds more storage options to t
     # Side this dependency is applied on - BOTH, CLIENT, or SERVER
     side="BOTH"
 
-[[dependencies.cratedelight]]
+[[dependencies.storagedelight]]
     modId="farmersdelight"
     mandatory=true
     # This version range declares a minimum of the current minecraft version up to but not including the next major version
@@ -63,7 +63,7 @@ description='''An addon for Farmer's Delight that adds more storage options to t
     ordering="NONE"
     side="BOTH"
 # Here's another dependency
-[[dependencies.cratedelight]]
+[[dependencies.storagedelight]]
     modId="minecraft"
     mandatory=true
     # This version range declares a minimum of the current minecraft version up to but not including the next major version

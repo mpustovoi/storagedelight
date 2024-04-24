@@ -43,6 +43,16 @@ public class ModBlockEntityTypes {
 
     public static final RegistryObject<BlockEntityType<CabinetWithGlassDoorsBlockEntity>> CABINET_WITH_GLASS_DOORS = TILES.register("cabinet_with_glass_doors",
             () -> BlockEntityType.Builder.of(CabinetWithGlassDoorsBlockEntity::new,
-                            ModBlocks.OAK_CABINET_WITH_GLASS_DOORS.get())
+                            ModBlocks.OAK_CABINET_WITH_GLASS_DOORS.get(),
+                            ModBlocks.BIRCH_CABINET_WITH_GLASS_DOORS.get(),
+                            ModBlocks.SPRUCE_CABINET_WITH_GLASS_DOORS.get(),
+                            ModBlocks.JUNGLE_CABINET_WITH_GLASS_DOORS.get(),
+                            ModBlocks.ACACIA_CABINET_WITH_GLASS_DOORS.get(),
+                            ModBlocks.DARK_OAK_CABINET_WITH_GLASS_DOORS.get(),
+                            ModBlocks.BAMBOO_CABINET_WITH_GLASS_DOORS.get(),
+                            ModBlocks.CHERRY_CABINET_WITH_GLASS_DOORS.get(),
+                            ModBlocks.MANGROVE_CABINET_WITH_GLASS_DOORS.get(),
+                            ModBlocks.CRIMSON_CABINET_WITH_GLASS_DOORS.get(),
+                            ModBlocks.WARPED_CABINET_WITH_GLASS_DOORS.get())
                     .build(null));
 }

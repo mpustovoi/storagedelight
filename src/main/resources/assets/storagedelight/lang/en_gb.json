@@ -1,7 +1,7 @@
 {
   "container.storagedelight.drawer": "Drawer",
   "container.storagedelight.glass_cabinet": "Glass Cabinet",
-  "container.storagedelight.cabinet_with_glass_doors": "Cabinet with Glass Doors",
+  "container.storagedelight.cabinet_with_glass_doors": "Cabinet",
 
   "block.storagedelight.oak_drawer": "Oak Drawer",
   "block.storagedelight.birch_drawer": "Birch Drawer",
@@ -28,6 +28,16 @@
   "block.storagedelight.glass_bamboo_cabinet": "Glass Bamboo Cabinet",
 
   "block.storagedelight.oak_cabinet_with_glass_doors": "Oak Cabinet with Glass Doors",
+  "block.storagedelight.birch_cabinet_with_glass_doors": "Birch Cabinet with Glass Doors",
+  "block.storagedelight.spruce_cabinet_with_glass_doors": "Spruce Cabinet with Glass Doors",
+  "block.storagedelight.jungle_cabinet_with_glass_doors": "Jungle Cabinet with Glass Doors",
+  "block.storagedelight.acacia_cabinet_with_glass_doors": "Acacia Cabinet with Glass Doors",
+  "block.storagedelight.dark_oak_cabinet_with_glass_doors": "Dark Oak Cabinet with Glass Doors",
+  "block.storagedelight.mangrove_cabinet_with_glass_doors": "Mangrove Cabinet with Glass Doors",
+  "block.storagedelight.cherry_cabinet_with_glass_doors": "Cherry Cabinet with Glass Doors",
+  "block.storagedelight.bamboo_cabinet_with_glass_doors": "Bamboo Cabinet with Glass Doors",
+  "block.storagedelight.warped_cabinet_with_glass_doors": "Warped Cabinet with Glass Doors",
+  "block.storagedelight.crimson_cabinet_with_glass_doors": "Crimson Cabinet with Glass Doors",
 
   "itemGroup.storagedelight.title": "Storage Delight"
 }

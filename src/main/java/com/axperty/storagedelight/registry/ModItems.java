@@ -77,4 +77,34 @@ public class ModItems {
     // Cabinets with Glass Doors
     public static final RegistryObject<Item> OAK_CABINET_WITH_GLASS_DOORS = registerWithTab("oak_cabinet_with_glass_doors",
             () -> new FuelBlockItem(ModBlocks.OAK_CABINET_WITH_GLASS_DOORS.get(), basicItem(), 300));
+
+    public static final RegistryObject<Item> SPRUCE_CABINET_WITH_GLASS_DOORS = registerWithTab("spruce_cabinet_with_glass_doors",
+            () -> new FuelBlockItem(ModBlocks.SPRUCE_CABINET_WITH_GLASS_DOORS.get(), basicItem(), 300));
+
+    public static final RegistryObject<Item> BIRCH_CABINET_WITH_GLASS_DOORS = registerWithTab("birch_cabinet_with_glass_doors",
+            () -> new FuelBlockItem(ModBlocks.BIRCH_CABINET_WITH_GLASS_DOORS.get(), basicItem(), 300));
+
+    public static final RegistryObject<Item> JUNGLE_CABINET_WITH_GLASS_DOORS = registerWithTab("jungle_cabinet_with_glass_doors",
+            () -> new FuelBlockItem(ModBlocks.JUNGLE_CABINET_WITH_GLASS_DOORS.get(), basicItem(), 300));
+
+    public static final RegistryObject<Item> ACACIA_CABINET_WITH_GLASS_DOORS = registerWithTab("acacia_cabinet_with_glass_doors",
+            () -> new FuelBlockItem(ModBlocks.ACACIA_CABINET_WITH_GLASS_DOORS.get(), basicItem(), 300));
+
+    public static final RegistryObject<Item> DARK_OAK_CABINET_WITH_GLASS_DOORS = registerWithTab("dark_oak_cabinet_with_glass_doors",
+            () -> new FuelBlockItem(ModBlocks.DARK_OAK_CABINET_WITH_GLASS_DOORS.get(), basicItem(), 300));
+
+    public static final RegistryObject<Item> MANGROVE_CABINET_WITH_GLASS_DOORS = registerWithTab("mangrove_cabinet_with_glass_doors",
+            () -> new FuelBlockItem(ModBlocks.MANGROVE_CABINET_WITH_GLASS_DOORS.get(), basicItem(), 300));
+
+    public static final RegistryObject<Item> CHERRY_CABINET_WITH_GLASS_DOORS = registerWithTab("cherry_cabinet_with_glass_doors",
+            () -> new FuelBlockItem(ModBlocks.CHERRY_CABINET_WITH_GLASS_DOORS.get(), basicItem(), 300));
+
+    public static final RegistryObject<Item> BAMBOO_CABINET_WITH_GLASS_DOORS = registerWithTab("bamboo_cabinet_with_glass_doors",
+            () -> new FuelBlockItem(ModBlocks.BAMBOO_CABINET_WITH_GLASS_DOORS.get(), basicItem(), 300));
+
+    public static final RegistryObject<Item> WARPED_CABINET_WITH_GLASS_DOORS = registerWithTab("warped_cabinet_with_glass_doors",
+            () -> new FuelBlockItem(ModBlocks.WARPED_CABINET_WITH_GLASS_DOORS.get(), basicItem()));
+
+    public static final RegistryObject<Item> CRIMSON_CABINET_WITH_GLASS_DOORS = registerWithTab("crimson_cabinet_with_glass_doors",
+            () -> new FuelBlockItem(ModBlocks.CRIMSON_CABINET_WITH_GLASS_DOORS.get(), basicItem()));
 }
