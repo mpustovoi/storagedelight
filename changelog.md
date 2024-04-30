@@ -9,6 +9,11 @@
   <li>Added Single Door Cabinets for all wood types.</li>
   <li>Minor texture improvements on drawers, glass cabinets, and cabinets with glass doors.</li>
 </ul>
+
+<h3>🌎 Translations:</h3>
+<ul>
+  <li>Translations may not be entirely accurate and could potentially contain errors or typos. Send corrections and improvements <a href="https://github.com/axperty/storagedelight-forge/tree/master/src/main/resources/assets/storagedelight/lang">here.</a></li>
+</ul>
 <hr/>
 
-<p>Your feedback is important to make improvements to this mod, submit your ideas <a href="https://forms.gle/rkabm2TRAiuAxYdm9">on this form</a> or report bugs on <a href="https://github.com/axperty/storagedelight-fabric">GitHub.</a></p>
+<p>Your feedback is important to make improvements to this mod, submit your ideas <a href="https://forms.gle/rkabm2TRAiuAxYdm9">on this form</a> or report bugs on <a href="https://github.com/axperty/storagedelight-forge">GitHub.</a></p>

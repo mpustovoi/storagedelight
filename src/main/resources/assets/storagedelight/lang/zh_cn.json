@@ -39,5 +39,17 @@
   "block.storagedelight.warped_cabinet_with_glass_doors": "弯曲玻璃门橱柜",
   "block.storagedelight.crimson_cabinet_with_glass_doors": "深红玻璃门橱柜",
 
+  "block.storagedelight.oak_single_door_cabinet": "橡木单门柜",
+  "block.storagedelight.birch_single_door_cabinet": "桦木单门柜",
+  "block.storagedelight.spruce_single_door_cabinet": "云杉单门柜",
+  "block.storagedelight.cherry_single_door_cabinet": "樱桃单门柜",
+  "block.storagedelight.jungle_single_door_cabinet": "丛林单门柜",
+  "block.storagedelight.acacia_single_door_cabinet": "相思木单门柜",
+  "block.storagedelight.dark_oak_single_door_cabinet": "深橡木单门柜",
+  "block.storagedelight.mangrove_single_door_cabinet": "红树单门柜",
+  "block.storagedelight.crimson_single_door_cabinet": "绯红单门柜",
+  "block.storagedelight.warped_single_door_cabinet": "扭曲单门柜",
+  "block.storagedelight.bamboo_single_door_cabinet": "竹单门柜",
+
   "itemGroup.storagedelight.title": "存储乐事"
 }
