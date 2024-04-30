@@ -1,4 +1,4 @@
-<p align="left"><img src="https://cdn.modrinth.com/data/LTTvOp5L/images/fa93cf5d6d1e101e0783d9af61ebd7330881d791.png" alt="More Delight Logo" width="400">
+<p align="left"><img src="https://cdn.modrinth.com/data/LTTvOp5L/images/2b37126dcef53cff8488de1a496c013b90103075.png" alt="More Delight Logo">
 
 <h3>Pretty Organized Update: Patch 1</h3>
 <p><b>Summary:</b> This update adds the new single door cabinets, and includes minor texture improvements for other furniture.</p>
