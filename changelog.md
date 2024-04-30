@@ -6,8 +6,8 @@
 
 <h3>✨ What's New:</h3>
 <ul>
-  <li>Added Single Door Cabinets.</li>
-  <li>Improved the textures for all drawers and glass cabinets.</li>
+  <li>Added Single Door Cabinets for all wood types.</li>
+  <li>Minor texture improvements on drawers, glass cabinets, and cabinets with glass doors.</li>
 </ul>
 <hr/>
 

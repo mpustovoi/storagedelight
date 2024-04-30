@@ -53,6 +53,17 @@ public class ModBlockEntityTypes {
                             ModBlocks.CHERRY_CABINET_WITH_GLASS_DOORS.get(),
                             ModBlocks.MANGROVE_CABINET_WITH_GLASS_DOORS.get(),
                             ModBlocks.CRIMSON_CABINET_WITH_GLASS_DOORS.get(),
-                            ModBlocks.WARPED_CABINET_WITH_GLASS_DOORS.get())
+                            ModBlocks.WARPED_CABINET_WITH_GLASS_DOORS.get(),
+                            ModBlocks.OAK_SINGLE_DOOR_CABINET.get(),
+                            ModBlocks.BIRCH_SINGLE_DOOR_CABINET.get(),
+                            ModBlocks.SPRUCE_SINGLE_DOOR_CABINET.get(),
+                            ModBlocks.JUNGLE_SINGLE_DOOR_CABINET.get(),
+                            ModBlocks.ACACIA_SINGLE_DOOR_CABINET.get(),
+                            ModBlocks.DARK_OAK_SINGLE_DOOR_CABINET.get(),
+                            ModBlocks.BAMBOO_SINGLE_DOOR_CABINET.get(),
+                            ModBlocks.CHERRY_SINGLE_DOOR_CABINET.get(),
+                            ModBlocks.MANGROVE_SINGLE_DOOR_CABINET.get(),
+                            ModBlocks.CRIMSON_SINGLE_DOOR_CABINET.get(),
+                            ModBlocks.WARPED_SINGLE_DOOR_CABINET.get())
                     .build(null));
 }
