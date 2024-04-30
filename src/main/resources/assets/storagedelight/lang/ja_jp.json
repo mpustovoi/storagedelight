@@ -1,7 +1,7 @@
 {
   "container.storagedelight.drawer": "引き出し",
   "container.storagedelight.glass_cabinet": "ガラスキャビネット",
-  "container.storagedelight.cabinet_with_glass_doors": "キャビネット",
+  "container.storagedelight.cabinet_variant": "キャビネット",
 
   "block.storagedelight.oak_drawer": "オークの引き出し",
   "block.storagedelight.birch_drawer": "白樺の引き出し",

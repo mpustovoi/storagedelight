@@ -2,7 +2,7 @@
 {
   "container.storagedelight.drawer": "Ящик",
   "container.storagedelight.glass_cabinet": "Скляний шафа",
-  "container.storagedelight.cabinet_with_glass_doors": "Шафа",
+  "container.storagedelight.cabinet_variant": "Шафа",
 
   "block.storagedelight.oak_drawer": "Дубовий ящик",
   "block.storagedelight.birch_drawer": "Березовий ящик",

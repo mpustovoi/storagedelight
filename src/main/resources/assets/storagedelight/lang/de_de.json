@@ -1,7 +1,7 @@
 {
   "container.storagedelight.drawer": "Schublade",
   "container.storagedelight.glass_cabinet": "Glasvitrine",
-  "container.storagedelight.cabinet_with_glass_doors": "Schrank",
+  "container.storagedelight.cabinet_variant": "Schrank",
 
   "block.storagedelight.oak_drawer": "Eichenschublade",
   "block.storagedelight.birch_drawer": "Birkenschublade",

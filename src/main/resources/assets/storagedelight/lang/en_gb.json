@@ -1,7 +1,7 @@
 {
   "container.storagedelight.drawer": "Drawer",
   "container.storagedelight.glass_cabinet": "Glass Cabinet",
-  "container.storagedelight.cabinet_with_glass_doors": "Cabinet",
+  "container.storagedelight.cabinet_variant": "Cabinet",
 
   "block.storagedelight.oak_drawer": "Oak Drawer",
   "block.storagedelight.birch_drawer": "Birch Drawer",

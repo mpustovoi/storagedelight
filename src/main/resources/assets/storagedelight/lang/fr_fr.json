@@ -1,7 +1,7 @@
 {
   "container.storagedelight.drawer": "Tiroir",
   "container.storagedelight.glass_cabinet": "Cabinet en Verre",
-  "container.storagedelight.cabinet_with_glass_doors": "Cabinet",
+  "container.storagedelight.cabinet_variant": "Cabinet",
 
   "block.storagedelight.oak_drawer": "Tiroir en Chêne",
   "block.storagedelight.birch_drawer": "Tiroir en Bouleau",

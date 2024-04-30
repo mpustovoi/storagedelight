@@ -1,6 +1,6 @@
 package com.axperty.storagedelight.block.entity;
 
-import com.axperty.storagedelight.block.CabinetWithGlassDoorsBlock;
+import com.axperty.storagedelight.block.CabinetVariantBlock;
 import com.axperty.storagedelight.registry.ModBlockEntityTypes;
 import net.minecraft.core.BlockPos;
 import net.minecraft.core.NonNullList;
@@ -22,19 +22,19 @@ import net.minecraft.world.level.block.entity.ContainerOpenersCounter;
 import net.minecraft.world.level.block.entity.RandomizableContainerBlockEntity;
 import net.minecraft.world.level.block.state.BlockState;
 
-public class CabinetWithGlassDoorsBlockEntity extends RandomizableContainerBlockEntity
+public class CabinetVariantBlockEntity extends RandomizableContainerBlockEntity
 {
     private NonNullList<ItemStack> contents = NonNullList.withSize(27, ItemStack.EMPTY);
     private ContainerOpenersCounter openersCounter = new ContainerOpenersCounter()
     {
         protected void onOpen(Level level, BlockPos pos, BlockState state) {
-            CabinetWithGlassDoorsBlockEntity.this.playSound(state, SoundEvents.BARREL_OPEN);
-            CabinetWithGlassDoorsBlockEntity.this.updateBlockState(state, true);
+            CabinetVariantBlockEntity.this.playSound(state, SoundEvents.BARREL_OPEN);
+            CabinetVariantBlockEntity.this.updateBlockState(state, true);
         }
 
         protected void onClose(Level level, BlockPos pos, BlockState state) {
-            CabinetWithGlassDoorsBlockEntity.this.playSound(state, SoundEvents.BARREL_CLOSE);
-            CabinetWithGlassDoorsBlockEntity.this.updateBlockState(state, false);
+            CabinetVariantBlockEntity.this.playSound(state, SoundEvents.BARREL_CLOSE);
+            CabinetVariantBlockEntity.this.updateBlockState(state, false);
         }
 
         protected void openerCountChanged(Level level, BlockPos pos, BlockState sta, int arg1, int arg2) {
@@ -43,15 +43,15 @@ public class CabinetWithGlassDoorsBlockEntity extends RandomizableContainerBlock
         protected boolean isOwnContainer(Player p_155060_) {
             if (p_155060_.containerMenu instanceof ChestMenu) {
                 Container container = ((ChestMenu) p_155060_.containerMenu).getContainer();
-                return container == CabinetWithGlassDoorsBlockEntity.this;
+                return container == CabinetVariantBlockEntity.this;
             } else {
                 return false;
             }
         }
     };
 
-    public CabinetWithGlassDoorsBlockEntity(BlockPos pos, BlockState state) {
-        super(ModBlockEntityTypes.CABINET_WITH_GLASS_DOORS.get(), pos, state);
+    public CabinetVariantBlockEntity(BlockPos pos, BlockState state) {
+        super(ModBlockEntityTypes.CABINET_VARIANT.get(), pos, state);
     }
 
     @Override
@@ -88,7 +88,7 @@ public class CabinetWithGlassDoorsBlockEntity extends RandomizableContainerBlock
 
     @Override
     protected Component getDefaultName() {
-        return Component.translatable("container.storagedelight.cabinet_with_glass_doors");
+        return Component.translatable("container.storagedelight.cabinet_variant");
     }
 
     @Override
@@ -116,17 +116,17 @@ public class CabinetWithGlassDoorsBlockEntity extends RandomizableContainerBlock
 
     void updateBlockState(BlockState state, boolean open) {
         if (level != null) {
-            this.level.setBlock(this.getBlockPos(), state.setValue(CabinetWithGlassDoorsBlock.OPEN, open), 3);
+            this.level.setBlock(this.getBlockPos(), state.setValue(CabinetVariantBlock.OPEN, open), 3);
         }
     }
 
     private void playSound(BlockState state, SoundEvent sound) {
         if (level == null) return;
 
-        Vec3i cabinetWithGlassFacingVector = state.getValue(CabinetWithGlassDoorsBlock.FACING).getNormal();
-        double x = (double) worldPosition.getX() + 0.5D + (double) cabinetWithGlassFacingVector.getX() / 2.0D;
-        double y = (double) worldPosition.getY() + 0.5D + (double) cabinetWithGlassFacingVector.getY() / 2.0D;
-        double z = (double) worldPosition.getZ() + 0.5D + (double) cabinetWithGlassFacingVector.getZ() / 2.0D;
+        Vec3i cabinetVariantFacingVector = state.getValue(CabinetVariantBlock.FACING).getNormal();
+        double x = (double) worldPosition.getX() + 0.5D + (double) cabinetVariantFacingVector.getX() / 2.0D;
+        double y = (double) worldPosition.getY() + 0.5D + (double) cabinetVariantFacingVector.getY() / 2.0D;
+        double z = (double) worldPosition.getZ() + 0.5D + (double) cabinetVariantFacingVector.getZ() / 2.0D;
         level.playSound(null, x, y, z, sound, SoundSource.BLOCKS, 0.5F, level.random.nextFloat() * 0.1F + 0.9F);
     }
 }

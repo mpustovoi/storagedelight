@@ -1,7 +1,7 @@
 {
   "container.storagedelight.drawer": "Låda",
   "container.storagedelight.glass_cabinet": "Glas Skåp",
-  "container.storagedelight.cabinet_with_glass_doors": "Skåp",
+  "container.storagedelight.cabinet_variant": "Skåp",
 
   "block.storagedelight.oak_drawer": "Ek Låda",
   "block.storagedelight.birch_drawer": "Björk Låda",

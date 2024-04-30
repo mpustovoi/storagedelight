@@ -107,4 +107,39 @@ public class ModItems {
 
     public static final RegistryObject<Item> CRIMSON_CABINET_WITH_GLASS_DOORS = registerWithTab("crimson_cabinet_with_glass_doors",
             () -> new FuelBlockItem(ModBlocks.CRIMSON_CABINET_WITH_GLASS_DOORS.get(), basicItem()));
+
+    // Single Door Cabinets
+
+    public static final RegistryObject<Item> OAK_SINGLE_DOOR_CABINET = registerWithTab("oak_single_door_cabinet",
+            () -> new FuelBlockItem(ModBlocks.OAK_SINGLE_DOOR_CABINET.get(), basicItem(), 300));
+
+    public static final RegistryObject<Item> SPRUCE_SINGLE_DOOR_CABINET = registerWithTab("spruce_single_door_cabinet",
+            () -> new FuelBlockItem(ModBlocks.SPRUCE_SINGLE_DOOR_CABINET.get(), basicItem(), 300));
+
+    public static final RegistryObject<Item> BIRCH_SINGLE_DOOR_CABINET = registerWithTab("birch_single_door_cabinet",
+            () -> new FuelBlockItem(ModBlocks.BIRCH_SINGLE_DOOR_CABINET.get(), basicItem(), 300));
+
+    public static final RegistryObject<Item> JUNGLE_SINGLE_DOOR_CABINET = registerWithTab("jungle_single_door_cabinet",
+            () -> new FuelBlockItem(ModBlocks.JUNGLE_SINGLE_DOOR_CABINET.get(), basicItem(), 300));
+
+    public static final RegistryObject<Item> ACACIA_SINGLE_DOOR_CABINET = registerWithTab("acacia_single_door_cabinet",
+            () -> new FuelBlockItem(ModBlocks.ACACIA_SINGLE_DOOR_CABINET.get(), basicItem(), 300));
+
+    public static final RegistryObject<Item> DARK_OAK_SINGLE_DOOR_CABINET = registerWithTab("dark_oak_single_door_cabinet",
+            () -> new FuelBlockItem(ModBlocks.DARK_OAK_SINGLE_DOOR_CABINET.get(), basicItem(), 300));
+
+    public static final RegistryObject<Item> MANGROVE_SINGLE_DOOR_CABINET = registerWithTab("mangrove_single_door_cabinet",
+            () -> new FuelBlockItem(ModBlocks.MANGROVE_SINGLE_DOOR_CABINET.get(), basicItem(), 300));
+
+    public static final RegistryObject<Item> CHERRY_SINGLE_DOOR_CABINET = registerWithTab("cherry_single_door_cabinet",
+            () -> new FuelBlockItem(ModBlocks.CHERRY_SINGLE_DOOR_CABINET.get(), basicItem(), 300));
+
+    public static final RegistryObject<Item> BAMBOO_SINGLE_DOOR_CABINET = registerWithTab("bamboo_single_door_cabinet",
+            () -> new FuelBlockItem(ModBlocks.BAMBOO_SINGLE_DOOR_CABINET.get(), basicItem(), 300));
+
+    public static final RegistryObject<Item> WARPED_SINGLE_DOOR_CABINET = registerWithTab("warped_single_door_cabinet",
+            () -> new FuelBlockItem(ModBlocks.WARPED_SINGLE_DOOR_CABINET.get(), basicItem()));
+
+    public static final RegistryObject<Item> CRIMSON_SINGLE_DOOR_CABINET = registerWithTab("crimson_single_door_cabinet",
+            () -> new FuelBlockItem(ModBlocks.CRIMSON_SINGLE_DOOR_CABINET.get(), basicItem()));
 }
