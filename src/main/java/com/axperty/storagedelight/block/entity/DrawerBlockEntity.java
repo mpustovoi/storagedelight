@@ -3,11 +3,13 @@ package com.axperty.storagedelight.block.entity;
 import com.axperty.storagedelight.block.DrawerBlock;
 import com.axperty.storagedelight.registry.ModBlockEntityTypes;
 import net.minecraft.core.BlockPos;
+import net.minecraft.core.HolderLookup;
 import net.minecraft.core.NonNullList;
 import net.minecraft.core.Vec3i;
 import net.minecraft.nbt.CompoundTag;
 import net.minecraft.network.chat.Component;
 import net.minecraft.sounds.SoundEvent;
+import net.minecraft.sounds.SoundEvents;
 import net.minecraft.sounds.SoundSource;
 import net.minecraft.world.Container;
 import net.minecraft.world.ContainerHelper;
@@ -20,7 +22,6 @@ import net.minecraft.world.level.Level;
 import net.minecraft.world.level.block.entity.ContainerOpenersCounter;
 import net.minecraft.world.level.block.entity.RandomizableContainerBlockEntity;
 import net.minecraft.world.level.block.state.BlockState;
-import vectorwing.farmersdelight.common.registry.ModSounds;
 
 public class DrawerBlockEntity extends RandomizableContainerBlockEntity
 {
@@ -28,12 +29,12 @@ public class DrawerBlockEntity extends RandomizableContainerBlockEntity
     private ContainerOpenersCounter openersCounter = new ContainerOpenersCounter()
     {
         protected void onOpen(Level level, BlockPos pos, BlockState state) {
-            DrawerBlockEntity.this.playSound(state, ModSounds.BLOCK_CABINET_OPEN.get());
+            DrawerBlockEntity.this.playSound(state, SoundEvents.BARREL_OPEN);
             DrawerBlockEntity.this.updateBlockState(state, true);
         }
 
         protected void onClose(Level level, BlockPos pos, BlockState state) {
-            DrawerBlockEntity.this.playSound(state, ModSounds.BLOCK_CABINET_CLOSE.get());
+            DrawerBlockEntity.this.playSound(state, SoundEvents.BARREL_CLOSE);
             DrawerBlockEntity.this.updateBlockState(state, false);
         }
 
@@ -55,19 +56,19 @@ public class DrawerBlockEntity extends RandomizableContainerBlockEntity
     }
 
     @Override
-    public void saveAdditional(CompoundTag compound) {
-        super.saveAdditional(compound);
+    public void saveAdditional(CompoundTag compound, HolderLookup.Provider registries) {
+        super.saveAdditional(compound, registries);
         if (!trySaveLootTable(compound)) {
-            ContainerHelper.saveAllItems(compound, contents);
+            ContainerHelper.saveAllItems(compound, contents, registries);
         }
     }
 
     @Override
-    public void load(CompoundTag compound) {
-        super.load(compound);
+    public void loadAdditional(CompoundTag compound, HolderLookup.Provider registries) {
+        super.loadAdditional(compound, registries);
         contents = NonNullList.withSize(getContainerSize(), ItemStack.EMPTY);
         if (!tryLoadLootTable(compound)) {
-            ContainerHelper.loadAllItems(compound, contents);
+            ContainerHelper.loadAllItems(compound, contents, registries);
         }
     }
 
@@ -123,10 +124,10 @@ public class DrawerBlockEntity extends RandomizableContainerBlockEntity
     private void playSound(BlockState state, SoundEvent sound) {
         if (level == null) return;
 
-        Vec3i drawerFacingVector = state.getValue(DrawerBlock.FACING).getNormal();
-        double x = (double) worldPosition.getX() + 0.5D + (double) drawerFacingVector.getX() / 2.0D;
-        double y = (double) worldPosition.getY() + 0.5D + (double) drawerFacingVector.getY() / 2.0D;
-        double z = (double) worldPosition.getZ() + 0.5D + (double) drawerFacingVector.getZ() / 2.0D;
+        Vec3i cabinetFacingVector = state.getValue(DrawerBlock.FACING).getNormal();
+        double x = (double) worldPosition.getX() + 0.5D + (double) cabinetFacingVector.getX() / 2.0D;
+        double y = (double) worldPosition.getY() + 0.5D + (double) cabinetFacingVector.getY() / 2.0D;
+        double z = (double) worldPosition.getZ() + 0.5D + (double) cabinetFacingVector.getZ() / 2.0D;
         level.playSound(null, x, y, z, sound, SoundSource.BLOCKS, 0.5F, level.random.nextFloat() * 0.1F + 0.9F);
     }
 }

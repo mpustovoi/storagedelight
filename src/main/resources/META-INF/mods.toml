@@ -3,24 +3,17 @@ loaderVersion="${loader_version_range}"
 license="MIT License"
 
 [[mods]]
-modId="storagedelight"
-version="1.1.1-1.20.1-forge"
-displayName="Storage Delight"
-authors="Axperty"
-description='''An addon for Farmer's Delight that adds more storage options to the base game.'''
-logoFile="assets/storagedelight/logo.png"
+    modId="storagedelight"
+    version="2024.07.18-1.21-forge"
+    displayName="Storage Delight"
+    authors="Axperty"
+    description='''A mod that adds more storage options to the game.'''
+    logoFile="assets/storagedelight/logo.png"
 
 [[dependencies.storagedelight]]
     modId="forge"
     mandatory=true
     versionRange="${forge_version_range}"
-    ordering="NONE"
-    side="BOTH"
-
-[[dependencies.storagedelight]]
-    modId="farmersdelight"
-    mandatory=true
-    versionRange="${minecraft_version_range}"
     ordering="NONE"
     side="BOTH"
 

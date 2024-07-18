@@ -1,13 +1,13 @@
 package com.axperty.storagedelight.registry;
 
 import com.axperty.storagedelight.StorageDelight;
+import com.axperty.storagedelight.item.FuelBlockItem;
 import com.google.common.collect.Sets;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
-import vectorwing.farmersdelight.common.item.FuelBlockItem;
 
 import java.util.LinkedHashSet;
 import java.util.function.Supplier;
@@ -27,7 +27,7 @@ public class ModItems {
     }
 
     // Drawers
-    public static final RegistryObject<Item> OAK_DRAWER = registerWithTab("oak_drawer",
+    public static final Supplier<Item> OAK_DRAWER = registerWithTab("oak_drawer",
             () -> new FuelBlockItem(ModBlocks.OAK_DRAWER.get(), basicItem(), 300));
     public static final RegistryObject<Item> SPRUCE_DRAWER = registerWithTab("spruce_drawer",
             () -> new FuelBlockItem(ModBlocks.SPRUCE_DRAWER.get(), basicItem(), 300));
@@ -103,10 +103,10 @@ public class ModItems {
             () -> new FuelBlockItem(ModBlocks.BAMBOO_CABINET_WITH_GLASS_DOORS.get(), basicItem(), 300));
 
     public static final RegistryObject<Item> WARPED_CABINET_WITH_GLASS_DOORS = registerWithTab("warped_cabinet_with_glass_doors",
-            () -> new FuelBlockItem(ModBlocks.WARPED_CABINET_WITH_GLASS_DOORS.get(), basicItem()));
+            () -> new BlockItem(ModBlocks.WARPED_CABINET_WITH_GLASS_DOORS.get(), basicItem()));
 
     public static final RegistryObject<Item> CRIMSON_CABINET_WITH_GLASS_DOORS = registerWithTab("crimson_cabinet_with_glass_doors",
-            () -> new FuelBlockItem(ModBlocks.CRIMSON_CABINET_WITH_GLASS_DOORS.get(), basicItem()));
+            () -> new BlockItem(ModBlocks.CRIMSON_CABINET_WITH_GLASS_DOORS.get(), basicItem()));
 
     // Single Door Cabinets
 
@@ -138,8 +138,8 @@ public class ModItems {
             () -> new FuelBlockItem(ModBlocks.BAMBOO_SINGLE_DOOR_CABINET.get(), basicItem(), 300));
 
     public static final RegistryObject<Item> WARPED_SINGLE_DOOR_CABINET = registerWithTab("warped_single_door_cabinet",
-            () -> new FuelBlockItem(ModBlocks.WARPED_SINGLE_DOOR_CABINET.get(), basicItem()));
+            () -> new BlockItem(ModBlocks.WARPED_SINGLE_DOOR_CABINET.get(), basicItem()));
 
     public static final RegistryObject<Item> CRIMSON_SINGLE_DOOR_CABINET = registerWithTab("crimson_single_door_cabinet",
-            () -> new FuelBlockItem(ModBlocks.CRIMSON_SINGLE_DOOR_CABINET.get(), basicItem()));
+            () -> new BlockItem(ModBlocks.CRIMSON_SINGLE_DOOR_CABINET.get(), basicItem()));
 }

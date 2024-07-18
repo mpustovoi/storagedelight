@@ -1,19 +1,17 @@
 package com.axperty.storagedelight.block;
 
-import com.axperty.storagedelight.block.entity.DrawerBlockEntity;
+import com.axperty.storagedelight.block.entity.GlassCabinetBlockEntity;
 import com.axperty.storagedelight.registry.ModBlockEntityTypes;
+import com.mojang.serialization.MapCodec;
 import net.minecraft.core.BlockPos;
 import net.minecraft.core.Direction;
 import net.minecraft.server.level.ServerLevel;
 import net.minecraft.util.RandomSource;
 import net.minecraft.world.Container;
 import net.minecraft.world.Containers;
-import net.minecraft.world.InteractionHand;
 import net.minecraft.world.InteractionResult;
-import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.inventory.AbstractContainerMenu;
-import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.context.BlockPlaceContext;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.level.block.*;
@@ -24,10 +22,14 @@ import net.minecraft.world.level.block.state.properties.BlockStateProperties;
 import net.minecraft.world.level.block.state.properties.BooleanProperty;
 import net.minecraft.world.level.block.state.properties.DirectionProperty;
 import net.minecraft.world.phys.BlockHitResult;
-import org.jetbrains.annotations.Nullable;
 
+import javax.annotation.Nullable;
+
+@SuppressWarnings("deprecation")
 public class DrawerBlock extends BaseEntityBlock
 {
+    public static final MapCodec<GlassCabinetBlock> CODEC = simpleCodec(GlassCabinetBlock::new);
+
     public static final DirectionProperty FACING = BlockStateProperties.HORIZONTAL_FACING;
     public static final BooleanProperty OPEN = BlockStateProperties.OPEN;
 
@@ -37,11 +39,16 @@ public class DrawerBlock extends BaseEntityBlock
     }
 
     @Override
-    public InteractionResult use(BlockState state, Level level, BlockPos pos, Player player, InteractionHand hand, BlockHitResult hit) {
+    protected MapCodec<? extends BaseEntityBlock> codec() {
+        return CODEC;
+    }
+
+    @Override
+    public InteractionResult useWithoutItem(BlockState state, Level level, BlockPos pos, Player player, BlockHitResult hit) {
         if (!level.isClientSide) {
             BlockEntity tile = level.getBlockEntity(pos);
-            if (tile instanceof DrawerBlockEntity) {
-                player.openMenu((DrawerBlockEntity) tile);
+            if (tile instanceof GlassCabinetBlockEntity) {
+                player.openMenu((GlassCabinetBlockEntity) tile);
             }
         }
         return InteractionResult.SUCCESS;
@@ -62,24 +69,14 @@ public class DrawerBlock extends BaseEntityBlock
     @Override
     public void tick(BlockState state, ServerLevel level, BlockPos pos, RandomSource random) {
         BlockEntity tileEntity = level.getBlockEntity(pos);
-        if (tileEntity instanceof DrawerBlockEntity) {
-            ((DrawerBlockEntity) tileEntity).recheckOpen();
+        if (tileEntity instanceof GlassCabinetBlockEntity) {
+            ((GlassCabinetBlockEntity) tileEntity).recheckOpen();
         }
     }
 
     @Override
     public BlockState getStateForPlacement(BlockPlaceContext context) {
         return this.defaultBlockState().setValue(FACING, context.getHorizontalDirection().getOpposite());
-    }
-
-    @Override
-    public void setPlacedBy(Level level, BlockPos pos, BlockState state, @Nullable LivingEntity placer, ItemStack stack) {
-        if (stack.hasCustomHoverName()) {
-            BlockEntity tileEntity = level.getBlockEntity(pos);
-            if (tileEntity instanceof DrawerBlockEntity) {
-                ((DrawerBlockEntity) tileEntity).setCustomName(stack.getHoverName());
-            }
-        }
     }
 
     @Override

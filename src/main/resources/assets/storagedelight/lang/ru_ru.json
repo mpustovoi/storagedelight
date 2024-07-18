@@ -51,5 +51,5 @@
   "block.storagedelight.warped_single_door_cabinet": "Шкаф из искаженного дерева с одной дверью",
   "block.storagedelight.bamboo_single_door_cabinet": "Шкаф из бамбука с одной дверью",
 
-  "itemGroup.storagedelight.title": "Удовольствие Хранения"
+  "itemGroup.storagedelight": "Удовольствие Хранения"
 }
