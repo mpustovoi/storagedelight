@@ -29,12 +29,12 @@ public class DrawerDoorBlockEntity extends RandomizableContainerBlockEntity
     private ContainerOpenersCounter openersCounter = new ContainerOpenersCounter()
     {
         protected void onOpen(Level level, BlockPos pos, BlockState state) {
-            DrawerDoorBlockEntity.this.playSound(state, SoundEvents.BARREL_OPEN);
+            DrawerDoorBlockEntity.this.playSound(state, SoundEvents.WOODEN_TRAPDOOR_OPEN);
             DrawerDoorBlockEntity.this.updateBlockState(state, true);
         }
 
         protected void onClose(Level level, BlockPos pos, BlockState state) {
-            DrawerDoorBlockEntity.this.playSound(state, SoundEvents.BARREL_CLOSE);
+            DrawerDoorBlockEntity.this.playSound(state, SoundEvents.WOODEN_TRAPDOOR_CLOSE);
             DrawerDoorBlockEntity.this.updateBlockState(state, false);
         }
 
