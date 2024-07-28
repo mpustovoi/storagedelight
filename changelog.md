@@ -1,6 +1,6 @@
 <p align="left"><img src="https://cdn.modrinth.com/data/LTTvOp5L/images/2b37126dcef53cff8488de1a496c013b90103075.png" alt="Storage Delight">
 
-<h3>Shiny Furniture Update</h3>
+<h3>Minor Update</h3>
 <p><b>Summary:</b> This update adds support for Neoforge.</p>
 <hr/>
 
