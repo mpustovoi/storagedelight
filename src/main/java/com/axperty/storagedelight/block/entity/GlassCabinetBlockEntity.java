@@ -1,7 +1,7 @@
 package com.axperty.storagedelight.block.entity;
 
 import com.axperty.storagedelight.block.GlassCabinetBlock;
-import com.axperty.storagedelight.registry.ModBlockEntityTypes;
+import com.axperty.storagedelight.registry.EntityTypesRegistry;
 import net.minecraft.core.BlockPos;
 import net.minecraft.core.HolderLookup;
 import net.minecraft.core.NonNullList;
@@ -29,12 +29,12 @@ public class GlassCabinetBlockEntity extends RandomizableContainerBlockEntity
     private ContainerOpenersCounter openersCounter = new ContainerOpenersCounter()
     {
         protected void onOpen(Level level, BlockPos pos, BlockState state) {
-            GlassCabinetBlockEntity.this.playSound(state, SoundEvents.BARREL_OPEN);
+            GlassCabinetBlockEntity.this.playSound(state, SoundEvents.WOODEN_TRAPDOOR_OPEN);
             GlassCabinetBlockEntity.this.updateBlockState(state, true);
         }
 
         protected void onClose(Level level, BlockPos pos, BlockState state) {
-            GlassCabinetBlockEntity.this.playSound(state, SoundEvents.BARREL_CLOSE);
+            GlassCabinetBlockEntity.this.playSound(state, SoundEvents.WOODEN_TRAPDOOR_CLOSE);
             GlassCabinetBlockEntity.this.updateBlockState(state, false);
         }
 
@@ -52,7 +52,7 @@ public class GlassCabinetBlockEntity extends RandomizableContainerBlockEntity
     };
 
     public GlassCabinetBlockEntity(BlockPos pos, BlockState state) {
-        super(ModBlockEntityTypes.GLASS_CABINET.get(), pos, state);
+        super(EntityTypesRegistry.GLASS_CABINET.get(), pos, state);
     }
 
     @Override
