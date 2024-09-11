@@ -12,11 +12,9 @@ public class StorageDelight {
     public static final Logger LOGGER = LogUtils.getLogger();
 
     public StorageDelight(IEventBus modEventBus) {
-        System.out.println("[Storage Delight Forge]: Registering items, blocks, and entities...");
         ItemRegistry.ITEMS.register(modEventBus);
         BlockRegistry.BLOCKS.register(modEventBus);
         EntityTypesRegistry.TILES.register(modEventBus);
         CreativeTabRegistry.CREATIVE_TABS.register(modEventBus);
-        System.out.println("[Storage Delight Forge]: Items, blocks, and entities registered registered successfully!");
     }
 }
