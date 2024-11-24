@@ -14,7 +14,7 @@ public class StorageDelight {
     public StorageDelight(IEventBus modEventBus) {
         ItemRegistry.ITEMS.register(modEventBus);
         BlockRegistry.BLOCKS.register(modEventBus);
-        EntityTypesRegistry.TILES.register(modEventBus);
-        CreativeTabRegistry.CREATIVE_TABS.register(modEventBus);
+        EntityTypesRegistry.BLOCK_ENTITY_TYPES.register(modEventBus);
+        CreativeTabRegistry.CREATIVE_MODE_TABS.register(modEventBus);
     }
 }
