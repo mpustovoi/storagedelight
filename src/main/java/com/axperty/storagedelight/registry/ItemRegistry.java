@@ -12,187 +12,79 @@ public class ItemRegistry {
     public static final DeferredRegister.Items ITEMS = DeferredRegister.createItems(StorageDelight.MOD_ID);
 
     // Oak Furniture
-    public static final DeferredItem<BlockItem> OAK_DRAWER = ITEMS.registerSimpleBlockItem("oak_drawer",
-            BlockRegistry.OAK_DRAWER,
-            new Item.Properties()
-    );
+    public static final DeferredItem<BlockItem> OAK_DRAWER = ITEMS.registerSimpleBlockItem("oak_drawer", BlockRegistry.OAK_DRAWER, new Item.Properties());
+    public static final DeferredItem<BlockItem> OAK_DRAWER_WITH_DOOR = ITEMS.registerSimpleBlockItem("oak_drawer_with_door", BlockRegistry.OAK_DRAWER_WITH_DOOR, new Item.Properties());
+    public static final DeferredItem<BlockItem> GLASS_OAK_CABINET = ITEMS.registerSimpleBlockItem("glass_oak_cabinet", BlockRegistry.GLASS_OAK_CABINET, new Item.Properties());
+    public static final DeferredItem<BlockItem> OAK_CABINET_WITH_GLASS_DOORS = ITEMS.registerSimpleBlockItem("oak_cabinet_with_glass_doors", BlockRegistry.OAK_CABINET_WITH_GLASS_DOORS, new Item.Properties());
+    public static final DeferredItem<BlockItem> OAK_SINGLE_DOOR_CABINET = ITEMS.registerSimpleBlockItem("oak_single_door_cabinet", BlockRegistry.OAK_SINGLE_DOOR_CABINET, new Item.Properties());
 
-    public static final DeferredItem<BlockItem> OAK_DRAWER_WITH_DOOR = ITEMS.registerSimpleBlockItem("oak_drawer_with_door",
-            BlockRegistry.OAK_DRAWER_WITH_DOOR,
-            new Item.Properties()
-    );
+    // Birch Furniture
+    public static final DeferredItem<BlockItem> BIRCH_DRAWER = ITEMS.registerSimpleBlockItem("birch_drawer", BlockRegistry.BIRCH_DRAWER, new Item.Properties());
+    public static final DeferredItem<BlockItem> BIRCH_DRAWER_WITH_DOOR = ITEMS.registerSimpleBlockItem("birch_drawer_with_door", BlockRegistry.BIRCH_DRAWER_WITH_DOOR, new Item.Properties());
+    public static final DeferredItem<BlockItem> GLASS_BIRCH_CABINET = ITEMS.registerSimpleBlockItem("glass_birch_cabinet", BlockRegistry.GLASS_BIRCH_CABINET, new Item.Properties());
+    public static final DeferredItem<BlockItem> BIRCH_CABINET_WITH_GLASS_DOORS = ITEMS.registerSimpleBlockItem("birch_cabinet_with_glass_doors", BlockRegistry.BIRCH_CABINET_WITH_GLASS_DOORS, new Item.Properties());
+    public static final DeferredItem<BlockItem> BIRCH_SINGLE_DOOR_CABINET = ITEMS.registerSimpleBlockItem("birch_single_door_cabinet", BlockRegistry.BIRCH_SINGLE_DOOR_CABINET, new Item.Properties());
 
-    public static final DeferredItem<BlockItem> GLASS_OAK_CABINET = ITEMS.registerSimpleBlockItem("glass_oak_cabinet",
-            BlockRegistry.GLASS_OAK_CABINET,
-            new Item.Properties()
-    );
-    public static final DeferredItem<BlockItem> OAK_CABINET_WITH_GLASS_DOORS = ITEMS.registerSimpleBlockItem("oak_cabinet_with_glass_doors",
-            BlockRegistry.OAK_CABINET_WITH_GLASS_DOORS,
-            new Item.Properties()
-    );
+    // Spruce Furniture
+    public static final DeferredItem<BlockItem> SPRUCE_DRAWER = ITEMS.registerSimpleBlockItem("spruce_drawer", BlockRegistry.SPRUCE_DRAWER, new Item.Properties());
+    public static final DeferredItem<BlockItem> SPRUCE_DRAWER_WITH_DOOR = ITEMS.registerSimpleBlockItem("spruce_drawer_with_door", BlockRegistry.SPRUCE_DRAWER_WITH_DOOR, new Item.Properties());
+    public static final DeferredItem<BlockItem> GLASS_SPRUCE_CABINET = ITEMS.registerSimpleBlockItem("glass_spruce_cabinet", BlockRegistry.GLASS_SPRUCE_CABINET, new Item.Properties());
+    public static final DeferredItem<BlockItem> SPRUCE_CABINET_WITH_GLASS_DOORS = ITEMS.registerSimpleBlockItem("spruce_cabinet_with_glass_doors", BlockRegistry.SPRUCE_CABINET_WITH_GLASS_DOORS, new Item.Properties());
+    public static final DeferredItem<BlockItem> SPRUCE_SINGLE_DOOR_CABINET = ITEMS.registerSimpleBlockItem("spruce_single_door_cabinet", BlockRegistry.SPRUCE_SINGLE_DOOR_CABINET, new Item.Properties());
 
-    public static final DeferredItem<BlockItem> OAK_SINGLE_DOOR_CABINET = ITEMS.registerSimpleBlockItem("oak_single_door_cabinet",
-            BlockRegistry.OAK_SINGLE_DOOR_CABINET,
-            new Item.Properties()
-    );
+    // Jungle Furniture
+    public static final DeferredItem<BlockItem> JUNGLE_DRAWER = ITEMS.registerSimpleBlockItem("jungle_drawer", BlockRegistry.JUNGLE_DRAWER, new Item.Properties());
+    public static final DeferredItem<BlockItem> JUNGLE_DRAWER_WITH_DOOR = ITEMS.registerSimpleBlockItem("jungle_drawer_with_door", BlockRegistry.JUNGLE_DRAWER_WITH_DOOR, new Item.Properties());
+    public static final DeferredItem<BlockItem> GLASS_JUNGLE_CABINET = ITEMS.registerSimpleBlockItem("glass_jungle_cabinet", BlockRegistry.GLASS_JUNGLE_CABINET, new Item.Properties());
+    public static final DeferredItem<BlockItem> JUNGLE_CABINET_WITH_GLASS_DOORS = ITEMS.registerSimpleBlockItem("jungle_cabinet_with_glass_doors", BlockRegistry.JUNGLE_CABINET_WITH_GLASS_DOORS, new Item.Properties());
+    public static final DeferredItem<BlockItem> JUNGLE_SINGLE_DOOR_CABINET = ITEMS.registerSimpleBlockItem("jungle_single_door_cabinet", BlockRegistry.JUNGLE_SINGLE_DOOR_CABINET, new Item.Properties());
 
-//    // Spruce Furniture
-//    public static final Supplier<Item> SPRUCE_DRAWER = ITEMS.register("spruce_drawer",
-//            () -> new BlockItem(BlockRegistry.SPRUCE_DRAWER.get(), new Item.Properties()));
-//
-//    public static final Supplier<Item> SPRUCE_DRAWER_WITH_DOOR = ITEMS.register("spruce_drawer_with_door",
-//            () -> new BlockItem(BlockRegistry.SPRUCE_DRAWER_WITH_DOOR.get(), new Item.Properties()));
-//
-//    public static final Supplier<Item> GLASS_SPRUCE_CABINET = ITEMS.register("glass_spruce_cabinet",
-//            () -> new BlockItem(BlockRegistry.GLASS_SPRUCE_CABINET.get(), new Item.Properties()));
-//
-//    public static final Supplier<Item> SPRUCE_CABINET_WITH_GLASS_DOORS = ITEMS.register("spruce_cabinet_with_glass_doors",
-//            () -> new BlockItem(BlockRegistry.SPRUCE_CABINET_WITH_GLASS_DOORS.get(), new Item.Properties()));
-//
-//    public static final Supplier<Item> SPRUCE_SINGLE_DOOR_CABINET = ITEMS.register("spruce_single_door_cabinet",
-//            () -> new BlockItem(BlockRegistry.SPRUCE_SINGLE_DOOR_CABINET.get(), new Item.Properties()));
-//
-//    // Birch Furniture
-//    public static final Supplier<Item> BIRCH_DRAWER = ITEMS.register("birch_drawer",
-//            () -> new BlockItem(BlockRegistry.BIRCH_DRAWER.get(), new Item.Properties()));
-//
-//    public static final Supplier<Item> BIRCH_DRAWER_WITH_DOOR = ITEMS.register("birch_drawer_with_door",
-//            () -> new BlockItem(BlockRegistry.BIRCH_DRAWER_WITH_DOOR.get(), new Item.Properties()));
-//
-//    public static final Supplier<Item> GLASS_BIRCH_CABINET = ITEMS.register("glass_birch_cabinet",
-//            () -> new BlockItem(BlockRegistry.GLASS_BIRCH_CABINET.get(), new Item.Properties()));
-//
-//    public static final Supplier<Item> BIRCH_CABINET_WITH_GLASS_DOORS = ITEMS.register("birch_cabinet_with_glass_doors",
-//            () -> new BlockItem(BlockRegistry.BIRCH_CABINET_WITH_GLASS_DOORS.get(), new Item.Properties()));
-//
-//    public static final Supplier<Item> BIRCH_SINGLE_DOOR_CABINET = ITEMS.register("birch_single_door_cabinet",
-//            () -> new BlockItem(BlockRegistry.BIRCH_SINGLE_DOOR_CABINET.get(), new Item.Properties()));
-//
-//    // Jungle Furniture
-//    public static final Supplier<Item> JUNGLE_DRAWER = ITEMS.register("jungle_drawer",
-//            () -> new BlockItem(BlockRegistry.JUNGLE_DRAWER.get(), new Item.Properties()));
-//
-//    public static final Supplier<Item> JUNGLE_DRAWER_WITH_DOOR = ITEMS.register("jungle_drawer_with_door",
-//            () -> new BlockItem(BlockRegistry.JUNGLE_DRAWER_WITH_DOOR.get(), new Item.Properties()));
-//
-//    public static final Supplier<Item> GLASS_JUNGLE_CABINET = ITEMS.register("glass_jungle_cabinet",
-//            () -> new BlockItem(BlockRegistry.GLASS_JUNGLE_CABINET.get(), new Item.Properties()));
-//
-//    public static final Supplier<Item> JUNGLE_CABINET_WITH_GLASS_DOORS = ITEMS.register("jungle_cabinet_with_glass_doors",
-//            () -> new BlockItem(BlockRegistry.JUNGLE_CABINET_WITH_GLASS_DOORS.get(), new Item.Properties()));
-//
-//    public static final Supplier<Item> JUNGLE_SINGLE_DOOR_CABINET = ITEMS.register("jungle_single_door_cabinet",
-//            () -> new BlockItem(BlockRegistry.JUNGLE_SINGLE_DOOR_CABINET.get(), new Item.Properties()));
-//
-//    // Acacia Furniture
-//    public static final Supplier<Item> ACACIA_DRAWER = ITEMS.register("acacia_drawer",
-//            () -> new BlockItem(BlockRegistry.ACACIA_DRAWER.get(), new Item.Properties()));
-//
-//    public static final Supplier<Item> ACACIA_DRAWER_WITH_DOOR = ITEMS.register("acacia_drawer_with_door",
-//            () -> new BlockItem(BlockRegistry.ACACIA_DRAWER_WITH_DOOR.get(), new Item.Properties()));
-//
-//    public static final Supplier<Item> GLASS_ACACIA_CABINET = ITEMS.register("glass_acacia_cabinet",
-//            () -> new BlockItem(BlockRegistry.GLASS_ACACIA_CABINET.get(), new Item.Properties()));
-//
-//    public static final Supplier<Item> ACACIA_CABINET_WITH_GLASS_DOORS = ITEMS.register("acacia_cabinet_with_glass_doors",
-//            () -> new BlockItem(BlockRegistry.ACACIA_CABINET_WITH_GLASS_DOORS.get(), new Item.Properties()));
-//
-//    public static final Supplier<Item> ACACIA_SINGLE_DOOR_CABINET = ITEMS.register("acacia_single_door_cabinet",
-//            () -> new BlockItem(BlockRegistry.ACACIA_SINGLE_DOOR_CABINET.get(), new Item.Properties()));
-//
-//    // Dark Oak Furniture
-//    public static final Supplier<Item> DARK_OAK_DRAWER = ITEMS.register("dark_oak_drawer",
-//            () -> new BlockItem(BlockRegistry.DARK_OAK_DRAWER.get(), new Item.Properties()));
-//
-//    public static final Supplier<Item> DARK_OAK_DRAWER_WITH_DOOR = ITEMS.register("dark_oak_drawer_with_door",
-//            () -> new BlockItem(BlockRegistry.DARK_OAK_DRAWER_WITH_DOOR.get(), new Item.Properties()));
-//
-//    public static final Supplier<Item> GLASS_DARK_OAK_CABINET = ITEMS.register("glass_dark_oak_cabinet",
-//            () -> new BlockItem(BlockRegistry.GLASS_DARK_OAK_CABINET.get(), new Item.Properties()));
-//
-//    public static final Supplier<Item> DARK_OAK_CABINET_WITH_GLASS_DOORS = ITEMS.register("dark_oak_cabinet_with_glass_doors",
-//            () -> new BlockItem(BlockRegistry.DARK_OAK_CABINET_WITH_GLASS_DOORS.get(), new Item.Properties()));
-//
-//    public static final Supplier<Item> DARK_OAK_SINGLE_DOOR_CABINET = ITEMS.register("dark_oak_single_door_cabinet",
-//            () -> new BlockItem(BlockRegistry.DARK_OAK_SINGLE_DOOR_CABINET.get(), new Item.Properties()));
-//
-//    // Mangrove Furniture
-//    public static final Supplier<Item> MANGROVE_DRAWER = ITEMS.register("mangrove_drawer",
-//            () -> new BlockItem(BlockRegistry.MANGROVE_DRAWER.get(), new Item.Properties()));
-//
-//    public static final Supplier<Item> MANGROVE_DRAWER_WITH_DOOR = ITEMS.register("mangrove_drawer_with_door",
-//            () -> new BlockItem(BlockRegistry.MANGROVE_DRAWER_WITH_DOOR.get(), new Item.Properties()));
-//
-//    public static final Supplier<Item> GLASS_MANGROVE_CABINET = ITEMS.register("glass_mangrove_cabinet",
-//            () -> new BlockItem(BlockRegistry.GLASS_MANGROVE_CABINET.get(), new Item.Properties()));
-//
-//    public static final Supplier<Item> MANGROVE_CABINET_WITH_GLASS_DOORS = ITEMS.register("mangrove_cabinet_with_glass_doors",
-//            () -> new BlockItem(BlockRegistry.MANGROVE_CABINET_WITH_GLASS_DOORS.get(), new Item.Properties()));
-//
-//    public static final Supplier<Item> MANGROVE_SINGLE_DOOR_CABINET = ITEMS.register("mangrove_single_door_cabinet",
-//            () -> new BlockItem(BlockRegistry.MANGROVE_SINGLE_DOOR_CABINET.get(), new Item.Properties()));
-//
-//    // Cherry Furniture
-//    public static final Supplier<Item> CHERRY_DRAWER = ITEMS.register("cherry_drawer",
-//            () -> new BlockItem(BlockRegistry.CHERRY_DRAWER.get(), new Item.Properties()));
-//
-//    public static final Supplier<Item> CHERRY_DRAWER_WITH_DOOR = ITEMS.register("cherry_drawer_with_door",
-//            () -> new BlockItem(BlockRegistry.CHERRY_DRAWER_WITH_DOOR.get(), new Item.Properties()));
-//
-//    public static final Supplier<Item> GLASS_CHERRY_CABINET = ITEMS.register("glass_cherry_cabinet",
-//            () -> new BlockItem(BlockRegistry.GLASS_CHERRY_CABINET.get(), new Item.Properties()));
-//
-//    public static final Supplier<Item> CHERRY_CABINET_WITH_GLASS_DOORS = ITEMS.register("cherry_cabinet_with_glass_doors",
-//            () -> new BlockItem(BlockRegistry.CHERRY_CABINET_WITH_GLASS_DOORS.get(), new Item.Properties()));
-//
-//    public static final Supplier<Item> CHERRY_SINGLE_DOOR_CABINET = ITEMS.register("cherry_single_door_cabinet",
-//            () -> new BlockItem(BlockRegistry.CHERRY_SINGLE_DOOR_CABINET.get(), new Item.Properties()));
-//
-//    // Bamboo Furniture
-//    public static final Supplier<Item> BAMBOO_DRAWER = ITEMS.register("bamboo_drawer",
-//            () -> new BlockItem(BlockRegistry.BAMBOO_DRAWER.get(), new Item.Properties()));
-//
-//    public static final Supplier<Item> BAMBOO_DRAWER_WITH_DOOR = ITEMS.register("bamboo_drawer_with_door",
-//            () -> new BlockItem(BlockRegistry.BAMBOO_DRAWER_WITH_DOOR.get(), new Item.Properties()));
-//
-//    public static final Supplier<Item> GLASS_BAMBOO_CABINET = ITEMS.register("glass_bamboo_cabinet",
-//            () -> new BlockItem(BlockRegistry.GLASS_BAMBOO_CABINET.get(), new Item.Properties()));
-//
-//    public static final Supplier<Item> BAMBOO_CABINET_WITH_GLASS_DOORS = ITEMS.register("bamboo_cabinet_with_glass_doors",
-//            () -> new BlockItem(BlockRegistry.BAMBOO_CABINET_WITH_GLASS_DOORS.get(), new Item.Properties()));
-//
-//    public static final Supplier<Item> BAMBOO_SINGLE_DOOR_CABINET = ITEMS.register("bamboo_single_door_cabinet",
-//            () -> new BlockItem(BlockRegistry.BAMBOO_SINGLE_DOOR_CABINET.get(), new Item.Properties()));
-//
-//    // Crimson Furniture
-//    public static final Supplier<Item> CRIMSON_CABINET = ITEMS.register("crimson_drawer",
-//            () -> new BlockItem(BlockRegistry.CRIMSON_DRAWER.get(), new Item.Properties()));
-//
-//    public static final Supplier<Item> CRIMSON_CABINET_WITH_DOOR = ITEMS.register("crimson_drawer_with_door",
-//            () -> new BlockItem(BlockRegistry.CRIMSON_DRAWER_WITH_DOOR.get(), new Item.Properties()));
-//
-//    public static final Supplier<Item> GLASS_CRIMSON_CABINET = ITEMS.register("glass_crimson_cabinet",
-//            () -> new BlockItem(BlockRegistry.GLASS_CRIMSON_CABINET.get(), new Item.Properties()));
-//
-//    public static final Supplier<Item> CRIMSON_CABINET_WITH_GLASS_DOORS = ITEMS.register("crimson_cabinet_with_glass_doors",
-//            () -> new BlockItem(BlockRegistry.CRIMSON_CABINET_WITH_GLASS_DOORS.get(), new Item.Properties()));
-//
-//    public static final Supplier<Item> CRIMSON_SINGLE_DOOR_CABINET = ITEMS.register("crimson_single_door_cabinet",
-//            () -> new BlockItem(BlockRegistry.CRIMSON_SINGLE_DOOR_CABINET.get(), new Item.Properties()));
-//
-//    // Warped Furniture
-//    public static final Supplier<Item> WARPED_DRAWER = ITEMS.register("warped_drawer",
-//            () -> new BlockItem(BlockRegistry.WARPED_DRAWER.get(), new Item.Properties()));
-//
-//    public static final Supplier<Item> WARPED_DRAWER_WITH_DOOR = ITEMS.register("warped_drawer_with_door",
-//            () -> new BlockItem(BlockRegistry.WARPED_DRAWER_WITH_DOOR.get(), new Item.Properties()));
-//
-//    public static final Supplier<Item> GLASS_WARPED_CABINET = ITEMS.register("glass_warped_cabinet",
-//            () -> new BlockItem(BlockRegistry.GLASS_WARPED_CABINET.get(), new Item.Properties()));
-//
-//    public static final Supplier<Item> WARPED_CABINET_WITH_GLASS_DOORS = ITEMS.register("warped_cabinet_with_glass_doors",
-//            () -> new BlockItem(BlockRegistry.WARPED_CABINET_WITH_GLASS_DOORS.get(), new Item.Properties()));
-//
-//    public static final Supplier<Item> WARPED_SINGLE_DOOR_CABINET = ITEMS.register("warped_single_door_cabinet",
-//            () -> new BlockItem(BlockRegistry.WARPED_SINGLE_DOOR_CABINET.get(), new Item.Properties()));
+    // Acacia Furniture
+    public static final DeferredItem<BlockItem> ACACIA_DRAWER = ITEMS.registerSimpleBlockItem("acacia_drawer", BlockRegistry.ACACIA_DRAWER, new Item.Properties());
+    public static final DeferredItem<BlockItem> ACACIA_DRAWER_WITH_DOOR = ITEMS.registerSimpleBlockItem("acacia_drawer_with_door", BlockRegistry.ACACIA_DRAWER_WITH_DOOR, new Item.Properties());
+    public static final DeferredItem<BlockItem> GLASS_ACACIA_CABINET = ITEMS.registerSimpleBlockItem("glass_acacia_cabinet", BlockRegistry.GLASS_ACACIA_CABINET, new Item.Properties());
+    public static final DeferredItem<BlockItem> ACACIA_CABINET_WITH_GLASS_DOORS = ITEMS.registerSimpleBlockItem("acacia_cabinet_with_glass_doors", BlockRegistry.ACACIA_CABINET_WITH_GLASS_DOORS, new Item.Properties());
+    public static final DeferredItem<BlockItem> ACACIA_SINGLE_DOOR_CABINET = ITEMS.registerSimpleBlockItem("acacia_single_door_cabinet", BlockRegistry.ACACIA_SINGLE_DOOR_CABINET, new Item.Properties());
+
+    // Dark Oak Furniture
+    public static final DeferredItem<BlockItem> DARK_OAK_DRAWER = ITEMS.registerSimpleBlockItem("dark_oak_drawer", BlockRegistry.DARK_OAK_DRAWER, new Item.Properties());
+    public static final DeferredItem<BlockItem> DARK_OAK_DRAWER_WITH_DOOR = ITEMS.registerSimpleBlockItem("dark_oak_drawer_with_door", BlockRegistry.DARK_OAK_DRAWER_WITH_DOOR, new Item.Properties());
+    public static final DeferredItem<BlockItem> GLASS_DARK_OAK_CABINET = ITEMS.registerSimpleBlockItem("glass_dark_oak_cabinet", BlockRegistry.GLASS_DARK_OAK_CABINET, new Item.Properties());
+    public static final DeferredItem<BlockItem> DARK_OAK_CABINET_WITH_GLASS_DOORS = ITEMS.registerSimpleBlockItem("dark_oak_cabinet_with_glass_doors", BlockRegistry.DARK_OAK_CABINET_WITH_GLASS_DOORS, new Item.Properties());
+    public static final DeferredItem<BlockItem> DARK_OAK_SINGLE_DOOR_CABINET = ITEMS.registerSimpleBlockItem("dark_oak_single_door_cabinet", BlockRegistry.DARK_OAK_SINGLE_DOOR_CABINET, new Item.Properties());
+
+    // Mangrove Furniture
+    public static final DeferredItem<BlockItem> MANGROVE_DRAWER = ITEMS.registerSimpleBlockItem("mangrove_drawer", BlockRegistry.MANGROVE_DRAWER, new Item.Properties());
+    public static final DeferredItem<BlockItem> MANGROVE_DRAWER_WITH_DOOR = ITEMS.registerSimpleBlockItem("mangrove_drawer_with_door", BlockRegistry.MANGROVE_DRAWER_WITH_DOOR, new Item.Properties());
+    public static final DeferredItem<BlockItem> GLASS_MANGROVE_CABINET = ITEMS.registerSimpleBlockItem("glass_mangrove_cabinet", BlockRegistry.GLASS_MANGROVE_CABINET, new Item.Properties());
+    public static final DeferredItem<BlockItem> MANGROVE_CABINET_WITH_GLASS_DOORS = ITEMS.registerSimpleBlockItem("mangrove_cabinet_with_glass_doors", BlockRegistry.MANGROVE_CABINET_WITH_GLASS_DOORS, new Item.Properties());
+    public static final DeferredItem<BlockItem> MANGROVE_SINGLE_DOOR_CABINET = ITEMS.registerSimpleBlockItem("mangrove_single_door_cabinet", BlockRegistry.MANGROVE_SINGLE_DOOR_CABINET, new Item.Properties());
+
+    // Cherry Furniture
+    public static final DeferredItem<BlockItem> CHERRY_DRAWER = ITEMS.registerSimpleBlockItem("cherry_drawer", BlockRegistry.CHERRY_DRAWER, new Item.Properties());
+    public static final DeferredItem<BlockItem> CHERRY_DRAWER_WITH_DOOR = ITEMS.registerSimpleBlockItem("cherry_drawer_with_door", BlockRegistry.CHERRY_DRAWER_WITH_DOOR, new Item.Properties());
+    public static final DeferredItem<BlockItem> GLASS_CHERRY_CABINET = ITEMS.registerSimpleBlockItem("glass_cherry_cabinet", BlockRegistry.GLASS_CHERRY_CABINET, new Item.Properties());
+    public static final DeferredItem<BlockItem> CHERRY_CABINET_WITH_GLASS_DOORS = ITEMS.registerSimpleBlockItem("cherry_cabinet_with_glass_doors", BlockRegistry.CHERRY_CABINET_WITH_GLASS_DOORS, new Item.Properties());
+    public static final DeferredItem<BlockItem> CHERRY_SINGLE_DOOR_CABINET = ITEMS.registerSimpleBlockItem("cherry_single_door_cabinet", BlockRegistry.CHERRY_SINGLE_DOOR_CABINET, new Item.Properties());
+
+    // Bamboo Furniture
+    public static final DeferredItem<BlockItem> BAMBOO_DRAWER = ITEMS.registerSimpleBlockItem("bamboo_drawer", BlockRegistry.BAMBOO_DRAWER, new Item.Properties());
+    public static final DeferredItem<BlockItem> BAMBOO_DRAWER_WITH_DOOR = ITEMS.registerSimpleBlockItem("bamboo_drawer_with_door", BlockRegistry.BAMBOO_DRAWER_WITH_DOOR, new Item.Properties());
+    public static final DeferredItem<BlockItem> GLASS_BAMBOO_CABINET = ITEMS.registerSimpleBlockItem("glass_bamboo_cabinet", BlockRegistry.GLASS_BAMBOO_CABINET, new Item.Properties());
+    public static final DeferredItem<BlockItem> BAMBOO_CABINET_WITH_GLASS_DOORS = ITEMS.registerSimpleBlockItem("bamboo_cabinet_with_glass_doors", BlockRegistry.BAMBOO_CABINET_WITH_GLASS_DOORS, new Item.Properties());
+    public static final DeferredItem<BlockItem> BAMBOO_SINGLE_DOOR_CABINET = ITEMS.registerSimpleBlockItem("bamboo_single_door_cabinet", BlockRegistry.BAMBOO_SINGLE_DOOR_CABINET, new Item.Properties());
+
+    // Crimson Furniture
+    public static final DeferredItem<BlockItem> CRIMSON_DRAWER = ITEMS.registerSimpleBlockItem("crimson_drawer", BlockRegistry.CRIMSON_DRAWER, new Item.Properties());
+    public static final DeferredItem<BlockItem> CRIMSON_DRAWER_WITH_DOOR = ITEMS.registerSimpleBlockItem("crimson_drawer_with_door", BlockRegistry.CRIMSON_DRAWER_WITH_DOOR, new Item.Properties());
+    public static final DeferredItem<BlockItem> GLASS_CRIMSON_CABINET = ITEMS.registerSimpleBlockItem("glass_crimson_cabinet", BlockRegistry.GLASS_CRIMSON_CABINET, new Item.Properties());
+    public static final DeferredItem<BlockItem> CRIMSON_CABINET_WITH_GLASS_DOORS = ITEMS.registerSimpleBlockItem("crimson_cabinet_with_glass_doors", BlockRegistry.CRIMSON_CABINET_WITH_GLASS_DOORS, new Item.Properties());
+    public static final DeferredItem<BlockItem> CRIMSON_SINGLE_DOOR_CABINET = ITEMS.registerSimpleBlockItem("crimson_single_door_cabinet", BlockRegistry.CRIMSON_SINGLE_DOOR_CABINET, new Item.Properties());
+
+    // Warped Furniture
+    public static final DeferredItem<BlockItem> WARPED_DRAWER = ITEMS.registerSimpleBlockItem("warped_drawer", BlockRegistry.WARPED_DRAWER, new Item.Properties());
+    public static final DeferredItem<BlockItem> WARPED_DRAWER_WITH_DOOR = ITEMS.registerSimpleBlockItem("warped_drawer_with_door", BlockRegistry.WARPED_DRAWER_WITH_DOOR, new Item.Properties());
+    public static final DeferredItem<BlockItem> GLASS_WARPED_CABINET = ITEMS.registerSimpleBlockItem("glass_warped_cabinet", BlockRegistry.GLASS_WARPED_CABINET, new Item.Properties());
+    public static final DeferredItem<BlockItem> WARPED_CABINET_WITH_GLASS_DOORS = ITEMS.registerSimpleBlockItem("warped_cabinet_with_glass_doors", BlockRegistry.WARPED_CABINET_WITH_GLASS_DOORS, new Item.Properties());
+    public static final DeferredItem<BlockItem> WARPED_SINGLE_DOOR_CABINET = ITEMS.registerSimpleBlockItem("warped_single_door_cabinet", BlockRegistry.WARPED_SINGLE_DOOR_CABINET, new Item.Properties());
 }
