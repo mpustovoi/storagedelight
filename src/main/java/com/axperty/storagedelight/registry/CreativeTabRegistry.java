@@ -67,6 +67,12 @@ public class CreativeTabRegistry
                 output.accept(BlockRegistry.CHERRY_CABINET_WITH_GLASS_DOORS.get());
                 output.accept(BlockRegistry.CHERRY_SINGLE_DOOR_CABINET.get());
 
+                output.accept(BlockRegistry.PALE_OAK_DRAWER.get());
+                output.accept(BlockRegistry.PALE_OAK_DRAWER_WITH_DOOR.get());
+                output.accept(BlockRegistry.GLASS_PALE_OAK_CABINET.get());
+                output.accept(BlockRegistry.PALE_OAK_CABINET_WITH_GLASS_DOORS.get());
+                output.accept(BlockRegistry.PALE_OAK_SINGLE_DOOR_CABINET.get());
+
                 output.accept(BlockRegistry.BAMBOO_DRAWER.get());
                 output.accept(BlockRegistry.BAMBOO_DRAWER_WITH_DOOR.get());
                 output.accept(BlockRegistry.GLASS_BAMBOO_CABINET.get());

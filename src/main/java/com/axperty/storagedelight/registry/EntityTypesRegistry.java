@@ -24,6 +24,7 @@ public class EntityTypesRegistry {
                             BlockRegistry.DARK_OAK_DRAWER.get(),
                             BlockRegistry.BAMBOO_DRAWER.get(),
                             BlockRegistry.CHERRY_DRAWER.get(),
+                            BlockRegistry.PALE_OAK_DRAWER.get(),
                             BlockRegistry.MANGROVE_DRAWER.get(),
                             BlockRegistry.CRIMSON_DRAWER.get(),
                             BlockRegistry.WARPED_DRAWER.get())
@@ -39,6 +40,7 @@ public class EntityTypesRegistry {
                             BlockRegistry.DARK_OAK_DRAWER_WITH_DOOR.get(),
                             BlockRegistry.BAMBOO_DRAWER_WITH_DOOR.get(),
                             BlockRegistry.CHERRY_DRAWER_WITH_DOOR.get(),
+                            BlockRegistry.PALE_OAK_DRAWER_WITH_DOOR.get(),
                             BlockRegistry.MANGROVE_DRAWER_WITH_DOOR.get(),
                             BlockRegistry.CRIMSON_DRAWER_WITH_DOOR.get(),
                             BlockRegistry.WARPED_DRAWER_WITH_DOOR.get())
@@ -54,6 +56,7 @@ public class EntityTypesRegistry {
                             BlockRegistry.GLASS_DARK_OAK_CABINET.get(),
                             BlockRegistry.GLASS_BAMBOO_CABINET.get(),
                             BlockRegistry.GLASS_CHERRY_CABINET.get(),
+                            BlockRegistry.GLASS_PALE_OAK_CABINET.get(),
                             BlockRegistry.GLASS_MANGROVE_CABINET.get(),
                             BlockRegistry.GLASS_CRIMSON_CABINET.get(),
                             BlockRegistry.GLASS_WARPED_CABINET.get())
@@ -69,6 +72,7 @@ public class EntityTypesRegistry {
                             BlockRegistry.DARK_OAK_CABINET_WITH_GLASS_DOORS.get(),
                             BlockRegistry.BAMBOO_CABINET_WITH_GLASS_DOORS.get(),
                             BlockRegistry.CHERRY_CABINET_WITH_GLASS_DOORS.get(),
+                            BlockRegistry.PALE_OAK_CABINET_WITH_GLASS_DOORS.get(),
                             BlockRegistry.MANGROVE_CABINET_WITH_GLASS_DOORS.get(),
                             BlockRegistry.CRIMSON_CABINET_WITH_GLASS_DOORS.get(),
                             BlockRegistry.WARPED_CABINET_WITH_GLASS_DOORS.get(),
@@ -80,6 +84,7 @@ public class EntityTypesRegistry {
                             BlockRegistry.DARK_OAK_SINGLE_DOOR_CABINET.get(),
                             BlockRegistry.BAMBOO_SINGLE_DOOR_CABINET.get(),
                             BlockRegistry.CHERRY_SINGLE_DOOR_CABINET.get(),
+                            BlockRegistry.PALE_OAK_SINGLE_DOOR_CABINET.get(),
                             BlockRegistry.MANGROVE_SINGLE_DOOR_CABINET.get(),
                             BlockRegistry.CRIMSON_SINGLE_DOOR_CABINET.get(),
                             BlockRegistry.WARPED_SINGLE_DOOR_CABINET.get())

@@ -67,6 +67,13 @@ public class ItemRegistry {
     public static final DeferredItem<BlockItem> CHERRY_CABINET_WITH_GLASS_DOORS = ITEMS.registerSimpleBlockItem("cherry_cabinet_with_glass_doors", BlockRegistry.CHERRY_CABINET_WITH_GLASS_DOORS, new Item.Properties());
     public static final DeferredItem<BlockItem> CHERRY_SINGLE_DOOR_CABINET = ITEMS.registerSimpleBlockItem("cherry_single_door_cabinet", BlockRegistry.CHERRY_SINGLE_DOOR_CABINET, new Item.Properties());
 
+    // Pale Oak Furniture
+    public static final DeferredItem<BlockItem> PALE_OAK_DRAWER = ITEMS.registerSimpleBlockItem("pale_oak_drawer", BlockRegistry.PALE_OAK_DRAWER, new Item.Properties());
+    public static final DeferredItem<BlockItem> PALE_OAK_DRAWER_WITH_DOOR = ITEMS.registerSimpleBlockItem("pale_oak_drawer_with_door", BlockRegistry.PALE_OAK_DRAWER_WITH_DOOR, new Item.Properties());
+    public static final DeferredItem<BlockItem> GLASS_PALE_OAK_CABINET = ITEMS.registerSimpleBlockItem("glass_pale_oak_cabinet", BlockRegistry.GLASS_PALE_OAK_CABINET, new Item.Properties());
+    public static final DeferredItem<BlockItem> PALE_OAK_CABINET_WITH_GLASS_DOORS = ITEMS.registerSimpleBlockItem("pale_oak_cabinet_with_glass_doors", BlockRegistry.PALE_OAK_CABINET_WITH_GLASS_DOORS, new Item.Properties());
+    public static final DeferredItem<BlockItem> PALE_OAK_SINGLE_DOOR_CABINET = ITEMS.registerSimpleBlockItem("pale_oak_single_door_cabinet", BlockRegistry.PALE_OAK_SINGLE_DOOR_CABINET, new Item.Properties());
+
     // Bamboo Furniture
     public static final DeferredItem<BlockItem> BAMBOO_DRAWER = ITEMS.registerSimpleBlockItem("bamboo_drawer", BlockRegistry.BAMBOO_DRAWER, new Item.Properties());
     public static final DeferredItem<BlockItem> BAMBOO_DRAWER_WITH_DOOR = ITEMS.registerSimpleBlockItem("bamboo_drawer_with_door", BlockRegistry.BAMBOO_DRAWER_WITH_DOOR, new Item.Properties());

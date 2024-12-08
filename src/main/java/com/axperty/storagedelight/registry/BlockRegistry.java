@@ -11,12 +11,8 @@ import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.block.SoundType;
 import net.minecraft.world.level.block.state.BlockBehaviour;
-import net.minecraft.world.level.material.MapColor;
 import net.neoforged.neoforge.registries.DeferredBlock;
 import net.neoforged.neoforge.registries.DeferredRegister;
-import org.checkerframework.checker.units.qual.C;
-
-import java.util.function.Supplier;
 
 public class BlockRegistry {
     public static final DeferredRegister.Blocks BLOCKS = DeferredRegister.createBlocks(StorageDelight.MOD_ID);
@@ -116,6 +112,18 @@ public class BlockRegistry {
             registryName -> new CabinetVariantBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.BARREL).sound(SoundType.CHERRY_WOOD).setId(ResourceKey.create(Registries.BLOCK, registryName))));
     public static final DeferredBlock<Block> CHERRY_SINGLE_DOOR_CABINET = BLOCKS.register("cherry_single_door_cabinet",
             registryName -> new CabinetVariantBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.BARREL).sound(SoundType.CHERRY_WOOD).setId(ResourceKey.create(Registries.BLOCK, registryName))));
+
+    // Pale Oak Furniture
+    public static final DeferredBlock<Block> PALE_OAK_DRAWER = BLOCKS.register("pale_oak_drawer",
+            registryName -> new DrawerBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.BARREL).setId(ResourceKey.create(Registries.BLOCK, registryName))));
+    public static final DeferredBlock<Block> PALE_OAK_DRAWER_WITH_DOOR = BLOCKS.register("pale_oak_drawer_with_door",
+            registryName -> new DrawerDoorBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.BARREL).setId(ResourceKey.create(Registries.BLOCK, registryName))));
+    public static final DeferredBlock<Block> GLASS_PALE_OAK_CABINET = BLOCKS.register("glass_pale_oak_cabinet",
+            registryName -> new GlassCabinetBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.BARREL).setId(ResourceKey.create(Registries.BLOCK, registryName))));
+    public static final DeferredBlock<Block> PALE_OAK_CABINET_WITH_GLASS_DOORS = BLOCKS.register("pale_oak_cabinet_with_glass_doors",
+            registryName -> new CabinetVariantBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.BARREL).setId(ResourceKey.create(Registries.BLOCK, registryName))));
+    public static final DeferredBlock<Block> PALE_OAK_SINGLE_DOOR_CABINET = BLOCKS.register("pale_oak_single_door_cabinet",
+            registryName -> new CabinetVariantBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.BARREL).setId(ResourceKey.create(Registries.BLOCK, registryName))));
 
     // Bamboo Furniture
     public static final DeferredBlock<Block> BAMBOO_DRAWER = BLOCKS.register("bamboo_drawer",
