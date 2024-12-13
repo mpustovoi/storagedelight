@@ -4,11 +4,12 @@
 
 ### ✨ What's New:
 
-- Added support for Minecraft 1.21.4.
-- Added pale oak drawer.
-- Added pale oak drawer with door.
-- Added glass pale oak cabinet.
-- Added pale oak single door cabinet.
+- 🪵 **Introducing Drawers with Books!**
+  - Transform your builds with drawers with books, available for all wood types. Organize your items in style while adding a touch of sophistication to every place.
+    ![Drawer with Books](https://i.imgur.com/mbPVL8o.gif)
+
+- 🎨 **Texture Enhancements**
+  - Enjoy revamped textures across most furniture pieces, bringing sharper details, richer colors, and an even more polished design to your spaces.
 
 ***
 
