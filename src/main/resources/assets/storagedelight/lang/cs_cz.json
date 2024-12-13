@@ -1,6 +1,7 @@
 {
   "container.storagedelight.drawer": "Šuplík",
   "container.storagedelight.drawer_door": "Šuplík s dveřmi",
+  "container.storagedelight.drawer_books": "Šuplík s knihami",
   "container.storagedelight.glass_cabinet": "Skleněný šatník",
   "container.storagedelight.cabinet_variant": "Skříňka",
 
@@ -29,6 +30,19 @@
   "block.storagedelight.warped_drawer_with_door": "Zkřivený šuplík s dveřmi",
   "block.storagedelight.bamboo_drawer_with_door": "Bambusový šuplík s dveřmi",
   "block.storagedelight.pale_oak_drawer_with_door": "Světlý dubový šuplík s dvířky",
+
+  "block.storagedelight.oak_drawer_with_books": "Dubový šuplík s knihami",
+  "block.storagedelight.birch_drawer_with_books": "Březový šuplík s knihami",
+  "block.storagedelight.spruce_drawer_with_books": "Smrkový šuplík s knihami",
+  "block.storagedelight.cherry_drawer_with_books": "Třešňový šuplík s knihami",
+  "block.storagedelight.jungle_drawer_with_books": "Jungle šuplík s knihami",
+  "block.storagedelight.acacia_drawer_with_books": "Akáciový šuplík s knihami",
+  "block.storagedelight.dark_oak_drawer_with_books": "Tmavý dubový šuplík s knihami",
+  "block.storagedelight.mangrove_drawer_with_books": "Mangrovový šuplík s knihami",
+  "block.storagedelight.crimson_drawer_with_books": "Karmínový šuplík s knihami",
+  "block.storagedelight.warped_drawer_with_books": "Zkřivený šuplík s knihami",
+  "block.storagedelight.bamboo_drawer_with_books": "Bambusový šuplík s knihami",
+  "block.storagedelight.pale_oak_drawer_with_books": "Světlý dubový šuplík s knihami",
 
   "block.storagedelight.glass_oak_cabinet": "Skleněný dubový šatník",
   "block.storagedelight.glass_birch_cabinet": "Skleněný březový šatník",

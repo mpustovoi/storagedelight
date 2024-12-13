@@ -1,6 +1,7 @@
 {
   "container.storagedelight.drawer": "Комод",
   "container.storagedelight.drawer_door": "Комод с дверцей",
+  "container.storagedelight.drawer_books": "Комод с книгами",
   "container.storagedelight.glass_cabinet": "Стеклянная кладовая",
   "container.storagedelight.cabinet_variant": "Кладовая",
 
@@ -29,6 +30,19 @@
   "item.storagedelight.warped_drawer_with_door": "Искажённый комод с дверцей",
   "item.storagedelight.bamboo_drawer_with_door": "Бамбуковый комод с дверцей",
   "item.storagedelight.pale_oak_drawer_with_door": "Комод из бледного дуба с дверцей",
+
+  "block.storagedelight.oak_drawer_with_books": "Дубовый комод с книгами",
+  "block.storagedelight.birch_drawer_with_books": "Березовый комод с книгами",
+  "block.storagedelight.spruce_drawer_with_books": "Еловый комод с книгами",
+  "block.storagedelight.cherry_drawer_with_books": "Вишнёвый комод с книгами",
+  "block.storagedelight.jungle_drawer_with_books": "Комод из тропического дерева с книгами",
+  "block.storagedelight.acacia_drawer_with_books": "Акациевый комод с книгами",
+  "block.storagedelight.dark_oak_drawer_with_books": "Комод из тёмного дуба с книгами",
+  "block.storagedelight.mangrove_drawer_with_books": "Мангровый комод с книгами",
+  "block.storagedelight.crimson_drawer_with_books": "Багровый комод с книгами",
+  "block.storagedelight.warped_drawer_with_books": "Искажённый комод с книгами",
+  "block.storagedelight.bamboo_drawer_with_books": "Бамбуковый комод с книгами",
+  "block.storagedelight.pale_oak_drawer_with_books": "Комод из бледного дуба с книгами",
 
   "item.storagedelight.glass_oak_cabinet": "Стеклянная дубовая кладовая",
   "item.storagedelight.glass_birch_cabinet": "Стеклянная берёзовая кладовая",
