@@ -4,7 +4,8 @@
 
 ### 🪵 Introducing Drawers with Books!
 - Transform your builds with **drawers with books**, available for all wood types. Organize your items in style while adding a touch of sophistication to every place.
-  ![Drawer with Books](https://i.imgur.com/mbPVL8o.gif)
+
+![Drawer with Books](https://i.imgur.com/mbPVL8o.gif)
 
 ### 🎨 Texture Enhancements
 - Improved textures for most furniture.
