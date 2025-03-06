@@ -9,7 +9,7 @@
   "key": {
     "A": "minecraft:spruce_slab",
     "B": "minecraft:spruce_trapdoor",
-    "C": "minecraft:book"
+    "C": "minecraft:bookshelf"
   },
   "result": {
     "id": "storagedelight:spruce_drawer_with_books"

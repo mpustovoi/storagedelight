@@ -4,6 +4,7 @@
   "container.storagedelight.drawer_books": "书橱",
   "container.storagedelight.glass_cabinet": "单门玻璃橱柜",
   "container.storagedelight.cabinet_variant": "橱柜",
+  "container.storagedelight.bookshelf_door": "带门的书架",
 
   "block.storagedelight.oak_drawer": "橡木抽屉",
   "block.storagedelight.birch_drawer": "白桦木抽屉",
@@ -43,6 +44,18 @@
   "block.storagedelight.warped_drawer_with_books": "诡异木书橱",
   "block.storagedelight.bamboo_drawer_with_books": "竹书橱",
   "block.storagedelight.pale_oak_drawer_with_books": "苍白橡木书橱",
+
+  "block.storagedelight.oak_bookshelf_with_door": "带门的橡木书架",
+  "block.storagedelight.spruce_bookshelf_with_door": "带门的云杉书架",
+  "block.storagedelight.cherry_bookshelf_with_door": "带门的樱桃木书架",
+  "block.storagedelight.jungle_bookshelf_with_door": "带门的丛林木书架",
+  "block.storagedelight.acacia_bookshelf_with_door": "带门的相思木书架",
+  "block.storagedelight.dark_oak_bookshelf_with_door": "带门的深橡木书架",
+  "block.storagedelight.mangrove_bookshelf_with_door": "带门的红树林书架",
+  "block.storagedelight.crimson_bookshelf_with_door": "带门的深红色书架",
+  "block.storagedelight.warped_bookshelf_with_door": "带门的扭曲书架",
+  "block.storagedelight.bamboo_bookshelf_with_door": "带门的竹子书架",
+  "block.storagedelight.pale_oak_bookshelf_with_door": "带门的浅橡木书架",
 
   "block.storagedelight.glass_oak_cabinet": "橡木单门玻璃橱柜",
   "block.storagedelight.glass_birch_cabinet": "白桦木单门玻璃橱柜",
