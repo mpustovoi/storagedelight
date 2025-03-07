@@ -4,6 +4,7 @@
   "container.storagedelight.drawer_books": "Cassetto con Libri",
   "container.storagedelight.glass_cabinet": "Armadio in vetro",
   "container.storagedelight.cabinet_variant": "Armadio",
+  "container.storagedelight.bookshelf_door": "Libreria con sportello",
 
   "item.storagedelight.oak_drawer": "Cassetto di quercia",
   "item.storagedelight.birch_drawer": "Cassetto di betulla",
@@ -43,6 +44,19 @@
   "item.storagedelight.warped_drawer_with_books": "Cassetto di Legno Deformato con Libri",
   "item.storagedelight.bamboo_drawer_with_books": "Cassetto di Bambù con Libri",
   "item.storagedelight.pale_oak_drawer_with_books": "Cassetto in rovere chiaro con Libri",
+
+  "item.storagedelight.oak_bookshelf_with_door": "Libreria di rovere con sportello",
+  "item.storagedelight.birch_bookshelf_with_door": "Libreria di betulla con sportello",
+  "item.storagedelight.spruce_bookshelf_with_door": "Libreria di abete con sportello",
+  "item.storagedelight.cherry_bookshelf_with_door": "Libreria di ciliegio con sportello",
+  "item.storagedelight.jungle_bookshelf_with_door": "Libreria di legno tropicale con sportello",
+  "item.storagedelight.acacia_bookshelf_with_door": "Libreria di acacia con sportello",
+  "item.storagedelight.dark_oak_bookshelf_with_door": "Libreria di rovere scuro con sportello",
+  "item.storagedelight.mangrove_bookshelf_with_door": "Libreria di mangrovia con sportello",
+  "item.storagedelight.crimson_bookshelf_with_door": "Libreria cremisi con sportello",
+  "item.storagedelight.warped_bookshelf_with_door": "Libreria deforme con sportello",
+  "item.storagedelight.bamboo_bookshelf_with_door": "Libreria di bambù con sportello",
+  "item.storagedelight.pale_oak_bookshelf_with_door": "Libreria di rovere chiaro con sportello",
 
   "item.storagedelight.glass_oak_cabinet": "Armadio di quercia in vetro",
   "item.storagedelight.glass_birch_cabinet": "Armadio di betulla in vetro",
