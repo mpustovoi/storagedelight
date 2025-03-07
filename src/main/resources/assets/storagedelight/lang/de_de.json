@@ -4,6 +4,7 @@
   "container.storagedelight.drawer_books": "Schublade mit Büchern",
   "container.storagedelight.glass_cabinet": "Glasvitrine",
   "container.storagedelight.cabinet_variant": "Schrank",
+  "container.storagedelight.bookshelf_door": "Bücherregal mit Tür",
 
   "item.storagedelight.oak_drawer": "Eichenschublade",
   "item.storagedelight.birch_drawer": "Birkenschublade",
@@ -43,6 +44,19 @@
   "item.storagedelight.warped_drawer_with_books": "Wirrholzschublade mit Büchern",
   "item.storagedelight.bamboo_drawer_with_books": "Bambusschublade mit Büchern",
   "item.storagedelight.pale_oak_drawer_with_books": "Heller Eichen-Schublade mit Büchern",
+
+  "item.storagedelight.oak_bookshelf_with_door": "Eichen-Bücherregal mit Tür",
+  "item.storagedelight.birch_bookshelf_with_door": "Birken-Bücherregal mit Tür",
+  "item.storagedelight.spruce_bookshelf_with_door": "Fichten-Bücherregal mit Tür",
+  "item.storagedelight.cherry_bookshelf_with_door": "Kirschholz-Bücherregal mit Tür",
+  "item.storagedelight.jungle_bookshelf_with_door": "Dschungelholz-Bücherregal mit Tür",
+  "item.storagedelight.acacia_bookshelf_with_door": "Akazie-Bücherregal mit Tür",
+  "item.storagedelight.dark_oak_bookshelf_with_door": "Dunkel Eichen-Bücherregal mit Tür",
+  "item.storagedelight.mangrove_bookshelf_with_door": "Mangroven-Bücherregal mit Tür",
+  "item.storagedelight.crimson_bookshelf_with_door": "Blutrot-Bücherregal mit Tür",
+  "item.storagedelight.warped_bookshelf_with_door": "Verzerrtes Bücherregal mit Tür",
+  "item.storagedelight.bamboo_bookshelf_with_door": "Bambus-Bücherregal mit Tür",
+  "item.storagedelight.pale_oak_bookshelf_with_door": "Hell Eichen-Bücherregal mit Tür",
 
   "item.storagedelight.glass_oak_cabinet": "Glas Eichenschrank",
   "item.storagedelight.glass_birch_cabinet": "Glas Birkenschrank",

@@ -9,7 +9,7 @@
   "key": {
     "S": "minecraft:acacia_slab",
     "T": "minecraft:acacia_trapdoor",
-    "G": "#forge:glass_panes"
+    "G": "#c:glass_panes"
   },
   "result": {
     "id": "storagedelight:glass_acacia_cabinet"

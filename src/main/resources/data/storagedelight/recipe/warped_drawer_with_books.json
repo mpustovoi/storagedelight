@@ -9,7 +9,7 @@
   "key": {
     "A": "minecraft:warped_slab",
     "B": "minecraft:warped_trapdoor",
-    "C": "minecraft:book"
+    "C": "minecraft:bookshelf"
   },
   "result": {
     "id": "storagedelight:warped_drawer_with_books"

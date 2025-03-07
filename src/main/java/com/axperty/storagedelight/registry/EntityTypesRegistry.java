@@ -103,4 +103,20 @@ public class EntityTypesRegistry {
                             BlockRegistry.CRIMSON_SINGLE_DOOR_CABINET.get(),
                             BlockRegistry.WARPED_SINGLE_DOOR_CABINET.get()
             )));
+
+    public static final RegistryObject<BlockEntityType<BookshelfDoorBlockEntity>> BOOKSHELF_DOOR = TILES.register("bookshelf_door",
+            () -> new BlockEntityType<>(BookshelfDoorBlockEntity::new, Set.of(
+                    BlockRegistry.OAK_BOOKSHELF_WITH_DOOR.get(),
+                    BlockRegistry.BIRCH_BOOKSHELF_WITH_DOOR.get(),
+                    BlockRegistry.SPRUCE_BOOKSHELF_WITH_DOOR.get(),
+                    BlockRegistry.JUNGLE_BOOKSHELF_WITH_DOOR.get(),
+                    BlockRegistry.ACACIA_BOOKSHELF_WITH_DOOR.get(),
+                    BlockRegistry.DARK_OAK_BOOKSHELF_WITH_DOOR.get(),
+                    BlockRegistry.MANGROVE_BOOKSHELF_WITH_DOOR.get(),
+                    BlockRegistry.CHERRY_BOOKSHELF_WITH_DOOR.get(),
+                    BlockRegistry.PALE_OAK_BOOKSHELF_WITH_DOOR.get(),
+                    BlockRegistry.BAMBOO_BOOKSHELF_WITH_DOOR.get(),
+                    BlockRegistry.CRIMSON_BOOKSHELF_WITH_DOOR.get(),
+                    BlockRegistry.WARPED_BOOKSHELF_WITH_DOOR.get()
+            )));
 }

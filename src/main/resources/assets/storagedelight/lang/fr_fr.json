@@ -4,6 +4,7 @@
   "container.storagedelight.drawer_books": "Tiroir avec Livres",
   "container.storagedelight.glass_cabinet": "Cabinet en Verre",
   "container.storagedelight.cabinet_variant": "Cabinet",
+  "container.storagedelight.bookshelf_door": "Bibliothèque avec porte",
 
   "item.storagedelight.oak_drawer": "Tiroir en Chêne",
   "item.storagedelight.birch_drawer": "Tiroir en Bouleau",
@@ -43,6 +44,19 @@
   "item.storagedelight.warped_drawer_with_books": "Tiroir en Bois Altéré avec Livres",
   "item.storagedelight.bamboo_drawer_with_books": "Tiroir en Bambou avec Livres",
   "item.storagedelight.pale_oak_drawer_with_books": "Tiroir en Chêne Clair avec Livres",
+
+  "item.storagedelight.oak_bookshelf_with_door": "Bibliothèque en chêne avec porte",
+  "item.storagedelight.birch_bookshelf_with_door": "Bibliothèque en bouleau avec porte",
+  "item.storagedelight.spruce_bookshelf_with_door": "Bibliothèque en épicéa avec porte",
+  "item.storagedelight.cherry_bookshelf_with_door": "Bibliothèque en merisier avec porte",
+  "item.storagedelight.jungle_bookshelf_with_door": "Bibliothèque en bois de jungle avec porte",
+  "item.storagedelight.acacia_bookshelf_with_door": "Bibliothèque en acacia avec porte",
+  "item.storagedelight.dark_oak_bookshelf_with_door": "Bibliothèque en chêne foncé avec porte",
+  "item.storagedelight.mangrove_bookshelf_with_door": "Bibliothèque en palétuvier avec porte",
+  "item.storagedelight.crimson_bookshelf_with_door": "Bibliothèque cramoisie avec porte",
+  "item.storagedelight.warped_bookshelf_with_door": "Bibliothèque déformée avec porte",
+  "item.storagedelight.bamboo_bookshelf_with_door": "Bibliothèque en bambou avec porte",
+  "item.storagedelight.pale_oak_bookshelf_with_door": "Bibliothèque en chêne clair avec porte",
 
   "item.storagedelight.glass_oak_cabinet": "Cabinet en Verre de Chêne",
   "item.storagedelight.glass_birch_cabinet": "Cabinet en Verre de Bouleau",

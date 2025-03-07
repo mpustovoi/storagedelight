@@ -4,6 +4,7 @@
   "container.storagedelight.drawer_books": "Шухляда з книгами",
   "container.storagedelight.glass_cabinet": "Скляна шафа",
   "container.storagedelight.cabinet_variant": "Шафа",
+  "container.storagedelight.bookshelf_door": "Стеллаж з дверцятами",
 
   "item.storagedelight.oak_drawer": "Дубовий ящик",
   "item.storagedelight.birch_drawer": "Березовий ящик",
@@ -43,6 +44,19 @@
   "item.storagedelight.warped_drawer_with_books": "Викривлена шухляда з книгами",
   "item.storagedelight.bamboo_drawer_with_books": "Бамбукова шухляда з книгами",
   "item.storagedelight.pale_oak_drawer_with_books": "Світлий дубовий ящик з книгами",
+
+  "item.storagedelight.oak_bookshelf_with_door": "Дубовий стелаж з дверцятами",
+  "item.storagedelight.birch_bookshelf_with_door": "Березовий стелаж з дверцятами",
+  "item.storagedelight.spruce_bookshelf_with_door": "Ялиновий стелаж з дверцятами",
+  "item.storagedelight.cherry_bookshelf_with_door": "Вишневий стелаж з дверцятами",
+  "item.storagedelight.jungle_bookshelf_with_door": "Джунглевий стелаж з дверцятами",
+  "item.storagedelight.acacia_bookshelf_with_door": "Акацієвий стелаж з дверцятами",
+  "item.storagedelight.dark_oak_bookshelf_with_door": "Темно-дубовий стелаж з дверцятами",
+  "item.storagedelight.mangrove_bookshelf_with_door": "Мангровий стелаж з дверцятами",
+  "item.storagedelight.crimson_bookshelf_with_door": "Кроваво-червоний стелаж з дверцятами",
+  "item.storagedelight.warped_bookshelf_with_door": "Викривлений стелаж з дверцятами",
+  "item.storagedelight.bamboo_bookshelf_with_door": "Бамбуковий стелаж з дверцятами",
+  "item.storagedelight.pale_oak_bookshelf_with_door": "Світло-дубовий стелаж з дверцятами",
 
   "item.storagedelight.glass_oak_cabinet": "Скляна дубова шафа",
   "item.storagedelight.glass_birch_cabinet": "Скляна березова шафа",

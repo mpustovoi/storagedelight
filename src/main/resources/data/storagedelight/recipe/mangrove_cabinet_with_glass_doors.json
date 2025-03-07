@@ -9,7 +9,7 @@
   "key": {
     "S": "minecraft:mangrove_slab",
     "T": "minecraft:mangrove_trapdoor",
-    "G": "#forge:glass_panes"
+    "G": "#c:glass_panes"
   },
   "result": {
     "id": "storagedelight:mangrove_cabinet_with_glass_doors"

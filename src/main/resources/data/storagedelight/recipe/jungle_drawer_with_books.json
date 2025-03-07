@@ -9,7 +9,7 @@
   "key": {
     "A": "minecraft:jungle_slab",
     "B": "minecraft:jungle_trapdoor",
-    "C": "minecraft:book"
+    "C": "minecraft:bookshelf"
   },
   "result": {
     "id": "storagedelight:jungle_drawer_with_books"

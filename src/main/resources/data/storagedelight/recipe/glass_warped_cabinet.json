@@ -9,7 +9,7 @@
   "key": {
     "S": "minecraft:warped_slab",
     "T": "minecraft:warped_trapdoor",
-    "G": "#forge:glass_panes"
+    "G": "#c:glass_panes"
   },
   "result": {
     "id": "storagedelight:glass_warped_cabinet"

@@ -2,15 +2,16 @@
 
 ***
 
-### 🪵 Introducing Drawers with Books!
-- Transform your builds with **drawers with books**, available for all wood types. Organize your items in style while adding a touch of sophistication to every place.
-![Drawer with Books](https://i.imgur.com/mbPVL8o.gif)
+### 🪵 Introducing Bookshelf with Door!
+- Save your resources (and even more books!) inside a bookshelf with door and to add a decorative touch to any place you like.
 
-### 🎨 Texture Enhancements
-- Improved textures for most furniture.
+![Bookshelf with Door](https://i.imgur.com/qWwSu93.gif)
+
+### 🛠️ Other Changes
+- Drawers with books are now crafted with a bookshelf instead of a single book.
 
 ### 🌐 Translations
-- Improved translations for Russian, thank you [Korben](https://github.com/mpustovoi)!
+- Improved translations for Chinese, thank you [taguima](https://github.com/22858)!
 
 ***
 
