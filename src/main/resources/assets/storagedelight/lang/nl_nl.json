@@ -4,6 +4,7 @@
   "container.storagedelight.drawer_books": "Lade met Boeken",
   "container.storagedelight.glass_cabinet": "Glazen Kast",
   "container.storagedelight.cabinet_variant": "Kast",
+  "container.storagedelight.bookshelf_door": "Boekenkast met deur",
 
   "item.storagedelight.oak_drawer": "Eiken Lade",
   "item.storagedelight.birch_drawer": "Berken Lade",
@@ -43,6 +44,19 @@
   "item.storagedelight.warped_drawer_with_books": "Kromhout Lade met Boeken",
   "item.storagedelight.bamboo_drawer_with_books": "Bamboe Lade met Boeken",
   "item.storagedelight.pale_oak_drawer_with_books": "Lichte eiken lade met boeken",
+
+  "item.storagedelight.oak_bookshelf_with_door": "Eikenhouten boekenkast met deur",
+  "item.storagedelight.birch_bookshelf_with_door": "Berkenhouten boekenkast met deur",
+  "item.storagedelight.spruce_bookshelf_with_door": "Sparrenhouten boekenkast met deur",
+  "item.storagedelight.cherry_bookshelf_with_door": "Kersenhouten boekenkast met deur",
+  "item.storagedelight.jungle_bookshelf_with_door": "Jungle houten boekenkast met deur",
+  "item.storagedelight.acacia_bookshelf_with_door": "Acacia houten boekenkast met deur",
+  "item.storagedelight.dark_oak_bookshelf_with_door": "Donker eikenhouten boekenkast met deur",
+  "item.storagedelight.mangrove_bookshelf_with_door": "Mangrove houten boekenkast met deur",
+  "item.storagedelight.crimson_bookshelf_with_door": "Krimkleurige boekenkast met deur",
+  "item.storagedelight.warped_bookshelf_with_door": "Gekromde boekenkast met deur",
+  "item.storagedelight.bamboo_bookshelf_with_door": "Bamboe boekenkast met deur",
+  "item.storagedelight.pale_oak_bookshelf_with_door": "Licht eikenhouten boekenkast met deur",
 
   "item.storagedelight.glass_oak_cabinet": "Glazen Eiken Kast",
   "item.storagedelight.glass_birch_cabinet": "Glazen Berken Kast",

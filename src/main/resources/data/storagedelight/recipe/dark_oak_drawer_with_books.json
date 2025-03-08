@@ -9,7 +9,7 @@
   "key": {
     "A": "minecraft:dark_oak_slab",
     "B": "minecraft:dark_oak_trapdoor",
-    "C": "minecraft:book"
+    "C": "minecraft:bookshelf"
   },
   "result": {
     "id": "storagedelight:dark_oak_drawer_with_books"

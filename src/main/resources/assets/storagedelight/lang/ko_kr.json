@@ -4,6 +4,7 @@
   "container.storagedelight.drawer_books": "책이 있는 서랍",
   "container.storagedelight.glass_cabinet": "유리 캐비닛",
   "container.storagedelight.cabinet_variant": "캐비닛",
+  "container.storagedelight.bookshelf_door": "문 달린 책장",
 
   "item.storagedelight.oak_drawer": "참나무 서랍",
   "item.storagedelight.birch_drawer": "자작나무 서랍",
@@ -43,6 +44,19 @@
   "item.storagedelight.warped_drawer_with_books": "뒤틀린 책이 있는 서랍",
   "item.storagedelight.bamboo_drawer_with_books": "대나무 책이 있는 서랍",
   "item.storagedelight.pale_oak_drawer_with_books": "밝은 오크 책이 있는 서랍",
+
+  "item.storagedelight.oak_bookshelf_with_door": "문 달린 오크 책장",
+  "item.storagedelight.birch_bookshelf_with_door": "문 달린 자작나무 책장",
+  "item.storagedelight.spruce_bookshelf_with_door": "문 달린 가문비나무 책장",
+  "item.storagedelight.cherry_bookshelf_with_door": "문 달린 체리나무 책장",
+  "item.storagedelight.jungle_bookshelf_with_door": "문 달린 정글 나무 책장",
+  "item.storagedelight.acacia_bookshelf_with_door": "문 달린 아카시아 나무 책장",
+  "item.storagedelight.dark_oak_bookshelf_with_door": "문 달린 어두운 오크 책장",
+  "item.storagedelight.mangrove_bookshelf_with_door": "문 달린 맹그로브 나무 책장",
+  "item.storagedelight.crimson_bookshelf_with_door": "문 달린 진홍색 책장",
+  "item.storagedelight.warped_bookshelf_with_door": "문 달린 뒤틀린 책장",
+  "item.storagedelight.bamboo_bookshelf_with_door": "문 달린 대나무 책장",
+  "item.storagedelight.pale_oak_bookshelf_with_door": "문 달린 연한 오크 책장",
 
   "item.storagedelight.glass_oak_cabinet": "유리 참나무 캐비닛",
   "item.storagedelight.glass_birch_cabinet": "유리 자작나무 캐비닛",
