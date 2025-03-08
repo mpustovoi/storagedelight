@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "AAA",
+    "BAC",
+    "AAA"
+  ],
+  "key": {
+    "A": {
+      "item": "minecraft:oak_slab"
+    },
+    "B": {
+      "item": "minecraft:oak_trapdoor"
+    },
+    "C": {
+      "item": "minecraft:bookshelf"
+    }
+  },
+  "result": {
+    "id": "storagedelight:oak_bookshelf_with_door"
+  }
+}
