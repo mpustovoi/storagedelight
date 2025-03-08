@@ -1,11 +1,7 @@
 package com.axperty.storagedelight.registry;
 
 import com.axperty.storagedelight.StorageDelight;
-import com.axperty.storagedelight.block.entity.DrawerBlockEntity;
-import com.axperty.storagedelight.block.entity.DrawerDoorBlockEntity;
-import com.axperty.storagedelight.block.entity.DrawerBooksBlockEntity;
-import com.axperty.storagedelight.block.entity.GlassCabinetBlockEntity;
-import com.axperty.storagedelight.block.entity.CabinetVariantBlockEntity;
+import com.axperty.storagedelight.block.entity.*;
 import net.minecraft.world.level.block.entity.BlockEntityType;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
@@ -98,5 +94,20 @@ public class EntityTypesRegistry {
                             BlockRegistry.MANGROVE_SINGLE_DOOR_CABINET.get(),
                             BlockRegistry.CRIMSON_SINGLE_DOOR_CABINET.get(),
                             BlockRegistry.WARPED_SINGLE_DOOR_CABINET.get())
+                    .build(null));
+
+    public static final RegistryObject<BlockEntityType<BookshelfDoorBlockEntity>> BOOKSHELF_DOOR = TILES.register("bookshelf_door",
+            () -> BlockEntityType.Builder.of(BookshelfDoorBlockEntity::new,
+                            BlockRegistry.OAK_BOOKSHELF_WITH_DOOR.get(),
+                            BlockRegistry.BIRCH_BOOKSHELF_WITH_DOOR.get(),
+                            BlockRegistry.SPRUCE_BOOKSHELF_WITH_DOOR.get(),
+                            BlockRegistry.JUNGLE_BOOKSHELF_WITH_DOOR.get(),
+                            BlockRegistry.ACACIA_BOOKSHELF_WITH_DOOR.get(),
+                            BlockRegistry.DARK_OAK_BOOKSHELF_WITH_DOOR.get(),
+                            BlockRegistry.BAMBOO_BOOKSHELF_WITH_DOOR.get(),
+                            BlockRegistry.CHERRY_BOOKSHELF_WITH_DOOR.get(),
+                            BlockRegistry.MANGROVE_BOOKSHELF_WITH_DOOR.get(),
+                            BlockRegistry.CRIMSON_BOOKSHELF_WITH_DOOR.get(),
+                            BlockRegistry.WARPED_BOOKSHELF_WITH_DOOR.get())
                     .build(null));
 }

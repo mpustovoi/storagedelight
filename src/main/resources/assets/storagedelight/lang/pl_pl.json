@@ -4,6 +4,7 @@
   "container.storagedelight.drawer_books": "Szuflada z Książkami",
   "container.storagedelight.glass_cabinet": "Szklana Szafka",
   "container.storagedelight.cabinet_variant": "Szafka",
+  "container.storagedelight.bookshelf_door": "Biblioteczka z drzwiami",
 
   "block.storagedelight.oak_drawer": "Szuflada Dębowa",
   "block.storagedelight.birch_drawer": "Szuflada Brzozowa",
@@ -43,6 +44,19 @@
   "block.storagedelight.warped_drawer_with_books": "Wykrzywiona Szuflada z Książkami",
   "block.storagedelight.bamboo_drawer_with_books": "Bambusowa Szuflada z Książkami",
   "block.storagedelight.pale_oak_drawer_with_books": "Jasny dębowy szuflada z książkami",
+
+  "block.storagedelight.oak_bookshelf_with_door": "Dębowa biblioteczka z drzwiami",
+  "block.storagedelight.birch_bookshelf_with_door": "Brzozowa biblioteczka z drzwiami",
+  "block.storagedelight.spruce_bookshelf_with_door": "Świerkowa biblioteczka z drzwiami",
+  "block.storagedelight.cherry_bookshelf_with_door": "Wiśniowa biblioteczka z drzwiami",
+  "block.storagedelight.jungle_bookshelf_with_door": "Dżunglowa biblioteczka z drzwiami",
+  "block.storagedelight.acacia_bookshelf_with_door": "Akacjowa biblioteczka z drzwiami",
+  "block.storagedelight.dark_oak_bookshelf_with_door": "Ciemnodębowa biblioteczka z drzwiami",
+  "block.storagedelight.mangrove_bookshelf_with_door": "Mangrowiowa biblioteczka z drzwiami",
+  "block.storagedelight.crimson_bookshelf_with_door": "Karmazynowa biblioteczka z drzwiami",
+  "block.storagedelight.warped_bookshelf_with_door": "Wykrzywiona biblioteczka z drzwiami",
+  "block.storagedelight.bamboo_bookshelf_with_door": "Bambusowa biblioteczka z drzwiami",
+  "block.storagedelight.pale_oak_bookshelf_with_door": "Jasnodębowa biblioteczka z drzwiami",
 
   "block.storagedelight.glass_oak_cabinet": "Szklany Kabinet Dębowy",
   "block.storagedelight.glass_birch_cabinet": "Szklany Kabinet Brzozowy",
