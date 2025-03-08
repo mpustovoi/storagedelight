@@ -9,7 +9,7 @@
   "key": {
     "A": "minecraft:birch_slab",
     "B": "minecraft:birch_trapdoor",
-    "C": "minecraft:book"
+    "C": "minecraft:bookshelf"
   },
   "result": {
     "id": "storagedelight:birch_drawer_with_books"

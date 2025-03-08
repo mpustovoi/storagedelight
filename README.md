@@ -22,6 +22,7 @@ This mod adds four new type of blocks to the game that are useful to decorate an
 - Drawers.
 - Drawers with doors.
 - Drawers with books.
+- Bookshelves with doors.
 - Glass Cabinets.
 - Cabinets with Glass Doors.
 - Single Door Cabinets.
