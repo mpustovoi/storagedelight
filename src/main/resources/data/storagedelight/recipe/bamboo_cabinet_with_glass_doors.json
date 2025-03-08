@@ -9,7 +9,7 @@
   "key": {
     "S": "minecraft:bamboo_slab",
     "T": "minecraft:bamboo_trapdoor",
-    "G": "#forge:glass_panes"
+    "G": "#c:glass_panes"
   },
   "result": {
     "id": "storagedelight:bamboo_cabinet_with_glass_doors"

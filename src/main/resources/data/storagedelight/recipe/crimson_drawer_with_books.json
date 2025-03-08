@@ -9,7 +9,7 @@
   "key": {
     "A": "minecraft:crimson_slab",
     "B": "minecraft:crimson_trapdoor",
-    "C": "minecraft:book"
+    "C": "minecraft:bookshelf"
   },
   "result": {
     "id": "storagedelight:crimson_drawer_with_books"

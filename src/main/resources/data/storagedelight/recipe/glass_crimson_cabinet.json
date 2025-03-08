@@ -9,7 +9,7 @@
   "key": {
     "S": "minecraft:crimson_slab",
     "T": "minecraft:crimson_trapdoor",
-    "G": "#forge:glass_panes"
+    "G": "#c:glass_panes"
   },
   "result": {
     "id": "storagedelight:glass_crimson_cabinet"

@@ -9,7 +9,7 @@
   "key": {
     "S": "minecraft:birch_slab",
     "T": "minecraft:birch_trapdoor",
-    "G": "#forge:glass_panes"
+    "G": "#c:glass_panes"
   },
   "result": {
     "id": "storagedelight:birch_cabinet_with_glass_doors"
