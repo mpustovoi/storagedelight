@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "AAA",
+    "BAC",
+    "AAA"
+  ],
+  "key": {
+    "A": {
+      "item": "minecraft:crimson_slab"
+    },
+    "B": {
+      "item": "minecraft:crimson_trapdoor"
+    },
+    "C": {
+      "item": "minecraft:bookshelf"
+    }
+  },
+  "result": {
+    "item": "storagedelight:crimson_bookshelf_with_door"
+  }
+}

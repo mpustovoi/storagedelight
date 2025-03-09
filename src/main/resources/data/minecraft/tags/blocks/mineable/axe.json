@@ -54,6 +54,15 @@
     "storagedelight:dark_oak_single_door_cabinet",
     "storagedelight:mangrove_single_door_cabinet",
     "storagedelight:crimson_single_door_cabinet",
-    "storagedelight:warped_single_door_cabinet"
+    "storagedelight:warped_single_door_cabinet",
+    "storagedelight:oak_bookshelf_with_door",
+    "storagedelight:spruce_bookshelf_with_door",
+    "storagedelight:birch_bookshelf_with_door",
+    "storagedelight:jungle_bookshelf_with_door",
+    "storagedelight:acacia_bookshelf_with_door",
+    "storagedelight:dark_oak_bookshelf_with_door",
+    "storagedelight:mangrove_bookshelf_with_door",
+    "storagedelight:crimson_bookshelf_with_door",
+    "storagedelight:warped_bookshelf_with_door"
   ]
 }
