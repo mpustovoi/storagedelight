@@ -6,7 +6,7 @@ plugins {
     id 'org.spongepowered.mixin' version '0.7.+'
 }
 
-version = '25.03.08-1.19-forge'
+version = '25.03.09-1.19-forge'
 group = 'com.axperty.storagedelight' // http://maven.apache.org/guides/mini/guide-naming-conventions.html
 archivesBaseName = 'storagedelight'
 
