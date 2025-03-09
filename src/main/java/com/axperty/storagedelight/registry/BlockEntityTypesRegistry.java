@@ -56,7 +56,15 @@ public enum BlockEntityTypesRegistry {
             BlockRegistry.BIRCH_SINGLE_DOOR_CABINET, BlockRegistry.SPRUCE_SINGLE_DOOR_CABINET,
             BlockRegistry.JUNGLE_SINGLE_DOOR_CABINET, BlockRegistry.ACACIA_SINGLE_DOOR_CABINET,
             BlockRegistry.DARK_OAK_SINGLE_DOOR_CABINET, BlockRegistry.MANGROVE_SINGLE_DOOR_CABINET,
-            BlockRegistry.CRIMSON_SINGLE_DOOR_CABINET, BlockRegistry.WARPED_SINGLE_DOOR_CABINET);
+            BlockRegistry.CRIMSON_SINGLE_DOOR_CABINET, BlockRegistry.WARPED_SINGLE_DOOR_CABINET),
+
+    // Bookshelves with Doors
+    BOOKSHELF_DOOR("bookshelf_door",BookshelfDoorBlockEntity.class, BookshelfDoorBlockEntity::new,
+            BlockRegistry.OAK_BOOKSHELF_WITH_DOOR, BlockRegistry.BIRCH_BOOKSHELF_WITH_DOOR,
+            BlockRegistry.SPRUCE_BOOKSHELF_WITH_DOOR, BlockRegistry.JUNGLE_BOOKSHELF_WITH_DOOR,
+            BlockRegistry.ACACIA_BOOKSHELF_WITH_DOOR, BlockRegistry.DARK_OAK_BOOKSHELF_WITH_DOOR,
+            BlockRegistry.MANGROVE_BOOKSHELF_WITH_DOOR, BlockRegistry.CRIMSON_BOOKSHELF_WITH_DOOR,
+            BlockRegistry.WARPED_BOOKSHELF_WITH_DOOR);
 
     private final String pathName;
     private final Class<? extends BlockEntity> blockEntityClass;

@@ -4,6 +4,7 @@
   "container.storagedelight.drawer_books": "Skuff med Bøker",
   "container.storagedelight.glass_cabinet": "Glass Skap",
   "container.storagedelight.cabinet_variant": "Skap",
+  "container.storagedelight.bookshelf_door": "Bokhylle med dør",
 
   "block.storagedelight.oak_drawer": "Eik Skuff",
   "block.storagedelight.birch_drawer": "Bjørk Skuff",
@@ -43,6 +44,19 @@
   "block.storagedelight.warped_drawer_with_books": "Forvridd Skuff med Bøker",
   "block.storagedelight.bamboo_drawer_with_books": "Bambusskuff med Bøker",
   "block.storagedelight.pale_oak_drawer_with_books": "Lys Eikeskuff med Bøker",
+
+  "block.storagedelight.oak_bookshelf_with_door": "Eikebokhylle med dør",
+  "block.storagedelight.birch_bookshelf_with_door": "Bjørkebokhylle med dør",
+  "block.storagedelight.spruce_bookshelf_with_door": "Granbokhylle med dør",
+  "block.storagedelight.cherry_bookshelf_with_door": "Kirsebærbokhylle med dør",
+  "block.storagedelight.jungle_bookshelf_with_door": "Jungeltrebokhylle med dør",
+  "block.storagedelight.acacia_bookshelf_with_door": "Akasiabokhylle med dør",
+  "block.storagedelight.dark_oak_bookshelf_with_door": "Mørk eikebokhylle med dør",
+  "block.storagedelight.mangrove_bookshelf_with_door": "Mangrovebokhylle med dør",
+  "block.storagedelight.crimson_bookshelf_with_door": "Blodrød bokhylle med dør",
+  "block.storagedelight.warped_bookshelf_with_door": "Vridde bokhylle med dør",
+  "block.storagedelight.bamboo_bookshelf_with_door": "Bambusbokhylle med dør",
+  "block.storagedelight.pale_oak_bookshelf_with_door": "Lys eikebokhylle med dør",
 
   "block.storagedelight.glass_oak_cabinet": "Glass Eik Skap",
   "block.storagedelight.glass_birch_cabinet": "Glass Bjørk Skap",

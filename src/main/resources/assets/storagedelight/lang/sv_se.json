@@ -4,6 +4,7 @@
   "container.storagedelight.drawer_books": "Låda med Böcker",
   "container.storagedelight.glass_cabinet": "Glas Skåp",
   "container.storagedelight.cabinet_variant": "Skåp",
+  "container.storagedelight.bookshelf_door": "Bokhylla med dörr",
 
   "block.storagedelight.oak_drawer": "Ek Låda",
   "block.storagedelight.birch_drawer": "Björk Låda",
@@ -43,6 +44,19 @@
   "block.storagedelight.warped_drawer_with_books": "Förvriden Låda med Böcker",
   "block.storagedelight.bamboo_drawer_with_books": "Bambu Låda med Böcker",
   "block.storagedelight.pale_oak_drawer_with_books": "Ljus eklåda med böcker",
+
+  "block.storagedelight.oak_bookshelf_with_door": "Ekbokhylla med dörr",
+  "block.storagedelight.birch_bookshelf_with_door": "Björkbokhylla med dörr",
+  "block.storagedelight.spruce_bookshelf_with_door": "Granbokhylla med dörr",
+  "block.storagedelight.cherry_bookshelf_with_door": "Körsbärsbokhylla med dörr",
+  "block.storagedelight.jungle_bookshelf_with_door": "Djungelträbokhylla med dörr",
+  "block.storagedelight.acacia_bookshelf_with_door": "Akaciabokhylla med dörr",
+  "block.storagedelight.dark_oak_bookshelf_with_door": "Mörk ekbokhylla med dörr",
+  "block.storagedelight.mangrove_bookshelf_with_door": "Mangrovebokhylla med dörr",
+  "block.storagedelight.crimson_bookshelf_with_door": "Blodröd bokhylla med dörr",
+  "block.storagedelight.warped_bookshelf_with_door": "Vridad bokhylla med dörr",
+  "block.storagedelight.bamboo_bookshelf_with_door": "Bambubokhylla med dörr",
+  "block.storagedelight.pale_oak_bookshelf_with_door": "Ljus ekbokhylla med dörr",
 
   "block.storagedelight.glass_oak_cabinet": "Glas Ek Skåp",
   "block.storagedelight.glass_birch_cabinet": "Glas Björk Skåp",

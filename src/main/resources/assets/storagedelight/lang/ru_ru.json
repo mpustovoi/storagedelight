@@ -4,6 +4,7 @@
   "container.storagedelight.drawer_books": "Комод с книгами",
   "container.storagedelight.glass_cabinet": "Стеклянная кладовая",
   "container.storagedelight.cabinet_variant": "Кладовая",
+  "container.storagedelight.bookshelf_door": "Книжная полка с дверцей",
 
   "block.storagedelight.oak_drawer": "Дубовый комод",
   "block.storagedelight.birch_drawer": "Берёзовый комод",
@@ -43,6 +44,19 @@
   "block.storagedelight.warped_drawer_with_books": "Искажённый комод с книгами",
   "block.storagedelight.bamboo_drawer_with_books": "Бамбуковый комод с книгами",
   "block.storagedelight.pale_oak_drawer_with_books": "Комод из бледного дуба с книгами",
+
+  "block.storagedelight.oak_bookshelf_with_door": "Дубовая книжная полка с дверцей",
+  "block.storagedelight.birch_bookshelf_with_door": "Берёзовая книжная полка с дверцей",
+  "block.storagedelight.spruce_bookshelf_with_door": "Еловая книжная полка с дверцей",
+  "block.storagedelight.cherry_bookshelf_with_door": "Вишнёвая книжная полка с дверцей",
+  "block.storagedelight.jungle_bookshelf_with_door": "Джунглевая книжная полка с дверцей",
+  "block.storagedelight.acacia_bookshelf_with_door": "Акациевая книжная полка с дверцей",
+  "block.storagedelight.dark_oak_bookshelf_with_door": "Тёмно-дубовая книжная полка с дверцей",
+  "block.storagedelight.mangrove_bookshelf_with_door": "Мангровая книжная полка с дверцей",
+  "block.storagedelight.crimson_bookshelf_with_door": "Багровая книжная полка с дверцей",
+  "block.storagedelight.warped_bookshelf_with_door": "Искажённая книжная полка с дверцей",
+  "block.storagedelight.bamboo_bookshelf_with_door": "Бамбуковая книжная полка с дверцей",
+  "block.storagedelight.pale_oak_bookshelf_with_door": "Светло-дубовая книжная полка с дверцей",
 
   "block.storagedelight.glass_oak_cabinet": "Стеклянная дубовая кладовая",
   "block.storagedelight.glass_birch_cabinet": "Стеклянная берёзовая кладовая",

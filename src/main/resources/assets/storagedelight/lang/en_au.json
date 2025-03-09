@@ -4,6 +4,7 @@
   "container.storagedelight.drawer_books": "Drawer with Books",
   "container.storagedelight.glass_cabinet": "Glass Cabinet",
   "container.storagedelight.cabinet_variant": "Cabinet",
+  "container.storagedelight.bookshelf_door": "Bookshelf with Door",
 
   "block.storagedelight.oak_drawer": "Oak Drawer",
   "block.storagedelight.birch_drawer": "Birch Drawer",
@@ -43,6 +44,19 @@
   "block.storagedelight.warped_drawer_with_books": "Warped Drawer with Books",
   "block.storagedelight.bamboo_drawer_with_books": "Bamboo Drawer with Books",
   "block.storagedelight.pale_oak_drawer_with_books": "Pale Oak Drawer with Books",
+
+  "block.storagedelight.oak_bookshelf_with_door": "Oak Bookshelf with Door",
+  "block.storagedelight.birch_bookshelf_with_door": "Birch Bookshelf with Door",
+  "block.storagedelight.spruce_bookshelf_with_door": "Spruce Bookshelf with Door",
+  "block.storagedelight.cherry_bookshelf_with_door": "Cherry Bookshelf with Door",
+  "block.storagedelight.jungle_bookshelf_with_door": "Jungle Bookshelf with Door",
+  "block.storagedelight.acacia_bookshelf_with_door": "Acacia Bookshelf with Door",
+  "block.storagedelight.dark_oak_bookshelf_with_door": "Dark Oak Bookshelf with Door",
+  "block.storagedelight.mangrove_bookshelf_with_door": "Mangrove Bookshelf with Door",
+  "block.storagedelight.crimson_bookshelf_with_door": "Crimson Bookshelf with Door",
+  "block.storagedelight.warped_bookshelf_with_door": "Warped Bookshelf with Door",
+  "block.storagedelight.bamboo_bookshelf_with_door": "Bamboo Bookshelf with Door",
+  "block.storagedelight.pale_oak_bookshelf_with_door": "Pale Oak Bookshelf with Door",
 
   "block.storagedelight.glass_oak_cabinet": "Glass Oak Cabinet",
   "block.storagedelight.glass_birch_cabinet": "Glass Birch Cabinet",

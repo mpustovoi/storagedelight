@@ -4,6 +4,7 @@
   "container.storagedelight.drawer_books": "本付き引き出し",
   "container.storagedelight.glass_cabinet": "ガラスキャビネット",
   "container.storagedelight.cabinet_variant": "キャビネット",
+  "container.storagedelight.bookshelf_door": "扉付き本棚",
 
   "block.storagedelight.oak_drawer": "オークの引き出し",
   "block.storagedelight.birch_drawer": "白樺の引き出し",
@@ -43,6 +44,19 @@
   "block.storagedelight.warped_drawer_with_books": "ワープドの本付き引き出し",
   "block.storagedelight.bamboo_drawer_with_books": "竹の本付き引き出し",
   "block.storagedelight.pale_oak_drawer_with_books": "淡いオークの本付き引き出し",
+
+  "block.storagedelight.oak_bookshelf_with_door": "扉付きオークの本棚",
+  "block.storagedelight.birch_bookshelf_with_door": "扉付きバーチの本棚",
+  "block.storagedelight.spruce_bookshelf_with_door": "扉付きトウヒの本棚",
+  "block.storagedelight.cherry_bookshelf_with_door": "扉付きチェリーの本棚",
+  "block.storagedelight.jungle_bookshelf_with_door": "扉付きジャングルウッドの本棚",
+  "block.storagedelight.acacia_bookshelf_with_door": "扉付きアカシアの本棚",
+  "block.storagedelight.dark_oak_bookshelf_with_door": "扉付きダークオークの本棚",
+  "block.storagedelight.mangrove_bookshelf_with_door": "扉付きマングローブの本棚",
+  "block.storagedelight.crimson_bookshelf_with_door": "扉付きクリムゾンの本棚",
+  "block.storagedelight.warped_bookshelf_with_door": "扉付き歪んだ本棚",
+  "block.storagedelight.bamboo_bookshelf_with_door": "扉付きバンブーの本棚",
+  "block.storagedelight.pale_oak_bookshelf_with_door": "扉付きペールオークの本棚",
 
   "block.storagedelight.glass_oak_cabinet": "ガラスオークキャビネット",
   "block.storagedelight.glass_birch_cabinet": "ガラス白樺キャビネット",
