@@ -2,6 +2,7 @@
   "container.storagedelight.drawer": "Cajón",
   "container.storagedelight.glass_cabinet": "Gabinete de Vidrio",
   "container.storagedelight.cabinet_variant": "Gabinete",
+  "container.storagedelight.bookshelf_door": "Estantería con Puerta",
 
   "block.storagedelight.oak_drawer": "Cajón de Roble",
   "block.storagedelight.birch_drawer": "Cajón de Abedul",
@@ -28,6 +29,19 @@
   "block.storagedelight.warped_drawer_with_books": "Cajón Distorcido con Libros",
   "block.storagedelight.bamboo_drawer_with_books": "Cajón de Bambú con Libros",
   "block.storagedelight.pale_oak_drawer_with_books": "Cajón de Roble Claro con Libros",
+
+  "block.storagedelight.oak_bookshelf_with_door": "Estantería de Roble con Puerta",
+  "block.storagedelight.birch_bookshelf_with_door": "Estantería de Abedul con Puerta",
+  "block.storagedelight.spruce_bookshelf_with_door": "Estantería de Abeto con Puerta",
+  "block.storagedelight.cherry_bookshelf_with_door": "Estantería de Cerezo con Puerta",
+  "block.storagedelight.jungle_bookshelf_with_door": "Estantería de Madera de Jungla con Puerta",
+  "block.storagedelight.acacia_bookshelf_with_door": "Estantería de Acacia con Puerta",
+  "block.storagedelight.dark_oak_bookshelf_with_door": "Estantería de Roble Oscuro con Puerta",
+  "block.storagedelight.mangrove_bookshelf_with_door": "Estantería de Mangle con Puerta",
+  "block.storagedelight.crimson_bookshelf_with_door": "Estantería Carmesí con Puerta",
+  "block.storagedelight.warped_bookshelf_with_door": "Estantería Deforme con Puerta",
+  "block.storagedelight.bamboo_bookshelf_with_door": "Estantería de Bambú con Puerta",
+  "block.storagedelight.pale_oak_bookshelf_with_door": "Estantería de Roble Claro con Puerta",
 
   "block.storagedelight.oak_drawer_with_door": "Cajón de Roble con Puerta",
   "block.storagedelight.birch_drawer_with_door": "Cajón de Abedul con Puerta",
