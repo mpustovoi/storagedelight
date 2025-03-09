@@ -4,6 +4,7 @@
   "container.storagedelight.drawer_books": "Gaveta com Livros",
   "container.storagedelight.glass_cabinet": "Armário de Vidro",
   "container.storagedelight.cabinet_variant": "Armário",
+  "container.storagedelight.bookshelf_door": "Estante com Porta",
 
   "block.storagedelight.oak_drawer": "Gaveta de Carvalho",
   "block.storagedelight.birch_drawer": "Gaveta de Bétula",
@@ -43,6 +44,19 @@
   "block.storagedelight.warped_drawer_with_books": "Gaveta de Madeira Deformada com Livros",
   "block.storagedelight.bamboo_drawer_with_books": "Gaveta de Bambu com Livros",
   "block.storagedelight.pale_oak_drawer_with_books": "Gaveta de Carvalho Claro com Livros",
+
+  "block.storagedelight.oak_bookshelf_with_door": "Estante de Carvalho com Porta"
+  "block.storagedelight.birch_bookshelf_with_door": "Estante de Bétula com Porta"
+  "block.storagedelight.spruce_bookshelf_with_door": "Estante de Pinho com Porta"
+  "block.storagedelight.cherry_bookshelf_with_door": "Estante de Cerejeira com Porta"
+  "block.storagedelight.jungle_bookshelf_with_door": "Estante de Madeira da Selva com Porta"
+  "block.storagedelight.acacia_bookshelf_with_door": "Estante de Acácia com Porta"
+  "block.storagedelight.dark_oak_bookshelf_with_door": "Estante de Carvalho Escuro com Porta"
+  "block.storagedelight.mangrove_bookshelf_with_door": "Estante de Mangue com Porta"
+  "block.storagedelight.crimson_bookshelf_with_door": "Estante Carmesim com Porta"
+  "block.storagedelight.warped_bookshelf_with_door": "Estante Torta com Porta"
+  "block.storagedelight.bamboo_bookshelf_with_door": "Estante de Bambu com Porta"
+  "block.storagedelight.pale_oak_bookshelf_with_door": "Estante de Carvalho Claro com Porta",
 
   "block.storagedelight.glass_oak_cabinet": "Armário de Vidro de Carvalho",
   "block.storagedelight.glass_birch_cabinet": "Armário de Vidro de Bétula",
