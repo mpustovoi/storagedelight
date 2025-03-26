@@ -59,11 +59,6 @@ public class DrawerBlock extends BlockWithEntity {
         return ActionResult.SUCCESS;
     }
 
-    protected void onStateReplaced(BlockState state, World world, BlockPos pos, BlockState newState, boolean moved) {
-        ItemScatterer.onStateReplaced(state, newState, world, pos);
-        super.onStateReplaced(state, world, pos, newState, moved);
-    }
-
     protected void scheduledTick(BlockState state, ServerWorld world, BlockPos pos, Random random) {
         BlockEntity blockEntity = world.getBlockEntity(pos);
         if (blockEntity instanceof DrawerBlockEntity) {
