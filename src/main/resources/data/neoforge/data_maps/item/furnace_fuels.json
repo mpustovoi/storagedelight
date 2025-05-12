@@ -12,6 +12,9 @@
     "storagedelight:oak_bookshelf_with_door": {
       "burn_time": 300
     },
+    "storagedelight:small_oak_drawers": {
+      "burn_time": 300
+    },
     "storagedelight:glass_oak_cabinet": {
       "burn_time": 300
     },
@@ -31,6 +34,9 @@
       "burn_time": 300
     },
     "storagedelight:birch_bookshelf_with_door": {
+      "burn_time": 300
+    },
+    "storagedelight:small_birch_drawers": {
       "burn_time": 300
     },
     "storagedelight:glass_birch_cabinet": {
@@ -54,6 +60,9 @@
     "storagedelight:spruce_bookshelf_with_door": {
       "burn_time": 300
     },
+    "storagedelight:small_spruce_drawers": {
+      "burn_time": 300
+    },
     "storagedelight:glass_spruce_cabinet": {
       "burn_time": 300
     },
@@ -73,6 +82,9 @@
       "burn_time": 300
     },
     "storagedelight:jungle_bookshelf_with_door": {
+      "burn_time": 300
+    },
+    "storagedelight:small_jungle_drawers": {
       "burn_time": 300
     },
     "storagedelight:glass_jungle_cabinet": {
@@ -96,6 +108,9 @@
     "storagedelight:acacia_bookshelf_with_door": {
       "burn_time": 300
     },
+    "storagedelight:small_acacia_drawers": {
+      "burn_time": 300
+    },
     "storagedelight:glass_acacia_cabinet": {
       "burn_time": 300
     },
@@ -115,6 +130,9 @@
       "burn_time": 300
     },
     "storagedelight:dark_oak_bookshelf_with_door": {
+      "burn_time": 300
+    },
+    "storagedelight:small_dark_oak_drawers": {
       "burn_time": 300
     },
     "storagedelight:glass_dark_oak_cabinet": {
@@ -138,6 +156,9 @@
     "storagedelight:mangrove_bookshelf_with_door": {
       "burn_time": 300
     },
+    "storagedelight:small_mangrove_drawers": {
+      "burn_time": 300
+    },
     "storagedelight:glass_mangrove_cabinet": {
       "burn_time": 300
     },
@@ -157,6 +178,9 @@
       "burn_time": 300
     },
     "storagedelight:cherry_bookshelf_with_door": {
+      "burn_time": 300
+    },
+    "storagedelight:small_cherry_drawers": {
       "burn_time": 300
     },
     "storagedelight:glass_cherry_cabinet": {
@@ -180,6 +204,9 @@
     "storagedelight:pale_oak_bookshelf_with_door": {
       "burn_time": 300
     },
+    "storagedelight:small_pale_oak_drawers": {
+      "burn_time": 300
+    },
     "storagedelight:glass_pale_oak_cabinet": {
       "burn_time": 300
     },
@@ -199,6 +226,9 @@
       "burn_time": 300
     },
     "storagedelight:bamboo_bookshelf_with_door": {
+      "burn_time": 300
+    },
+    "storagedelight:small_bamboo_drawers": {
       "burn_time": 300
     },
     "storagedelight:glass_bamboo_cabinet": {
