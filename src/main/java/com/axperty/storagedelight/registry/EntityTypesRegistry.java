@@ -119,4 +119,20 @@ public class EntityTypesRegistry {
                     BlockRegistry.CRIMSON_BOOKSHELF_WITH_DOOR.get(),
                     BlockRegistry.WARPED_BOOKSHELF_WITH_DOOR.get()
             )));
+
+    public static final RegistryObject<BlockEntityType<SmallDrawersBlockEntity>> SMALL_DRAWERS = TILES.register("small_drawers",
+            () -> new BlockEntityType<>(SmallDrawersBlockEntity::new, Set.of(
+                    BlockRegistry.SMALL_OAK_DRAWERS.get(),
+                    BlockRegistry.SMALL_BIRCH_DRAWERS.get(),
+                    BlockRegistry.SMALL_SPRUCE_DRAWERS.get(),
+                    BlockRegistry.SMALL_JUNGLE_DRAWERS.get(),
+                    BlockRegistry.SMALL_ACACIA_DRAWERS.get(),
+                    BlockRegistry.SMALL_DARK_OAK_DRAWERS.get(),
+                    BlockRegistry.SMALL_BAMBOO_DRAWERS.get(),
+                    BlockRegistry.SMALL_CHERRY_DRAWERS.get(),
+                    BlockRegistry.SMALL_PALE_OAK_DRAWERS.get(),
+                    BlockRegistry.SMALL_MANGROVE_DRAWERS.get(),
+                    BlockRegistry.SMALL_CRIMSON_DRAWERS.get(),
+                    BlockRegistry.SMALL_WARPED_DRAWERS.get()
+            )));
 }
