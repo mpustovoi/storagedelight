@@ -1,8 +1,11 @@
 {
   "container.storagedelight.drawer": "Cajón",
+  "container.storagedelight.drawer_door": "Cajón con Puerta",
+  "container.storagedelight.drawer_books": "Cajón con Libros",
   "container.storagedelight.glass_cabinet": "Gabinete de Vidrio",
   "container.storagedelight.cabinet_variant": "Gabinete",
-  "container.storagedelight.bookshelf_door": "Estantería con Puerta",
+  "container.storagedelight.bookshelf_door": "Librería con Puerta",
+  "container.storagedelight.small_drawers": "Cajones Pequeños",
 
   "item.storagedelight.oak_drawer": "Cajón de Roble",
   "item.storagedelight.birch_drawer": "Cajón de Abedul",
@@ -16,6 +19,19 @@
   "item.storagedelight.warped_drawer": "Cajón Distorcido",
   "item.storagedelight.bamboo_drawer": "Cajón de Bambú",
   "item.storagedelight.pale_oak_drawer": "Cajón de Roble Claro",
+
+  "block.storagedelight.small_oak_drawers": "Cajones Pequeños de Roble",
+  "block.storagedelight.small_birch_drawers": "Cajones Pequeños de Abedul",
+  "block.storagedelight.small_spruce_drawers": "Cajones Pequeños de Abeto",
+  "block.storagedelight.small_cherry_drawers": "Cajones Pequeños de Cerezo",
+  "block.storagedelight.small_jungle_drawers": "Cajones Pequeños de Selva",
+  "block.storagedelight.small_acacia_drawers": "Cajones Pequeños de Acacia",
+  "block.storagedelight.small_dark_oak_drawers": "Cajones Pequeños de Roble Oscuro",
+  "block.storagedelight.small_mangrove_drawers": "Cajones Pequeños de Manglar",
+  "block.storagedelight.small_crimson_drawers": "Cajones Pequeños de Carmesí",
+  "block.storagedelight.small_warped_drawers": "Cajones Pequeños de Distorcido",
+  "block.storagedelight.small_bamboo_drawers": "Cajones Pequeños de Bambú",
+  "block.storagedelight.small_pale_oak_drawers": "Cajones Pequeños de Roble Claro",
 
   "item.storagedelight.oak_drawer_with_books": "Cajón de Roble con Libros",
   "item.storagedelight.birch_drawer_with_books": "Cajón de Abedul con Libros",
