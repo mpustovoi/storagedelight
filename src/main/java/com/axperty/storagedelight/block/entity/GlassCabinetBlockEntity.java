@@ -29,12 +29,12 @@ public class GlassCabinetBlockEntity extends RandomizableContainerBlockEntity
     private ContainerOpenersCounter openersCounter = new ContainerOpenersCounter()
     {
         protected void onOpen(Level level, BlockPos pos, BlockState state) {
-            GlassCabinetBlockEntity.this.playSound(state, SoundEvents.BARREL_OPEN);
+            GlassCabinetBlockEntity.this.playSound(state, SoundEvents.WOODEN_TRAPDOOR_OPEN);
             GlassCabinetBlockEntity.this.updateBlockState(state, true);
         }
 
         protected void onClose(Level level, BlockPos pos, BlockState state) {
-            GlassCabinetBlockEntity.this.playSound(state, SoundEvents.BARREL_CLOSE);
+            GlassCabinetBlockEntity.this.playSound(state, SoundEvents.WOODEN_TRAPDOOR_CLOSE);
             GlassCabinetBlockEntity.this.updateBlockState(state, false);
         }
 
