@@ -1,12 +1,7 @@
 package com.axperty.storagedelight.registry;
 
 import com.axperty.storagedelight.StorageDelight;
-import com.axperty.storagedelight.block.entity.DrawerBlockEntity;
-import com.axperty.storagedelight.block.entity.DrawerDoorBlockEntity;
-import com.axperty.storagedelight.block.entity.DrawerBooksBlockEntity;
-import com.axperty.storagedelight.block.entity.GlassCabinetBlockEntity;
-import com.axperty.storagedelight.block.entity.CabinetVariantBlockEntity;
-import com.axperty.storagedelight.block.entity.BookshelfDoorBlockEntity;
+import com.axperty.storagedelight.block.entity.*;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.world.level.block.entity.BlockEntityType;
 import net.neoforged.neoforge.registries.DeferredRegister;
@@ -115,6 +110,21 @@ public class EntityTypesRegistry {
                     BlockRegistry.MANGROVE_BOOKSHELF_WITH_DOOR.get(),
                     BlockRegistry.CRIMSON_BOOKSHELF_WITH_DOOR.get(),
                     BlockRegistry.WARPED_BOOKSHELF_WITH_DOOR.get())
+    );
+
+    public static final Supplier<BlockEntityType<SmallDrawersBlockEntity>> SMALL_DRAWERS = BLOCK_ENTITY_TYPES.register("small_drawers",
+            () -> new BlockEntityType<>(SmallDrawersBlockEntity::new,
+                    BlockRegistry.SMALL_OAK_DRAWERS.get(),
+                    BlockRegistry.SMALL_BIRCH_DRAWERS.get(),
+                    BlockRegistry.SMALL_SPRUCE_DRAWERS.get(),
+                    BlockRegistry.SMALL_JUNGLE_DRAWERS.get(),
+                    BlockRegistry.SMALL_ACACIA_DRAWERS.get(),
+                    BlockRegistry.SMALL_DARK_OAK_DRAWERS.get(),
+                    BlockRegistry.SMALL_BAMBOO_DRAWERS.get(),
+                    BlockRegistry.SMALL_CHERRY_DRAWERS.get(),
+                    BlockRegistry.SMALL_MANGROVE_DRAWERS.get(),
+                    BlockRegistry.SMALL_CRIMSON_DRAWERS.get(),
+                    BlockRegistry.SMALL_WARPED_DRAWERS.get())
     );
 
 }
