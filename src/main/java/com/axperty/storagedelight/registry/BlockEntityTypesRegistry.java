@@ -120,6 +120,22 @@ public class BlockEntityTypesRegistry {
                     .build()
     );
 
+    public static final BlockEntityType<SmallDrawersBlockEntity> SMALL_DRAWERS = register(
+            "small_drawers", FabricBlockEntityTypeBuilder.create(SmallDrawersBlockEntity::new,
+                            BlockRegistry.SMALL_OAK_DRAWERS,
+                            BlockRegistry.SMALL_BIRCH_DRAWERS,
+                            BlockRegistry.SMALL_SPRUCE_DRAWERS,
+                            BlockRegistry.SMALL_JUNGLE_DRAWERS,
+                            BlockRegistry.SMALL_ACACIA_DRAWERS,
+                            BlockRegistry.SMALL_DARK_OAK_DRAWERS,
+                            BlockRegistry.SMALL_BAMBOO_DRAWERS,
+                            BlockRegistry.SMALL_CHERRY_DRAWERS,
+                            BlockRegistry.SMALL_MANGROVE_DRAWERS,
+                            BlockRegistry.SMALL_CRIMSON_DRAWERS,
+                            BlockRegistry.SMALL_WARPED_DRAWERS)
+                    .build()
+    );
+
     public static void register() {
         StorageDelight.LOGGER.info("Registering block entity types for " + StorageDelight.MOD_ID);
     }
