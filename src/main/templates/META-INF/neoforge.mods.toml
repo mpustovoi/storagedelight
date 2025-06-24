@@ -1,5 +1,4 @@
 modLoader="javafml"
-loaderVersion="${loader_version_range}"
 issueTrackerURL = "https://github.com/axperty/storagedelight/issues"
 license="${mod_license}"
 
