@@ -29,12 +29,12 @@ public class CabinetVariantBlockEntity extends RandomizableContainerBlockEntity
     private ContainerOpenersCounter openersCounter = new ContainerOpenersCounter()
     {
         protected void onOpen(Level level, BlockPos pos, BlockState state) {
-            CabinetVariantBlockEntity.this.playSound(state, SoundEvents.BARREL_OPEN);
+            CabinetVariantBlockEntity.this.playSound(state, SoundEvents.WOODEN_TRAPDOOR_OPEN);
             CabinetVariantBlockEntity.this.updateBlockState(state, true);
         }
 
         protected void onClose(Level level, BlockPos pos, BlockState state) {
-            CabinetVariantBlockEntity.this.playSound(state, SoundEvents.BARREL_CLOSE);
+            CabinetVariantBlockEntity.this.playSound(state, SoundEvents.WOODEN_TRAPDOOR_CLOSE);
             CabinetVariantBlockEntity.this.updateBlockState(state, false);
         }
 

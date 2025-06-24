@@ -77,6 +77,17 @@
     "storagedelight:cherry_bookshelf_with_door",
     "storagedelight:bamboo_bookshelf_with_door",
     "storagedelight:crimson_bookshelf_with_door",
-    "storagedelight:warped_bookshelf_with_door"
+    "storagedelight:warped_bookshelf_with_door",
+    "storagedelight:small_oak_drawers",
+    "storagedelight:small_spruce_drawers",
+    "storagedelight:small_birch_drawers",
+    "storagedelight:small_jungle_drawers",
+    "storagedelight:small_acacia_drawers",
+    "storagedelight:small_dark_oak_drawers",
+    "storagedelight:small_mangrove_drawers",
+    "storagedelight:small_cherry_drawers",
+    "storagedelight:small_bamboo_drawers",
+    "storagedelight:small_crimson_drawers",
+    "storagedelight:small_warped_drawers"
   ]
 }
