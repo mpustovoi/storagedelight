@@ -3,10 +3,8 @@ package com.axperty.storagedelight.block.entity;
 import com.axperty.storagedelight.block.CabinetVariantBlock;
 import com.axperty.storagedelight.registry.EntityTypesRegistry;
 import net.minecraft.core.BlockPos;
-import net.minecraft.core.HolderLookup;
 import net.minecraft.core.NonNullList;
 import net.minecraft.core.Vec3i;
-import net.minecraft.nbt.CompoundTag;
 import net.minecraft.network.chat.Component;
 import net.minecraft.sounds.SoundEvent;
 import net.minecraft.sounds.SoundEvents;
@@ -22,28 +20,33 @@ import net.minecraft.world.level.Level;
 import net.minecraft.world.level.block.entity.ContainerOpenersCounter;
 import net.minecraft.world.level.block.entity.RandomizableContainerBlockEntity;
 import net.minecraft.world.level.block.state.BlockState;
+import net.minecraft.world.level.storage.ValueInput;
+import net.minecraft.world.level.storage.ValueOutput;
 
 public class CabinetVariantBlockEntity extends RandomizableContainerBlockEntity
 {
-    private NonNullList<ItemStack> contents = NonNullList.withSize(27, ItemStack.EMPTY);
-    private ContainerOpenersCounter openersCounter = new ContainerOpenersCounter()
-    {
-        protected void onOpen(Level level, BlockPos pos, BlockState state) {
-            CabinetVariantBlockEntity.this.playSound(state, SoundEvents.WOODEN_TRAPDOOR_OPEN);
-            CabinetVariantBlockEntity.this.updateBlockState(state, true);
+    private NonNullList<ItemStack> items = NonNullList.withSize(27, ItemStack.EMPTY);
+    private final ContainerOpenersCounter openersCounter = new ContainerOpenersCounter() {
+        @Override
+        protected void onOpen(Level p_155062_, BlockPos p_155063_, BlockState p_155064_) {
+            CabinetVariantBlockEntity.this.playSound(p_155064_, SoundEvents.WOODEN_TRAPDOOR_OPEN);
+            CabinetVariantBlockEntity.this.updateBlockState(p_155064_, true);
         }
 
-        protected void onClose(Level level, BlockPos pos, BlockState state) {
-            CabinetVariantBlockEntity.this.playSound(state, SoundEvents.WOODEN_TRAPDOOR_CLOSE);
-            CabinetVariantBlockEntity.this.updateBlockState(state, false);
+        @Override
+        protected void onClose(Level p_155072_, BlockPos p_155073_, BlockState p_155074_) {
+            CabinetVariantBlockEntity.this.playSound(p_155074_, SoundEvents.WOODEN_TRAPDOOR_CLOSE);
+            CabinetVariantBlockEntity.this.updateBlockState(p_155074_, false);
         }
 
-        protected void openerCountChanged(Level level, BlockPos pos, BlockState sta, int arg1, int arg2) {
+        @Override
+        protected void openerCountChanged(Level p_155066_, BlockPos p_155067_, BlockState p_155068_, int p_155069_, int p_155070_) {
         }
 
+        @Override
         protected boolean isOwnContainer(Player p_155060_) {
             if (p_155060_.containerMenu instanceof ChestMenu) {
-                Container container = ((ChestMenu) p_155060_.containerMenu).getContainer();
+                Container container = ((ChestMenu)p_155060_.containerMenu).getContainer();
                 return container == CabinetVariantBlockEntity.this;
             } else {
                 return false;
@@ -51,24 +54,24 @@ public class CabinetVariantBlockEntity extends RandomizableContainerBlockEntity
         }
     };
 
-    public CabinetVariantBlockEntity(BlockPos pos, BlockState state) {
-        super(EntityTypesRegistry.CABINET_VARIANT.get(), pos, state);
+    public CabinetVariantBlockEntity(BlockPos p_155052_, BlockState p_155053_) {
+        super(EntityTypesRegistry.CABINET_VARIANT.get(), p_155052_, p_155053_);
     }
 
     @Override
-    public void saveAdditional(CompoundTag compound, HolderLookup.Provider registries) {
-        super.saveAdditional(compound, registries);
-        if (!trySaveLootTable(compound)) {
-            ContainerHelper.saveAllItems(compound, contents, registries);
+    protected void saveAdditional(ValueOutput p_410315_) {
+        super.saveAdditional(p_410315_);
+        if (!this.trySaveLootTable(p_410315_)) {
+            ContainerHelper.saveAllItems(p_410315_, this.items);
         }
     }
 
     @Override
-    public void loadAdditional(CompoundTag compound, HolderLookup.Provider registries) {
-        super.loadAdditional(compound, registries);
-        contents = NonNullList.withSize(getContainerSize(), ItemStack.EMPTY);
-        if (!tryLoadLootTable(compound)) {
-            ContainerHelper.loadAllItems(compound, contents, registries);
+    protected void loadAdditional(ValueInput p_410699_) {
+        super.loadAdditional(p_410699_);
+        this.items = NonNullList.withSize(this.getContainerSize(), ItemStack.EMPTY);
+        if (!this.tryLoadLootTable(p_410699_)) {
+            ContainerHelper.loadAllItems(p_410699_, this.items);
         }
     }
 
@@ -79,12 +82,12 @@ public class CabinetVariantBlockEntity extends RandomizableContainerBlockEntity
 
     @Override
     protected NonNullList<ItemStack> getItems() {
-        return contents;
+        return this.items;
     }
 
     @Override
-    protected void setItems(NonNullList<ItemStack> itemsIn) {
-        contents = itemsIn;
+    protected void setItems(NonNullList<ItemStack> p_58610_) {
+        this.items = p_58610_;
     }
 
     @Override
@@ -93,41 +96,39 @@ public class CabinetVariantBlockEntity extends RandomizableContainerBlockEntity
     }
 
     @Override
-    protected AbstractContainerMenu createMenu(int id, Inventory player) {
-        return ChestMenu.threeRows(id, player, this);
+    protected AbstractContainerMenu createMenu(int p_58598_, Inventory p_58599_) {
+        return ChestMenu.threeRows(p_58598_, p_58599_, this);
     }
 
-    public void startOpen(Player pPlayer) {
-        if (level != null && !this.remove && !pPlayer.isSpectator()) {
-            this.openersCounter.incrementOpeners(pPlayer, level, this.getBlockPos(), this.getBlockState());
+    @Override
+    public void startOpen(Player p_58616_) {
+        if (!this.remove && !p_58616_.isSpectator()) {
+            this.openersCounter.incrementOpeners(p_58616_, this.getLevel(), this.getBlockPos(), this.getBlockState());
         }
     }
 
-    public void stopOpen(Player pPlayer) {
-        if (level != null && !this.remove && !pPlayer.isSpectator()) {
-            this.openersCounter.decrementOpeners(pPlayer, level, this.getBlockPos(), this.getBlockState());
+    @Override
+    public void stopOpen(Player p_58614_) {
+        if (!this.remove && !p_58614_.isSpectator()) {
+            this.openersCounter.decrementOpeners(p_58614_, this.getLevel(), this.getBlockPos(), this.getBlockState());
         }
     }
 
     public void recheckOpen() {
-        if (level != null && !this.remove) {
-            this.openersCounter.recheckOpeners(level, this.getBlockPos(), this.getBlockState());
+        if (!this.remove) {
+            this.openersCounter.recheckOpeners(this.getLevel(), this.getBlockPos(), this.getBlockState());
         }
     }
 
-    void updateBlockState(BlockState state, boolean open) {
-        if (level != null) {
-            this.level.setBlock(this.getBlockPos(), state.setValue(CabinetVariantBlock.OPEN, open), 3);
-        }
+    void updateBlockState(BlockState p_58607_, boolean p_58608_) {
+        this.level.setBlock(this.getBlockPos(), p_58607_.setValue(CabinetVariantBlock.OPEN, p_58608_), 3);
     }
 
-    private void playSound(BlockState state, SoundEvent sound) {
-        if (level == null) return;
-
-        Vec3i cabinetFacingVector = state.getValue(CabinetVariantBlock.FACING).getUnitVec3i();
-        double x = (double) worldPosition.getX() + 0.5D + (double) cabinetFacingVector.getX() / 2.0D;
-        double y = (double) worldPosition.getY() + 0.5D + (double) cabinetFacingVector.getY() / 2.0D;
-        double z = (double) worldPosition.getZ() + 0.5D + (double) cabinetFacingVector.getZ() / 2.0D;
-        level.playSound(null, x, y, z, sound, SoundSource.BLOCKS, 0.5F, level.random.nextFloat() * 0.1F + 0.9F);
+    void playSound(BlockState p_58601_, SoundEvent p_58602_) {
+        Vec3i vec3i = p_58601_.getValue(CabinetVariantBlock.FACING).getUnitVec3i();
+        double d0 = this.worldPosition.getX() + 0.5 + vec3i.getX() / 2.0;
+        double d1 = this.worldPosition.getY() + 0.5 + vec3i.getY() / 2.0;
+        double d2 = this.worldPosition.getZ() + 0.5 + vec3i.getZ() / 2.0;
+        this.level.playSound(null, d0, d1, d2, p_58602_, SoundSource.BLOCKS, 0.5F, this.level.random.nextFloat() * 0.1F + 0.9F);
     }
 }
