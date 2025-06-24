@@ -12,6 +12,7 @@ public class FuelBlockRegistry {
         FuelRegistry.INSTANCE.add(BlockRegistry.OAK_DRAWER.get(), 300);
         FuelRegistry.INSTANCE.add(BlockRegistry.OAK_DRAWER_WITH_DOOR.get(), 300);
         FuelRegistry.INSTANCE.add(BlockRegistry.OAK_DRAWER_WITH_BOOKS.get(), 300);
+        FuelRegistry.INSTANCE.add(BlockRegistry.SMALL_OAK_DRAWERS.get(), 300);
         FuelRegistry.INSTANCE.add(BlockRegistry.OAK_BOOKSHELF_WITH_DOOR.get(), 300);
         FuelRegistry.INSTANCE.add(BlockRegistry.GLASS_OAK_CABINET.get(), 300);
         FuelRegistry.INSTANCE.add(BlockRegistry.OAK_CABINET_WITH_GLASS_DOORS.get(), 300);
@@ -21,6 +22,7 @@ public class FuelBlockRegistry {
         FuelRegistry.INSTANCE.add(BlockRegistry.BIRCH_DRAWER.get(), 300);
         FuelRegistry.INSTANCE.add(BlockRegistry.BIRCH_DRAWER_WITH_DOOR.get(), 300);
         FuelRegistry.INSTANCE.add(BlockRegistry.BIRCH_DRAWER_WITH_BOOKS.get(), 300);
+        FuelRegistry.INSTANCE.add(BlockRegistry.SMALL_BIRCH_DRAWERS.get(), 300);
         FuelRegistry.INSTANCE.add(BlockRegistry.BIRCH_BOOKSHELF_WITH_DOOR.get(), 300);
         FuelRegistry.INSTANCE.add(BlockRegistry.GLASS_BIRCH_CABINET.get(), 300);
         FuelRegistry.INSTANCE.add(BlockRegistry.BIRCH_CABINET_WITH_GLASS_DOORS.get(), 300);
@@ -30,6 +32,7 @@ public class FuelBlockRegistry {
         FuelRegistry.INSTANCE.add(BlockRegistry.SPRUCE_DRAWER.get(), 300);
         FuelRegistry.INSTANCE.add(BlockRegistry.SPRUCE_DRAWER_WITH_DOOR.get(), 300);
         FuelRegistry.INSTANCE.add(BlockRegistry.SPRUCE_DRAWER_WITH_BOOKS.get(), 300);
+        FuelRegistry.INSTANCE.add(BlockRegistry.SMALL_SPRUCE_DRAWERS.get(), 300);
         FuelRegistry.INSTANCE.add(BlockRegistry.SPRUCE_BOOKSHELF_WITH_DOOR.get(), 300);
         FuelRegistry.INSTANCE.add(BlockRegistry.GLASS_SPRUCE_CABINET.get(), 300);
         FuelRegistry.INSTANCE.add(BlockRegistry.SPRUCE_CABINET_WITH_GLASS_DOORS.get(), 300);
@@ -39,6 +42,7 @@ public class FuelBlockRegistry {
         FuelRegistry.INSTANCE.add(BlockRegistry.JUNGLE_DRAWER.get(), 300);
         FuelRegistry.INSTANCE.add(BlockRegistry.JUNGLE_DRAWER_WITH_DOOR.get(), 300);
         FuelRegistry.INSTANCE.add(BlockRegistry.JUNGLE_DRAWER_WITH_BOOKS.get(), 300);
+        FuelRegistry.INSTANCE.add(BlockRegistry.SMALL_JUNGLE_DRAWERS.get(), 300);
         FuelRegistry.INSTANCE.add(BlockRegistry.JUNGLE_BOOKSHELF_WITH_DOOR.get(), 300);
         FuelRegistry.INSTANCE.add(BlockRegistry.GLASS_JUNGLE_CABINET.get(), 300);
         FuelRegistry.INSTANCE.add(BlockRegistry.JUNGLE_CABINET_WITH_GLASS_DOORS.get(), 300);
@@ -48,6 +52,7 @@ public class FuelBlockRegistry {
         FuelRegistry.INSTANCE.add(BlockRegistry.ACACIA_DRAWER.get(), 300);
         FuelRegistry.INSTANCE.add(BlockRegistry.ACACIA_DRAWER_WITH_DOOR.get(), 300);
         FuelRegistry.INSTANCE.add(BlockRegistry.ACACIA_DRAWER_WITH_BOOKS.get(), 300);
+        FuelRegistry.INSTANCE.add(BlockRegistry.SMALL_ACACIA_DRAWERS.get(), 300);
         FuelRegistry.INSTANCE.add(BlockRegistry.ACACIA_BOOKSHELF_WITH_DOOR.get(), 300);
         FuelRegistry.INSTANCE.add(BlockRegistry.GLASS_ACACIA_CABINET.get(), 300);
         FuelRegistry.INSTANCE.add(BlockRegistry.ACACIA_CABINET_WITH_GLASS_DOORS.get(), 300);
@@ -57,6 +62,7 @@ public class FuelBlockRegistry {
         FuelRegistry.INSTANCE.add(BlockRegistry.DARK_OAK_DRAWER.get(), 300);
         FuelRegistry.INSTANCE.add(BlockRegistry.DARK_OAK_DRAWER_WITH_DOOR.get(), 300);
         FuelRegistry.INSTANCE.add(BlockRegistry.DARK_OAK_DRAWER_WITH_BOOKS.get(), 300);
+        FuelRegistry.INSTANCE.add(BlockRegistry.SMALL_DARK_OAK_DRAWERS.get(), 300);
         FuelRegistry.INSTANCE.add(BlockRegistry.DARK_OAK_BOOKSHELF_WITH_DOOR.get(), 300);
         FuelRegistry.INSTANCE.add(BlockRegistry.GLASS_DARK_OAK_CABINET.get(), 300);
         FuelRegistry.INSTANCE.add(BlockRegistry.DARK_OAK_CABINET_WITH_GLASS_DOORS.get(), 300);
@@ -66,6 +72,7 @@ public class FuelBlockRegistry {
         FuelRegistry.INSTANCE.add(BlockRegistry.MANGROVE_DRAWER.get(), 300);
         FuelRegistry.INSTANCE.add(BlockRegistry.MANGROVE_DRAWER_WITH_DOOR.get(), 300);
         FuelRegistry.INSTANCE.add(BlockRegistry.MANGROVE_DRAWER_WITH_BOOKS.get(), 300);
+        FuelRegistry.INSTANCE.add(BlockRegistry.SMALL_MANGROVE_DRAWERS.get(), 300);
         FuelRegistry.INSTANCE.add(BlockRegistry.MANGROVE_BOOKSHELF_WITH_DOOR.get(), 300);
         FuelRegistry.INSTANCE.add(BlockRegistry.GLASS_MANGROVE_CABINET.get(), 300);
         FuelRegistry.INSTANCE.add(BlockRegistry.MANGROVE_CABINET_WITH_GLASS_DOORS.get(), 300);
@@ -75,6 +82,7 @@ public class FuelBlockRegistry {
         FuelRegistry.INSTANCE.add(BlockRegistry.CHERRY_DRAWER.get(), 300);
         FuelRegistry.INSTANCE.add(BlockRegistry.CHERRY_DRAWER_WITH_DOOR.get(), 300);
         FuelRegistry.INSTANCE.add(BlockRegistry.CHERRY_DRAWER_WITH_BOOKS.get(), 300);
+        FuelRegistry.INSTANCE.add(BlockRegistry.SMALL_CHERRY_DRAWERS.get(), 300);
         FuelRegistry.INSTANCE.add(BlockRegistry.CHERRY_BOOKSHELF_WITH_DOOR.get(), 300);
         FuelRegistry.INSTANCE.add(BlockRegistry.GLASS_CHERRY_CABINET.get(), 300);
         FuelRegistry.INSTANCE.add(BlockRegistry.CHERRY_CABINET_WITH_GLASS_DOORS.get(), 300);
@@ -84,6 +92,7 @@ public class FuelBlockRegistry {
         FuelRegistry.INSTANCE.add(BlockRegistry.BAMBOO_DRAWER.get(), 300);
         FuelRegistry.INSTANCE.add(BlockRegistry.BAMBOO_DRAWER_WITH_DOOR.get(), 300);
         FuelRegistry.INSTANCE.add(BlockRegistry.BAMBOO_DRAWER_WITH_BOOKS.get(), 300);
+        FuelRegistry.INSTANCE.add(BlockRegistry.SMALL_BAMBOO_DRAWERS.get(), 300);
         FuelRegistry.INSTANCE.add(BlockRegistry.BAMBOO_BOOKSHELF_WITH_DOOR.get(), 300);
         FuelRegistry.INSTANCE.add(BlockRegistry.GLASS_BAMBOO_CABINET.get(), 300);
         FuelRegistry.INSTANCE.add(BlockRegistry.BAMBOO_CABINET_WITH_GLASS_DOORS.get(), 300);
