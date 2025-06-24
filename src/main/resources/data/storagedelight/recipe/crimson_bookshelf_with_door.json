@@ -8,10 +8,10 @@
   ],
   "key": {
     "A": {
-      "item": "minecraft:cherry_slab"
+      "item": "minecraft:crimson_slab"
     },
     "B": {
-      "item": "minecraft:cherry_trapdoor"
+      "item": "minecraft:crimson_trapdoor"
     },
     "C": {
       "item": "minecraft:bookshelf"
