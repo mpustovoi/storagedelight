@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "AAA",
+    "ABA",
+    "AAA"
+  ],
+  "key": {
+    "A": {
+      "item": "minecraft:cherry_slab"
+    },
+    "B": {
+      "item": "minecraft:cherry_trapdoor"
+    }
+  },
+  "result": {
+    "count": 1,
+    "id": "storagedelight:small_cherry_drawers"
+  }
+}
