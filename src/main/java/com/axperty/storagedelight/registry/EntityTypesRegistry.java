@@ -7,7 +7,7 @@ import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 
-public class BlockEntityTypesRegistry {
+public class EntityTypesRegistry {
     public static final DeferredRegister<BlockEntityType<?>> TILES = DeferredRegister.create(ForgeRegistries.BLOCK_ENTITY_TYPES, StorageDelight.MOD_ID);
 
     public static final RegistryObject<BlockEntityType<DrawerBlockEntity>> DRAWER = TILES.register("cabinet",
@@ -95,5 +95,18 @@ public class BlockEntityTypesRegistry {
                             BlockRegistry.MANGROVE_BOOKSHELF_WITH_DOOR.get(),
                             BlockRegistry.CRIMSON_BOOKSHELF_WITH_DOOR.get(),
                             BlockRegistry.WARPED_BOOKSHELF_WITH_DOOR.get())
+                    .build(null));
+
+    public static final RegistryObject<BlockEntityType<SmallDrawersBlockEntity>> SMALL_DRAWERS = TILES.register("small_drawers",
+            () -> BlockEntityType.Builder.of(SmallDrawersBlockEntity::new,
+                            BlockRegistry.SMALL_OAK_DRAWERS.get(),
+                            BlockRegistry.SMALL_BIRCH_DRAWERS.get(),
+                            BlockRegistry.SMALL_SPRUCE_DRAWERS.get(),
+                            BlockRegistry.SMALL_JUNGLE_DRAWERS.get(),
+                            BlockRegistry.SMALL_ACACIA_DRAWERS.get(),
+                            BlockRegistry.SMALL_DARK_OAK_DRAWERS.get(),
+                            BlockRegistry.SMALL_MANGROVE_DRAWERS.get(),
+                            BlockRegistry.SMALL_CRIMSON_DRAWERS.get(),
+                            BlockRegistry.SMALL_WARPED_DRAWERS.get())
                     .build(null));
 }

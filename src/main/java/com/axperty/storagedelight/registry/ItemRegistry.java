@@ -25,6 +25,9 @@ public class ItemRegistry {
     public static final RegistryObject<Item> OAK_DRAWER_WITH_BOOKS = ITEMS.register("oak_drawer_with_books",
             () -> new FuelBlockItem(BlockRegistry.OAK_DRAWER_WITH_BOOKS.get(), basicItem(), 300));
 
+    public static final RegistryObject<Item> SMALL_OAK_DRAWERS = ITEMS.register("small_oak_drawers",
+            () -> new FuelBlockItem(BlockRegistry.SMALL_OAK_DRAWERS.get(), basicItem(), 300));
+
     public static final RegistryObject<Item> OAK_BOOKSHELF_WITH_DOOR = ITEMS.register("oak_bookshelf_with_door",
             () -> new FuelBlockItem(BlockRegistry.OAK_BOOKSHELF_WITH_DOOR.get(), basicItem(), 300));
 
@@ -46,6 +49,9 @@ public class ItemRegistry {
 
     public static final RegistryObject<Item> SPRUCE_DRAWER_WITH_BOOKS = ITEMS.register("spruce_drawer_with_books",
             () -> new FuelBlockItem(BlockRegistry.SPRUCE_DRAWER_WITH_BOOKS.get(), basicItem(), 300));
+
+    public static final RegistryObject<Item> SMALL_SPRUCE_DRAWERS = ITEMS.register("small_spruce_drawers",
+            () -> new FuelBlockItem(BlockRegistry.SMALL_SPRUCE_DRAWERS.get(), basicItem(), 300));
 
     public static final RegistryObject<Item> SPRUCE_BOOKSHELF_WITH_DOOR = ITEMS.register("spruce_bookshelf_with_door",
             () -> new FuelBlockItem(BlockRegistry.SPRUCE_BOOKSHELF_WITH_DOOR.get(), basicItem(), 300));
@@ -69,6 +75,9 @@ public class ItemRegistry {
     public static final RegistryObject<Item> BIRCH_DRAWER_WITH_BOOKS = ITEMS.register("birch_drawer_with_books",
             () -> new FuelBlockItem(BlockRegistry.BIRCH_DRAWER_WITH_BOOKS.get(), basicItem(), 300));
 
+    public static final RegistryObject<Item> SMALL_BIRCH_DRAWERS = ITEMS.register("small_birch_drawers",
+            () -> new FuelBlockItem(BlockRegistry.SMALL_BIRCH_DRAWERS.get(), basicItem(), 300));
+
     public static final RegistryObject<Item> BIRCH_BOOKSHELF_WITH_DOOR = ITEMS.register("birch_bookshelf_with_door",
             () -> new FuelBlockItem(BlockRegistry.BIRCH_BOOKSHELF_WITH_DOOR.get(), basicItem(), 300));
 
@@ -90,6 +99,9 @@ public class ItemRegistry {
 
     public static final RegistryObject<Item> JUNGLE_DRAWER_WITH_BOOKS = ITEMS.register("jungle_drawer_with_books",
             () -> new FuelBlockItem(BlockRegistry.JUNGLE_DRAWER_WITH_BOOKS.get(), basicItem(), 300));
+
+    public static final RegistryObject<Item> SMALL_JUNGLE_DRAWERS = ITEMS.register("small_jungle_drawers",
+            () -> new FuelBlockItem(BlockRegistry.SMALL_JUNGLE_DRAWERS.get(), basicItem(), 300));
 
     public static final RegistryObject<Item> JUNGLE_BOOKSHELF_WITH_DOOR = ITEMS.register("jungle_bookshelf_with_door",
             () -> new FuelBlockItem(BlockRegistry.JUNGLE_BOOKSHELF_WITH_DOOR.get(), basicItem(), 300));
@@ -113,6 +125,9 @@ public class ItemRegistry {
     public static final RegistryObject<Item> ACACIA_DRAWER_WITH_BOOKS = ITEMS.register("acacia_drawer_with_books",
             () -> new FuelBlockItem(BlockRegistry.ACACIA_DRAWER_WITH_BOOKS.get(), basicItem(), 300));
 
+    public static final RegistryObject<Item> SMALL_ACACIA_DRAWERS = ITEMS.register("small_acacia_drawers",
+            () -> new FuelBlockItem(BlockRegistry.SMALL_ACACIA_DRAWERS.get(), basicItem(), 300));
+
     public static final RegistryObject<Item> ACACIA_BOOKSHELF_WITH_DOOR = ITEMS.register("acacia_bookshelf_with_door",
             () -> new FuelBlockItem(BlockRegistry.ACACIA_BOOKSHELF_WITH_DOOR.get(), basicItem(), 300));
 
@@ -134,6 +149,9 @@ public class ItemRegistry {
 
     public static final RegistryObject<Item> DARK_OAK_DRAWER_WITH_BOOKS = ITEMS.register("dark_oak_drawer_with_books",
             () -> new FuelBlockItem(BlockRegistry.DARK_OAK_DRAWER_WITH_BOOKS.get(), basicItem(), 300));
+
+    public static final RegistryObject<Item> SMALL_DARK_OAK_DRAWERS = ITEMS.register("small_dark_oak_drawers",
+            () -> new FuelBlockItem(BlockRegistry.SMALL_DARK_OAK_DRAWERS.get(), basicItem(), 300));
 
     public static final RegistryObject<Item> DARK_OAK_BOOKSHELF_WITH_DOOR = ITEMS.register("dark_oak_bookshelf_with_door",
             () -> new FuelBlockItem(BlockRegistry.DARK_OAK_BOOKSHELF_WITH_DOOR.get(), basicItem(), 300));
@@ -157,6 +175,9 @@ public class ItemRegistry {
     public static final RegistryObject<Item> MANGROVE_DRAWER_WITH_BOOKS = ITEMS.register("mangrove_drawer_with_books",
             () -> new FuelBlockItem(BlockRegistry.MANGROVE_DRAWER_WITH_BOOKS.get(), basicItem(), 300));
 
+    public static final RegistryObject<Item> SMALL_MANGROVE_DRAWERS = ITEMS.register("small_mangrove_drawers",
+            () -> new FuelBlockItem(BlockRegistry.SMALL_MANGROVE_DRAWERS.get(), basicItem(), 300));
+
     public static final RegistryObject<Item> MANGROVE_BOOKSHELF_WITH_DOOR = ITEMS.register("mangrove_bookshelf_with_door",
             () -> new FuelBlockItem(BlockRegistry.MANGROVE_BOOKSHELF_WITH_DOOR.get(), basicItem(), 300));
 
@@ -178,6 +199,9 @@ public class ItemRegistry {
 
     public static final RegistryObject<Item> CRIMSON_DRAWER_WITH_BOOKS = ITEMS.register("crimson_drawer_with_books",
             () -> new BlockItem(BlockRegistry.CRIMSON_DRAWER_WITH_BOOKS.get(), basicItem()));
+
+    public static final RegistryObject<Item> SMALL_CRIMSON_DRAWERS = ITEMS.register("small_crimson_drawers",
+            () -> new BlockItem(BlockRegistry.SMALL_CRIMSON_DRAWERS.get(), basicItem()));
 
     public static final RegistryObject<Item> CRIMSON_BOOKSHELF_WITH_DOOR = ITEMS.register("crimson_bookshelf_with_door",
             () -> new BlockItem(BlockRegistry.CRIMSON_BOOKSHELF_WITH_DOOR.get(), basicItem()));
@@ -201,6 +225,9 @@ public class ItemRegistry {
     public static final RegistryObject<Item> WARPED_DRAWER_WITH_BOOKS = ITEMS.register("warped_drawer_with_books",
             () -> new BlockItem(BlockRegistry.WARPED_DRAWER_WITH_BOOKS.get(), basicItem()));
 
+    public static final RegistryObject<Item> SMALL_WARPED_DRAWERS = ITEMS.register("small_warped_drawers",
+            () -> new BlockItem(BlockRegistry.SMALL_WARPED_DRAWERS.get(), basicItem()));
+
     public static final RegistryObject<Item> WARPED_BOOKSHELF_WITH_DOOR = ITEMS.register("warped_bookshelf_with_door",
             () -> new BlockItem(BlockRegistry.WARPED_BOOKSHELF_WITH_DOOR.get(), basicItem()));
 
@@ -210,6 +237,6 @@ public class ItemRegistry {
     public static final RegistryObject<Item> WARPED_CABINET_WITH_GLASS_DOORS = ITEMS.register("warped_cabinet_with_glass_doors",
             () -> new BlockItem(BlockRegistry.WARPED_CABINET_WITH_GLASS_DOORS.get(), basicItem()));
 
-    public static final RegistryObject<Item> WARPED_SINGLE_DOOR_CABINET = ITEMS.register("warped_single_door_cabinet",
+    public static final RegistryObject<Item> WARped_SINGLE_DOOR_CABINET = ITEMS.register("warped_single_door_cabinet",
             () -> new BlockItem(BlockRegistry.WARPED_SINGLE_DOOR_CABINET.get(), basicItem()));
 }
