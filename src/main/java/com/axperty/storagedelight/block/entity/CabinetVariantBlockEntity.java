@@ -1,7 +1,7 @@
 package com.axperty.storagedelight.block.entity;
 
 import com.axperty.storagedelight.block.CabinetVariantBlock;
-import com.axperty.storagedelight.registry.BlockEntityTypesRegistry;
+import com.axperty.storagedelight.registry.EntityTypesRegistry;
 import net.minecraft.core.*;
 import net.minecraft.nbt.CompoundTag;
 import net.minecraft.network.chat.Component;
@@ -26,16 +26,16 @@ public class CabinetVariantBlockEntity extends RandomizableContainerBlockEntity
     private final ContainerOpenersCounter openersCounter;
 
     public CabinetVariantBlockEntity(BlockPos p_155052_, BlockState p_155053_) {
-        super(BlockEntityTypesRegistry.CABINET_VARIANT.get(), p_155052_, p_155053_);
+        super(EntityTypesRegistry.CABINET_VARIANT.get(), p_155052_, p_155053_);
         this.items = NonNullList.withSize(27, ItemStack.EMPTY);
         this.openersCounter = new ContainerOpenersCounter() {
             protected void onOpen(Level p_155062_, BlockPos p_155063_, BlockState p_155064_) {
-                CabinetVariantBlockEntity.this.playSound(p_155064_, SoundEvents.BARREL_OPEN);
+                CabinetVariantBlockEntity.this.playSound(p_155064_, SoundEvents.WOODEN_TRAPDOOR_OPEN);
                 CabinetVariantBlockEntity.this.updateBlockState(p_155064_, true);
             }
 
             protected void onClose(Level p_155072_, BlockPos p_155073_, BlockState p_155074_) {
-                CabinetVariantBlockEntity.this.playSound(p_155074_, SoundEvents.BARREL_CLOSE);
+                CabinetVariantBlockEntity.this.playSound(p_155074_, SoundEvents.WOODEN_TRAPDOOR_CLOSE);
                 CabinetVariantBlockEntity.this.updateBlockState(p_155074_, false);
             }
 

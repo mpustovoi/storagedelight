@@ -1,8 +1,7 @@
 package com.axperty.storagedelight.block.entity;
 
-import com.axperty.storagedelight.block.DrawerDoorBlock;
 import com.axperty.storagedelight.block.GlassCabinetBlock;
-import com.axperty.storagedelight.registry.BlockEntityTypesRegistry;
+import com.axperty.storagedelight.registry.EntityTypesRegistry;
 import net.minecraft.core.*;
 import net.minecraft.nbt.CompoundTag;
 import net.minecraft.network.chat.Component;
@@ -27,7 +26,7 @@ public class GlassCabinetBlockEntity extends RandomizableContainerBlockEntity
     private final ContainerOpenersCounter openersCounter;
 
     public GlassCabinetBlockEntity(BlockPos p_155052_, BlockState p_155053_) {
-        super(BlockEntityTypesRegistry.GLASS_CABINET.get(), p_155052_, p_155053_);
+        super(EntityTypesRegistry.GLASS_CABINET.get(), p_155052_, p_155053_);
         this.items = NonNullList.withSize(27, ItemStack.EMPTY);
         this.openersCounter = new ContainerOpenersCounter() {
             protected void onOpen(Level p_155062_, BlockPos p_155063_, BlockState p_155064_) {
