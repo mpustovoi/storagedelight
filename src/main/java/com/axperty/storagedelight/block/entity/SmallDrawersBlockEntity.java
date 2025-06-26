@@ -33,12 +33,12 @@ public class SmallDrawersBlockEntity extends LootableContainerBlockEntity {
         this.inventory = DefaultedList.ofSize(27, ItemStack.EMPTY);
         this.stateManager = new ViewerCountManager() {
             protected void onContainerOpen(World world, BlockPos pos, BlockState state) {
-                SmallDrawersBlockEntity.this.playSound(state, SoundEvents.BLOCK_WOODEN_TRAPDOOR_OPEN);
+                SmallDrawersBlockEntity.this.playSound(state, SoundEvents.BLOCK_BARREL_OPEN);
                 SmallDrawersBlockEntity.this.setOpen(state, true);
             }
 
             protected void onContainerClose(World world, BlockPos pos, BlockState state) {
-                SmallDrawersBlockEntity.this.playSound(state, SoundEvents.BLOCK_WOODEN_TRAPDOOR_CLOSE);
+                SmallDrawersBlockEntity.this.playSound(state, SoundEvents.BLOCK_BARREL_CLOSE);
                 SmallDrawersBlockEntity.this.setOpen(state, false);
             }
 
