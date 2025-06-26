@@ -30,12 +30,12 @@ public class SmallDrawersBlockEntity extends RandomizableContainerBlockEntity
         this.items = NonNullList.withSize(27, ItemStack.EMPTY);
         this.openersCounter = new ContainerOpenersCounter() {
             protected void onOpen(Level p_155062_, BlockPos p_155063_, BlockState p_155064_) {
-                SmallDrawersBlockEntity.this.playSound(p_155064_, SoundEvents.WOODEN_TRAPDOOR_OPEN);
+                SmallDrawersBlockEntity.this.playSound(p_155064_, SoundEvents.BARREL_OPEN);
                 SmallDrawersBlockEntity.this.updateBlockState(p_155064_, true);
             }
 
             protected void onClose(Level p_155072_, BlockPos p_155073_, BlockState p_155074_) {
-                SmallDrawersBlockEntity.this.playSound(p_155074_, SoundEvents.WOODEN_TRAPDOOR_CLOSE  );
+                SmallDrawersBlockEntity.this.playSound(p_155074_, SoundEvents.BARREL_CLOSE);
                 SmallDrawersBlockEntity.this.updateBlockState(p_155074_, false);
             }
 
