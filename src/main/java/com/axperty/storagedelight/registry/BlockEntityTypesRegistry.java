@@ -60,12 +60,21 @@ public enum BlockEntityTypesRegistry {
 
     // Bookshelves with Doors
     BOOKSHELF_DOOR("bookshelf_door",BookshelfDoorBlockEntity.class, BookshelfDoorBlockEntity::new,
-                   BlockRegistry.OAK_BOOKSHELF_WITH_DOOR, BlockRegistry.BIRCH_BOOKSHELF_WITH_DOOR,
-                   BlockRegistry.SPRUCE_BOOKSHELF_WITH_DOOR, BlockRegistry.JUNGLE_BOOKSHELF_WITH_DOOR,
-                   BlockRegistry.ACACIA_BOOKSHELF_WITH_DOOR, BlockRegistry.DARK_OAK_BOOKSHELF_WITH_DOOR,
-                   BlockRegistry.MANGROVE_BOOKSHELF_WITH_DOOR, BlockRegistry.CHERRY_BOOKSHELF_WITH_DOOR,
-                   BlockRegistry.BAMBOO_BOOKSHELF_WITH_DOOR, BlockRegistry.CRIMSON_BOOKSHELF_WITH_DOOR,
-                   BlockRegistry.WARPED_BOOKSHELF_WITH_DOOR);
+            BlockRegistry.OAK_BOOKSHELF_WITH_DOOR, BlockRegistry.BIRCH_BOOKSHELF_WITH_DOOR,
+            BlockRegistry.SPRUCE_BOOKSHELF_WITH_DOOR, BlockRegistry.JUNGLE_BOOKSHELF_WITH_DOOR,
+            BlockRegistry.ACACIA_BOOKSHELF_WITH_DOOR, BlockRegistry.DARK_OAK_BOOKSHELF_WITH_DOOR,
+            BlockRegistry.MANGROVE_BOOKSHELF_WITH_DOOR, BlockRegistry.CHERRY_BOOKSHELF_WITH_DOOR,
+            BlockRegistry.BAMBOO_BOOKSHELF_WITH_DOOR, BlockRegistry.CRIMSON_BOOKSHELF_WITH_DOOR,
+            BlockRegistry.WARPED_BOOKSHELF_WITH_DOOR),
+
+    // Small Drawers
+    SMALL_DRAWERS("small_drawers",SmallDrawersBlockEntity.class, SmallDrawersBlockEntity::new,
+            BlockRegistry.SMALL_OAK_DRAWERS, BlockRegistry.SMALL_BIRCH_DRAWERS,
+            BlockRegistry.SMALL_SPRUCE_DRAWERS, BlockRegistry.SMALL_JUNGLE_DRAWERS,
+            BlockRegistry.SMALL_ACACIA_DRAWERS, BlockRegistry.SMALL_DARK_OAK_DRAWERS,
+            BlockRegistry.SMALL_BAMBOO_DRAWERS, BlockRegistry.SMALL_CHERRY_DRAWERS,
+            BlockRegistry.SMALL_MANGROVE_DRAWERS, BlockRegistry.SMALL_CRIMSON_DRAWERS,
+            BlockRegistry.SMALL_WARPED_DRAWERS);
 
     private final String pathName;
     private final Class<? extends BlockEntity> blockEntityClass;
