@@ -1,7 +1,7 @@
 package com.axperty.storagedelight.block;
 
 import com.axperty.storagedelight.block.entity.CabinetVariantBlockEntity;
-import com.axperty.storagedelight.registry.BlockEntityTypesRegistry;
+import com.axperty.storagedelight.registry.EntityTypesRegistry;
 import net.minecraft.core.BlockPos;
 import net.minecraft.core.Direction;
 import net.minecraft.server.level.ServerLevel;
@@ -101,7 +101,7 @@ public class CabinetVariantBlock extends BaseEntityBlock
     @Nullable
     @Override
     public BlockEntity newBlockEntity(BlockPos pos, BlockState state) {
-        return BlockEntityTypesRegistry.CABINET_VARIANT.get().create(pos, state);
+        return EntityTypesRegistry.CABINET_VARIANT.get().create(pos, state);
     }
 
     @Override
