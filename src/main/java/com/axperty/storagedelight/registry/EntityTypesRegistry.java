@@ -12,39 +12,33 @@ import net.minecraft.util.registry.Registry;
 import java.util.Arrays;
 import java.util.function.Supplier;
 
-public enum BlockEntityTypesRegistry {
+public enum EntityTypesRegistry {
 
     // Drawers
     DRAWER("drawer", DrawerBlockEntity.class, DrawerBlockEntity::new,
-            BlockRegistry.OAK_DRAWER, BlockRegistry.BIRCH_DRAWER,
-            BlockRegistry.SPRUCE_DRAWER, BlockRegistry.JUNGLE_DRAWER,
-            BlockRegistry.ACACIA_DRAWER, BlockRegistry.DARK_OAK_DRAWER,
-            BlockRegistry.MANGROVE_DRAWER, BlockRegistry.CRIMSON_DRAWER,
-            BlockRegistry.WARPED_DRAWER),
+            BlockRegistry.OAK_DRAWER, BlockRegistry.BIRCH_DRAWER, BlockRegistry.SPRUCE_DRAWER,
+            BlockRegistry.JUNGLE_DRAWER, BlockRegistry.ACACIA_DRAWER, BlockRegistry.DARK_OAK_DRAWER,
+            BlockRegistry.MANGROVE_DRAWER, BlockRegistry.CRIMSON_DRAWER, BlockRegistry.WARPED_DRAWER),
 
     // Drawers with Doors
     DRAWER_DOOR("drawer_door", DrawerDoorBlockEntity.class, DrawerDoorBlockEntity::new,
-            BlockRegistry.OAK_DRAWER_WITH_DOOR, BlockRegistry.BIRCH_DRAWER_WITH_DOOR,
-            BlockRegistry.SPRUCE_DRAWER_WITH_DOOR, BlockRegistry.JUNGLE_DRAWER_WITH_DOOR,
-            BlockRegistry.ACACIA_DRAWER_WITH_DOOR, BlockRegistry.DARK_OAK_DRAWER_WITH_DOOR,
-            BlockRegistry.MANGROVE_DRAWER_WITH_DOOR, BlockRegistry.CRIMSON_DRAWER_WITH_DOOR,
-            BlockRegistry.WARPED_DRAWER_WITH_DOOR),
+            BlockRegistry.OAK_DRAWER_WITH_DOOR, BlockRegistry.BIRCH_DRAWER_WITH_DOOR, BlockRegistry.SPRUCE_DRAWER_WITH_DOOR,
+            BlockRegistry.JUNGLE_DRAWER_WITH_DOOR, BlockRegistry.ACACIA_DRAWER_WITH_DOOR, BlockRegistry.DARK_OAK_DRAWER_WITH_DOOR,
+            BlockRegistry.MANGROVE_DRAWER_WITH_DOOR, BlockRegistry.CRIMSON_DRAWER_WITH_DOOR, BlockRegistry.WARPED_DRAWER_WITH_DOOR),
 
     // Drawers with Books
     DRAWER_BOOKS("drawer_books", DrawerBooksBlockEntity.class, DrawerBooksBlockEntity::new,
-            BlockRegistry.OAK_DRAWER_WITH_BOOKS, BlockRegistry.BIRCH_DRAWER_WITH_BOOKS,
-            BlockRegistry.SPRUCE_DRAWER_WITH_BOOKS, BlockRegistry.JUNGLE_DRAWER_WITH_BOOKS,
-            BlockRegistry.ACACIA_DRAWER_WITH_BOOKS, BlockRegistry.DARK_OAK_DRAWER_WITH_BOOKS,
-            BlockRegistry.MANGROVE_DRAWER_WITH_BOOKS, BlockRegistry.CRIMSON_DRAWER_WITH_BOOKS,
-            BlockRegistry.WARPED_DRAWER_WITH_BOOKS),
+            BlockRegistry.OAK_DRAWER_WITH_BOOKS, BlockRegistry.BIRCH_DRAWER_WITH_BOOKS, BlockRegistry.SPRUCE_DRAWER_WITH_BOOKS,
+            BlockRegistry.JUNGLE_DRAWER_WITH_BOOKS, BlockRegistry.ACACIA_DRAWER_WITH_BOOKS, BlockRegistry.DARK_OAK_DRAWER_WITH_BOOKS,
+            BlockRegistry.MANGROVE_DRAWER_WITH_BOOKS, BlockRegistry.CRIMSON_DRAWER_WITH_BOOKS, BlockRegistry.WARPED_DRAWER_WITH_BOOKS),
 
     // Glass Cabinets
-    GLASS_CABINET("glass_cabinet",GlassCabinetBlockEntity .class, GlassCabinetBlockEntity::new,
-                  BlockRegistry.GLASS_OAK_CABINET, BlockRegistry.GLASS_BIRCH_CABINET,
-                  BlockRegistry.GLASS_SPRUCE_CABINET, BlockRegistry.GLASS_JUNGLE_CABINET,
-                  BlockRegistry.GLASS_ACACIA_CABINET, BlockRegistry.GLASS_DARK_OAK_CABINET,
-                  BlockRegistry.GLASS_MANGROVE_CABINET, BlockRegistry.GLASS_CRIMSON_CABINET,
-                  BlockRegistry.GLASS_WARPED_CABINET),
+    GLASS_CABINET("glass_cabinet", GlassCabinetBlockEntity.class, GlassCabinetBlockEntity::new,
+            BlockRegistry.GLASS_OAK_CABINET, BlockRegistry.GLASS_BIRCH_CABINET,
+            BlockRegistry.GLASS_SPRUCE_CABINET, BlockRegistry.GLASS_JUNGLE_CABINET,
+            BlockRegistry.GLASS_ACACIA_CABINET, BlockRegistry.GLASS_DARK_OAK_CABINET,
+            BlockRegistry.GLASS_MANGROVE_CABINET, BlockRegistry.GLASS_CRIMSON_CABINET,
+            BlockRegistry.GLASS_WARPED_CABINET),
 
     // Cabinets with Glass Doors, Single Door Cabinets
     CABINET_VARIANT("cabinet_variant", CabinetVariantBlockEntity.class, CabinetVariantBlockEntity::new,
@@ -63,16 +57,24 @@ public enum BlockEntityTypesRegistry {
             BlockRegistry.OAK_BOOKSHELF_WITH_DOOR, BlockRegistry.BIRCH_BOOKSHELF_WITH_DOOR,
             BlockRegistry.SPRUCE_BOOKSHELF_WITH_DOOR, BlockRegistry.JUNGLE_BOOKSHELF_WITH_DOOR,
             BlockRegistry.ACACIA_BOOKSHELF_WITH_DOOR, BlockRegistry.DARK_OAK_BOOKSHELF_WITH_DOOR,
-            BlockRegistry.MANGROVE_BOOKSHELF_WITH_DOOR, BlockRegistry.CRIMSON_BOOKSHELF_WITH_DOOR,
-            BlockRegistry.WARPED_BOOKSHELF_WITH_DOOR);
+            BlockRegistry.MANGROVE_BOOKSHELF_WITH_DOOR,BlockRegistry.CRIMSON_BOOKSHELF_WITH_DOOR,
+            BlockRegistry.WARPED_BOOKSHELF_WITH_DOOR),
+
+    // Small Drawers
+    SMALL_DRAWERS("small_drawers",SmallDrawersBlockEntity.class, SmallDrawersBlockEntity::new,
+            BlockRegistry.SMALL_OAK_DRAWERS, BlockRegistry.SMALL_BIRCH_DRAWERS,
+            BlockRegistry.SMALL_SPRUCE_DRAWERS, BlockRegistry.SMALL_JUNGLE_DRAWERS,
+            BlockRegistry.SMALL_ACACIA_DRAWERS, BlockRegistry.SMALL_DARK_OAK_DRAWERS,
+            BlockRegistry.SMALL_MANGROVE_DRAWERS, BlockRegistry.SMALL_CRIMSON_DRAWERS,
+            BlockRegistry.SMALL_WARPED_DRAWERS);
 
     private final String pathName;
     private final Class<? extends BlockEntity> blockEntityClass;
     private final Supplier<BlockEntityType<? extends BlockEntity>> blockEntityTypeSupplier;
     private BlockEntityType<? extends BlockEntity> blockEntityType;
 
-    BlockEntityTypesRegistry(String pathName, Class<? extends BlockEntity> blockEntityClass,
-                             FabricBlockEntityTypeBuilder.Factory<? extends BlockEntity> blockEntitySupplier, BlockRegistry... blockRegistryArray) {
+    EntityTypesRegistry(String pathName, Class<? extends BlockEntity> blockEntityClass,
+                        FabricBlockEntityTypeBuilder.Factory<? extends BlockEntity> blockEntitySupplier, BlockRegistry... blockRegistryArray) {
         this.pathName = pathName;
         this.blockEntityClass = blockEntityClass;
         this.blockEntityTypeSupplier = () -> FabricBlockEntityTypeBuilder.create(blockEntitySupplier, Arrays.stream(blockRegistryArray)
@@ -81,7 +83,7 @@ public enum BlockEntityTypesRegistry {
 
     public static void registerAll() {
         StorageDelight.LOGGER.info("Registering block entity types for " + StorageDelight.MOD_ID);
-        for (BlockEntityTypesRegistry value : values()) {
+        for (EntityTypesRegistry value : values()) {
             Registry.register(Registry.BLOCK_ENTITY_TYPE, new Identifier(StorageDelight.MOD_ID, value.pathName), value.get());
         }
     }

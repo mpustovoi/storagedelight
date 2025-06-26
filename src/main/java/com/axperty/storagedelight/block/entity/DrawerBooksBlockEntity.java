@@ -1,7 +1,7 @@
 package com.axperty.storagedelight.block.entity;
 
 import com.axperty.storagedelight.block.DrawerBooksBlock;
-import com.axperty.storagedelight.registry.BlockEntityTypesRegistry;
+import com.axperty.storagedelight.registry.EntityTypesRegistry;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.entity.BlockEntityType;
 import net.minecraft.block.entity.LootableContainerBlockEntity;
@@ -37,7 +37,7 @@ public class DrawerBooksBlockEntity extends LootableContainerBlockEntity {
     private DefaultedList<ItemStack> content;
 
     public DrawerBooksBlockEntity(BlockPos blockPos, BlockState blockState) {
-        this(BlockEntityTypesRegistry.DRAWER_BOOKS.get(), blockPos, blockState);
+        this(EntityTypesRegistry.DRAWER_BOOKS.get(), blockPos, blockState);
     }
 
     private DrawerBooksBlockEntity(BlockEntityType<?> type, BlockPos blockPos, BlockState blockState) {

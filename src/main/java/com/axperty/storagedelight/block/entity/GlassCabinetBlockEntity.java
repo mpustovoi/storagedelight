@@ -1,7 +1,7 @@
 package com.axperty.storagedelight.block.entity;
 
 import com.axperty.storagedelight.block.GlassCabinetBlock;
-import com.axperty.storagedelight.registry.BlockEntityTypesRegistry;
+import com.axperty.storagedelight.registry.EntityTypesRegistry;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.entity.BlockEntityType;
 import net.minecraft.block.entity.LootableContainerBlockEntity;
@@ -37,7 +37,7 @@ public class GlassCabinetBlockEntity extends LootableContainerBlockEntity {
     private DefaultedList<ItemStack> content;
 
     public GlassCabinetBlockEntity(BlockPos blockPos, BlockState blockState) {
-        this(BlockEntityTypesRegistry.GLASS_CABINET.get(), blockPos, blockState);
+        this(EntityTypesRegistry.GLASS_CABINET.get(), blockPos, blockState);
     }
 
     private GlassCabinetBlockEntity(BlockEntityType<?> type, BlockPos blockPos, BlockState blockState) {

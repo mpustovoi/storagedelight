@@ -1,7 +1,7 @@
 package com.axperty.storagedelight.block.entity;
 
 import com.axperty.storagedelight.block.BookshelfDoorBlock;
-import com.axperty.storagedelight.registry.BlockEntityTypesRegistry;
+import com.axperty.storagedelight.registry.EntityTypesRegistry;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.entity.BlockEntityType;
 import net.minecraft.block.entity.LootableContainerBlockEntity;
@@ -37,7 +37,7 @@ public class BookshelfDoorBlockEntity extends LootableContainerBlockEntity {
     private DefaultedList<ItemStack> content;
 
     public BookshelfDoorBlockEntity(BlockPos blockPos, BlockState blockState) {
-        this(BlockEntityTypesRegistry.BOOKSHELF_DOOR.get(), blockPos, blockState);
+        this(EntityTypesRegistry.BOOKSHELF_DOOR.get(), blockPos, blockState);
     }
 
     private BookshelfDoorBlockEntity(BlockEntityType<?> type, BlockPos blockPos, BlockState blockState) {

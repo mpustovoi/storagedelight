@@ -14,7 +14,7 @@ public class StorageDelight implements ModInitializer {
 		BlockRegistry.registerAll();
 		ItemRegistry.registerAll();
 		FuelBlockRegistry.register();
-		BlockEntityTypesRegistry.registerAll();
+		EntityTypesRegistry.registerAll();
 		CreativeTabRegistry.register();
 	}
 }
