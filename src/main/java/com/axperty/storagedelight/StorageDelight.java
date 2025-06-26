@@ -1,6 +1,6 @@
 package com.axperty.storagedelight;
 
-import com.axperty.storagedelight.registry.BlockEntityTypesRegistry;
+import com.axperty.storagedelight.registry.EntityTypesRegistry;
 import com.axperty.storagedelight.registry.BlockRegistry;
 import com.axperty.storagedelight.registry.FuelBlockRegistry;
 import com.axperty.storagedelight.registry.ItemRegistry;
@@ -32,6 +32,6 @@ public class StorageDelight implements ModInitializer {
         BlockRegistry.registerAll();
         ItemRegistry.registerAll();
         FuelBlockRegistry.register();
-        BlockEntityTypesRegistry.registerAll();
+        EntityTypesRegistry.registerAll();
     }
 }

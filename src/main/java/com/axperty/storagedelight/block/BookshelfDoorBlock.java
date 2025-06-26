@@ -1,7 +1,7 @@
 package com.axperty.storagedelight.block;
 
 import com.axperty.storagedelight.block.entity.BookshelfDoorBlockEntity;
-import com.axperty.storagedelight.registry.BlockEntityTypesRegistry;
+import com.axperty.storagedelight.registry.EntityTypesRegistry;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockRenderType;
@@ -42,7 +42,7 @@ public class BookshelfDoorBlock extends InventoryBlockWithEntity {
     @Nullable
     @Override
     public BlockEntity createBlockEntity(BlockPos pos, BlockState state) {
-        return BlockEntityTypesRegistry.BOOKSHELF_DOOR.get().instantiate(pos, state);
+        return EntityTypesRegistry.BOOKSHELF_DOOR.get().instantiate(pos, state);
     }
 
     @Override

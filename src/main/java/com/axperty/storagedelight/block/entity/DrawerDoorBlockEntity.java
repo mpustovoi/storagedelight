@@ -1,7 +1,7 @@
 package com.axperty.storagedelight.block.entity;
 
 import com.axperty.storagedelight.block.DrawerDoorBlock;
-import com.axperty.storagedelight.registry.BlockEntityTypesRegistry;
+import com.axperty.storagedelight.registry.EntityTypesRegistry;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.entity.BlockEntityType;
 import net.minecraft.block.entity.LootableContainerBlockEntity;
@@ -36,7 +36,7 @@ public class DrawerDoorBlockEntity extends LootableContainerBlockEntity {
     private DefaultedList<ItemStack> content;
 
     public DrawerDoorBlockEntity(BlockPos blockPos, BlockState blockState) {
-        this(BlockEntityTypesRegistry.DRAWER_DOOR.get(), blockPos, blockState);
+        this(EntityTypesRegistry.DRAWER_DOOR.get(), blockPos, blockState);
     }
 
     private DrawerDoorBlockEntity(BlockEntityType<?> type, BlockPos blockPos, BlockState blockState) {

@@ -13,7 +13,7 @@ import net.minecraft.util.Identifier;
 import java.util.Arrays;
 import java.util.function.Supplier;
 
-public enum BlockEntityTypesRegistry {
+public enum EntityTypesRegistry {
     // Drawers
     DRAWER("drawer", DrawerBlockEntity.class, DrawerBlockEntity::new,
             BlockRegistry.OAK_DRAWER, BlockRegistry.BIRCH_DRAWER, BlockRegistry.SPRUCE_DRAWER,
@@ -65,15 +65,24 @@ public enum BlockEntityTypesRegistry {
             BlockRegistry.ACACIA_BOOKSHELF_WITH_DOOR, BlockRegistry.DARK_OAK_BOOKSHELF_WITH_DOOR,
             BlockRegistry.MANGROVE_BOOKSHELF_WITH_DOOR, BlockRegistry.CHERRY_BOOKSHELF_WITH_DOOR,
             BlockRegistry.BAMBOO_BOOKSHELF_WITH_DOOR, BlockRegistry.CRIMSON_BOOKSHELF_WITH_DOOR,
-            BlockRegistry.WARPED_BOOKSHELF_WITH_DOOR);
+            BlockRegistry.WARPED_BOOKSHELF_WITH_DOOR),
+
+    // Small Drawers
+    SMALL_DRAWERS("small_drawers",SmallDrawersBlockEntity.class, SmallDrawersBlockEntity::new,
+            BlockRegistry.SMALL_OAK_DRAWERS, BlockRegistry.SMALL_BIRCH_DRAWERS,
+            BlockRegistry.SMALL_SPRUCE_DRAWERS, BlockRegistry.SMALL_JUNGLE_DRAWERS,
+            BlockRegistry.SMALL_ACACIA_DRAWERS, BlockRegistry.SMALL_DARK_OAK_DRAWERS,
+            BlockRegistry.SMALL_BAMBOO_DRAWERS, BlockRegistry.SMALL_CHERRY_DRAWERS,
+            BlockRegistry.SMALL_MANGROVE_DRAWERS, BlockRegistry.SMALL_CRIMSON_DRAWERS,
+            BlockRegistry.SMALL_WARPED_DRAWERS);
 
     private final String pathName;
     private final Class<? extends BlockEntity> blockEntityClass;
     private final Supplier<BlockEntityType<? extends BlockEntity>> blockEntityTypeSupplier;
     private BlockEntityType<? extends BlockEntity> blockEntityType;
 
-    BlockEntityTypesRegistry(String pathName, Class<? extends BlockEntity> blockEntityClass,
-                             FabricBlockEntityTypeBuilder.Factory<? extends BlockEntity> blockEntitySupplier, BlockRegistry... blockRegistryArray) {
+    EntityTypesRegistry(String pathName, Class<? extends BlockEntity> blockEntityClass,
+                        FabricBlockEntityTypeBuilder.Factory<? extends BlockEntity> blockEntitySupplier, BlockRegistry... blockRegistryArray) {
         this.pathName = pathName;
         this.blockEntityClass = blockEntityClass;
         this.blockEntityTypeSupplier = () -> FabricBlockEntityTypeBuilder.create(blockEntitySupplier, Arrays.stream(blockRegistryArray)
@@ -81,7 +90,7 @@ public enum BlockEntityTypesRegistry {
     }
 
     public static void registerAll() {
-        for (BlockEntityTypesRegistry value : values()) {
+        for (EntityTypesRegistry value : values()) {
             Registry.register(Registries.BLOCK_ENTITY_TYPE, new Identifier(StorageDelight.MOD_ID, value.pathName), value.get());
         }
     }

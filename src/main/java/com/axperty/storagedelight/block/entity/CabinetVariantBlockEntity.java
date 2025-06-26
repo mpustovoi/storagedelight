@@ -1,7 +1,7 @@
 package com.axperty.storagedelight.block.entity;
 
 import com.axperty.storagedelight.block.CabinetVariantBlock;
-import com.axperty.storagedelight.registry.BlockEntityTypesRegistry;
+import com.axperty.storagedelight.registry.EntityTypesRegistry;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.entity.BlockEntityType;
 import net.minecraft.block.entity.LootableContainerBlockEntity;
@@ -36,7 +36,7 @@ public class CabinetVariantBlockEntity extends LootableContainerBlockEntity {
     private DefaultedList<ItemStack> content;
 
     public CabinetVariantBlockEntity(BlockPos blockPos, BlockState blockState) {
-        this(BlockEntityTypesRegistry.CABINET_VARIANT.get(), blockPos, blockState);
+        this(EntityTypesRegistry.CABINET_VARIANT.get(), blockPos, blockState);
     }
 
     private CabinetVariantBlockEntity(BlockEntityType<?> type, BlockPos blockPos, BlockState blockState) {
@@ -44,12 +44,12 @@ public class CabinetVariantBlockEntity extends LootableContainerBlockEntity {
         this.content = DefaultedList.ofSize(MAX_INVENTORY_SIZE, ItemStack.EMPTY);
         this.viewerManager = new ViewerCountManager() {
             protected void onContainerOpen(World world, BlockPos pos, BlockState state) {
-                CabinetVariantBlockEntity.this.playSound(state, SoundEvents.BLOCK_BARREL_OPEN);
+                CabinetVariantBlockEntity.this.playSound(state, SoundEvents.BLOCK_WOODEN_TRAPDOOR_OPEN);
                 CabinetVariantBlockEntity.this.setOpen(state, true);
             }
 
             protected void onContainerClose(World world, BlockPos pos, BlockState state) {
-                CabinetVariantBlockEntity.this.playSound(state, SoundEvents.BLOCK_BARREL_CLOSE);
+                CabinetVariantBlockEntity.this.playSound(state, SoundEvents.BLOCK_WOODEN_TRAPDOOR_CLOSE);
                 CabinetVariantBlockEntity.this.setOpen(state, false);
             }
 
