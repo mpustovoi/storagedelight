@@ -1,7 +1,7 @@
 package com.axperty.storagedelight.block.entity;
 
 import com.axperty.storagedelight.block.BookshelfDoorBlock;
-import com.axperty.storagedelight.registry.BlockEntityTypesRegistry;
+import com.axperty.storagedelight.registry.EntityTypesRegistry;
 import net.minecraft.core.BlockPos;
 import net.minecraft.core.NonNullList;
 import net.minecraft.core.Vec3i;
@@ -51,7 +51,7 @@ public class BookshelfDoorBlockEntity extends RandomizableContainerBlockEntity
     };
 
     public BookshelfDoorBlockEntity(BlockPos pos, BlockState state) {
-        super(BlockEntityTypesRegistry.BOOKSHELF_DOOR.get(), pos, state);
+        super(EntityTypesRegistry.BOOKSHELF_DOOR.get(), pos, state);
     }
 
     @Override

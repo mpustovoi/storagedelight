@@ -1,7 +1,7 @@
 package com.axperty.storagedelight.block.entity;
 
 import com.axperty.storagedelight.block.CabinetVariantBlock;
-import com.axperty.storagedelight.registry.BlockEntityTypesRegistry;
+import com.axperty.storagedelight.registry.EntityTypesRegistry;
 import net.minecraft.core.BlockPos;
 import net.minecraft.core.NonNullList;
 import net.minecraft.core.Vec3i;
@@ -28,12 +28,12 @@ public class CabinetVariantBlockEntity extends RandomizableContainerBlockEntity
     private ContainerOpenersCounter openersCounter = new ContainerOpenersCounter()
     {
         protected void onOpen(Level level, BlockPos pos, BlockState state) {
-            CabinetVariantBlockEntity.this.playSound(state, SoundEvents.BARREL_OPEN);
+            CabinetVariantBlockEntity.this.playSound(state, SoundEvents.WOODEN_TRAPDOOR_OPEN);
             CabinetVariantBlockEntity.this.updateBlockState(state, true);
         }
 
         protected void onClose(Level level, BlockPos pos, BlockState state) {
-            CabinetVariantBlockEntity.this.playSound(state, SoundEvents.BARREL_CLOSE);
+            CabinetVariantBlockEntity.this.playSound(state, SoundEvents.WOODEN_TRAPDOOR_CLOSE);
             CabinetVariantBlockEntity.this.updateBlockState(state, false);
         }
 
@@ -51,7 +51,7 @@ public class CabinetVariantBlockEntity extends RandomizableContainerBlockEntity
     };
 
     public CabinetVariantBlockEntity(BlockPos pos, BlockState state) {
-        super(BlockEntityTypesRegistry.CABINET_VARIANT.get(), pos, state);
+        super(EntityTypesRegistry.CABINET_VARIANT.get(), pos, state);
     }
 
     @Override

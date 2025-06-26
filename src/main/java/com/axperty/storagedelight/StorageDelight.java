@@ -17,7 +17,7 @@ public class StorageDelight {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
         ItemRegistry.ITEMS.register(modEventBus);
         BlockRegistry.BLOCKS.register(modEventBus);
-        BlockEntityTypesRegistry.TILES.register(modEventBus);
+        EntityTypesRegistry.TILES.register(modEventBus);
         CreativeTabRegistry.CREATIVE_TABS.register(modEventBus);
         MinecraftForge.EVENT_BUS.register(this);
     }
