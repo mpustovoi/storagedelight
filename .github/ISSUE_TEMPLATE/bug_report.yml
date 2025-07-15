@@ -18,7 +18,7 @@ body:
     attributes:
       label: Storage Delight version
       placeholder: |
-        Example: 25.07.03-1.21.7-neoforge
+        Example: 25.07.03-1.21.6-neoforge
     validations:
       required: true
   - type: input
