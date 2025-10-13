@@ -4,15 +4,7 @@
 
 ### ✨ What's New
 
-- Added small drawers for all wood types, which can be crafted with slabs and trapdoors.
-
-![Small Drawers](https://i.imgur.com/EUZJIMJ.png)
-
-### 🛠️ Bug Fixes
-- Fixed a bug where the Crimson Bookshelf with Door where the ingredients of the recipe were using cherry instead of crimson, thank you [laxtiz](https://github.com/laxtiz)!
-
-### ⚙️ Minor Changes
-- Added support for Minecraft 1.21.6.
+- Added support for Minecraft 1.21.9-1.21.10.
 
 ***
 

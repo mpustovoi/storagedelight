@@ -9,6 +9,7 @@ import net.minecraft.sounds.SoundEvents;
 import net.minecraft.sounds.SoundSource;
 import net.minecraft.world.Container;
 import net.minecraft.world.ContainerHelper;
+import net.minecraft.world.entity.ContainerUser;
 import net.minecraft.world.entity.Entity;
 import net.minecraft.world.entity.player.Inventory;
 import net.minecraft.world.entity.player.Player;
@@ -22,8 +23,11 @@ import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.storage.ValueInput;
 import net.minecraft.world.level.storage.ValueOutput;
 
+import java.util.List;
+
 public class DrawerBlockEntity extends RandomizableContainerBlockEntity
 {
+    private static final Component DEFAULT_NAME = Component.translatable("container.storagedelight.drawer");
     private NonNullList<ItemStack> items;
     private final ContainerOpenersCounter openersCounter;
 
@@ -44,7 +48,7 @@ public class DrawerBlockEntity extends RandomizableContainerBlockEntity
             protected void openerCountChanged(Level p_155066_, BlockPos p_155067_, BlockState p_155068_, int p_155069_, int p_155070_) {
             }
 
-            protected boolean isOwnContainer(Player p_155060_) {
+            public boolean isOwnContainer(Player p_155060_) {
                 if (p_155060_.containerMenu instanceof ChestMenu) {
                     Container container = ((ChestMenu)p_155060_.containerMenu).getContainer();
                     return container == DrawerBlockEntity.this;
@@ -55,19 +59,19 @@ public class DrawerBlockEntity extends RandomizableContainerBlockEntity
         };
     }
 
-    protected void saveAdditional(ValueOutput p_422559_) {
-        super.saveAdditional(p_422559_);
-        if (!this.trySaveLootTable(p_422559_)) {
-            ContainerHelper.saveAllItems(p_422559_, this.items);
+    protected void saveAdditional(ValueOutput output) {
+        super.saveAdditional(output);
+        if (!this.trySaveLootTable(output)) {
+            ContainerHelper.saveAllItems(output, this.items);
         }
 
     }
 
-    protected void loadAdditional(ValueInput p_422397_) {
-        super.loadAdditional(p_422397_);
+    protected void loadAdditional(ValueInput input) {
+        super.loadAdditional(input);
         this.items = NonNullList.withSize(this.getContainerSize(), ItemStack.EMPTY);
-        if (!this.tryLoadLootTable(p_422397_)) {
-            ContainerHelper.loadAllItems(p_422397_, this.items);
+        if (!this.tryLoadLootTable(input)) {
+            ContainerHelper.loadAllItems(input, this.items);
         }
 
     }
@@ -85,25 +89,29 @@ public class DrawerBlockEntity extends RandomizableContainerBlockEntity
     }
 
     protected Component getDefaultName() {
-        return Component.translatable("container.storagedelight.drawer");
+        return DEFAULT_NAME;
     }
 
     protected AbstractContainerMenu createMenu(int id, Inventory player) {
         return ChestMenu.threeRows(id, player, this);
     }
 
-    public void startOpen(Player player) {
-        if (!this.remove && !player.isSpectator()) {
-            this.openersCounter.incrementOpeners(player, this.getLevel(), this.getBlockPos(), this.getBlockState());
+    public void startOpen(ContainerUser user) {
+        if (!this.remove && !user.getLivingEntity().isSpectator()) {
+            this.openersCounter.incrementOpeners(user.getLivingEntity(), this.getLevel(), this.getBlockPos(), this.getBlockState(), user.getContainerInteractionRange());
         }
 
     }
 
-    public void stopOpen(Player player) {
-        if (!this.remove && !player.isSpectator()) {
-            this.openersCounter.decrementOpeners(player, this.getLevel(), this.getBlockPos(), this.getBlockState());
+    public void stopOpen(ContainerUser user) {
+        if (!this.remove && !user.getLivingEntity().isSpectator()) {
+            this.openersCounter.decrementOpeners(user.getLivingEntity(), this.getLevel(), this.getBlockPos(), this.getBlockState());
         }
 
+    }
+
+    public List<ContainerUser> getEntitiesWithContainerOpen() {
+        return this.openersCounter.getEntitiesWithContainerOpen(this.getLevel(), this.getBlockPos());
     }
 
     public void recheckOpen() {
