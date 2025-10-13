@@ -1,19 +1,17 @@
 package com.axperty.storagedelight.block.entity;
 
 import com.axperty.storagedelight.block.DrawerBooksBlock;
-import com.axperty.storagedelight.block.DrawerDoorBlock;
 import com.axperty.storagedelight.registry.BlockEntityTypesRegistry;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.entity.LootableContainerBlockEntity;
 import net.minecraft.block.entity.ViewerCountManager;
+import net.minecraft.entity.ContainerUser;
 import net.minecraft.entity.Entity;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.entity.player.PlayerInventory;
 import net.minecraft.inventory.Inventories;
 import net.minecraft.inventory.Inventory;
 import net.minecraft.item.ItemStack;
-import net.minecraft.nbt.NbtCompound;
-import net.minecraft.registry.RegistryWrapper;
 import net.minecraft.screen.GenericContainerScreenHandler;
 import net.minecraft.screen.ScreenHandler;
 import net.minecraft.sound.SoundCategory;
@@ -28,7 +26,10 @@ import net.minecraft.util.math.Direction;
 import net.minecraft.util.math.Vec3i;
 import net.minecraft.world.World;
 
+import java.util.List;
+
 public class DrawerBooksBlockEntity extends LootableContainerBlockEntity {
+    private static final Text CONTAINER_NAME_TEXT = Text.translatable("container.storagedelight.drawer_books");
     private DefaultedList<ItemStack> inventory;
     private final ViewerCountManager stateManager;
 
@@ -42,14 +43,14 @@ public class DrawerBooksBlockEntity extends LootableContainerBlockEntity {
             }
 
             protected void onContainerClose(World world, BlockPos pos, BlockState state) {
-                DrawerBooksBlockEntity.this.playSound(state, SoundEvents.BLOCK_BARREL_CLOSE);
+                DrawerBooksBlockEntity.this.playSound(state, SoundEvents.BLOCK_BARREL_OPEN);
                 DrawerBooksBlockEntity.this.setOpen(state, false);
             }
 
             protected void onViewerCountUpdate(World world, BlockPos pos, BlockState state, int oldViewerCount, int newViewerCount) {
             }
 
-            protected boolean isPlayerViewing(PlayerEntity player) {
+            public boolean isPlayerViewing(PlayerEntity player) {
                 if (player.currentScreenHandler instanceof GenericContainerScreenHandler) {
                     Inventory inventory = ((GenericContainerScreenHandler)player.currentScreenHandler).getInventory();
                     return inventory == DrawerBooksBlockEntity.this;
@@ -90,25 +91,29 @@ public class DrawerBooksBlockEntity extends LootableContainerBlockEntity {
     }
 
     protected Text getContainerName() {
-        return Text.translatable("container.storagedelight.drawer_books");
+        return CONTAINER_NAME_TEXT;
     }
 
     protected ScreenHandler createScreenHandler(int syncId, PlayerInventory playerInventory) {
         return GenericContainerScreenHandler.createGeneric9x3(syncId, playerInventory, this);
     }
 
-    public void onOpen(PlayerEntity player) {
-        if (!this.removed && !player.isSpectator()) {
-            this.stateManager.openContainer(player, this.getWorld(), this.getPos(), this.getCachedState());
+    public void onOpen(ContainerUser user) {
+        if (!this.removed && !user.asLivingEntity().isSpectator()) {
+            this.stateManager.openContainer(user.asLivingEntity(), this.getWorld(), this.getPos(), this.getCachedState(), user.getContainerInteractionRange());
         }
 
     }
 
-    public void onClose(PlayerEntity player) {
-        if (!this.removed && !player.isSpectator()) {
-            this.stateManager.closeContainer(player, this.getWorld(), this.getPos(), this.getCachedState());
+    public void onClose(ContainerUser user) {
+        if (!this.removed && !user.asLivingEntity().isSpectator()) {
+            this.stateManager.closeContainer(user.asLivingEntity(), this.getWorld(), this.getPos(), this.getCachedState());
         }
 
+    }
+
+    public List<ContainerUser> getViewingUsers() {
+        return this.stateManager.getViewingUsers(this.getWorld(), this.getPos());
     }
 
     public void tick() {

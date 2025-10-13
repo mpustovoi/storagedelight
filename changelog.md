@@ -2,9 +2,9 @@
 
 ***
 
-### 🛠️ Minor Changes
+### ✨ What's New:
 
-- Added support for Minecraft 1.21.5.
+- Added support for Minecraft 1.21.9-1.21.10.
 
 ***
 
