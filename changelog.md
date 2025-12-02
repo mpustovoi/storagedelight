@@ -2,8 +2,14 @@
 
 ***
 
-### ✨ What's New:
-- Added support for Minecraft 1.21.9-1.21.10.
+### ✨ What's New
+- Added cabinets with countertops.
+  - These new cabinets can be crafted using slabs from polished andesite, polished deepslate, and polished tuff blocks.
+- Added Pale Oak Cabinet.
+
+### 🌐 Translations
+- Improved translations for Japanese. Thank you, [Abbage230](https://github.com/Abbage230)! [#18](https://github.com/axperty/storagedelight/pull/18)
+- Added translations for Kazakh. Thank you, [Nursultan Akim](https://github.com/ninsent)! [#19](https://github.com/axperty/storagedelight/pull/19)
 
 ***
 

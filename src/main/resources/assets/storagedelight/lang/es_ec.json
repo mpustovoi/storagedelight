@@ -6,6 +6,7 @@
   "container.storagedelight.cabinet_variant": "Gabinete",
   "container.storagedelight.bookshelf_door": "Librería con Puerta",
   "container.storagedelight.small_drawers": "Cajones Pequeños",
+  "container.storagedelight.cabinet_countertop": "Gabinete con Encimera",
 
   "item.storagedelight.oak_drawer": "Cajón de Roble",
   "item.storagedelight.birch_drawer": "Cajón de Abedul",
@@ -110,6 +111,56 @@
   "item.storagedelight.warped_single_door_cabinet": "Gabinete Distorcido de una sola puerta",
   "item.storagedelight.bamboo_single_door_cabinet": "Gabinete de Bambú de una sola puerta",
   "item.storagedelight.pale_oak_single_door_cabinet": "Gabinete de Roble Claro de una Sola Puerta",
+
+  "item.storagedelight.oak_cabinet_with_polished_deepslate_countertop": "Gabinete de Roble con Encimera de Pizarra Profunda Pulida",
+  "item.storagedelight.oak_cabinet_with_polished_andesite_countertop": "Gabinete de Roble con Encimera de Andesita Pulida",
+  "item.storagedelight.oak_cabinet_with_polished_tuff_countertop": "Gabinete de Roble con Encimera de Toba Pulida",
+
+  "item.storagedelight.birch_cabinet_with_polished_deepslate_countertop": "Gabinete de Abedul con Encimera de Pizarra Profunda Pulida",
+  "item.storagedelight.birch_cabinet_with_polished_andesite_countertop": "Gabinete de Abedul con Encimera de Andesita Pulida",
+  "item.storagedelight.birch_cabinet_with_polished_tuff_countertop": "Gabinete de Abedul con Encimera de Toba Pulida",
+
+  "item.storagedelight.spruce_cabinet_with_polished_deepslate_countertop": "Gabinete de Abeto con Encimera de Pizarra Profunda Pulida",
+  "item.storagedelight.spruce_cabinet_with_polished_andesite_countertop": "Gabinete de Abeto con Encimera de Andesita Pulida",
+  "item.storagedelight.spruce_cabinet_with_polished_tuff_countertop": "Gabinete de Abeto con Encimera de Toba Pulida",
+
+  "item.storagedelight.cherry_cabinet_with_polished_deepslate_countertop": "Gabinete de Cerezo con Encimera de Pizarra Profunda Pulida",
+  "item.storagedelight.cherry_cabinet_with_polished_andesite_countertop": "Gabinete de Cerezo con Encimera de Andesita Pulida",
+  "item.storagedelight.cherry_cabinet_with_polished_tuff_countertop": "Gabinete de Cerezo con Encimera de Toba Pulida",
+
+  "item.storagedelight.jungle_cabinet_with_polished_deepslate_countertop": "Gabinete de Selva con Encimera de Pizarra Profunda Pulida",
+  "item.storagedelight.jungle_cabinet_with_polished_andesite_countertop": "Gabinete de Selva con Encimera de Andesita Pulida",
+  "item.storagedelight.jungle_cabinet_with_polished_tuff_countertop": "Gabinete de Selva con Encimera de Toba Pulida",
+
+  "item.storagedelight.acacia_cabinet_with_polished_deepslate_countertop": "Gabinete de Acacia con Encimera de Pizarra Profunda Pulida",
+  "item.storagedelight.acacia_cabinet_with_polished_andesite_countertop": "Gabinete de Acacia con Encimera de Andesita Pulida",
+  "item.storagedelight.acacia_cabinet_with_polished_tuff_countertop": "Gabinete de Acacia con Encimera de Toba Pulida",
+
+  "item.storagedelight.dark_oak_cabinet_with_polished_deepslate_countertop": "Gabinete de Roble Oscuro con Encimera de Pizarra Profunda Pulida",
+  "item.storagedelight.dark_oak_cabinet_with_polished_andesite_countertop": "Gabinete de Roble Oscuro con Encimera de Andesita Pulida",
+  "item.storagedelight.dark_oak_cabinet_with_polished_tuff_countertop": "Gabinete de Roble Oscuro con Encimera de Toba Pulida",
+
+  "item.storagedelight.mangrove_cabinet_with_polished_deepslate_countertop": "Gabinete de Manglar con Encimera de Pizarra Profunda Pulida",
+  "item.storagedelight.mangrove_cabinet_with_polished_andesite_countertop": "Gabinete de Manglar con Encimera de Andesita Pulida",
+  "item.storagedelight.mangrove_cabinet_with_polished_tuff_countertop": "Gabinete de Manglar con Encimera de Toba Pulida",
+
+  "item.storagedelight.crimson_cabinet_with_polished_deepslate_countertop": "Gabinete Carmesí con Encimera de Pizarra Profunda Pulida",
+  "item.storagedelight.crimson_cabinet_with_polished_andesite_countertop": "Gabinete Carmesí con Encimera de Andesita Pulida",
+  "item.storagedelight.crimson_cabinet_with_polished_tuff_countertop": "Gabinete Carmesí con Encimera de Toba Pulida",
+
+  "item.storagedelight.warped_cabinet_with_polished_deepslate_countertop": "Gabinete Distorcido con Encimera de Pizarra Profunda Pulida",
+  "item.storagedelight.warped_cabinet_with_polished_andesite_countertop": "Gabinete Distorcido con Encimera de Andesita Pulida",
+  "item.storagedelight.warped_cabinet_with_polished_tuff_countertop": "Gabinete Distorcido con Encimera de Toba Pulida",
+
+  "item.storagedelight.bamboo_cabinet_with_polished_deepslate_countertop": "Gabinete de Bambú con Encimera de Pizarra Profunda Pulida",
+  "item.storagedelight.bamboo_cabinet_with_polished_andesite_countertop": "Gabinete de Bambú con Encimera de Andesita Pulida",
+  "item.storagedelight.bamboo_cabinet_with_polished_tuff_countertop": "Gabinete de Bambú con Encimera de Toba Pulida",
+
+  "item.storagedelight.pale_oak_cabinet_with_polished_deepslate_countertop": "Gabinete de Roble Claro con Encimera de Pizarra Profunda Pulida",
+  "item.storagedelight.pale_oak_cabinet_with_polished_andesite_countertop": "Gabinete de Roble Claro con Encimera de Andesita Pulida",
+  "item.storagedelight.pale_oak_cabinet_with_polished_tuff_countertop": "Gabinete de Roble Claro con Encimera de Toba Pulida",
+
+  "item.storagedelight.pale_oak_cabinet": "Gabinete de Roble Claro",
 
   "itemGroup.storagedelight": "Storage Delight"
 }
