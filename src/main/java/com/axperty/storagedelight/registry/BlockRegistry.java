@@ -30,6 +30,12 @@ public class BlockRegistry {
             () -> new CabinetVariantBlock(Block.Properties.ofFullCopy(Blocks.BARREL).setId(BLOCKS.key("oak_cabinet_with_glass_doors"))));
     public static final RegistryObject<Block> OAK_SINGLE_DOOR_CABINET = BLOCKS.register("oak_single_door_cabinet",
             () -> new CabinetVariantBlock(Block.Properties.ofFullCopy(Blocks.BARREL).setId(BLOCKS.key("oak_single_door_cabinet"))));
+    public static final RegistryObject<Block> OAK_CABINET_WITH_POLISHED_DEEPSLATE_COUNTERTOP = BLOCKS.register("oak_cabinet_with_polished_deepslate_countertop",
+            () -> new CabinetCountertopBlock(Block.Properties.ofFullCopy(Blocks.BARREL).setId(BLOCKS.key("oak_cabinet_with_polished_deepslate_countertop"))));
+    public static final RegistryObject<Block> OAK_CABINET_WITH_POLISHED_ANDESITE_COUNTERTOP = BLOCKS.register("oak_cabinet_with_polished_andesite_countertop",
+            () -> new CabinetCountertopBlock(Block.Properties.ofFullCopy(Blocks.BARREL).setId(BLOCKS.key("oak_cabinet_with_polished_andesite_countertop"))));
+    public static final RegistryObject<Block> OAK_CABINET_WITH_POLISHED_TUFF_COUNTERTOP = BLOCKS.register("oak_cabinet_with_polished_tuff_countertop",
+            () -> new CabinetCountertopBlock(Block.Properties.ofFullCopy(Blocks.BARREL).setId(BLOCKS.key("oak_cabinet_with_polished_tuff_countertop"))));
 
     // Spruce Furniture
     public static final RegistryObject<Block> SPRUCE_DRAWER = BLOCKS.register("spruce_drawer",
@@ -48,6 +54,12 @@ public class BlockRegistry {
             () -> new CabinetVariantBlock(Block.Properties.ofFullCopy(Blocks.BARREL).setId(BLOCKS.key("spruce_cabinet_with_glass_doors"))));
     public static final RegistryObject<Block> SPRUCE_SINGLE_DOOR_CABINET = BLOCKS.register("spruce_single_door_cabinet",
             () -> new CabinetVariantBlock(Block.Properties.ofFullCopy(Blocks.BARREL).setId(BLOCKS.key("spruce_single_door_cabinet"))));
+    public static final RegistryObject<Block> SPRUCE_CABINET_WITH_POLISHED_DEEPSLATE_COUNTERTOP = BLOCKS.register("spruce_cabinet_with_polished_deepslate_countertop",
+            () -> new CabinetCountertopBlock(Block.Properties.ofFullCopy(Blocks.BARREL).setId(BLOCKS.key("spruce_cabinet_with_polished_deepslate_countertop"))));
+    public static final RegistryObject<Block> SPRUCE_CABINET_WITH_POLISHED_ANDESITE_COUNTERTOP = BLOCKS.register("spruce_cabinet_with_polished_andesite_countertop",
+            () -> new CabinetCountertopBlock(Block.Properties.ofFullCopy(Blocks.BARREL).setId(BLOCKS.key("spruce_cabinet_with_polished_andesite_countertop"))));
+    public static final RegistryObject<Block> SPRUCE_CABINET_WITH_POLISHED_TUFF_COUNTERTOP = BLOCKS.register("spruce_cabinet_with_polished_tuff_countertop",
+            () -> new CabinetCountertopBlock(Block.Properties.ofFullCopy(Blocks.BARREL).setId(BLOCKS.key("spruce_cabinet_with_polished_tuff_countertop"))));
 
     // Birch Furniture
     public static final RegistryObject<Block> BIRCH_DRAWER = BLOCKS.register("birch_drawer",
@@ -66,6 +78,12 @@ public class BlockRegistry {
             () -> new CabinetVariantBlock(Block.Properties.ofFullCopy(Blocks.BARREL).setId(BLOCKS.key("birch_cabinet_with_glass_doors"))));
     public static final RegistryObject<Block> BIRCH_SINGLE_DOOR_CABINET = BLOCKS.register("birch_single_door_cabinet",
             () -> new CabinetVariantBlock(Block.Properties.ofFullCopy(Blocks.BARREL).setId(BLOCKS.key("birch_single_door_cabinet"))));
+    public static final RegistryObject<Block> BIRCH_CABINET_WITH_POLISHED_DEEPSLATE_COUNTERTOP = BLOCKS.register("birch_cabinet_with_polished_deepslate_countertop",
+            () -> new CabinetCountertopBlock(Block.Properties.ofFullCopy(Blocks.BARREL).setId(BLOCKS.key("birch_cabinet_with_polished_deepslate_countertop"))));
+    public static final RegistryObject<Block> BIRCH_CABINET_WITH_POLISHED_ANDESITE_COUNTERTOP = BLOCKS.register("birch_cabinet_with_polished_andesite_countertop",
+            () -> new CabinetCountertopBlock(Block.Properties.ofFullCopy(Blocks.BARREL).setId(BLOCKS.key("birch_cabinet_with_polished_andesite_countertop"))));
+    public static final RegistryObject<Block> BIRCH_CABINET_WITH_POLISHED_TUFF_COUNTERTOP = BLOCKS.register("birch_cabinet_with_polished_tuff_countertop",
+            () -> new CabinetCountertopBlock(Block.Properties.ofFullCopy(Blocks.BARREL).setId(BLOCKS.key("birch_cabinet_with_polished_tuff_countertop"))));
 
     // Jungle Furniture
     public static final RegistryObject<Block> JUNGLE_DRAWER = BLOCKS.register("jungle_drawer",
@@ -84,6 +102,12 @@ public class BlockRegistry {
             () -> new CabinetVariantBlock(Block.Properties.ofFullCopy(Blocks.BARREL).setId(BLOCKS.key("jungle_cabinet_with_glass_doors"))));
     public static final RegistryObject<Block> JUNGLE_SINGLE_DOOR_CABINET = BLOCKS.register("jungle_single_door_cabinet",
             () -> new CabinetVariantBlock(Block.Properties.ofFullCopy(Blocks.BARREL).setId(BLOCKS.key("jungle_single_door_cabinet"))));
+    public static final RegistryObject<Block> JUNGLE_CABINET_WITH_POLISHED_DEEPSLATE_COUNTERTOP = BLOCKS.register("jungle_cabinet_with_polished_deepslate_countertop",
+            () -> new CabinetCountertopBlock(Block.Properties.ofFullCopy(Blocks.BARREL).setId(BLOCKS.key("jungle_cabinet_with_polished_deepslate_countertop"))));
+    public static final RegistryObject<Block> JUNGLE_CABINET_WITH_POLISHED_ANDESITE_COUNTERTOP = BLOCKS.register("jungle_cabinet_with_polished_andesite_countertop",
+            () -> new CabinetCountertopBlock(Block.Properties.ofFullCopy(Blocks.BARREL).setId(BLOCKS.key("jungle_cabinet_with_polished_andesite_countertop"))));
+    public static final RegistryObject<Block> JUNGLE_CABINET_WITH_POLISHED_TUFF_COUNTERTOP = BLOCKS.register("jungle_cabinet_with_polished_tuff_countertop",
+            () -> new CabinetCountertopBlock(Block.Properties.ofFullCopy(Blocks.BARREL).setId(BLOCKS.key("jungle_cabinet_with_polished_tuff_countertop"))));
 
     // Acacia Furniture
     public static final RegistryObject<Block> ACACIA_DRAWER = BLOCKS.register("acacia_drawer",
@@ -102,6 +126,12 @@ public class BlockRegistry {
             () -> new CabinetVariantBlock(Block.Properties.ofFullCopy(Blocks.BARREL).setId(BLOCKS.key("acacia_cabinet_with_glass_doors"))));
     public static final RegistryObject<Block> ACACIA_SINGLE_DOOR_CABINET = BLOCKS.register("acacia_single_door_cabinet",
             () -> new CabinetVariantBlock(Block.Properties.ofFullCopy(Blocks.BARREL).setId(BLOCKS.key("acacia_single_door_cabinet"))));
+    public static final RegistryObject<Block> ACACIA_CABINET_WITH_POLISHED_DEEPSLATE_COUNTERTOP = BLOCKS.register("acacia_cabinet_with_polished_deepslate_countertop",
+            () -> new CabinetCountertopBlock(Block.Properties.ofFullCopy(Blocks.BARREL).setId(BLOCKS.key("acacia_cabinet_with_polished_deepslate_countertop"))));
+    public static final RegistryObject<Block> ACACIA_CABINET_WITH_POLISHED_ANDESITE_COUNTERTOP = BLOCKS.register("acacia_cabinet_with_polished_andesite_countertop",
+            () -> new CabinetCountertopBlock(Block.Properties.ofFullCopy(Blocks.BARREL).setId(BLOCKS.key("acacia_cabinet_with_polished_andesite_countertop"))));
+    public static final RegistryObject<Block> ACACIA_CABINET_WITH_POLISHED_TUFF_COUNTERTOP = BLOCKS.register("acacia_cabinet_with_polished_tuff_countertop",
+            () -> new CabinetCountertopBlock(Block.Properties.ofFullCopy(Blocks.BARREL).setId(BLOCKS.key("acacia_cabinet_with_polished_tuff_countertop"))));
 
     // Dark Oak Furniture
     public static final RegistryObject<Block> DARK_OAK_DRAWER = BLOCKS.register("dark_oak_drawer",
@@ -120,6 +150,12 @@ public class BlockRegistry {
             () -> new CabinetVariantBlock(Block.Properties.ofFullCopy(Blocks.BARREL).setId(BLOCKS.key("dark_oak_cabinet_with_glass_doors"))));
     public static final RegistryObject<Block> DARK_OAK_SINGLE_DOOR_CABINET = BLOCKS.register("dark_oak_single_door_cabinet",
             () -> new CabinetVariantBlock(Block.Properties.ofFullCopy(Blocks.BARREL).setId(BLOCKS.key("dark_oak_single_door_cabinet"))));
+    public static final RegistryObject<Block> DARK_OAK_CABINET_WITH_POLISHED_DEEPSLATE_COUNTERTOP = BLOCKS.register("dark_oak_cabinet_with_polished_deepslate_countertop",
+            () -> new CabinetCountertopBlock(Block.Properties.ofFullCopy(Blocks.BARREL).setId(BLOCKS.key("dark_oak_cabinet_with_polished_deepslate_countertop"))));
+    public static final RegistryObject<Block> DARK_OAK_CABINET_WITH_POLISHED_ANDESITE_COUNTERTOP = BLOCKS.register("dark_oak_cabinet_with_polished_andesite_countertop",
+            () -> new CabinetCountertopBlock(Block.Properties.ofFullCopy(Blocks.BARREL).setId(BLOCKS.key("dark_oak_cabinet_with_polished_andesite_countertop"))));
+    public static final RegistryObject<Block> DARK_OAK_CABINET_WITH_POLISHED_TUFF_COUNTERTOP = BLOCKS.register("dark_oak_cabinet_with_polished_tuff_countertop",
+            () -> new CabinetCountertopBlock(Block.Properties.ofFullCopy(Blocks.BARREL).setId(BLOCKS.key("dark_oak_cabinet_with_polished_tuff_countertop"))));
 
     // Mangrove Furniture
     public static final RegistryObject<Block> MANGROVE_DRAWER = BLOCKS.register("mangrove_drawer",
@@ -138,6 +174,12 @@ public class BlockRegistry {
             () -> new CabinetVariantBlock(Block.Properties.ofFullCopy(Blocks.BARREL).setId(BLOCKS.key("mangrove_cabinet_with_glass_doors"))));
     public static final RegistryObject<Block> MANGROVE_SINGLE_DOOR_CABINET = BLOCKS.register("mangrove_single_door_cabinet",
             () -> new CabinetVariantBlock(Block.Properties.ofFullCopy(Blocks.BARREL).setId(BLOCKS.key("mangrove_single_door_cabinet"))));
+    public static final RegistryObject<Block> MANGROVE_CABINET_WITH_POLISHED_DEEPSLATE_COUNTERTOP = BLOCKS.register("mangrove_cabinet_with_polished_deepslate_countertop",
+            () -> new CabinetCountertopBlock(Block.Properties.ofFullCopy(Blocks.BARREL).setId(BLOCKS.key("mangrove_cabinet_with_polished_deepslate_countertop"))));
+    public static final RegistryObject<Block> MANGROVE_CABINET_WITH_POLISHED_ANDESITE_COUNTERTOP = BLOCKS.register("mangrove_cabinet_with_polished_andesite_countertop",
+            () -> new CabinetCountertopBlock(Block.Properties.ofFullCopy(Blocks.BARREL).setId(BLOCKS.key("mangrove_cabinet_with_polished_andesite_countertop"))));
+    public static final RegistryObject<Block> MANGROVE_CABINET_WITH_POLISHED_TUFF_COUNTERTOP = BLOCKS.register("mangrove_cabinet_with_polished_tuff_countertop",
+            () -> new CabinetCountertopBlock(Block.Properties.ofFullCopy(Blocks.BARREL).setId(BLOCKS.key("mangrove_cabinet_with_polished_tuff_countertop"))));
 
     // Cherry Furniture
     public static final RegistryObject<Block> CHERRY_DRAWER = BLOCKS.register("cherry_drawer",
@@ -156,8 +198,16 @@ public class BlockRegistry {
             () -> new CabinetVariantBlock(Block.Properties.ofFullCopy(Blocks.BARREL).sound(SoundType.CHERRY_WOOD).setId(BLOCKS.key("cherry_cabinet_with_glass_doors"))));
     public static final RegistryObject<Block> CHERRY_SINGLE_DOOR_CABINET = BLOCKS.register("cherry_single_door_cabinet",
             () -> new CabinetVariantBlock(Block.Properties.ofFullCopy(Blocks.BARREL).sound(SoundType.CHERRY_WOOD).setId(BLOCKS.key("cherry_single_door_cabinet"))));
+    public static final RegistryObject<Block> CHERRY_CABINET_WITH_POLISHED_DEEPSLATE_COUNTERTOP = BLOCKS.register("cherry_cabinet_with_polished_deepslate_countertop",
+            () -> new CabinetCountertopBlock(Block.Properties.ofFullCopy(Blocks.BARREL).setId(BLOCKS.key("cherry_cabinet_with_polished_deepslate_countertop"))));
+    public static final RegistryObject<Block> CHERRY_CABINET_WITH_POLISHED_ANDESITE_COUNTERTOP = BLOCKS.register("cherry_cabinet_with_polished_andesite_countertop",
+            () -> new CabinetCountertopBlock(Block.Properties.ofFullCopy(Blocks.BARREL).setId(BLOCKS.key("cherry_cabinet_with_polished_andesite_countertop"))));
+    public static final RegistryObject<Block> CHERRY_CABINET_WITH_POLISHED_TUFF_COUNTERTOP = BLOCKS.register("cherry_cabinet_with_polished_tuff_countertop",
+            () -> new CabinetCountertopBlock(Block.Properties.ofFullCopy(Blocks.BARREL).setId(BLOCKS.key("cherry_cabinet_with_polished_tuff_countertop"))));
 
     // Pale Oak Furniture
+    public static final RegistryObject<Block> PALE_OAK_CABINET = BLOCKS.register("pale_oak_cabinet",
+            () -> new CabinetBlock(Block.Properties.ofFullCopy(Blocks.BARREL).setId(BLOCKS.key("pale_oak_cabinet"))));
     public static final RegistryObject<Block> PALE_OAK_DRAWER = BLOCKS.register("pale_oak_drawer",
             () -> new DrawerBlock(Block.Properties.ofFullCopy(Blocks.BARREL).setId(BLOCKS.key("pale_oak_drawer"))));
     public static final RegistryObject<Block> PALE_OAK_DRAWER_WITH_DOOR = BLOCKS.register("pale_oak_drawer_with_door",
@@ -174,6 +224,12 @@ public class BlockRegistry {
             () -> new CabinetVariantBlock(Block.Properties.ofFullCopy(Blocks.BARREL).setId(BLOCKS.key("pale_oak_cabinet_with_glass_doors"))));
     public static final RegistryObject<Block> PALE_OAK_SINGLE_DOOR_CABINET = BLOCKS.register("pale_oak_single_door_cabinet",
             () -> new CabinetVariantBlock(Block.Properties.ofFullCopy(Blocks.BARREL).setId(BLOCKS.key("pale_oak_single_door_cabinet"))));
+    public static final RegistryObject<Block> PALE_OAK_CABINET_WITH_POLISHED_DEEPSLATE_COUNTERTOP = BLOCKS.register("pale_oak_cabinet_with_polished_deepslate_countertop",
+            () -> new CabinetCountertopBlock(Block.Properties.ofFullCopy(Blocks.BARREL).setId(BLOCKS.key("pale_oak_cabinet_with_polished_deepslate_countertop"))));
+    public static final RegistryObject<Block> PALE_OAK_CABINET_WITH_POLISHED_ANDESITE_COUNTERTOP = BLOCKS.register("pale_oak_cabinet_with_polished_andesite_countertop",
+            () -> new CabinetCountertopBlock(Block.Properties.ofFullCopy(Blocks.BARREL).setId(BLOCKS.key("pale_oak_cabinet_with_polished_andesite_countertop"))));
+    public static final RegistryObject<Block> PALE_OAK_CABINET_WITH_POLISHED_TUFF_COUNTERTOP = BLOCKS.register("pale_oak_cabinet_with_polished_tuff_countertop",
+            () -> new CabinetCountertopBlock(Block.Properties.ofFullCopy(Blocks.BARREL).setId(BLOCKS.key("pale_oak_cabinet_with_polished_tuff_countertop"))));
 
     // Bamboo Furniture
     public static final RegistryObject<Block> BAMBOO_DRAWER = BLOCKS.register("bamboo_drawer",
@@ -192,6 +248,12 @@ public class BlockRegistry {
             () -> new CabinetVariantBlock(Block.Properties.ofFullCopy(Blocks.BARREL).sound(SoundType.BAMBOO_WOOD).setId(BLOCKS.key("bamboo_cabinet_with_glass_doors"))));
     public static final RegistryObject<Block> BAMBOO_SINGLE_DOOR_CABINET = BLOCKS.register("bamboo_single_door_cabinet",
             () -> new CabinetVariantBlock(Block.Properties.ofFullCopy(Blocks.BARREL).sound(SoundType.BAMBOO_WOOD).setId(BLOCKS.key("bamboo_single_door_cabinet"))));
+    public static final RegistryObject<Block> BAMBOO_CABINET_WITH_POLISHED_DEEPSLATE_COUNTERTOP = BLOCKS.register("bamboo_cabinet_with_polished_deepslate_countertop",
+            () -> new CabinetCountertopBlock(Block.Properties.ofFullCopy(Blocks.BARREL).setId(BLOCKS.key("bamboo_cabinet_with_polished_deepslate_countertop"))));
+    public static final RegistryObject<Block> BAMBOO_CABINET_WITH_POLISHED_ANDESITE_COUNTERTOP = BLOCKS.register("bamboo_cabinet_with_polished_andesite_countertop",
+            () -> new CabinetCountertopBlock(Block.Properties.ofFullCopy(Blocks.BARREL).setId(BLOCKS.key("bamboo_cabinet_with_polished_andesite_countertop"))));
+    public static final RegistryObject<Block> BAMBOO_CABINET_WITH_POLISHED_TUFF_COUNTERTOP = BLOCKS.register("bamboo_cabinet_with_polished_tuff_countertop",
+            () -> new CabinetCountertopBlock(Block.Properties.ofFullCopy(Blocks.BARREL).setId(BLOCKS.key("bamboo_cabinet_with_polished_tuff_countertop"))));
 
     // Crimson Furniture
     public static final RegistryObject<Block> CRIMSON_DRAWER = BLOCKS.register("crimson_drawer",
@@ -210,6 +272,12 @@ public class BlockRegistry {
             () -> new CabinetVariantBlock(Block.Properties.ofFullCopy(Blocks.BARREL).sound(SoundType.NETHER_WOOD).setId(BLOCKS.key("crimson_cabinet_with_glass_doors"))));
     public static final RegistryObject<Block> CRIMSON_SINGLE_DOOR_CABINET = BLOCKS.register("crimson_single_door_cabinet",
             () -> new CabinetVariantBlock(Block.Properties.ofFullCopy(Blocks.BARREL).sound(SoundType.NETHER_WOOD).setId(BLOCKS.key("crimson_single_door_cabinet"))));
+    public static final RegistryObject<Block> CRIMSON_CABINET_WITH_POLISHED_DEEPSLATE_COUNTERTOP = BLOCKS.register("crimson_cabinet_with_polished_deepslate_countertop",
+            () -> new CabinetCountertopBlock(Block.Properties.ofFullCopy(Blocks.BARREL).setId(BLOCKS.key("crimson_cabinet_with_polished_deepslate_countertop"))));
+    public static final RegistryObject<Block> CRIMSON_CABINET_WITH_POLISHED_ANDESITE_COUNTERTOP = BLOCKS.register("crimson_cabinet_with_polished_andesite_countertop",
+            () -> new CabinetCountertopBlock(Block.Properties.ofFullCopy(Blocks.BARREL).setId(BLOCKS.key("crimson_cabinet_with_polished_andesite_countertop"))));
+    public static final RegistryObject<Block> CRIMSON_CABINET_WITH_POLISHED_TUFF_COUNTERTOP = BLOCKS.register("crimson_cabinet_with_polished_tuff_countertop",
+            () -> new CabinetCountertopBlock(Block.Properties.ofFullCopy(Blocks.BARREL).setId(BLOCKS.key("crimson_cabinet_with_polished_tuff_countertop"))));
 
     // Warped Furniture
     public static final RegistryObject<Block> WARPED_DRAWER = BLOCKS.register("warped_drawer",
@@ -228,5 +296,11 @@ public class BlockRegistry {
             () -> new CabinetVariantBlock(Block.Properties.ofFullCopy(Blocks.BARREL).sound(SoundType.NETHER_WOOD).setId(BLOCKS.key("warped_cabinet_with_glass_doors"))));
     public static final RegistryObject<Block> WARPED_SINGLE_DOOR_CABINET = BLOCKS.register("warped_single_door_cabinet",
             () -> new CabinetVariantBlock(Block.Properties.ofFullCopy(Blocks.BARREL).sound(SoundType.NETHER_WOOD).setId(BLOCKS.key("warped_single_door_cabinet"))));
+    public static final RegistryObject<Block> WARPED_CABINET_WITH_POLISHED_DEEPSLATE_COUNTERTOP = BLOCKS.register("warped_cabinet_with_polished_deepslate_countertop",
+            () -> new CabinetCountertopBlock(Block.Properties.ofFullCopy(Blocks.BARREL).sound(SoundType.NETHER_WOOD).setId(BLOCKS.key("warped_cabinet_with_polished_deepslate_countertop"))));
+    public static final RegistryObject<Block> WARPED_CABINET_WITH_POLISHED_ANDESITE_COUNTERTOP = BLOCKS.register("warped_cabinet_with_polished_andesite_countertop",
+            () -> new CabinetCountertopBlock(Block.Properties.ofFullCopy(Blocks.BARREL).sound(SoundType.NETHER_WOOD).setId(BLOCKS.key("warped_cabinet_with_polished_andesite_countertop"))));
+    public static final RegistryObject<Block> WARPED_CABINET_WITH_POLISHED_TUFF_COUNTERTOP = BLOCKS.register("warped_cabinet_with_polished_tuff_countertop",
+            () -> new CabinetCountertopBlock(Block.Properties.ofFullCopy(Blocks.BARREL).sound(SoundType.NETHER_WOOD).setId(BLOCKS.key("warped_cabinet_with_polished_tuff_countertop"))));
 
 }
