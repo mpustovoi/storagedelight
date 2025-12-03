@@ -1,7 +1,6 @@
 package com.axperty.storagedelight.block;
 
-import com.axperty.storagedelight.block.entity.CabinetBlock;
-import com.axperty.storagedelight.block.entity.CabinetVariantBlockEntity;
+import com.axperty.storagedelight.block.entity.CabinetBlockEntity;
 import com.axperty.storagedelight.registry.EntityTypesRegistry;
 import com.mojang.serialization.MapCodec;
 import net.minecraft.core.BlockPos;
@@ -48,8 +47,8 @@ public class CabinetBlock extends BaseEntityBlock
     public InteractionResult useWithoutItem(BlockState state, Level level, BlockPos pos, Player player, BlockHitResult hit) {
         if (!level.isClientSide) {
             BlockEntity tile = level.getBlockEntity(pos);
-            if (tile instanceof CabinetVariantBlockEntity) {
-                player.openMenu((CabinetVariantBlockEntity) tile);
+            if (tile instanceof CabinetBlockEntity) {
+                player.openMenu((CabinetBlockEntity) tile);
             }
         }
         return InteractionResult.SUCCESS;
@@ -70,8 +69,8 @@ public class CabinetBlock extends BaseEntityBlock
     @Override
     public void tick(BlockState state, ServerLevel level, BlockPos pos, RandomSource random) {
         BlockEntity tileEntity = level.getBlockEntity(pos);
-        if (tileEntity instanceof CabinetVariantBlockEntity) {
-            ((CabinetVariantBlockEntity) tileEntity).recheckOpen();
+        if (tileEntity instanceof CabinetBlockEntity) {
+            ((CabinetBlockEntity) tileEntity).recheckOpen();
         }
     }
 
