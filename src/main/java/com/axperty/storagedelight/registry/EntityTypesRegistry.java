@@ -8,7 +8,7 @@ import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
 
-public class BlockEntityTypesRegistry {
+public class EntityTypesRegistry {
     public static <T extends BlockEntityType<?>> T register(String path, T blockEntityType) {
         return Registry.register(Registries.BLOCK_ENTITY_TYPE, Identifier.of(StorageDelight.MOD_ID, path), blockEntityType);
     }
@@ -141,6 +141,53 @@ public class BlockEntityTypesRegistry {
                             BlockRegistry.SMALL_MANGROVE_DRAWERS,
                             BlockRegistry.SMALL_CRIMSON_DRAWERS,
                             BlockRegistry.SMALL_WARPED_DRAWERS)
+                    .build()
+    );
+
+    public static final BlockEntityType<CabinetCountertopBlockEntity> COUNTERTOP = register(
+            "countertop", FabricBlockEntityTypeBuilder.create(CabinetCountertopBlockEntity::new,
+                            BlockRegistry.OAK_CABINET_WITH_POLISHED_DEEPSLATE_COUNTERTOP,
+                            BlockRegistry.BIRCH_CABINET_WITH_POLISHED_DEEPSLATE_COUNTERTOP,
+                            BlockRegistry.SPRUCE_CABINET_WITH_POLISHED_DEEPSLATE_COUNTERTOP,
+                            BlockRegistry.JUNGLE_CABINET_WITH_POLISHED_DEEPSLATE_COUNTERTOP,
+                            BlockRegistry.ACACIA_CABINET_WITH_POLISHED_DEEPSLATE_COUNTERTOP,
+                            BlockRegistry.DARK_OAK_CABINET_WITH_POLISHED_DEEPSLATE_COUNTERTOP,
+                            BlockRegistry.BAMBOO_CABINET_WITH_POLISHED_DEEPSLATE_COUNTERTOP,
+                            BlockRegistry.CHERRY_CABINET_WITH_POLISHED_DEEPSLATE_COUNTERTOP,
+                            BlockRegistry.PALE_OAK_CABINET_WITH_POLISHED_DEEPSLATE_COUNTERTOP,
+                            BlockRegistry.MANGROVE_CABINET_WITH_POLISHED_DEEPSLATE_COUNTERTOP,
+                            BlockRegistry.CRIMSON_CABINET_WITH_POLISHED_DEEPSLATE_COUNTERTOP,
+                            BlockRegistry.WARPED_CABINET_WITH_POLISHED_DEEPSLATE_COUNTERTOP,
+                            BlockRegistry.OAK_CABINET_WITH_POLISHED_ANDESITE_COUNTERTOP,
+                            BlockRegistry.BIRCH_CABINET_WITH_POLISHED_ANDESITE_COUNTERTOP,
+                            BlockRegistry.SPRUCE_CABINET_WITH_POLISHED_ANDESITE_COUNTERTOP,
+                            BlockRegistry.JUNGLE_CABINET_WITH_POLISHED_ANDESITE_COUNTERTOP,
+                            BlockRegistry.ACACIA_CABINET_WITH_POLISHED_ANDESITE_COUNTERTOP,
+                            BlockRegistry.DARK_OAK_CABINET_WITH_POLISHED_ANDESITE_COUNTERTOP,
+                            BlockRegistry.BAMBOO_CABINET_WITH_POLISHED_ANDESITE_COUNTERTOP,
+                            BlockRegistry.CHERRY_CABINET_WITH_POLISHED_ANDESITE_COUNTERTOP,
+                            BlockRegistry.PALE_OAK_CABINET_WITH_POLISHED_ANDESITE_COUNTERTOP,
+                            BlockRegistry.MANGROVE_CABINET_WITH_POLISHED_ANDESITE_COUNTERTOP,
+                            BlockRegistry.CRIMSON_CABINET_WITH_POLISHED_ANDESITE_COUNTERTOP,
+                            BlockRegistry.WARPED_CABINET_WITH_POLISHED_ANDESITE_COUNTERTOP,
+                            BlockRegistry.OAK_CABINET_WITH_POLISHED_TUFF_COUNTERTOP,
+                            BlockRegistry.BIRCH_CABINET_WITH_POLISHED_TUFF_COUNTERTOP,
+                            BlockRegistry.SPRUCE_CABINET_WITH_POLISHED_TUFF_COUNTERTOP,
+                            BlockRegistry.JUNGLE_CABINET_WITH_POLISHED_TUFF_COUNTERTOP,
+                            BlockRegistry.ACACIA_CABINET_WITH_POLISHED_TUFF_COUNTERTOP,
+                            BlockRegistry.DARK_OAK_CABINET_WITH_POLISHED_TUFF_COUNTERTOP,
+                            BlockRegistry.BAMBOO_CABINET_WITH_POLISHED_TUFF_COUNTERTOP,
+                            BlockRegistry.CHERRY_CABINET_WITH_POLISHED_TUFF_COUNTERTOP,
+                            BlockRegistry.PALE_OAK_CABINET_WITH_POLISHED_TUFF_COUNTERTOP,
+                            BlockRegistry.MANGROVE_CABINET_WITH_POLISHED_TUFF_COUNTERTOP,
+                            BlockRegistry.CRIMSON_CABINET_WITH_POLISHED_TUFF_COUNTERTOP,
+                            BlockRegistry.WARPED_CABINET_WITH_POLISHED_TUFF_COUNTERTOP)
+                    .build()
+    );
+
+    public static final BlockEntityType<CabinetBlockEntity> CABINET = register(
+            "cabinet", FabricBlockEntityTypeBuilder.create(CabinetBlockEntity::new,
+                            BlockRegistry.PALE_OAK_CABINET)
                     .build()
     );
 
