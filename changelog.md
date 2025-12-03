@@ -5,13 +5,17 @@
 ### ✨ What's New
 
 - Added cabinets with countertops, enhance the look of your cooking space with new cabinets that feature integrated countertops.
-  ![Cabinets with countertops](https://i.imgur.com/iimXYqF.png)
+
+![Cabinets with countertops](https://i.imgur.com/iimXYqF.png)
 
 - These cabinets are crafted using polished andesite, polished deepslate, or polished tuff for the countertop slabs, and are available in all vanilla wood types.
-  ![Cabinets with countertops crafting recipe](https://i.imgur.com/dN9RS0z.gif)
+
+![Cabinets with countertops crafting recipe](https://i.imgur.com/dN9RS0z.gif)
 
 - Added the Pale Oak Cabinet.
-  ![Pale Oak Cabinet crafting recipe](https://i.imgur.com/cfc6wYr.png)
+
+![Pale Oak Cabinet crafting recipe](https://i.imgur.com/cfc6wYr.png)
+
 - Improved Pale Oak furniture textures to align with the Farmer's Delight aesthetic.
 
 ### 🌐 Translations
