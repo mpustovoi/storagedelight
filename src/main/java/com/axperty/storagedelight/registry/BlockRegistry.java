@@ -187,9 +187,9 @@ public class BlockRegistry {
     public static final RegistryObject<Block> CHERRY_DRAWER_WITH_DOOR = BLOCKS.register("cherry_drawer_with_door",
             () -> new DrawerDoorBlock(Block.Properties.ofFullCopy(Blocks.BARREL).sound(SoundType.CHERRY_WOOD).setId(BLOCKS.key("cherry_drawer_with_door"))));
     public static final RegistryObject<Block> CHERRY_DRAWER_WITH_BOOKS = BLOCKS.register("cherry_drawer_with_books",
-            () -> new DrawerBooksBlock(Block.Properties.ofFullCopy(Blocks.BARREL).setId(BLOCKS.key("cherry_drawer_with_books"))));
+            () -> new DrawerBooksBlock(Block.Properties.ofFullCopy(Blocks.BARREL).sound(SoundType.CHERRY_WOOD).setId(BLOCKS.key("cherry_drawer_with_books"))));
     public static final RegistryObject<Block> SMALL_CHERRY_DRAWERS = BLOCKS.register("small_cherry_drawers",
-            () -> new SmallDrawersBlock(Block.Properties.ofFullCopy(Blocks.BARREL).setId(BLOCKS.key("small_cherry_drawers"))));
+            () -> new SmallDrawersBlock(Block.Properties.ofFullCopy(Blocks.BARREL).sound(SoundType.CHERRY_WOOD).setId(BLOCKS.key("small_cherry_drawers"))));
     public static final RegistryObject<Block> CHERRY_BOOKSHELF_WITH_DOOR = BLOCKS.register("cherry_bookshelf_with_door",
             () -> new BookshelfDoorBlock(Block.Properties.ofFullCopy(Blocks.BARREL).sound(SoundType.CHERRY_WOOD).setId(BLOCKS.key("cherry_bookshelf_with_door"))));
     public static final RegistryObject<Block> GLASS_CHERRY_CABINET = BLOCKS.register("glass_cherry_cabinet",
@@ -237,9 +237,9 @@ public class BlockRegistry {
     public static final RegistryObject<Block> BAMBOO_DRAWER_WITH_DOOR = BLOCKS.register("bamboo_drawer_with_door",
             () -> new DrawerDoorBlock(Block.Properties.ofFullCopy(Blocks.BARREL).sound(SoundType.BAMBOO_WOOD).setId(BLOCKS.key("bamboo_drawer_with_door"))));
     public static final RegistryObject<Block> BAMBOO_DRAWER_WITH_BOOKS = BLOCKS.register("bamboo_drawer_with_books",
-            () -> new DrawerBooksBlock(Block.Properties.ofFullCopy(Blocks.BARREL).setId(BLOCKS.key("bamboo_drawer_with_books"))));
+            () -> new DrawerBooksBlock(Block.Properties.ofFullCopy(Blocks.BARREL).sound(SoundType.BAMBOO_WOOD).setId(BLOCKS.key("bamboo_drawer_with_books"))));
     public static final RegistryObject<Block> SMALL_BAMBOO_DRAWERS = BLOCKS.register("small_bamboo_drawers",
-            () -> new SmallDrawersBlock(Block.Properties.ofFullCopy(Blocks.BARREL).setId(BLOCKS.key("small_bamboo_drawers"))));
+            () -> new SmallDrawersBlock(Block.Properties.ofFullCopy(Blocks.BARREL).sound(SoundType.BAMBOO_WOOD).setId(BLOCKS.key("small_bamboo_drawers"))));
     public static final RegistryObject<Block> BAMBOO_BOOKSHELF_WITH_DOOR = BLOCKS.register("bamboo_bookshelf_with_door",
             () -> new BookshelfDoorBlock(Block.Properties.ofFullCopy(Blocks.BARREL).sound(SoundType.BAMBOO_WOOD).setId(BLOCKS.key("bamboo_bookshelf_with_door"))));
     public static final RegistryObject<Block> GLASS_BAMBOO_CABINET = BLOCKS.register("glass_bamboo_cabinet",
@@ -261,9 +261,9 @@ public class BlockRegistry {
     public static final RegistryObject<Block> CRIMSON_DRAWER_WITH_DOOR = BLOCKS.register("crimson_drawer_with_door",
             () -> new DrawerDoorBlock(Block.Properties.ofFullCopy(Blocks.BARREL).sound(SoundType.NETHER_WOOD).setId(BLOCKS.key("crimson_drawer_with_door"))));
     public static final RegistryObject<Block> CRIMSON_DRAWER_WITH_BOOKS = BLOCKS.register("crimson_drawer_with_books",
-            () -> new DrawerBooksBlock(Block.Properties.ofFullCopy(Blocks.BARREL).setId(BLOCKS.key("crimson_drawer_with_books"))));
+            () -> new DrawerBooksBlock(Block.Properties.ofFullCopy(Blocks.BARREL).sound(SoundType.NETHER_WOOD).setId(BLOCKS.key("crimson_drawer_with_books"))));
     public static final RegistryObject<Block> SMALL_CRIMSON_DRAWERS = BLOCKS.register("small_crimson_drawers",
-            () -> new SmallDrawersBlock(Block.Properties.ofFullCopy(Blocks.BARREL).setId(BLOCKS.key("small_crimson_drawers"))));
+            () -> new SmallDrawersBlock(Block.Properties.ofFullCopy(Blocks.BARREL).sound(SoundType.NETHER_WOOD).setId(BLOCKS.key("small_crimson_drawers"))));
     public static final RegistryObject<Block> CRIMSON_BOOKSHELF_WITH_DOOR = BLOCKS.register("crimson_bookshelf_with_door",
             () -> new BookshelfDoorBlock(Block.Properties.ofFullCopy(Blocks.BARREL).sound(SoundType.NETHER_WOOD).setId(BLOCKS.key("crimson_bookshelf_with_door"))));
     public static final RegistryObject<Block> GLASS_CRIMSON_CABINET = BLOCKS.register("glass_crimson_cabinet",
@@ -285,9 +285,9 @@ public class BlockRegistry {
     public static final RegistryObject<Block> WARPED_DRAWER_WITH_DOOR = BLOCKS.register("warped_drawer_with_door",
             () -> new DrawerDoorBlock(Block.Properties.ofFullCopy(Blocks.BARREL).sound(SoundType.NETHER_WOOD).setId(BLOCKS.key("warped_drawer_with_door"))));
     public static final RegistryObject<Block> WARPED_DRAWER_WITH_BOOKS = BLOCKS.register("warped_drawer_with_books",
-            () -> new DrawerBooksBlock(Block.Properties.ofFullCopy(Blocks.BARREL).setId(BLOCKS.key("warped_drawer_with_books"))));
+            () -> new DrawerBooksBlock(Block.Properties.ofFullCopy(Blocks.BARREL).sound(SoundType.NETHER_WOOD).setId(BLOCKS.key("warped_drawer_with_books"))));
     public static final RegistryObject<Block> SMALL_WARPED_DRAWERS = BLOCKS.register("small_warped_drawers",
-            () -> new SmallDrawersBlock(Block.Properties.ofFullCopy(Blocks.BARREL).setId(BLOCKS.key("small_warped_drawers"))));
+            () -> new SmallDrawersBlock(Block.Properties.ofFullCopy(Blocks.BARREL).sound(SoundType.NETHER_WOOD).setId(BLOCKS.key("small_warped_drawers"))));
     public static final RegistryObject<Block> WARPED_BOOKSHELF_WITH_DOOR = BLOCKS.register("warped_bookshelf_with_door",
             () -> new BookshelfDoorBlock(Block.Properties.ofFullCopy(Blocks.BARREL).sound(SoundType.NETHER_WOOD).setId(BLOCKS.key("warped_bookshelf_with_door"))));
     public static final RegistryObject<Block> GLASS_WARPED_CABINET = BLOCKS.register("glass_warped_cabinet",
