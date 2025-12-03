@@ -4,15 +4,23 @@
 
 ### ✨ What's New
 
-- Added small drawers for all wood types, which can be crafted with slabs and trapdoors.
+- Added cabinets with countertops, enhance the look of your cooking space with new cabinets that feature integrated countertops.
 
-![Small Drawers](https://i.imgur.com/EUZJIMJ.png)
+![Cabinets with countertops](https://i.imgur.com/iimXYqF.png)
 
-### 🛠️ Bug Fixes
-- Fixed a bug where the Crimson Bookshelf with Door where the ingredients of the recipe were using cherry instead of crimson, thank you [laxtiz](https://github.com/laxtiz)!
+- These cabinets are crafted using polished andesite, polished deepslate, or polished tuff for the countertop slabs, and are available in all vanilla wood types.
 
-### ⚙️ Minor Changes
-- Added support for Minecraft 1.21.6.
+![Cabinets with countertops crafting recipe](https://i.imgur.com/dN9RS0z.gif)
+
+- Added the Pale Oak Cabinet.
+
+![Pale Oak Cabinet crafting recipe](https://i.imgur.com/cfc6wYr.png)
+
+- Improved Pale Oak furniture textures to align with the Farmer's Delight aesthetic.
+
+### 🌐 Translations
+- Improved translations for Japanese. Thank you, [Abbage230](https://github.com/Abbage230)!
+- Added translations for Kazakh. Thank you, [Nursultan Akim](https://github.com/ninsent)!
 
 ***
 
