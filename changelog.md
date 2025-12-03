@@ -3,13 +3,20 @@
 ***
 
 ### ✨ What's New
-- Added cabinets with countertops.
-  - These new cabinets can be crafted using slabs from polished andesite, polished deepslate, and polished tuff blocks.
-- Added Pale Oak Cabinet.
+
+- Added cabinets with countertops, enhance the look of your cooking space with new cabinets that feature integrated countertops.
+  ![Cabinets with countertops](https://i.imgur.com/iimXYqF.png)
+
+- These cabinets are crafted using polished andesite, polished deepslate, or polished tuff for the countertop slabs, and are available in all vanilla wood types.
+  ![Cabinets with countertops crafting recipe](https://i.imgur.com/dN9RS0z.gif)
+
+- Added the Pale Oak Cabinet.
+  ![Pale Oak Cabinet crafting recipe](https://i.imgur.com/cfc6wYr.png)
+- Improved Pale Oak furniture textures to align with the Farmer's Delight aesthetic.
 
 ### 🌐 Translations
-- Improved translations for Japanese. Thank you, [Abbage230](https://github.com/Abbage230)! [#18](https://github.com/axperty/storagedelight/pull/18)
-- Added translations for Kazakh. Thank you, [Nursultan Akim](https://github.com/ninsent)! [#19](https://github.com/axperty/storagedelight/pull/19)
+- Improved translations for Japanese. Thank you, [Abbage230](https://github.com/Abbage230)!
+- Added translations for Kazakh. Thank you, [Nursultan Akim](https://github.com/ninsent)!
 
 ***
 
