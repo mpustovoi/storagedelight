@@ -1,9 +1,8 @@
 package com.axperty.storagedelight.block.entity;
 
 import com.axperty.storagedelight.block.CabinetVariantBlock;
-import com.axperty.storagedelight.registry.BlockEntityTypesRegistry;
+import com.axperty.storagedelight.registry.EntityTypesRegistry;
 import net.minecraft.block.BlockState;
-import net.minecraft.block.entity.BlockEntityType;
 import net.minecraft.block.entity.LootableContainerBlockEntity;
 import net.minecraft.block.entity.ViewerCountManager;
 import net.minecraft.entity.player.PlayerEntity;
@@ -30,7 +29,7 @@ public class CabinetVariantBlockEntity extends LootableContainerBlockEntity {
     private final ViewerCountManager stateManager;
 
     public CabinetVariantBlockEntity(BlockPos pos, BlockState state) {
-        super(BlockEntityTypesRegistry.CABINET_VARIANT, pos, state);
+        super(EntityTypesRegistry.CABINET_VARIANT, pos, state);
         this.inventory = DefaultedList.ofSize(27, ItemStack.EMPTY);
         this.stateManager = new ViewerCountManager() {
             protected void onContainerOpen(World world, BlockPos pos, BlockState state) {

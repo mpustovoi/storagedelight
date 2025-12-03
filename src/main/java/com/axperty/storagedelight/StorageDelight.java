@@ -1,6 +1,6 @@
 package com.axperty.storagedelight;
 
-import com.axperty.storagedelight.registry.BlockEntityTypesRegistry;
+import com.axperty.storagedelight.registry.EntityTypesRegistry;
 import com.axperty.storagedelight.registry.BlockRegistry;
 import com.axperty.storagedelight.registry.CreativeTabRegistry;
 import com.axperty.storagedelight.registry.FuelBlockRegistry;
@@ -16,7 +16,7 @@ public class StorageDelight implements ModInitializer {
     @Override
     public void onInitialize() {
         BlockRegistry.register();
-        BlockEntityTypesRegistry.register();
+        EntityTypesRegistry.register();
         FuelBlockRegistry.register();
         CreativeTabRegistry.register();
     }
