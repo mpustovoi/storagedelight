@@ -6,6 +6,8 @@
   "container.storagedelight.cabinet_variant": "Cabinet",
   "container.storagedelight.bookshelf_door": "Bookshelf with Door",
   "container.storagedelight.small_drawers": "Small Drawers",
+  "container.storagedelight.cabinet_countertop": "Cabinet with Countertop",
+  "container.storagedelight.cabinet": "Cabinet",
 
   "item.storagedelight.oak_drawer": "Oak Drawer",
   "item.storagedelight.birch_drawer": "Birch Drawer",
@@ -20,18 +22,18 @@
   "item.storagedelight.bamboo_drawer": "Bamboo Drawer",
   "item.storagedelight.pale_oak_drawer": "Pale Oak Drawer",
 
-  "block.storagedelight.small_oak_drawers": "Small Oak Drawers",
-  "block.storagedelight.small_birch_drawers": "Small Birch Drawers",
-  "block.storagedelight.small_spruce_drawers": "Small Spruce Drawers",
-  "block.storagedelight.small_cherry_drawers": "Small Cherry Drawers",
-  "block.storagedelight.small_jungle_drawers": "Small Jungle Drawers",
-  "block.storagedelight.small_acacia_drawers": "Small Acacia Drawers",
-  "block.storagedelight.small_dark_oak_drawers": "Small Dark Oak Drawers",
-  "block.storagedelight.small_mangrove_drawers": "Small Mangrove Drawers",
-  "block.storagedelight.small_crimson_drawers": "Small Crimson Drawers",
-  "block.storagedelight.small_warped_drawers": "Small Warped Drawers",
-  "block.storagedelight.small_bamboo_drawers": "Small Bamboo Drawers",
-  "block.storagedelight.small_pale_oak_drawers": "Small Pale Oak Drawers",
+  "item.storagedelight.small_oak_drawers": "Small Oak Drawers",
+  "item.storagedelight.small_birch_drawers": "Small Birch Drawers",
+  "item.storagedelight.small_spruce_drawers": "Small Spruce Drawers",
+  "item.storagedelight.small_cherry_drawers": "Small Cherry Drawers",
+  "item.storagedelight.small_jungle_drawers": "Small Jungle Drawers",
+  "item.storagedelight.small_acacia_drawers": "Small Acacia Drawers",
+  "item.storagedelight.small_dark_oak_drawers": "Small Dark Oak Drawers",
+  "item.storagedelight.small_mangrove_drawers": "Small Mangrove Drawers",
+  "item.storagedelight.small_crimson_drawers": "Small Crimson Drawers",
+  "item.storagedelight.small_warped_drawers": "Small Warped Drawers",
+  "item.storagedelight.small_bamboo_drawers": "Small Bamboo Drawers",
+  "item.storagedelight.small_pale_oak_drawers": "Small Pale Oak Drawers",
 
   "item.storagedelight.oak_drawer_with_door": "Oak Drawer with Door",
   "item.storagedelight.birch_drawer_with_door": "Birch Drawer with Door",
@@ -110,6 +112,56 @@
   "item.storagedelight.warped_single_door_cabinet": "Warped Single Door Cabinet",
   "item.storagedelight.bamboo_single_door_cabinet": "Bamboo Single Door Cabinet",
   "item.storagedelight.pale_oak_single_door_cabinet": "Pale Oak Single Door Cabinet",
+
+  "item.storagedelight.oak_cabinet_with_polished_deepslate_countertop": "Oak Cabinet with Polished Deepslate Countertop",
+  "item.storagedelight.oak_cabinet_with_polished_andesite_countertop": "Oak Cabinet with Polished Andesite Countertop",
+  "item.storagedelight.oak_cabinet_with_polished_tuff_countertop": "Oak Cabinet with Polished Tuff Countertop",
+
+  "item.storagedelight.birch_cabinet_with_polished_deepslate_countertop": "Birch Cabinet with Polished Deepslate Countertop",
+  "item.storagedelight.birch_cabinet_with_polished_andesite_countertop": "Birch Cabinet with Polished Andesite Countertop",
+  "item.storagedelight.birch_cabinet_with_polished_tuff_countertop": "Birch Cabinet with Polished Tuff Countertop",
+
+  "item.storagedelight.spruce_cabinet_with_polished_deepslate_countertop": "Spruce Cabinet with Polished Deepslate Countertop",
+  "item.storagedelight.spruce_cabinet_with_polished_andesite_countertop": "Spruce Cabinet with Polished Andesite Countertop",
+  "item.storagedelight.spruce_cabinet_with_polished_tuff_countertop": "Spruce Cabinet with Polished Tuff Countertop",
+
+  "item.storagedelight.cherry_cabinet_with_polished_deepslate_countertop": "Cherry Cabinet with Polished Deepslate Countertop",
+  "item.storagedelight.cherry_cabinet_with_polished_andesite_countertop": "Cherry Cabinet with Polished Andesite Countertop",
+  "item.storagedelight.cherry_cabinet_with_polished_tuff_countertop": "Cherry Cabinet with Polished Tuff Countertop",
+
+  "item.storagedelight.jungle_cabinet_with_polished_deepslate_countertop": "Jungle Cabinet with Polished Deepslate Countertop",
+  "item.storagedelight.jungle_cabinet_with_polished_andesite_countertop": "Jungle Cabinet with Polished Andesite Countertop",
+  "item.storagedelight.jungle_cabinet_with_polished_tuff_countertop": "Jungle Cabinet with Polished Tuff Countertop",
+
+  "item.storagedelight.acacia_cabinet_with_polished_deepslate_countertop": "Acacia Cabinet with Polished Deepslate Countertop",
+  "item.storagedelight.acacia_cabinet_with_polished_andesite_countertop": "Acacia Cabinet with Polished Andesite Countertop",
+  "item.storagedelight.acacia_cabinet_with_polished_tuff_countertop": "Acacia Cabinet with Polished Tuff Countertop",
+
+  "item.storagedelight.dark_oak_cabinet_with_polished_deepslate_countertop": "Dark Oak Cabinet with Polished Deepslate Countertop",
+  "item.storagedelight.dark_oak_cabinet_with_polished_andesite_countertop": "Dark Oak Cabinet with Polished Andesite Countertop",
+  "item.storagedelight.dark_oak_cabinet_with_polished_tuff_countertop": "Dark Oak Cabinet with Polished Tuff Countertop",
+
+  "item.storagedelight.mangrove_cabinet_with_polished_deepslate_countertop": "Mangrove Cabinet with Polished Deepslate Countertop",
+  "item.storagedelight.mangrove_cabinet_with_polished_andesite_countertop": "Mangrove Cabinet with Polished Andesite Countertop",
+  "item.storagedelight.mangrove_cabinet_with_polished_tuff_countertop": "Mangrove Cabinet with Polished Tuff Countertop",
+
+  "item.storagedelight.crimson_cabinet_with_polished_deepslate_countertop": "Crimson Cabinet with Polished Deepslate Countertop",
+  "item.storagedelight.crimson_cabinet_with_polished_andesite_countertop": "Crimson Cabinet with Polished Andesite Countertop",
+  "item.storagedelight.crimson_cabinet_with_polished_tuff_countertop": "Crimson Cabinet with Polished Tuff Countertop",
+
+  "item.storagedelight.warped_cabinet_with_polished_deepslate_countertop": "Warped Cabinet with Polished Deepslate Countertop",
+  "item.storagedelight.warped_cabinet_with_polished_andesite_countertop": "Warped Cabinet with Polished Andesite Countertop",
+  "item.storagedelight.warped_cabinet_with_polished_tuff_countertop": "Warped Cabinet with Polished Tuff Countertop",
+
+  "item.storagedelight.bamboo_cabinet_with_polished_deepslate_countertop": "Bamboo Cabinet with Polished Deepslate Countertop",
+  "item.storagedelight.bamboo_cabinet_with_polished_andesite_countertop": "Bamboo Cabinet with Polished Andesite Countertop",
+  "item.storagedelight.bamboo_cabinet_with_polished_tuff_countertop": "Bamboo Cabinet with Polished Tuff Countertop",
+
+  "item.storagedelight.pale_oak_cabinet_with_polished_deepslate_countertop": "Pale Oak Cabinet with Polished Deepslate Countertop",
+  "item.storagedelight.pale_oak_cabinet_with_polished_andesite_countertop": "Pale Oak Cabinet with Polished Andesite Countertop",
+  "item.storagedelight.pale_oak_cabinet_with_polished_tuff_countertop": "Pale Oak Cabinet with Polished Tuff Countertop",
+
+  "item.storagedelight.pale_oak_cabinet": "Pale Oak Cabinet",
 
   "itemGroup.storagedelight": "Storage Delight"
 }
