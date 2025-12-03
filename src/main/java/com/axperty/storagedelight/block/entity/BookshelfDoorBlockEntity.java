@@ -38,12 +38,12 @@ public class BookshelfDoorBlockEntity extends LootableContainerBlockEntity {
         this.inventory = DefaultedList.ofSize(27, ItemStack.EMPTY);
         this.stateManager = new ViewerCountManager() {
             protected void onContainerOpen(World world, BlockPos pos, BlockState state) {
-                BookshelfDoorBlockEntity.this.playSound(state, SoundEvents.BLOCK_BARREL_OPEN);
+                BookshelfDoorBlockEntity.this.playSound(state, SoundEvents.BLOCK_WOODEN_TRAPDOOR_OPEN);
                 BookshelfDoorBlockEntity.this.setOpen(state, true);
             }
 
             protected void onContainerClose(World world, BlockPos pos, BlockState state) {
-                BookshelfDoorBlockEntity.this.playSound(state, SoundEvents.BLOCK_BARREL_CLOSE);
+                BookshelfDoorBlockEntity.this.playSound(state, SoundEvents.BLOCK_WOODEN_TRAPDOOR_CLOSE);
                 BookshelfDoorBlockEntity.this.setOpen(state, false);
             }
 

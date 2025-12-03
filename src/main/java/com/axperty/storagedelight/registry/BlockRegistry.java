@@ -8,6 +8,7 @@ import net.minecraft.item.Item;
 import net.minecraft.item.Items;
 import net.minecraft.registry.RegistryKey;
 import net.minecraft.registry.RegistryKeys;
+import net.minecraft.sound.BlockSoundGroup;
 import net.minecraft.util.Identifier;
 
 import java.util.function.Function;
@@ -106,17 +107,17 @@ public class BlockRegistry {
     public static final Block MANGROVE_CABINET_WITH_POLISHED_TUFF_COUNTERTOP = registerBlock("mangrove_cabinet_with_polished_tuff_countertop", CabinetCountertopBlock::new, Block.Settings.copy(Blocks.BARREL));
 
     // Cherry Furniture Registry
-    public static final Block CHERRY_DRAWER = registerBlock("cherry_drawer", DrawerBlock::new, Block.Settings.copy(Blocks.BARREL));
-    public static final Block CHERRY_DRAWER_WITH_DOOR = registerBlock("cherry_drawer_with_door", DrawerDoorBlock::new, Block.Settings.copy(Blocks.BARREL));
-    public static final Block CHERRY_DRAWER_WITH_BOOKS = registerBlock("cherry_drawer_with_books", DrawerBooksBlock::new, Block.Settings.copy(Blocks.BARREL));
-    public static final Block SMALL_CHERRY_DRAWERS = registerBlock("small_cherry_drawers", SmallDrawersBlock::new, Block.Settings.copy(Blocks.BARREL));
-    public static final Block CHERRY_BOOKSHELF_WITH_DOOR = registerBlock("cherry_bookshelf_with_door", BookshelfDoorBlock::new, Block.Settings.copy(Blocks.BARREL));
-    public static final Block GLASS_CHERRY_CABINET = registerBlock("glass_cherry_cabinet", GlassCabinetBlock::new, Block.Settings.copy(Blocks.BARREL));
-    public static final Block CHERRY_CABINET_WITH_GLASS_DOORS = registerBlock("cherry_cabinet_with_glass_doors", CabinetVariantBlock::new, Block.Settings.copy(Blocks.BARREL));
-    public static final Block CHERRY_SINGLE_DOOR_CABINET = registerBlock("cherry_single_door_cabinet", CabinetVariantBlock::new, Block.Settings.copy(Blocks.BARREL));
-    public static final Block CHERRY_CABINET_WITH_POLISHED_DEEPSLATE_COUNTERTOP = registerBlock("cherry_cabinet_with_polished_deepslate_countertop", CabinetCountertopBlock::new, Block.Settings.copy(Blocks.BARREL));
-    public static final Block CHERRY_CABINET_WITH_POLISHED_ANDESITE_COUNTERTOP = registerBlock("cherry_cabinet_with_polished_andesite_countertop", CabinetCountertopBlock::new, Block.Settings.copy(Blocks.BARREL));
-    public static final Block CHERRY_CABINET_WITH_POLISHED_TUFF_COUNTERTOP = registerBlock("cherry_cabinet_with_polished_tuff_countertop", CabinetCountertopBlock::new, Block.Settings.copy(Blocks.BARREL));
+    public static final Block CHERRY_DRAWER = registerBlock("cherry_drawer", DrawerBlock::new, Block.Settings.copy(Blocks.BARREL).sounds(BlockSoundGroup.CHERRY_WOOD));
+    public static final Block CHERRY_DRAWER_WITH_DOOR = registerBlock("cherry_drawer_with_door", DrawerDoorBlock::new, Block.Settings.copy(Blocks.BARREL).sounds(BlockSoundGroup.CHERRY_WOOD));
+    public static final Block CHERRY_DRAWER_WITH_BOOKS = registerBlock("cherry_drawer_with_books", DrawerBooksBlock::new, Block.Settings.copy(Blocks.BARREL).sounds(BlockSoundGroup.CHERRY_WOOD));
+    public static final Block SMALL_CHERRY_DRAWERS = registerBlock("small_cherry_drawers", SmallDrawersBlock::new, Block.Settings.copy(Blocks.BARREL).sounds(BlockSoundGroup.CHERRY_WOOD));
+    public static final Block CHERRY_BOOKSHELF_WITH_DOOR = registerBlock("cherry_bookshelf_with_door", BookshelfDoorBlock::new, Block.Settings.copy(Blocks.BARREL).sounds(BlockSoundGroup.CHERRY_WOOD));
+    public static final Block GLASS_CHERRY_CABINET = registerBlock("glass_cherry_cabinet", GlassCabinetBlock::new, Block.Settings.copy(Blocks.BARREL).sounds(BlockSoundGroup.CHERRY_WOOD));
+    public static final Block CHERRY_CABINET_WITH_GLASS_DOORS = registerBlock("cherry_cabinet_with_glass_doors", CabinetVariantBlock::new, Block.Settings.copy(Blocks.BARREL).sounds(BlockSoundGroup.CHERRY_WOOD));
+    public static final Block CHERRY_SINGLE_DOOR_CABINET = registerBlock("cherry_single_door_cabinet", CabinetVariantBlock::new, Block.Settings.copy(Blocks.BARREL).sounds(BlockSoundGroup.CHERRY_WOOD));
+    public static final Block CHERRY_CABINET_WITH_POLISHED_DEEPSLATE_COUNTERTOP = registerBlock("cherry_cabinet_with_polished_deepslate_countertop", CabinetCountertopBlock::new, Block.Settings.copy(Blocks.BARREL).sounds(BlockSoundGroup.CHERRY_WOOD));
+    public static final Block CHERRY_CABINET_WITH_POLISHED_ANDESITE_COUNTERTOP = registerBlock("cherry_cabinet_with_polished_andesite_countertop", CabinetCountertopBlock::new, Block.Settings.copy(Blocks.BARREL).sounds(BlockSoundGroup.CHERRY_WOOD));
+    public static final Block CHERRY_CABINET_WITH_POLISHED_TUFF_COUNTERTOP = registerBlock("cherry_cabinet_with_polished_tuff_countertop", CabinetCountertopBlock::new, Block.Settings.copy(Blocks.BARREL).sounds(BlockSoundGroup.CHERRY_WOOD));
 
     // Pale Oak Furniture Registry
     public static final Block PALE_OAK_CABINET = registerBlock("pale_oak_cabinet", CabinetBlock::new, Block.Settings.copy(Blocks.BARREL));
@@ -133,43 +134,43 @@ public class BlockRegistry {
     public static final Block PALE_OAK_CABINET_WITH_POLISHED_TUFF_COUNTERTOP = registerBlock("pale_oak_cabinet_with_polished_tuff_countertop", CabinetCountertopBlock::new, Block.Settings.copy(Blocks.BARREL));
 
     // Bamboo Furniture Registry
-    public static final Block BAMBOO_DRAWER = registerBlock("bamboo_drawer", DrawerBlock::new, Block.Settings.copy(Blocks.BARREL));
-    public static final Block BAMBOO_DRAWER_WITH_DOOR = registerBlock("bamboo_drawer_with_door", DrawerDoorBlock::new, Block.Settings.copy(Blocks.BARREL));
-    public static final Block BAMBOO_DRAWER_WITH_BOOKS = registerBlock("bamboo_drawer_with_books", DrawerBooksBlock::new, Block.Settings.copy(Blocks.BARREL));
-    public static final Block SMALL_BAMBOO_DRAWERS = registerBlock("small_bamboo_drawers", SmallDrawersBlock::new, Block.Settings.copy(Blocks.BARREL));
-    public static final Block BAMBOO_BOOKSHELF_WITH_DOOR = registerBlock("bamboo_bookshelf_with_door", BookshelfDoorBlock::new, Block.Settings.copy(Blocks.BARREL));
-    public static final Block GLASS_BAMBOO_CABINET = registerBlock("glass_bamboo_cabinet", GlassCabinetBlock::new, Block.Settings.copy(Blocks.BARREL));
-    public static final Block BAMBOO_CABINET_WITH_GLASS_DOORS = registerBlock("bamboo_cabinet_with_glass_doors", CabinetVariantBlock::new, Block.Settings.copy(Blocks.BARREL));
-    public static final Block BAMBOO_SINGLE_DOOR_CABINET = registerBlock("bamboo_single_door_cabinet", CabinetVariantBlock::new, Block.Settings.copy(Blocks.BARREL));
-    public static final Block BAMBOO_CABINET_WITH_POLISHED_DEEPSLATE_COUNTERTOP = registerBlock("bamboo_cabinet_with_polished_deepslate_countertop", CabinetCountertopBlock::new, Block.Settings.copy(Blocks.BARREL));
-    public static final Block BAMBOO_CABINET_WITH_POLISHED_ANDESITE_COUNTERTOP = registerBlock("bamboo_cabinet_with_polished_andesite_countertop", CabinetCountertopBlock::new, Block.Settings.copy(Blocks.BARREL));
-    public static final Block BAMBOO_CABINET_WITH_POLISHED_TUFF_COUNTERTOP = registerBlock("bamboo_cabinet_with_polished_tuff_countertop", CabinetCountertopBlock::new, Block.Settings.copy(Blocks.BARREL));
+    public static final Block BAMBOO_DRAWER = registerBlock("bamboo_drawer", DrawerBlock::new, Block.Settings.copy(Blocks.BARREL).sounds(BlockSoundGroup.BAMBOO_WOOD));
+    public static final Block BAMBOO_DRAWER_WITH_DOOR = registerBlock("bamboo_drawer_with_door", DrawerDoorBlock::new, Block.Settings.copy(Blocks.BARREL).sounds(BlockSoundGroup.BAMBOO_WOOD));
+    public static final Block BAMBOO_DRAWER_WITH_BOOKS = registerBlock("bamboo_drawer_with_books", DrawerBooksBlock::new, Block.Settings.copy(Blocks.BARREL).sounds(BlockSoundGroup.BAMBOO_WOOD));
+    public static final Block SMALL_BAMBOO_DRAWERS = registerBlock("small_bamboo_drawers", SmallDrawersBlock::new, Block.Settings.copy(Blocks.BARREL).sounds(BlockSoundGroup.BAMBOO_WOOD));
+    public static final Block BAMBOO_BOOKSHELF_WITH_DOOR = registerBlock("bamboo_bookshelf_with_door", BookshelfDoorBlock::new, Block.Settings.copy(Blocks.BARREL).sounds(BlockSoundGroup.BAMBOO_WOOD));
+    public static final Block GLASS_BAMBOO_CABINET = registerBlock("glass_bamboo_cabinet", GlassCabinetBlock::new, Block.Settings.copy(Blocks.BARREL).sounds(BlockSoundGroup.BAMBOO_WOOD));
+    public static final Block BAMBOO_CABINET_WITH_GLASS_DOORS = registerBlock("bamboo_cabinet_with_glass_doors", CabinetVariantBlock::new, Block.Settings.copy(Blocks.BARREL).sounds(BlockSoundGroup.BAMBOO_WOOD));
+    public static final Block BAMBOO_SINGLE_DOOR_CABINET = registerBlock("bamboo_single_door_cabinet", CabinetVariantBlock::new, Block.Settings.copy(Blocks.BARREL).sounds(BlockSoundGroup.BAMBOO_WOOD));
+    public static final Block BAMBOO_CABINET_WITH_POLISHED_DEEPSLATE_COUNTERTOP = registerBlock("bamboo_cabinet_with_polished_deepslate_countertop", CabinetCountertopBlock::new, Block.Settings.copy(Blocks.BARREL).sounds(BlockSoundGroup.BAMBOO_WOOD));
+    public static final Block BAMBOO_CABINET_WITH_POLISHED_ANDESITE_COUNTERTOP = registerBlock("bamboo_cabinet_with_polished_andesite_countertop", CabinetCountertopBlock::new, Block.Settings.copy(Blocks.BARREL).sounds(BlockSoundGroup.BAMBOO_WOOD));
+    public static final Block BAMBOO_CABINET_WITH_POLISHED_TUFF_COUNTERTOP = registerBlock("bamboo_cabinet_with_polished_tuff_countertop", CabinetCountertopBlock::new, Block.Settings.copy(Blocks.BARREL).sounds(BlockSoundGroup.BAMBOO_WOOD));
 
     // Crimson Furniture Registry
-    public static final Block CRIMSON_DRAWER = registerBlock("crimson_drawer", DrawerBlock::new, Block.Settings.copy(Blocks.BARREL));
-    public static final Block CRIMSON_DRAWER_WITH_DOOR = registerBlock("crimson_drawer_with_door", DrawerDoorBlock::new, Block.Settings.copy(Blocks.BARREL));
-    public static final Block CRIMSON_DRAWER_WITH_BOOKS = registerBlock("crimson_drawer_with_books", DrawerBooksBlock::new, Block.Settings.copy(Blocks.BARREL));
-    public static final Block SMALL_CRIMSON_DRAWERS = registerBlock("small_crimson_drawers", SmallDrawersBlock::new, Block.Settings.copy(Blocks.BARREL));
-    public static final Block CRIMSON_BOOKSHELF_WITH_DOOR = registerBlock("crimson_bookshelf_with_door", BookshelfDoorBlock::new, Block.Settings.copy(Blocks.BARREL));
-    public static final Block GLASS_CRIMSON_CABINET = registerBlock("glass_crimson_cabinet", GlassCabinetBlock::new, Block.Settings.copy(Blocks.BARREL));
-    public static final Block CRIMSON_CABINET_WITH_GLASS_DOORS = registerBlock("crimson_cabinet_with_glass_doors", CabinetVariantBlock::new, Block.Settings.copy(Blocks.BARREL));
-    public static final Block CRIMSON_SINGLE_DOOR_CABINET = registerBlock("crimson_single_door_cabinet", CabinetVariantBlock::new, Block.Settings.copy(Blocks.BARREL));
-    public static final Block CRIMSON_CABINET_WITH_POLISHED_DEEPSLATE_COUNTERTOP = registerBlock("crimson_cabinet_with_polished_deepslate_countertop", CabinetCountertopBlock::new, Block.Settings.copy(Blocks.BARREL));
-    public static final Block CRIMSON_CABINET_WITH_POLISHED_ANDESITE_COUNTERTOP = registerBlock("crimson_cabinet_with_polished_andesite_countertop", CabinetCountertopBlock::new, Block.Settings.copy(Blocks.BARREL));
-    public static final Block CRIMSON_CABINET_WITH_POLISHED_TUFF_COUNTERTOP = registerBlock("crimson_cabinet_with_polished_tuff_countertop", CabinetCountertopBlock::new, Block.Settings.copy(Blocks.BARREL));
+    public static final Block CRIMSON_DRAWER = registerBlock("crimson_drawer", DrawerBlock::new, Block.Settings.copy(Blocks.BARREL).sounds(BlockSoundGroup.NETHER_WOOD));
+    public static final Block CRIMSON_DRAWER_WITH_DOOR = registerBlock("crimson_drawer_with_door", DrawerDoorBlock::new, Block.Settings.copy(Blocks.BARREL).sounds(BlockSoundGroup.NETHER_WOOD));
+    public static final Block CRIMSON_DRAWER_WITH_BOOKS = registerBlock("crimson_drawer_with_books", DrawerBooksBlock::new, Block.Settings.copy(Blocks.BARREL).sounds(BlockSoundGroup.NETHER_WOOD));
+    public static final Block SMALL_CRIMSON_DRAWERS = registerBlock("small_crimson_drawers", SmallDrawersBlock::new, Block.Settings.copy(Blocks.BARREL).sounds(BlockSoundGroup.NETHER_WOOD));
+    public static final Block CRIMSON_BOOKSHELF_WITH_DOOR = registerBlock("crimson_bookshelf_with_door", BookshelfDoorBlock::new, Block.Settings.copy(Blocks.BARREL).sounds(BlockSoundGroup.NETHER_WOOD));
+    public static final Block GLASS_CRIMSON_CABINET = registerBlock("glass_crimson_cabinet", GlassCabinetBlock::new, Block.Settings.copy(Blocks.BARREL).sounds(BlockSoundGroup.NETHER_WOOD));
+    public static final Block CRIMSON_CABINET_WITH_GLASS_DOORS = registerBlock("crimson_cabinet_with_glass_doors", CabinetVariantBlock::new, Block.Settings.copy(Blocks.BARREL).sounds(BlockSoundGroup.NETHER_WOOD));
+    public static final Block CRIMSON_SINGLE_DOOR_CABINET = registerBlock("crimson_single_door_cabinet", CabinetVariantBlock::new, Block.Settings.copy(Blocks.BARREL).sounds(BlockSoundGroup.NETHER_WOOD));
+    public static final Block CRIMSON_CABINET_WITH_POLISHED_DEEPSLATE_COUNTERTOP = registerBlock("crimson_cabinet_with_polished_deepslate_countertop", CabinetCountertopBlock::new, Block.Settings.copy(Blocks.BARREL).sounds(BlockSoundGroup.NETHER_WOOD));
+    public static final Block CRIMSON_CABINET_WITH_POLISHED_ANDESITE_COUNTERTOP = registerBlock("crimson_cabinet_with_polished_andesite_countertop", CabinetCountertopBlock::new, Block.Settings.copy(Blocks.BARREL).sounds(BlockSoundGroup.NETHER_WOOD));
+    public static final Block CRIMSON_CABINET_WITH_POLISHED_TUFF_COUNTERTOP = registerBlock("crimson_cabinet_with_polished_tuff_countertop", CabinetCountertopBlock::new, Block.Settings.copy(Blocks.BARREL).sounds(BlockSoundGroup.NETHER_WOOD));
 
     // Warped Furniture Registry
-    public static final Block WARPED_DRAWER = registerBlock("warped_drawer", DrawerBlock::new, Block.Settings.copy(Blocks.BARREL));
-    public static final Block WARPED_DRAWER_WITH_DOOR = registerBlock("warped_drawer_with_door", DrawerDoorBlock::new, Block.Settings.copy(Blocks.BARREL));
-    public static final Block WARPED_DRAWER_WITH_BOOKS = registerBlock("warped_drawer_with_books", DrawerBooksBlock::new, Block.Settings.copy(Blocks.BARREL));
-    public static final Block SMALL_WARPED_DRAWERS = registerBlock("small_warped_drawers", SmallDrawersBlock::new, Block.Settings.copy(Blocks.BARREL));
-    public static final Block WARPED_BOOKSHELF_WITH_DOOR = registerBlock("warped_bookshelf_with_door", BookshelfDoorBlock::new, Block.Settings.copy(Blocks.BARREL));
-    public static final Block GLASS_WARPED_CABINET = registerBlock("glass_warped_cabinet", GlassCabinetBlock::new, Block.Settings.copy(Blocks.BARREL));
-    public static final Block WARPED_CABINET_WITH_GLASS_DOORS = registerBlock("warped_cabinet_with_glass_doors", CabinetVariantBlock::new, Block.Settings.copy(Blocks.BARREL));
-    public static final Block WARPED_SINGLE_DOOR_CABINET = registerBlock("warped_single_door_cabinet", CabinetVariantBlock::new, Block.Settings.copy(Blocks.BARREL));
-    public static final Block WARPED_CABINET_WITH_POLISHED_DEEPSLATE_COUNTERTOP = registerBlock("warped_cabinet_with_polished_deepslate_countertop", CabinetCountertopBlock::new, Block.Settings.copy(Blocks.BARREL));
-    public static final Block WARPED_CABINET_WITH_POLISHED_ANDESITE_COUNTERTOP = registerBlock("warped_cabinet_with_polished_andesite_countertop", CabinetCountertopBlock::new, Block.Settings.copy(Blocks.BARREL));
-    public static final Block WARPED_CABINET_WITH_POLISHED_TUFF_COUNTERTOP = registerBlock("warped_cabinet_with_polished_tuff_countertop", CabinetCountertopBlock::new, Block.Settings.copy(Blocks.BARREL));
+    public static final Block WARPED_DRAWER = registerBlock("warped_drawer", DrawerBlock::new, Block.Settings.copy(Blocks.BARREL).sounds(BlockSoundGroup.NETHER_WOOD));
+    public static final Block WARPED_DRAWER_WITH_DOOR = registerBlock("warped_drawer_with_door", DrawerDoorBlock::new, Block.Settings.copy(Blocks.BARREL).sounds(BlockSoundGroup.NETHER_WOOD));
+    public static final Block WARPED_DRAWER_WITH_BOOKS = registerBlock("warped_drawer_with_books", DrawerBooksBlock::new, Block.Settings.copy(Blocks.BARREL).sounds(BlockSoundGroup.NETHER_WOOD));
+    public static final Block SMALL_WARPED_DRAWERS = registerBlock("small_warped_drawers", SmallDrawersBlock::new, Block.Settings.copy(Blocks.BARREL).sounds(BlockSoundGroup.NETHER_WOOD));
+    public static final Block WARPED_BOOKSHELF_WITH_DOOR = registerBlock("warped_bookshelf_with_door", BookshelfDoorBlock::new, Block.Settings.copy(Blocks.BARREL).sounds(BlockSoundGroup.NETHER_WOOD));
+    public static final Block GLASS_WARPED_CABINET = registerBlock("glass_warped_cabinet", GlassCabinetBlock::new, Block.Settings.copy(Blocks.BARREL).sounds(BlockSoundGroup.NETHER_WOOD));
+    public static final Block WARPED_CABINET_WITH_GLASS_DOORS = registerBlock("warped_cabinet_with_glass_doors", CabinetVariantBlock::new, Block.Settings.copy(Blocks.BARREL).sounds(BlockSoundGroup.NETHER_WOOD));
+    public static final Block WARPED_SINGLE_DOOR_CABINET = registerBlock("warped_single_door_cabinet", CabinetVariantBlock::new, Block.Settings.copy(Blocks.BARREL).sounds(BlockSoundGroup.NETHER_WOOD));
+    public static final Block WARPED_CABINET_WITH_POLISHED_DEEPSLATE_COUNTERTOP = registerBlock("warped_cabinet_with_polished_deepslate_countertop", CabinetCountertopBlock::new, Block.Settings.copy(Blocks.BARREL).sounds(BlockSoundGroup.NETHER_WOOD));
+    public static final Block WARPED_CABINET_WITH_POLISHED_ANDESITE_COUNTERTOP = registerBlock("warped_cabinet_with_polished_andesite_countertop", CabinetCountertopBlock::new, Block.Settings.copy(Blocks.BARREL).sounds(BlockSoundGroup.NETHER_WOOD));
+    public static final Block WARPED_CABINET_WITH_POLISHED_TUFF_COUNTERTOP = registerBlock("warped_cabinet_with_polished_tuff_countertop", CabinetCountertopBlock::new, Block.Settings.copy(Blocks.BARREL).sounds(BlockSoundGroup.NETHER_WOOD));
 
     private static Block registerBlock(String path, Function<AbstractBlock.Settings, Block> factory, AbstractBlock.Settings settings) {
         final Identifier identifier = Identifier.of(StorageDelight.MOD_ID, path);

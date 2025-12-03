@@ -43,7 +43,7 @@ public class DrawerBooksBlockEntity extends LootableContainerBlockEntity {
             }
 
             protected void onContainerClose(World world, BlockPos pos, BlockState state) {
-                DrawerBooksBlockEntity.this.playSound(state, SoundEvents.BLOCK_BARREL_OPEN);
+                DrawerBooksBlockEntity.this.playSound(state, SoundEvents.BLOCK_BARREL_CLOSE);
                 DrawerBooksBlockEntity.this.setOpen(state, false);
             }
 
