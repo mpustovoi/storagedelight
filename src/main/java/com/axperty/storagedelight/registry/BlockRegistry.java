@@ -200,11 +200,11 @@ public class BlockRegistry {
     public static final DeferredBlock<Block> CHERRY_SINGLE_DOOR_CABINET = BLOCKS.register("cherry_single_door_cabinet",
             registryName -> new CabinetVariantBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.BARREL).sound(SoundType.CHERRY_WOOD).setId(ResourceKey.create(Registries.BLOCK, registryName))));
     public static final DeferredBlock<Block> CHERRY_CABINET_WITH_POLISHED_DEEPSLATE_COUNTERTOP = BLOCKS.register("cherry_cabinet_with_polished_deepslate_countertop",
-            registryName -> new CabinetCountertopBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.BARREL).setId(ResourceKey.create(Registries.BLOCK, registryName))));
+            registryName -> new CabinetCountertopBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.BARREL).sound(SoundType.CHERRY_WOOD).setId(ResourceKey.create(Registries.BLOCK, registryName))));
     public static final DeferredBlock<Block> CHERRY_CABINET_WITH_POLISHED_ANDESITE_COUNTERTOP = BLOCKS.register("cherry_cabinet_with_polished_andesite_countertop",
-            registryName -> new CabinetCountertopBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.BARREL).setId(ResourceKey.create(Registries.BLOCK, registryName))));
+            registryName -> new CabinetCountertopBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.BARREL).sound(SoundType.CHERRY_WOOD).setId(ResourceKey.create(Registries.BLOCK, registryName))));
     public static final DeferredBlock<Block> CHERRY_CABINET_WITH_POLISHED_TUFF_COUNTERTOP = BLOCKS.register("cherry_cabinet_with_polished_tuff_countertop",
-            registryName -> new CabinetCountertopBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.BARREL).setId(ResourceKey.create(Registries.BLOCK, registryName))));
+            registryName -> new CabinetCountertopBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.BARREL).sound(SoundType.CHERRY_WOOD).setId(ResourceKey.create(Registries.BLOCK, registryName))));
 
     // Pale Oak Furniture
     public static final DeferredBlock<Block> PALE_OAK_CABINET = BLOCKS.register("pale_oak_cabinet",
@@ -250,11 +250,11 @@ public class BlockRegistry {
     public static final DeferredBlock<Block> BAMBOO_SINGLE_DOOR_CABINET = BLOCKS.register("bamboo_single_door_cabinet",
             registryName -> new CabinetVariantBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.BARREL).sound(SoundType.BAMBOO_WOOD).setId(ResourceKey.create(Registries.BLOCK, registryName))));
     public static final DeferredBlock<Block> BAMBOO_CABINET_WITH_POLISHED_DEEPSLATE_COUNTERTOP = BLOCKS.register("bamboo_cabinet_with_polished_deepslate_countertop",
-            registryName -> new CabinetCountertopBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.BARREL).setId(ResourceKey.create(Registries.BLOCK, registryName))));
+            registryName -> new CabinetCountertopBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.BARREL).sound(SoundType.BAMBOO_WOOD).setId(ResourceKey.create(Registries.BLOCK, registryName))));
     public static final DeferredBlock<Block> BAMBOO_CABINET_WITH_POLISHED_ANDESITE_COUNTERTOP = BLOCKS.register("bamboo_cabinet_with_polished_andesite_countertop",
-            registryName -> new CabinetCountertopBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.BARREL).setId(ResourceKey.create(Registries.BLOCK, registryName))));
+            registryName -> new CabinetCountertopBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.BARREL).sound(SoundType.BAMBOO_WOOD).setId(ResourceKey.create(Registries.BLOCK, registryName))));
     public static final DeferredBlock<Block> BAMBOO_CABINET_WITH_POLISHED_TUFF_COUNTERTOP = BLOCKS.register("bamboo_cabinet_with_polished_tuff_countertop",
-            registryName -> new CabinetCountertopBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.BARREL).setId(ResourceKey.create(Registries.BLOCK, registryName))));
+            registryName -> new CabinetCountertopBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.BARREL).sound(SoundType.BAMBOO_WOOD).setId(ResourceKey.create(Registries.BLOCK, registryName))));
 
     // Crimson Furniture
     public static final DeferredBlock<Block> CRIMSON_DRAWER = BLOCKS.register("crimson_drawer",
@@ -274,11 +274,11 @@ public class BlockRegistry {
     public static final DeferredBlock<Block> CRIMSON_SINGLE_DOOR_CABINET = BLOCKS.register("crimson_single_door_cabinet",
             registryName -> new CabinetVariantBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.BARREL).sound(SoundType.NETHER_WOOD).setId(ResourceKey.create(Registries.BLOCK, registryName))));
     public static final DeferredBlock<Block> CRIMSON_CABINET_WITH_POLISHED_DEEPSLATE_COUNTERTOP = BLOCKS.register("crimson_cabinet_with_polished_deepslate_countertop",
-            registryName -> new CabinetCountertopBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.BARREL).setId(ResourceKey.create(Registries.BLOCK, registryName))));
+            registryName -> new CabinetCountertopBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.BARREL).sound(SoundType.NETHER_WOOD).setId(ResourceKey.create(Registries.BLOCK, registryName))));
     public static final DeferredBlock<Block> CRIMSON_CABINET_WITH_POLISHED_ANDESITE_COUNTERTOP = BLOCKS.register("crimson_cabinet_with_polished_andesite_countertop",
-            registryName -> new CabinetCountertopBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.BARREL).setId(ResourceKey.create(Registries.BLOCK, registryName))));
+            registryName -> new CabinetCountertopBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.BARREL).sound(SoundType.NETHER_WOOD).setId(ResourceKey.create(Registries.BLOCK, registryName))));
     public static final DeferredBlock<Block> CRIMSON_CABINET_WITH_POLISHED_TUFF_COUNTERTOP = BLOCKS.register("crimson_cabinet_with_polished_tuff_countertop",
-            registryName -> new CabinetCountertopBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.BARREL).setId(ResourceKey.create(Registries.BLOCK, registryName))));
+            registryName -> new CabinetCountertopBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.BARREL).sound(SoundType.NETHER_WOOD).setId(ResourceKey.create(Registries.BLOCK, registryName))));
 
     // Warped Furniture
     public static final DeferredBlock<Block> WARPED_DRAWER = BLOCKS.register("warped_drawer",
@@ -298,9 +298,9 @@ public class BlockRegistry {
     public static final DeferredBlock<Block> WARPED_SINGLE_DOOR_CABINET = BLOCKS.register("warped_single_door_cabinet",
             registryName -> new CabinetVariantBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.BARREL).sound(SoundType.NETHER_WOOD).setId(ResourceKey.create(Registries.BLOCK, registryName))));
     public static final DeferredBlock<Block> WARPED_CABINET_WITH_POLISHED_DEEPSLATE_COUNTERTOP = BLOCKS.register("warped_cabinet_with_polished_deepslate_countertop",
-            registryName -> new CabinetCountertopBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.BARREL).setId(ResourceKey.create(Registries.BLOCK, registryName))));
+            registryName -> new CabinetCountertopBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.BARREL).sound(SoundType.NETHER_WOOD).setId(ResourceKey.create(Registries.BLOCK, registryName))));
     public static final DeferredBlock<Block> WARPED_CABINET_WITH_POLISHED_ANDESITE_COUNTERTOP = BLOCKS.register("warped_cabinet_with_polished_andesite_countertop",
-            registryName -> new CabinetCountertopBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.BARREL).setId(ResourceKey.create(Registries.BLOCK, registryName))));
+            registryName -> new CabinetCountertopBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.BARREL).sound(SoundType.NETHER_WOOD).setId(ResourceKey.create(Registries.BLOCK, registryName))));
     public static final DeferredBlock<Block> WARPED_CABINET_WITH_POLISHED_TUFF_COUNTERTOP = BLOCKS.register("warped_cabinet_with_polished_tuff_countertop",
-            registryName -> new CabinetCountertopBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.BARREL).setId(ResourceKey.create(Registries.BLOCK, registryName))));
+            registryName -> new CabinetCountertopBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.BARREL).sound(SoundType.NETHER_WOOD).setId(ResourceKey.create(Registries.BLOCK, registryName))));
 }
