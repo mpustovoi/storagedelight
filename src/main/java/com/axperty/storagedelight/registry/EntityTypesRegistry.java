@@ -1,6 +1,7 @@
 package com.axperty.storagedelight.registry;
 
 import com.axperty.storagedelight.StorageDelight;
+import com.axperty.storagedelight.block.CabinetCountertopBlock;
 import com.axperty.storagedelight.block.entity.*;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.world.level.block.entity.BlockEntityType;
@@ -133,5 +134,50 @@ public class EntityTypesRegistry {
                     BlockRegistry.SMALL_MANGROVE_DRAWERS.get(),
                     BlockRegistry.SMALL_CRIMSON_DRAWERS.get(),
                     BlockRegistry.SMALL_WARPED_DRAWERS.get())
+    );
+
+    public static final Supplier<BlockEntityType<CabinetCountertopBlockEntity>> COUNTERTOP = BLOCK_ENTITY_TYPES.register("countertop",
+            () -> new BlockEntityType<>(CabinetCountertopBlockEntity::new,
+                    BlockRegistry.OAK_CABINET_WITH_POLISHED_DEEPSLATE_COUNTERTOP.get(),
+                    BlockRegistry.BIRCH_CABINET_WITH_POLISHED_DEEPSLATE_COUNTERTOP.get(),
+                    BlockRegistry.SPRUCE_CABINET_WITH_POLISHED_DEEPSLATE_COUNTERTOP.get(),
+                    BlockRegistry.JUNGLE_CABINET_WITH_POLISHED_DEEPSLATE_COUNTERTOP.get(),
+                    BlockRegistry.ACACIA_CABINET_WITH_POLISHED_DEEPSLATE_COUNTERTOP.get(),
+                    BlockRegistry.DARK_OAK_CABINET_WITH_POLISHED_DEEPSLATE_COUNTERTOP.get(),
+                    BlockRegistry.MANGROVE_CABINET_WITH_POLISHED_DEEPSLATE_COUNTERTOP.get(),
+                    BlockRegistry.CHERRY_CABINET_WITH_POLISHED_DEEPSLATE_COUNTERTOP.get(),
+                    BlockRegistry.PALE_OAK_CABINET_WITH_POLISHED_DEEPSLATE_COUNTERTOP.get(),
+                    BlockRegistry.BAMBOO_CABINET_WITH_POLISHED_DEEPSLATE_COUNTERTOP.get(),
+                    BlockRegistry.CRIMSON_CABINET_WITH_POLISHED_DEEPSLATE_COUNTERTOP.get(),
+                    BlockRegistry.WARPED_CABINET_WITH_POLISHED_DEEPSLATE_COUNTERTOP.get(),
+                    BlockRegistry.OAK_CABINET_WITH_POLISHED_ANDESITE_COUNTERTOP.get(),
+                    BlockRegistry.BIRCH_CABINET_WITH_POLISHED_ANDESITE_COUNTERTOP.get(),
+                    BlockRegistry.SPRUCE_CABINET_WITH_POLISHED_ANDESITE_COUNTERTOP.get(),
+                    BlockRegistry.JUNGLE_CABINET_WITH_POLISHED_ANDESITE_COUNTERTOP.get(),
+                    BlockRegistry.ACACIA_CABINET_WITH_POLISHED_ANDESITE_COUNTERTOP.get(),
+                    BlockRegistry.DARK_OAK_CABINET_WITH_POLISHED_ANDESITE_COUNTERTOP.get(),
+                    BlockRegistry.MANGROVE_CABINET_WITH_POLISHED_ANDESITE_COUNTERTOP.get(),
+                    BlockRegistry.CHERRY_CABINET_WITH_POLISHED_ANDESITE_COUNTERTOP.get(),
+                    BlockRegistry.PALE_OAK_CABINET_WITH_POLISHED_ANDESITE_COUNTERTOP.get(),
+                    BlockRegistry.BAMBOO_CABINET_WITH_POLISHED_ANDESITE_COUNTERTOP.get(),
+                    BlockRegistry.CRIMSON_CABINET_WITH_POLISHED_ANDESITE_COUNTERTOP.get(),
+                    BlockRegistry.WARPED_CABINET_WITH_POLISHED_ANDESITE_COUNTERTOP.get(),
+                    BlockRegistry.OAK_CABINET_WITH_POLISHED_TUFF_COUNTERTOP.get(),
+                    BlockRegistry.BIRCH_CABINET_WITH_POLISHED_TUFF_COUNTERTOP.get(),
+                    BlockRegistry.SPRUCE_CABINET_WITH_POLISHED_TUFF_COUNTERTOP.get(),
+                    BlockRegistry.JUNGLE_CABINET_WITH_POLISHED_TUFF_COUNTERTOP.get(),
+                    BlockRegistry.ACACIA_CABINET_WITH_POLISHED_TUFF_COUNTERTOP.get(),
+                    BlockRegistry.DARK_OAK_CABINET_WITH_POLISHED_TUFF_COUNTERTOP.get(),
+                    BlockRegistry.MANGROVE_CABINET_WITH_POLISHED_TUFF_COUNTERTOP.get(),
+                    BlockRegistry.CHERRY_CABINET_WITH_POLISHED_TUFF_COUNTERTOP.get(),
+                    BlockRegistry.PALE_OAK_CABINET_WITH_POLISHED_TUFF_COUNTERTOP.get(),
+                    BlockRegistry.BAMBOO_CABINET_WITH_POLISHED_TUFF_COUNTERTOP.get(),
+                    BlockRegistry.CRIMSON_CABINET_WITH_POLISHED_TUFF_COUNTERTOP.get(),
+                    BlockRegistry.WARPED_CABINET_WITH_POLISHED_TUFF_COUNTERTOP.get())
+    );
+
+    public static final Supplier<BlockEntityType<CabinetBlockEntity>> CABINET = BLOCK_ENTITY_TYPES.register("cabinet",
+            () -> new BlockEntityType<>(CabinetBlockEntity::new,
+                    BlockRegistry.PALE_OAK_CABINET.get())
     );
 }
