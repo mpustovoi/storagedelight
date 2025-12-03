@@ -1,8 +1,7 @@
 package com.axperty.storagedelight.block.entity;
 
 import com.axperty.storagedelight.block.BookshelfDoorBlock;
-import com.axperty.storagedelight.block.CabinetVariantBlock;
-import com.axperty.storagedelight.registry.BlockEntityTypesRegistry;
+import com.axperty.storagedelight.registry.EntityTypesRegistry;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.entity.LootableContainerBlockEntity;
 import net.minecraft.block.entity.ViewerCountManager;
@@ -33,7 +32,7 @@ public class BookshelfDoorBlockEntity extends LootableContainerBlockEntity {
     private final ViewerCountManager stateManager;
 
     public BookshelfDoorBlockEntity(BlockPos pos, BlockState state) {
-        super(BlockEntityTypesRegistry.BOOKSHELF_DOOR, pos, state);
+        super(EntityTypesRegistry.BOOKSHELF_DOOR, pos, state);
         this.inventory = DefaultedList.ofSize(27, ItemStack.EMPTY);
         this.stateManager = new ViewerCountManager() {
             protected void onContainerOpen(World world, BlockPos pos, BlockState state) {
