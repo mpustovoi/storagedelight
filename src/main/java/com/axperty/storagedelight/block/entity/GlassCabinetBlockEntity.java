@@ -36,7 +36,7 @@ public class GlassCabinetBlockEntity extends LootableContainerBlockEntity {
     private DefaultedList<ItemStack> content;
 
     public GlassCabinetBlockEntity(BlockPos blockPos, BlockState blockState) {
-        this(EntityTypesRegistry.GLASS_CABINET.get(), blockPos, blockState);
+        this(EntityTypesRegistry.GLASS_CABINET, blockPos, blockState);
     }
 
     private GlassCabinetBlockEntity(BlockEntityType<?> type, BlockPos blockPos, BlockState blockState) {

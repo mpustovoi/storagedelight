@@ -36,7 +36,7 @@ public class DrawerBlockEntity extends LootableContainerBlockEntity {
     private DefaultedList<ItemStack> content;
 
     public DrawerBlockEntity(BlockPos blockPos, BlockState blockState) {
-        this(EntityTypesRegistry.DRAWER.get(), blockPos, blockState);
+        this(EntityTypesRegistry.DRAWER, blockPos, blockState);
     }
 
     private DrawerBlockEntity(BlockEntityType<?> type, BlockPos blockPos, BlockState blockState) {
