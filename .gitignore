@@ -32,5 +32,6 @@ bin/
 # fabric
 
 run/
+runs/
 /src/main/generated/.cache/
 secrets/
