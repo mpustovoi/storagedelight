@@ -1,7 +1,7 @@
 package com.axperty.storagedelight.block.entity;
 
 import com.axperty.storagedelight.block.GlassCabinetBlock;
-import com.axperty.storagedelight.registry.BlockEntityTypesRegistry;
+import com.axperty.storagedelight.registry.EntityTypesRegistry;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.entity.LootableContainerBlockEntity;
 import net.minecraft.block.entity.ViewerCountManager;
@@ -28,7 +28,7 @@ public class GlassCabinetBlockEntity extends LootableContainerBlockEntity {
     private final ViewerCountManager stateManager;
 
     public GlassCabinetBlockEntity(BlockPos pos, BlockState state) {
-        super(BlockEntityTypesRegistry.GLASS_CABINET.get(), pos, state);
+        super(EntityTypesRegistry.GLASS_CABINET, pos, state);
         this.inventory = DefaultedList.ofSize(27, ItemStack.EMPTY);
         this.stateManager = new ViewerCountManager() {
             protected void onContainerOpen(World world, BlockPos pos, BlockState state) {
