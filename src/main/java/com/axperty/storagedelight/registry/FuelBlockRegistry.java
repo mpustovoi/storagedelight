@@ -115,6 +115,7 @@ public class FuelBlockRegistry {
             registry.add(BlockRegistry.CHERRY_CABINET_WITH_POLISHED_TUFF_COUNTERTOP, 300);
 
             // Pale Oak
+            registry.add(BlockRegistry.PALE_OAK_CABINET, 300);
             registry.add(BlockRegistry.PALE_OAK_DRAWER, 300);
             registry.add(BlockRegistry.PALE_OAK_DRAWER_WITH_DOOR, 300);
             registry.add(BlockRegistry.PALE_OAK_DRAWER_WITH_BOOKS, 300);
