@@ -43,6 +43,12 @@ public class ItemRegistry {
             () -> new FuelBlockItem(BlockRegistry.OAK_CABINET_WITH_GLASS_DOORS.get(), basicItem(), 300));
     public static final RegistryObject<Item> OAK_SINGLE_DOOR_CABINET = registerWithTab("oak_single_door_cabinet",
             () -> new FuelBlockItem(BlockRegistry.OAK_SINGLE_DOOR_CABINET.get(), basicItem(), 300));
+    public static final RegistryObject<Item> OAK_CABINET_WITH_POLISHED_DEEPSLATE_COUNTERTOP = registerWithTab("oak_cabinet_with_polished_deepslate_countertop",
+            () -> new FuelBlockItem(BlockRegistry.OAK_CABINET_WITH_POLISHED_DEEPSLATE_COUNTERTOP.get(), basicItem(), 300));
+    public static final RegistryObject<Item> OAK_CABINET_WITH_POLISHED_ANDESITE_COUNTERTOP = registerWithTab("oak_cabinet_with_polished_andesite_countertop",
+            () -> new FuelBlockItem(BlockRegistry.OAK_CABINET_WITH_POLISHED_ANDESITE_COUNTERTOP.get(), basicItem(), 300));
+    public static final RegistryObject<Item> OAK_CABINET_WITH_POLISHED_TUFF_COUNTERTOP = registerWithTab("oak_cabinet_with_polished_tuff_countertop",
+            () -> new FuelBlockItem(BlockRegistry.OAK_CABINET_WITH_POLISHED_TUFF_COUNTERTOP.get(), basicItem(), 300));
 
     // Spruce Furniture
     public static final RegistryObject<Item> SPRUCE_DRAWER = registerWithTab("spruce_drawer",
@@ -61,6 +67,12 @@ public class ItemRegistry {
             () -> new FuelBlockItem(BlockRegistry.SPRUCE_CABINET_WITH_GLASS_DOORS.get(), basicItem(), 300));
     public static final RegistryObject<Item> SPRUCE_SINGLE_DOOR_CABINET = registerWithTab("spruce_single_door_cabinet",
             () -> new FuelBlockItem(BlockRegistry.SPRUCE_SINGLE_DOOR_CABINET.get(), basicItem(), 300));
+    public static final RegistryObject<Item> SPRUCE_CABINET_WITH_POLISHED_DEEPSLATE_COUNTERTOP = registerWithTab("spruce_cabinet_with_polished_deepslate_countertop",
+            () -> new FuelBlockItem(BlockRegistry.SPRUCE_CABINET_WITH_POLISHED_DEEPSLATE_COUNTERTOP.get(), basicItem(), 300));
+    public static final RegistryObject<Item> SPRUCE_CABINET_WITH_POLISHED_ANDESITE_COUNTERTOP = registerWithTab("spruce_cabinet_with_polished_andesite_countertop",
+            () -> new FuelBlockItem(BlockRegistry.SPRUCE_CABINET_WITH_POLISHED_ANDESITE_COUNTERTOP.get(), basicItem(), 300));
+    public static final RegistryObject<Item> SPRUCE_CABINET_WITH_POLISHED_TUFF_COUNTERTOP = registerWithTab("spruce_cabinet_with_polished_tuff_countertop",
+            () -> new FuelBlockItem(BlockRegistry.SPRUCE_CABINET_WITH_POLISHED_TUFF_COUNTERTOP.get(), basicItem(), 300));
 
     // Birch Furniture
     public static final RegistryObject<Item> BIRCH_DRAWER = registerWithTab("birch_drawer",
@@ -79,6 +91,12 @@ public class ItemRegistry {
             () -> new FuelBlockItem(BlockRegistry.BIRCH_CABINET_WITH_GLASS_DOORS.get(), basicItem(), 300));
     public static final RegistryObject<Item> BIRCH_SINGLE_DOOR_CABINET = registerWithTab("birch_single_door_cabinet",
             () -> new FuelBlockItem(BlockRegistry.BIRCH_SINGLE_DOOR_CABINET.get(), basicItem(), 300));
+    public static final RegistryObject<Item> BIRCH_CABINET_WITH_POLISHED_DEEPSLATE_COUNTERTOP = registerWithTab("birch_cabinet_with_polished_deepslate_countertop",
+            () -> new FuelBlockItem(BlockRegistry.BIRCH_CABINET_WITH_POLISHED_DEEPSLATE_COUNTERTOP.get(), basicItem(), 300));
+    public static final RegistryObject<Item> BIRCH_CABINET_WITH_POLISHED_ANDESITE_COUNTERTOP = registerWithTab("birch_cabinet_with_polished_andesite_countertop",
+            () -> new FuelBlockItem(BlockRegistry.BIRCH_CABINET_WITH_POLISHED_ANDESITE_COUNTERTOP.get(), basicItem(), 300));
+    public static final RegistryObject<Item> BIRCH_CABINET_WITH_POLISHED_TUFF_COUNTERTOP = registerWithTab("birch_cabinet_with_polished_tuff_countertop",
+            () -> new FuelBlockItem(BlockRegistry.BIRCH_CABINET_WITH_POLISHED_TUFF_COUNTERTOP.get(), basicItem(), 300));
 
     // Jungle Furniture
     public static final RegistryObject<Item> JUNGLE_DRAWER = registerWithTab("jungle_drawer",
@@ -97,6 +115,12 @@ public class ItemRegistry {
             () -> new FuelBlockItem(BlockRegistry.JUNGLE_CABINET_WITH_GLASS_DOORS.get(), basicItem(), 300));
     public static final RegistryObject<Item> JUNGLE_SINGLE_DOOR_CABINET = registerWithTab("jungle_single_door_cabinet",
             () -> new FuelBlockItem(BlockRegistry.JUNGLE_SINGLE_DOOR_CABINET.get(), basicItem(), 300));
+    public static final RegistryObject<Item> JUNGLE_CABINET_WITH_POLISHED_DEEPSLATE_COUNTERTOP = registerWithTab("jungle_cabinet_with_polished_deepslate_countertop",
+            () -> new FuelBlockItem(BlockRegistry.JUNGLE_CABINET_WITH_POLISHED_DEEPSLATE_COUNTERTOP.get(), basicItem(), 300));
+    public static final RegistryObject<Item> JUNGLE_CABINET_WITH_POLISHED_ANDESITE_COUNTERTOP = registerWithTab("jungle_cabinet_with_polished_andesite_countertop",
+            () -> new FuelBlockItem(BlockRegistry.JUNGLE_CABINET_WITH_POLISHED_ANDESITE_COUNTERTOP.get(), basicItem(), 300));
+    public static final RegistryObject<Item> JUNGLE_CABINET_WITH_POLISHED_TUFF_COUNTERTOP = registerWithTab("jungle_cabinet_with_polished_tuff_countertop",
+            () -> new FuelBlockItem(BlockRegistry.JUNGLE_CABINET_WITH_POLISHED_TUFF_COUNTERTOP.get(), basicItem(), 300));
 
     // Acacia Furniture
     public static final RegistryObject<Item> ACACIA_DRAWER = registerWithTab("acacia_drawer",
@@ -115,6 +139,12 @@ public class ItemRegistry {
             () -> new FuelBlockItem(BlockRegistry.ACACIA_CABINET_WITH_GLASS_DOORS.get(), basicItem(), 300));
     public static final RegistryObject<Item> ACACIA_SINGLE_DOOR_CABINET = registerWithTab("acacia_single_door_cabinet",
             () -> new FuelBlockItem(BlockRegistry.ACACIA_SINGLE_DOOR_CABINET.get(), basicItem(), 300));
+    public static final RegistryObject<Item> ACACIA_CABINET_WITH_POLISHED_DEEPSLATE_COUNTERTOP = registerWithTab("acacia_cabinet_with_polished_deepslate_countertop",
+            () -> new FuelBlockItem(BlockRegistry.ACACIA_CABINET_WITH_POLISHED_DEEPSLATE_COUNTERTOP.get(), basicItem(), 300));
+    public static final RegistryObject<Item> ACACIA_CABINET_WITH_POLISHED_ANDESITE_COUNTERTOP = registerWithTab("acacia_cabinet_with_polished_andesite_countertop",
+            () -> new FuelBlockItem(BlockRegistry.ACACIA_CABINET_WITH_POLISHED_ANDESITE_COUNTERTOP.get(), basicItem(), 300));
+    public static final RegistryObject<Item> ACACIA_CABINET_WITH_POLISHED_TUFF_COUNTERTOP = registerWithTab("acacia_cabinet_with_polished_tuff_countertop",
+            () -> new FuelBlockItem(BlockRegistry.ACACIA_CABINET_WITH_POLISHED_TUFF_COUNTERTOP.get(), basicItem(), 300));
 
     // Dark Oak Furniture
     public static final RegistryObject<Item> DARK_OAK_DRAWER = registerWithTab("dark_oak_drawer",
@@ -133,6 +163,12 @@ public class ItemRegistry {
             () -> new FuelBlockItem(BlockRegistry.DARK_OAK_CABINET_WITH_GLASS_DOORS.get(), basicItem(), 300));
     public static final RegistryObject<Item> DARK_OAK_SINGLE_DOOR_CABINET = registerWithTab("dark_oak_single_door_cabinet",
             () -> new FuelBlockItem(BlockRegistry.DARK_OAK_SINGLE_DOOR_CABINET.get(), basicItem(), 300));
+    public static final RegistryObject<Item> DARK_OAK_CABINET_WITH_POLISHED_DEEPSLATE_COUNTERTOP = registerWithTab("dark_oak_cabinet_with_polished_deepslate_countertop",
+            () -> new FuelBlockItem(BlockRegistry.DARK_OAK_CABINET_WITH_POLISHED_DEEPSLATE_COUNTERTOP.get(), basicItem(), 300));
+    public static final RegistryObject<Item> DARK_OAK_CABINET_WITH_POLISHED_ANDESITE_COUNTERTOP = registerWithTab("dark_oak_cabinet_with_polished_andesite_countertop",
+            () -> new FuelBlockItem(BlockRegistry.DARK_OAK_CABINET_WITH_POLISHED_ANDESITE_COUNTERTOP.get(), basicItem(), 300));
+    public static final RegistryObject<Item> DARK_OAK_CABINET_WITH_POLISHED_TUFF_COUNTERTOP = registerWithTab("dark_oak_cabinet_with_polished_tuff_countertop",
+            () -> new FuelBlockItem(BlockRegistry.DARK_OAK_CABINET_WITH_POLISHED_TUFF_COUNTERTOP.get(), basicItem(), 300));
 
     // Mangrove Furniture
     public static final RegistryObject<Item> MANGROVE_DRAWER = registerWithTab("mangrove_drawer",
@@ -151,6 +187,12 @@ public class ItemRegistry {
             () -> new FuelBlockItem(BlockRegistry.MANGROVE_CABINET_WITH_GLASS_DOORS.get(), basicItem(), 300));
     public static final RegistryObject<Item> MANGROVE_SINGLE_DOOR_CABINET = registerWithTab("mangrove_single_door_cabinet",
             () -> new FuelBlockItem(BlockRegistry.MANGROVE_SINGLE_DOOR_CABINET.get(), basicItem(), 300));
+    public static final RegistryObject<Item> MANGROVE_CABINET_WITH_POLISHED_DEEPSLATE_COUNTERTOP = registerWithTab("mangrove_cabinet_with_polished_deepslate_countertop",
+            () -> new FuelBlockItem(BlockRegistry.MANGROVE_CABINET_WITH_POLISHED_DEEPSLATE_COUNTERTOP.get(), basicItem(), 300));
+    public static final RegistryObject<Item> MANGROVE_CABINET_WITH_POLISHED_ANDESITE_COUNTERTOP = registerWithTab("mangrove_cabinet_with_polished_andesite_countertop",
+            () -> new FuelBlockItem(BlockRegistry.MANGROVE_CABINET_WITH_POLISHED_ANDESITE_COUNTERTOP.get(), basicItem(), 300));
+    public static final RegistryObject<Item> MANGROVE_CABINET_WITH_POLISHED_TUFF_COUNTERTOP = registerWithTab("mangrove_cabinet_with_polished_tuff_countertop",
+            () -> new FuelBlockItem(BlockRegistry.MANGROVE_CABINET_WITH_POLISHED_TUFF_COUNTERTOP.get(), basicItem(), 300));
 
     // Cherry Furniture
     public static final RegistryObject<Item> CHERRY_DRAWER = registerWithTab("cherry_drawer",
@@ -169,6 +211,12 @@ public class ItemRegistry {
             () -> new FuelBlockItem(BlockRegistry.CHERRY_CABINET_WITH_GLASS_DOORS.get(), basicItem(), 300));
     public static final RegistryObject<Item> CHERRY_SINGLE_DOOR_CABINET = registerWithTab("cherry_single_door_cabinet",
             () -> new FuelBlockItem(BlockRegistry.CHERRY_SINGLE_DOOR_CABINET.get(), basicItem(), 300));
+    public static final RegistryObject<Item> CHERRY_CABINET_WITH_POLISHED_DEEPSLATE_COUNTERTOP = registerWithTab("cherry_cabinet_with_polished_deepslate_countertop",
+            () -> new FuelBlockItem(BlockRegistry.CHERRY_CABINET_WITH_POLISHED_DEEPSLATE_COUNTERTOP.get(), basicItem(), 300));
+    public static final RegistryObject<Item> CHERRY_CABINET_WITH_POLISHED_ANDESITE_COUNTERTOP = registerWithTab("cherry_cabinet_with_polished_andesite_countertop",
+            () -> new FuelBlockItem(BlockRegistry.CHERRY_CABINET_WITH_POLISHED_ANDESITE_COUNTERTOP.get(), basicItem(), 300));
+    public static final RegistryObject<Item> CHERRY_CABINET_WITH_POLISHED_TUFF_COUNTERTOP = registerWithTab("cherry_cabinet_with_polished_tuff_countertop",
+            () -> new FuelBlockItem(BlockRegistry.CHERRY_CABINET_WITH_POLISHED_TUFF_COUNTERTOP.get(), basicItem(), 300));
 
     // Bamboo Furniture
     public static final RegistryObject<Item> BAMBOO_DRAWER = registerWithTab("bamboo_drawer",
@@ -187,6 +235,12 @@ public class ItemRegistry {
             () -> new FuelBlockItem(BlockRegistry.BAMBOO_CABINET_WITH_GLASS_DOORS.get(), basicItem(), 300));
     public static final RegistryObject<Item> BAMBOO_SINGLE_DOOR_CABINET = registerWithTab("bamboo_single_door_cabinet",
             () -> new FuelBlockItem(BlockRegistry.BAMBOO_SINGLE_DOOR_CABINET.get(), basicItem(), 300));
+    public static final RegistryObject<Item> BAMBOO_CABINET_WITH_POLISHED_DEEPSLATE_COUNTERTOP = registerWithTab("bamboo_cabinet_with_polished_deepslate_countertop",
+            () -> new FuelBlockItem(BlockRegistry.BAMBOO_CABINET_WITH_POLISHED_DEEPSLATE_COUNTERTOP.get(), basicItem(), 300));
+    public static final RegistryObject<Item> BAMBOO_CABINET_WITH_POLISHED_ANDESITE_COUNTERTOP = registerWithTab("bamboo_cabinet_with_polished_andesite_countertop",
+            () -> new FuelBlockItem(BlockRegistry.BAMBOO_CABINET_WITH_POLISHED_ANDESITE_COUNTERTOP.get(), basicItem(), 300));
+    public static final RegistryObject<Item> BAMBOO_CABINET_WITH_POLISHED_TUFF_COUNTERTOP = registerWithTab("bamboo_cabinet_with_polished_tuff_countertop",
+            () -> new FuelBlockItem(BlockRegistry.BAMBOO_CABINET_WITH_POLISHED_TUFF_COUNTERTOP.get(), basicItem(), 300));
 
     // Crimson Furniture
     public static final RegistryObject<Item> CRIMSON_DRAWER = registerWithTab("crimson_drawer",
@@ -200,11 +254,17 @@ public class ItemRegistry {
     public static final RegistryObject<Item> CRIMSON_BOOKSHELF_WITH_DOOR = registerWithTab("crimson_bookshelf_with_door",
             () -> new BlockItem(BlockRegistry.CRIMSON_BOOKSHELF_WITH_DOOR.get(), basicItem()));
     public static final RegistryObject<Item> GLASS_CRIMSON_CABINET = registerWithTab("glass_crimson_cabinet",
-            () -> new BlockItem(BlockRegistry.GLASS_CRIMSON_CABINET.get(), basicItem()));
+            () -> new BlockItem(BlockRegistry.CRIMSON_CABINET_WITH_GLASS_DOORS.get(), basicItem()));
     public static final RegistryObject<Item> CRIMSON_CABINET_WITH_GLASS_DOORS = registerWithTab("crimson_cabinet_with_glass_doors",
             () -> new BlockItem(BlockRegistry.CRIMSON_CABINET_WITH_GLASS_DOORS.get(), basicItem()));
     public static final RegistryObject<Item> CRIMSON_SINGLE_DOOR_CABINET = registerWithTab("crimson_single_door_cabinet",
             () -> new BlockItem(BlockRegistry.CRIMSON_SINGLE_DOOR_CABINET.get(), basicItem()));
+    public static final RegistryObject<Item> CRIMSON_CABINET_WITH_POLISHED_DEEPSLATE_COUNTERTOP = registerWithTab("crimson_cabinet_with_polished_deepslate_countertop",
+            () -> new BlockItem(BlockRegistry.CRIMSON_CABINET_WITH_POLISHED_DEEPSLATE_COUNTERTOP.get(), basicItem()));
+    public static final RegistryObject<Item> CRIMSON_CABINET_WITH_POLISHED_ANDESITE_COUNTERTOP = registerWithTab("crimson_cabinet_with_polished_andesite_countertop",
+            () -> new BlockItem(BlockRegistry.CRIMSON_CABINET_WITH_POLISHED_ANDESITE_COUNTERTOP.get(), basicItem()));
+    public static final RegistryObject<Item> CRIMSON_CABINET_WITH_POLISHED_TUFF_COUNTERTOP = registerWithTab("crimson_cabinet_with_polished_tuff_countertop",
+            () -> new BlockItem(BlockRegistry.CRIMSON_CABINET_WITH_POLISHED_TUFF_COUNTERTOP.get(), basicItem()));
 
     // Warped Furniture
     public static final RegistryObject<Item> WARPED_DRAWER = registerWithTab("warped_drawer",
@@ -223,4 +283,10 @@ public class ItemRegistry {
             () -> new BlockItem(BlockRegistry.WARPED_CABINET_WITH_GLASS_DOORS.get(), basicItem()));
     public static final RegistryObject<Item> WARPED_SINGLE_DOOR_CABINET = registerWithTab("warped_single_door_cabinet",
             () -> new BlockItem(BlockRegistry.WARPED_SINGLE_DOOR_CABINET.get(), basicItem()));
+    public static final RegistryObject<Item> WARPED_CABINET_WITH_POLISHED_DEEPSLATE_COUNTERTOP = registerWithTab("warped_cabinet_with_polished_deepslate_countertop",
+            () -> new BlockItem(BlockRegistry.WARPED_CABINET_WITH_POLISHED_DEEPSLATE_COUNTERTOP.get(), basicItem()));
+    public static final RegistryObject<Item> WARPED_CABINET_WITH_POLISHED_ANDESITE_COUNTERTOP = registerWithTab("warped_cabinet_with_polished_andesite_countertop",
+            () -> new BlockItem(BlockRegistry.WARPED_CABINET_WITH_POLISHED_ANDESITE_COUNTERTOP.get(), basicItem()));
+    public static final RegistryObject<Item> WARPED_CABINET_WITH_POLISHED_TUFF_COUNTERTOP = registerWithTab("warped_cabinet_with_polished_tuff_countertop",
+            () -> new BlockItem(BlockRegistry.WARPED_CABINET_WITH_POLISHED_TUFF_COUNTERTOP.get(), basicItem()));
 }
