@@ -2,16 +2,25 @@
 
 ***
 
-### 🪵 Introducing Bookshelf with Door!
-- Save your resources (and even more books!) inside a bookshelf with door and to add a decorative touch to any place you like.
+### ✨ What's New
 
-![Bookshelf with Door](https://i.imgur.com/qWwSu93.gif)
+- Added cabinets with countertops, enhance the look of your cooking space with new cabinets that feature integrated countertops.
 
-### 🛠️ Other Changes
-- Drawers with books are now crafted with a bookshelf instead of a single book.
+![Cabinets with countertops](https://i.imgur.com/iimXYqF.png)
+
+- These cabinets are crafted using polished andesite, polished deepslate, or polished tuff for the countertop slabs, and are available in all vanilla wood types.
+
+![Cabinets with countertops crafting recipe](https://i.imgur.com/dN9RS0z.gif)
+
+- Added the Pale Oak Cabinet.
+
+![Pale Oak Cabinet crafting recipe](https://i.imgur.com/cfc6wYr.png)
+
+- Improved Pale Oak furniture textures to align with the Farmer's Delight aesthetic.
 
 ### 🌐 Translations
-- Improved translations for Chinese, thank you [taguima](https://github.com/22858)!
+- Improved translations for Japanese. Thank you, [Abbage230](https://github.com/Abbage230)!
+- Added translations for Kazakh. Thank you, [Nursultan Akim](https://github.com/ninsent)!
 
 ***
 
