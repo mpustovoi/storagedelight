@@ -4,7 +4,7 @@ license="MIT License"
 
 [[mods]]
     modId="storagedelight"
-    version="25.06.26-1.20.6-forge"
+    version="25.12.04-1.20.6-forge"
     displayName="Storage Delight"
     authors="Axperty"
     description='''A mod that adds more storage options to the game.'''
