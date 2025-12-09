@@ -8,9 +8,9 @@ import net.minecraft.util.Identifier;
 
 public class CreativeTabRegistry {
     public static final ItemGroup ITEM_GROUP = FabricItemGroupBuilder.build(new Identifier(StorageDelight.MOD_ID, "title"),
-            () -> new ItemStack(ItemRegistry.OAK_DRAWER.get()));
+            () -> new ItemStack(BlockRegistry.OAK_DRAWER));
 
     public static void register() {
-        StorageDelight.LOGGER.info("Registering creative mode tab for " + StorageDelight.MOD_ID);
+
     }
 }

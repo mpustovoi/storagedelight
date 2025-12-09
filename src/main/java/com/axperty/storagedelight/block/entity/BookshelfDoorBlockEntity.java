@@ -37,7 +37,7 @@ public class BookshelfDoorBlockEntity extends LootableContainerBlockEntity {
     private DefaultedList<ItemStack> content;
 
     public BookshelfDoorBlockEntity(BlockPos blockPos, BlockState blockState) {
-        this(EntityTypesRegistry.BOOKSHELF_DOOR.get(), blockPos, blockState);
+        this(EntityTypesRegistry.BOOKSHELF_DOOR, blockPos, blockState);
     }
 
     private BookshelfDoorBlockEntity(BlockEntityType<?> type, BlockPos blockPos, BlockState blockState) {

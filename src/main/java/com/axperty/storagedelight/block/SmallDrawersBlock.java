@@ -3,10 +3,7 @@ package com.axperty.storagedelight.block;
 import com.axperty.storagedelight.block.entity.SmallDrawersBlockEntity;
 import com.axperty.storagedelight.registry.EntityTypesRegistry;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
-import net.minecraft.block.Block;
-import net.minecraft.block.BlockRenderType;
-import net.minecraft.block.BlockState;
-import net.minecraft.block.Blocks;
+import net.minecraft.block.*;
 import net.minecraft.block.entity.BlockEntity;
 import net.minecraft.entity.LivingEntity;
 import net.minecraft.entity.player.PlayerEntity;
@@ -39,10 +36,15 @@ public class SmallDrawersBlock extends InventoryBlockWithEntity {
         setDefaultState(getStateManager().getDefaultState().with(FACING, Direction.NORTH).with(OPEN, false));
     }
 
+    public SmallDrawersBlock(AbstractBlock.Settings settings) {
+        super(settings);
+        this.setDefaultState((BlockState)((BlockState)((BlockState)this.stateManager.getDefaultState()).with(FACING, Direction.NORTH)).with(OPEN, false));
+    }
+
     @Nullable
     @Override
     public BlockEntity createBlockEntity(BlockPos pos, BlockState state) {
-        return EntityTypesRegistry.SMALL_DRAWERS.get().instantiate(pos, state);
+        return EntityTypesRegistry.SMALL_DRAWERS.instantiate(pos, state);
     }
 
     @Override

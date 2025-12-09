@@ -3,106 +3,152 @@ package com.axperty.storagedelight.registry;
 import com.axperty.storagedelight.StorageDelight;
 import com.axperty.storagedelight.block.entity.*;
 import net.fabricmc.fabric.api.object.builder.v1.block.entity.FabricBlockEntityTypeBuilder;
-import net.minecraft.block.Block;
-import net.minecraft.block.entity.BlockEntity;
 import net.minecraft.block.entity.BlockEntityType;
-import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
+import net.minecraft.util.Identifier;
 
-import java.util.Arrays;
-import java.util.function.Supplier;
-
-public enum EntityTypesRegistry {
-
-    // Drawers
-    DRAWER("drawer", DrawerBlockEntity.class, DrawerBlockEntity::new,
-            BlockRegistry.OAK_DRAWER, BlockRegistry.BIRCH_DRAWER, BlockRegistry.SPRUCE_DRAWER,
-            BlockRegistry.JUNGLE_DRAWER, BlockRegistry.ACACIA_DRAWER, BlockRegistry.DARK_OAK_DRAWER,
-            BlockRegistry.MANGROVE_DRAWER, BlockRegistry.CRIMSON_DRAWER, BlockRegistry.WARPED_DRAWER),
-
-    // Drawers with Doors
-    DRAWER_DOOR("drawer_door", DrawerDoorBlockEntity.class, DrawerDoorBlockEntity::new,
-            BlockRegistry.OAK_DRAWER_WITH_DOOR, BlockRegistry.BIRCH_DRAWER_WITH_DOOR, BlockRegistry.SPRUCE_DRAWER_WITH_DOOR,
-            BlockRegistry.JUNGLE_DRAWER_WITH_DOOR, BlockRegistry.ACACIA_DRAWER_WITH_DOOR, BlockRegistry.DARK_OAK_DRAWER_WITH_DOOR,
-            BlockRegistry.MANGROVE_DRAWER_WITH_DOOR, BlockRegistry.CRIMSON_DRAWER_WITH_DOOR, BlockRegistry.WARPED_DRAWER_WITH_DOOR),
-
-    // Drawers with Books
-    DRAWER_BOOKS("drawer_books", DrawerBooksBlockEntity.class, DrawerBooksBlockEntity::new,
-            BlockRegistry.OAK_DRAWER_WITH_BOOKS, BlockRegistry.BIRCH_DRAWER_WITH_BOOKS, BlockRegistry.SPRUCE_DRAWER_WITH_BOOKS,
-            BlockRegistry.JUNGLE_DRAWER_WITH_BOOKS, BlockRegistry.ACACIA_DRAWER_WITH_BOOKS, BlockRegistry.DARK_OAK_DRAWER_WITH_BOOKS,
-            BlockRegistry.MANGROVE_DRAWER_WITH_BOOKS, BlockRegistry.CRIMSON_DRAWER_WITH_BOOKS, BlockRegistry.WARPED_DRAWER_WITH_BOOKS),
-
-    // Glass Cabinets
-    GLASS_CABINET("glass_cabinet", GlassCabinetBlockEntity.class, GlassCabinetBlockEntity::new,
-            BlockRegistry.GLASS_OAK_CABINET, BlockRegistry.GLASS_BIRCH_CABINET,
-            BlockRegistry.GLASS_SPRUCE_CABINET, BlockRegistry.GLASS_JUNGLE_CABINET,
-            BlockRegistry.GLASS_ACACIA_CABINET, BlockRegistry.GLASS_DARK_OAK_CABINET,
-            BlockRegistry.GLASS_MANGROVE_CABINET, BlockRegistry.GLASS_CRIMSON_CABINET,
-            BlockRegistry.GLASS_WARPED_CABINET),
-
-    // Cabinets with Glass Doors, Single Door Cabinets
-    CABINET_VARIANT("cabinet_variant", CabinetVariantBlockEntity.class, CabinetVariantBlockEntity::new,
-            BlockRegistry.OAK_CABINET_WITH_GLASS_DOORS, BlockRegistry.BIRCH_CABINET_WITH_GLASS_DOORS,
-            BlockRegistry.SPRUCE_CABINET_WITH_GLASS_DOORS, BlockRegistry.JUNGLE_CABINET_WITH_GLASS_DOORS,
-            BlockRegistry.ACACIA_CABINET_WITH_GLASS_DOORS, BlockRegistry.DARK_OAK_CABINET_WITH_GLASS_DOORS,
-            BlockRegistry.MANGROVE_CABINET_WITH_GLASS_DOORS, BlockRegistry.CRIMSON_CABINET_WITH_GLASS_DOORS,
-            BlockRegistry.WARPED_CABINET_WITH_GLASS_DOORS, BlockRegistry.OAK_SINGLE_DOOR_CABINET,
-            BlockRegistry.BIRCH_SINGLE_DOOR_CABINET, BlockRegistry.SPRUCE_SINGLE_DOOR_CABINET,
-            BlockRegistry.JUNGLE_SINGLE_DOOR_CABINET, BlockRegistry.ACACIA_SINGLE_DOOR_CABINET,
-            BlockRegistry.DARK_OAK_SINGLE_DOOR_CABINET, BlockRegistry.MANGROVE_SINGLE_DOOR_CABINET,
-            BlockRegistry.CRIMSON_SINGLE_DOOR_CABINET, BlockRegistry.WARPED_SINGLE_DOOR_CABINET),
-
-    // Bookshelves with Doors
-    BOOKSHELF_DOOR("bookshelf_door",BookshelfDoorBlockEntity.class, BookshelfDoorBlockEntity::new,
-            BlockRegistry.OAK_BOOKSHELF_WITH_DOOR, BlockRegistry.BIRCH_BOOKSHELF_WITH_DOOR,
-            BlockRegistry.SPRUCE_BOOKSHELF_WITH_DOOR, BlockRegistry.JUNGLE_BOOKSHELF_WITH_DOOR,
-            BlockRegistry.ACACIA_BOOKSHELF_WITH_DOOR, BlockRegistry.DARK_OAK_BOOKSHELF_WITH_DOOR,
-            BlockRegistry.MANGROVE_BOOKSHELF_WITH_DOOR,BlockRegistry.CRIMSON_BOOKSHELF_WITH_DOOR,
-            BlockRegistry.WARPED_BOOKSHELF_WITH_DOOR),
-
-    // Small Drawers
-    SMALL_DRAWERS("small_drawers",SmallDrawersBlockEntity.class, SmallDrawersBlockEntity::new,
-            BlockRegistry.SMALL_OAK_DRAWERS, BlockRegistry.SMALL_BIRCH_DRAWERS,
-            BlockRegistry.SMALL_SPRUCE_DRAWERS, BlockRegistry.SMALL_JUNGLE_DRAWERS,
-            BlockRegistry.SMALL_ACACIA_DRAWERS, BlockRegistry.SMALL_DARK_OAK_DRAWERS,
-            BlockRegistry.SMALL_MANGROVE_DRAWERS, BlockRegistry.SMALL_CRIMSON_DRAWERS,
-            BlockRegistry.SMALL_WARPED_DRAWERS);
-
-    private final String pathName;
-    private final Class<? extends BlockEntity> blockEntityClass;
-    private final Supplier<BlockEntityType<? extends BlockEntity>> blockEntityTypeSupplier;
-    private BlockEntityType<? extends BlockEntity> blockEntityType;
-
-    EntityTypesRegistry(String pathName, Class<? extends BlockEntity> blockEntityClass,
-                        FabricBlockEntityTypeBuilder.Factory<? extends BlockEntity> blockEntitySupplier, BlockRegistry... blockRegistryArray) {
-        this.pathName = pathName;
-        this.blockEntityClass = blockEntityClass;
-        this.blockEntityTypeSupplier = () -> FabricBlockEntityTypeBuilder.create(blockEntitySupplier, Arrays.stream(blockRegistryArray)
-                .map(BlockRegistry::get).toArray(Block[]::new)).build(null);
+public class EntityTypesRegistry {
+    public static <T extends BlockEntityType<?>> T register(String path, T blockEntityType) {
+        return Registry.register(Registry.BLOCK_ENTITY_TYPE, Identifier.of(StorageDelight.MOD_ID, path), blockEntityType);
     }
 
-    public static void registerAll() {
-        StorageDelight.LOGGER.info("Registering block entity types for " + StorageDelight.MOD_ID);
-        for (EntityTypesRegistry value : values()) {
-            Registry.register(Registry.BLOCK_ENTITY_TYPE, new Identifier(StorageDelight.MOD_ID, value.pathName), value.get());
-        }
-    }
+    public static final BlockEntityType<DrawerBlockEntity> DRAWER = register(
+            "drawer", FabricBlockEntityTypeBuilder.create(DrawerBlockEntity::new,
+                            BlockRegistry.OAK_DRAWER,
+                            BlockRegistry.BIRCH_DRAWER,
+                            BlockRegistry.SPRUCE_DRAWER,
+                            BlockRegistry.JUNGLE_DRAWER,
+                            BlockRegistry.ACACIA_DRAWER,
+                            BlockRegistry.DARK_OAK_DRAWER,
+                            BlockRegistry.MANGROVE_DRAWER,
+                            BlockRegistry.CRIMSON_DRAWER,
+                            BlockRegistry.WARPED_DRAWER)
+                    .build()
+    );
 
-    @SuppressWarnings("unchecked")
-    public <T extends BlockEntity> BlockEntityType<T> get() {
-        return (BlockEntityType<T>) get(blockEntityClass);
-    }
+    public static final BlockEntityType<DrawerDoorBlockEntity> DRAWER_DOOR = register(
+            "drawer_door", FabricBlockEntityTypeBuilder.create(DrawerDoorBlockEntity::new,
+                            BlockRegistry.OAK_DRAWER_WITH_DOOR,
+                            BlockRegistry.BIRCH_DRAWER_WITH_DOOR,
+                            BlockRegistry.SPRUCE_DRAWER_WITH_DOOR,
+                            BlockRegistry.JUNGLE_DRAWER_WITH_DOOR,
+                            BlockRegistry.ACACIA_DRAWER_WITH_DOOR,
+                            BlockRegistry.DARK_OAK_DRAWER_WITH_DOOR,
+                            BlockRegistry.MANGROVE_DRAWER_WITH_DOOR,
+                            BlockRegistry.CRIMSON_DRAWER_WITH_DOOR,
+                            BlockRegistry.WARPED_DRAWER_WITH_DOOR)
+                    .build()
+    );
 
-    @SuppressWarnings({"unchecked","unused"})
-    private <T extends BlockEntity> BlockEntityType<T> get(Class<T> clazz) {
-        if (blockEntityType == null) {
-            blockEntityType = blockEntityTypeSupplier.get();
-        }
+    public static final BlockEntityType<DrawerBooksBlockEntity> DRAWER_BOOKS = register(
+            "drawer_books", FabricBlockEntityTypeBuilder.create(DrawerBooksBlockEntity::new,
+                            BlockRegistry.OAK_DRAWER_WITH_BOOKS,
+                            BlockRegistry.BIRCH_DRAWER_WITH_BOOKS,
+                            BlockRegistry.SPRUCE_DRAWER_WITH_BOOKS,
+                            BlockRegistry.JUNGLE_DRAWER_WITH_BOOKS,
+                            BlockRegistry.ACACIA_DRAWER_WITH_BOOKS,
+                            BlockRegistry.DARK_OAK_DRAWER_WITH_BOOKS,
+                            BlockRegistry.MANGROVE_DRAWER_WITH_BOOKS,
+                            BlockRegistry.CRIMSON_DRAWER_WITH_BOOKS,
+                            BlockRegistry.WARPED_DRAWER_WITH_BOOKS)
+                    .build()
+    );
 
-        return (BlockEntityType<T>) blockEntityType;
-    }
+    public static final BlockEntityType<GlassCabinetBlockEntity> GLASS_CABINET = register(
+            "glass_cabinet", FabricBlockEntityTypeBuilder.create(GlassCabinetBlockEntity::new,
+                            BlockRegistry.GLASS_OAK_CABINET,
+                            BlockRegistry.GLASS_BIRCH_CABINET,
+                            BlockRegistry.GLASS_SPRUCE_CABINET,
+                            BlockRegistry.GLASS_JUNGLE_CABINET,
+                            BlockRegistry.GLASS_ACACIA_CABINET,
+                            BlockRegistry.GLASS_DARK_OAK_CABINET,
+                            BlockRegistry.GLASS_MANGROVE_CABINET,
+                            BlockRegistry.GLASS_CRIMSON_CABINET,
+                            BlockRegistry.GLASS_WARPED_CABINET)
+                    .build()
+    );
 
-    public String getId() {
-        return Registry.BLOCK_ENTITY_TYPE.getId(get()).toString();
+    public static final BlockEntityType<CabinetVariantBlockEntity> CABINET_VARIANT = register(
+            "cabinet_variant", FabricBlockEntityTypeBuilder.create(CabinetVariantBlockEntity::new,
+                            BlockRegistry.OAK_CABINET_WITH_GLASS_DOORS,
+                            BlockRegistry.BIRCH_CABINET_WITH_GLASS_DOORS,
+                            BlockRegistry.SPRUCE_CABINET_WITH_GLASS_DOORS,
+                            BlockRegistry.JUNGLE_CABINET_WITH_GLASS_DOORS,
+                            BlockRegistry.ACACIA_CABINET_WITH_GLASS_DOORS,
+                            BlockRegistry.DARK_OAK_CABINET_WITH_GLASS_DOORS,
+                            BlockRegistry.MANGROVE_CABINET_WITH_GLASS_DOORS,
+                            BlockRegistry.CRIMSON_CABINET_WITH_GLASS_DOORS,
+                            BlockRegistry.WARPED_CABINET_WITH_GLASS_DOORS,
+                            BlockRegistry.OAK_SINGLE_DOOR_CABINET,
+                            BlockRegistry.BIRCH_SINGLE_DOOR_CABINET,
+                            BlockRegistry.SPRUCE_SINGLE_DOOR_CABINET,
+                            BlockRegistry.JUNGLE_SINGLE_DOOR_CABINET,
+                            BlockRegistry.ACACIA_SINGLE_DOOR_CABINET,
+                            BlockRegistry.DARK_OAK_SINGLE_DOOR_CABINET,
+                            BlockRegistry.MANGROVE_SINGLE_DOOR_CABINET,
+                            BlockRegistry.CRIMSON_SINGLE_DOOR_CABINET,
+                            BlockRegistry.WARPED_SINGLE_DOOR_CABINET)
+                    .build()
+    );
+
+    public static final BlockEntityType<BookshelfDoorBlockEntity> BOOKSHELF_DOOR = register(
+            "bookshelf_door", FabricBlockEntityTypeBuilder.create(BookshelfDoorBlockEntity::new,
+                            BlockRegistry.OAK_BOOKSHELF_WITH_DOOR,
+                            BlockRegistry.BIRCH_BOOKSHELF_WITH_DOOR,
+                            BlockRegistry.SPRUCE_BOOKSHELF_WITH_DOOR,
+                            BlockRegistry.JUNGLE_BOOKSHELF_WITH_DOOR,
+                            BlockRegistry.ACACIA_BOOKSHELF_WITH_DOOR,
+                            BlockRegistry.DARK_OAK_BOOKSHELF_WITH_DOOR,
+                            BlockRegistry.MANGROVE_BOOKSHELF_WITH_DOOR,
+                            BlockRegistry.CRIMSON_BOOKSHELF_WITH_DOOR,
+                            BlockRegistry.WARPED_BOOKSHELF_WITH_DOOR)
+                    .build()
+    );
+
+    public static final BlockEntityType<SmallDrawersBlockEntity> SMALL_DRAWERS = register(
+            "small_drawers", FabricBlockEntityTypeBuilder.create(SmallDrawersBlockEntity::new,
+                            BlockRegistry.SMALL_OAK_DRAWERS,
+                            BlockRegistry.SMALL_BIRCH_DRAWERS,
+                            BlockRegistry.SMALL_SPRUCE_DRAWERS,
+                            BlockRegistry.SMALL_JUNGLE_DRAWERS,
+                            BlockRegistry.SMALL_ACACIA_DRAWERS,
+                            BlockRegistry.SMALL_DARK_OAK_DRAWERS,
+                            BlockRegistry.SMALL_MANGROVE_DRAWERS,
+                            BlockRegistry.SMALL_CRIMSON_DRAWERS,
+                            BlockRegistry.SMALL_WARPED_DRAWERS)
+                    .build()
+    );
+
+    public static final BlockEntityType<CabinetCountertopBlockEntity> COUNTERTOP = register(
+            "countertop", FabricBlockEntityTypeBuilder.create(CabinetCountertopBlockEntity::new,
+                            BlockRegistry.OAK_CABINET_WITH_POLISHED_DEEPSLATE_COUNTERTOP,
+                            BlockRegistry.BIRCH_CABINET_WITH_POLISHED_DEEPSLATE_COUNTERTOP,
+                            BlockRegistry.SPRUCE_CABINET_WITH_POLISHED_DEEPSLATE_COUNTERTOP,
+                            BlockRegistry.JUNGLE_CABINET_WITH_POLISHED_DEEPSLATE_COUNTERTOP,
+                            BlockRegistry.ACACIA_CABINET_WITH_POLISHED_DEEPSLATE_COUNTERTOP,
+                            BlockRegistry.DARK_OAK_CABINET_WITH_POLISHED_DEEPSLATE_COUNTERTOP,
+                            BlockRegistry.MANGROVE_CABINET_WITH_POLISHED_DEEPSLATE_COUNTERTOP,
+                            BlockRegistry.CRIMSON_CABINET_WITH_POLISHED_DEEPSLATE_COUNTERTOP,
+                            BlockRegistry.WARPED_CABINET_WITH_POLISHED_DEEPSLATE_COUNTERTOP,
+                            BlockRegistry.OAK_CABINET_WITH_POLISHED_ANDESITE_COUNTERTOP,
+                            BlockRegistry.BIRCH_CABINET_WITH_POLISHED_ANDESITE_COUNTERTOP,
+                            BlockRegistry.SPRUCE_CABINET_WITH_POLISHED_ANDESITE_COUNTERTOP,
+                            BlockRegistry.JUNGLE_CABINET_WITH_POLISHED_ANDESITE_COUNTERTOP,
+                            BlockRegistry.ACACIA_CABINET_WITH_POLISHED_ANDESITE_COUNTERTOP,
+                            BlockRegistry.DARK_OAK_CABINET_WITH_POLISHED_ANDESITE_COUNTERTOP,
+                            BlockRegistry.MANGROVE_CABINET_WITH_POLISHED_ANDESITE_COUNTERTOP,
+                            BlockRegistry.CRIMSON_CABINET_WITH_POLISHED_ANDESITE_COUNTERTOP,
+                            BlockRegistry.WARPED_CABINET_WITH_POLISHED_ANDESITE_COUNTERTOP)
+                    .build()
+    );
+
+//    public static final BlockEntityType<CabinetBlockEntity> CABINET = register(
+//            "cabinet", FabricBlockEntityTypeBuilder.create(CabinetBlockEntity::new,
+//                            BlockRegistry.PALE_OAK_CABINET)
+//                    .build()
+//    );
+
+    public static void register() {
+
     }
 }

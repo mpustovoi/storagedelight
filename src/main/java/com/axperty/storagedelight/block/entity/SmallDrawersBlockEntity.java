@@ -37,7 +37,7 @@ public class SmallDrawersBlockEntity extends LootableContainerBlockEntity {
     private DefaultedList<ItemStack> content;
 
     public SmallDrawersBlockEntity(BlockPos blockPos, BlockState blockState) {
-        this(EntityTypesRegistry.SMALL_DRAWERS.get(), blockPos, blockState);
+        this(EntityTypesRegistry.SMALL_DRAWERS, blockPos, blockState);
     }
 
     private SmallDrawersBlockEntity(BlockEntityType<?> type, BlockPos blockPos, BlockState blockState) {

@@ -37,7 +37,7 @@ public class CabinetVariantBlockEntity extends LootableContainerBlockEntity {
     private DefaultedList<ItemStack> content;
 
     public CabinetVariantBlockEntity(BlockPos blockPos, BlockState blockState) {
-        this(EntityTypesRegistry.CABINET_VARIANT.get(), blockPos, blockState);
+        this(EntityTypesRegistry.CABINET_VARIANT, blockPos, blockState);
     }
 
     private CabinetVariantBlockEntity(BlockEntityType<?> type, BlockPos blockPos, BlockState blockState) {
