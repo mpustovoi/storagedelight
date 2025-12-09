@@ -6,7 +6,7 @@
 
 - Added cabinets with countertops, enhance the look of your cooking space with new cabinets that feature integrated countertops.
 
-![Cabinets with countertops](https://i.imgur.com/iimXYqF.png)
+![Cabinets with countertops](https://i.imgur.com/FGLZmOa.png)
 
 - These cabinets are crafted using polished andesite, polished deepslate, or polished tuff for the countertop slabs, and are available in all vanilla wood types.
 
