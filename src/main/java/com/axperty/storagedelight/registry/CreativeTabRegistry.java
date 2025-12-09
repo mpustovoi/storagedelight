@@ -16,6 +16,6 @@ public class CreativeTabRegistry {
         }
     };
     public static void register() {
-        StorageDelight.LOGGER.info("Registering creative mode tab for " + StorageDelight.MOD_ID);
+
     }
 }
