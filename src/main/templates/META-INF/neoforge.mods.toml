@@ -19,7 +19,6 @@ versionRange="[${neo_version},)"
 ordering="NONE"
 side="BOTH"
 
-# Here's another dependency
 [[dependencies.${mod_id}]]
 modId="minecraft"
 type="required"
