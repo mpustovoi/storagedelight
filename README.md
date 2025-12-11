@@ -26,3 +26,4 @@ This mod adds four new type of blocks to the game that are useful to decorate an
 - Glass Cabinets.
 - Cabinets with Glass Doors.
 - Single Door Cabinets.
+- Cabinets with Countertops.
