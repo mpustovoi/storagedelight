@@ -1,6 +1,7 @@
 package com.axperty.storagedelight.block.entity;
 
 import com.axperty.storagedelight.block.BookshelfDoorBlock;
+import com.axperty.storagedelight.block.CabinetBlock;
 import com.axperty.storagedelight.registry.EntityTypesRegistry;
 import net.minecraft.core.*;
 import net.minecraft.network.chat.Component;
@@ -122,15 +123,15 @@ public class BookshelfDoorBlockEntity extends RandomizableContainerBlockEntity
 
     }
 
-    void updateBlockState(BlockState state, boolean open) {
+    private void updateBlockState(BlockState state, boolean open) {
         this.level.setBlock(this.getBlockPos(), (BlockState)state.setValue(BookshelfDoorBlock.OPEN, open), 3);
     }
 
-    void playSound(BlockState state, SoundEvent sound) {
-        Vec3i vec3i = ((Direction)state.getValue(BookshelfDoorBlock.FACING)).getUnitVec3i();
-        double d0 = (double)this.worldPosition.getX() + (double)0.5F + (double)vec3i.getX() / (double)2.0F;
-        double d1 = (double)this.worldPosition.getY() + (double)0.5F + (double)vec3i.getY() / (double)2.0F;
-        double d2 = (double)this.worldPosition.getZ() + (double)0.5F + (double)vec3i.getZ() / (double)2.0F;
-        this.level.playSound((Entity)null, d0, d1, d2, sound, SoundSource.BLOCKS, 0.5F, this.level.random.nextFloat() * 0.1F + 0.9F);
+    private void playSound(BlockState state, SoundEvent event) {
+        Vec3i direction = ((Direction)state.getValue(BookshelfDoorBlock.FACING)).getUnitVec3i();
+        double x = (double)this.worldPosition.getX() + (double)0.5F + (double)direction.getX() / (double)2.0F;
+        double y = (double)this.worldPosition.getY() + (double)0.5F + (double)direction.getY() / (double)2.0F;
+        double z = (double)this.worldPosition.getZ() + (double)0.5F + (double)direction.getZ() / (double)2.0F;
+        this.level.playSound((Entity)null, x, y, z, event, SoundSource.BLOCKS, 0.5F, this.level.getRandom().nextFloat() * 0.1F + 0.9F);
     }
 }

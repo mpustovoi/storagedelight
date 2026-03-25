@@ -8,8 +8,6 @@ version="${mod_version}"
 displayName="${mod_name}"
 displayURL = "https://github.com/axperty/storagedelight"
 logoFile="logo.png"
-logoBlur = false
-authors="${mod_authors}"
 description="A mod that adds more storage options to the game."
 
 [[dependencies.${mod_id}]]
@@ -19,6 +17,7 @@ versionRange="[${neo_version},)"
 ordering="NONE"
 side="BOTH"
 
+# Here's another dependency
 [[dependencies.${mod_id}]]
 modId="minecraft"
 type="required"
