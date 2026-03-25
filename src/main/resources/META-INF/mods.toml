@@ -1,10 +1,10 @@
 modLoader="javafml"
-loaderVersion="${loader_version_range}"
+loaderVersion="[62,)"
 license="MIT License"
 
 [[mods]]
 modId="storagedelight"
-version="25.12.09-1.21.11-forge"
+version="26.03.25+26.1-forge"
 displayName="Storage Delight"
 authors="Axperty"
 description='''A mod that adds more storage options to the game.'''
@@ -13,13 +13,13 @@ logoFile="assets/storagedelight/logo.png"
 [[dependencies.storagedelight]]
 modId="forge"
 mandatory=true
-versionRange="${forge_version_range}"
+versionRange="[62,)"
 ordering="NONE"
 side="BOTH"
 
 [[dependencies.storagedelight]]
 modId="minecraft"
 mandatory=true
-versionRange="${minecraft_version_range}"
+versionRange="[26.1,26.2,)"
 ordering="NONE"
 side="BOTH"
