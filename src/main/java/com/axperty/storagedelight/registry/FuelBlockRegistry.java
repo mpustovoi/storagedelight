@@ -1,14 +1,14 @@
 package com.axperty.storagedelight.registry;
 
 import com.axperty.storagedelight.StorageDelight;
-import net.fabricmc.fabric.api.registry.FuelRegistryEvents;
+import net.fabricmc.fabric.api.registry.FuelValueEvents;
 
 public class FuelBlockRegistry {
 
     public static void register() {
         StorageDelight.LOGGER.info("Registering furniture fuels for " + StorageDelight.MOD_ID);
 
-        FuelRegistryEvents.BUILD.register((registry, context) -> {
+        FuelValueEvents.BUILD.register((registry, context) -> {
 
             // Oak
             registry.add(BlockRegistry.OAK_DRAWER, 300);
