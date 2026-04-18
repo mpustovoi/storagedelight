@@ -2,14 +2,9 @@
 
 ***
 
-### ✨ What's New:
+### 🛠️ Bug Fixes:
 
-- Added support for [Every Compat (Wood Good)](https://www.curseforge.com/minecraft/mc-mods/every-compat), thanks [Jakub Matuszczyk](https://github.com/K8bus)!
-
-### 🌐 Translations:
-- Improved translations for Chinese (zh_cn), thanks [micrcraft](https://github.com/micrcraft)!
-- Improved translations for Portuguese (pt_br), thanks [PrincessStellar](https://github.com/PrincessStellar)!
-- Improved translations for Russian (ru_ru), thanks [Karbin Drem](https://github.com/mpustovoi)!
+- Fixed issue where Every Compat (Wood Good) compatibility wouldn't work with certain blocks from Storage Delight.
 
 ***
 
