@@ -60,6 +60,8 @@ configurations {
 
 dependencies {
     implementation "net.neoforged:neoforge:${neo_version}"
+    implementation "curse.maven:every-compat-628539:7929148"
+    implementation "curse.maven:selene-499980:7943878"
 }
 
 tasks.withType(ProcessResources).configureEach {

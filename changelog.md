@@ -2,26 +2,19 @@
 
 ***
 
-### ✨ What's New
+### ✨ What's New:
 
-- Added cabinets with countertops, enhance the look of your cooking space with new cabinets that feature integrated countertops.
+- Added support for [Every Compat (Wood Good)](https://www.curseforge.com/minecraft/mc-mods/every-compat), thanks [Jakub Matuszczyk](https://github.com/K8bus)!
 
-![Cabinets with countertops](https://i.imgur.com/iimXYqF.png)
-
-- These cabinets are crafted using polished andesite, polished deepslate, or polished tuff for the countertop slabs, and are available in all vanilla wood types.
-
-![Cabinets with countertops crafting recipe](https://i.imgur.com/dN9RS0z.gif)
-
-- Added the Pale Oak Cabinet.
-
-![Pale Oak Cabinet crafting recipe](https://i.imgur.com/cfc6wYr.png)
-
-- Improved Pale Oak furniture textures to align with the Farmer's Delight aesthetic.
-
-### 🌐 Translations
-- Improved translations for Japanese. Thank you, [Abbage230](https://github.com/Abbage230)!
-- Added translations for Kazakh. Thank you, [Nursultan Akim](https://github.com/ninsent)!
+### 🌐 Translations:
+- Improved translations for Chinese (zh_cn), thanks [micrcraft](https://github.com/micrcraft)!
+- Improved translations for Portuguese (pt_br), thanks [PrincessStellar](https://github.com/PrincessStellar)!
+- Improved translations for Russian (ru_ru), thanks [Karbin Drem](https://github.com/mpustovoi)!
 
 ***
 
-Send your suggestions or report any issues on [GitHub](https://github.com/axperty/storagedelight/issues/new). Support Storage Delight by [creating your own server](https://url-shortener.curseforge.com/p5i2k) or [donating on PayPal](https://paypal.me/kevgelhorn). 
+
+### 📝 Feedback and Support:
+
+- Found a bug or have suggestions? [Submit an issue on GitHub](https://github.com/axperty/storagedelight/issues/new).
+- Support this mod by [creating your own server](https://url-shortener.curseforge.com/p5i2k) or [donating via PayPal](https://paypal.me/kevgelhorn).

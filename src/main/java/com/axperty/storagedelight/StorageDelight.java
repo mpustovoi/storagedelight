@@ -1,5 +1,6 @@
 package com.axperty.storagedelight;
 
+import com.axperty.storagedelight.compat.everycompat.WoodGoodCompat;
 import com.axperty.storagedelight.registry.*;
 import com.mojang.logging.LogUtils;
 import net.neoforged.bus.api.IEventBus;
@@ -15,6 +16,7 @@ public class StorageDelight {
         ItemRegistry.ITEMS.register(modEventBus);
         BlockRegistry.BLOCKS.register(modEventBus);
         EntityTypesRegistry.TILES.register(modEventBus);
+        modEventBus.addListener(WoodGoodCompat::enqueueImc);
         CreativeTabRegistry.CREATIVE_TABS.register(modEventBus);
     }
 }
