@@ -1,5 +1,6 @@
 package com.axperty.storagedelight;
 
+import com.axperty.storagedelight.compat.WoodGoodCompat;
 import com.axperty.storagedelight.registry.*;
 import com.mojang.logging.LogUtils;
 import net.minecraftforge.common.MinecraftForge;
@@ -19,6 +20,7 @@ public class StorageDelight {
         BlockRegistry.BLOCKS.register(modEventBus);
         EntityTypesRegistry.TILES.register(modEventBus);
         CreativeTabRegistry.CREATIVE_TABS.register(modEventBus);
+        modEventBus.addListener(WoodGoodCompat::enqueueImc);
         MinecraftForge.EVENT_BUS.register(this);
     }
 }

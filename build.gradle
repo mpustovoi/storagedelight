@@ -145,7 +145,9 @@ minecraft {
 sourceSets.main.resources { srcDir 'src/generated/resources' }
 
 repositories {
+    maven { url = 'https://registry.somethingcatchy.net/repository/maven-releases/' }
     maven { url = 'https://www.cursemaven.com/' }
+    maven { url = 'https://api.modrinth.com/maven' }
 }
 
 dependencies {
@@ -155,6 +157,14 @@ dependencies {
     // If the group id is "net.minecraft" and the artifact id is one of ["client", "server", "joined"],
     // then special handling is done to allow a setup of a vanilla dependency without the use of an external repository.
     minecraft "net.minecraftforge:forge:${minecraft_version}-${forge_version}"
+
+    // EveryCompat + Moonlight API (Forge-only, compileOnly - no transitive deps)
+    compileOnly fg.deobf("net.mehvahdjukaar:moonlight-forge:${moonlight_version}:forge") { transitive = false }
+    compileOnly fg.deobf("net.mehvahdjukaar:everycomp-forge:${everycomp_version}:forge") { transitive = false }
+    // Dev runtime: pull deobf copies so testing with EveryCompat works without raw jars in run/mods.
+    runtimeOnly fg.deobf("net.mehvahdjukaar:moonlight-forge:${moonlight_version}:forge") { transitive = false }
+    runtimeOnly fg.deobf("net.mehvahdjukaar:everycomp-forge:${everycomp_version}:forge") { transitive = false }
+
     // Example mod dependency with JEI - using fg.deobf() ensures the dependency is remapped to your development mappings
     // The JEI API is declared for compile time use, while the full JEI artifact is used at runtime
     // compileOnly fg.deobf("mezz.jei:jei-${mc_version}-common-api:${jei_version}")

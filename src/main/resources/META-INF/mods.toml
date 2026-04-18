@@ -4,7 +4,7 @@ license="MIT License"
 
 [[mods]]
     modId="storagedelight"
-    version="25.12.09-1.20-forge"
+    version="26.04.14-1.20-forge"
     displayName="Storage Delight"
     authors="Axperty"
     description='''A mod that adds more storage options to the game.'''
@@ -23,3 +23,11 @@ license="MIT License"
     versionRange="${minecraft_version_range}"
     ordering="NONE"
     side="BOTH"
+
+[[dependencies.storagedelight]]
+    modId="everycomp"
+    mandatory=false
+    versionRange="[0,)"
+    ordering="AFTER"
+    side="BOTH"
+
