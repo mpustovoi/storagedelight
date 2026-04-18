@@ -2,8 +2,6 @@ package com.axperty.storagedelight.compat.everycompat;
 
 import com.axperty.storagedelight.StorageDelight;
 import net.mehvahdjukaar.every_compat.api.EveryCompatAPI;
-import net.neoforged.fml.ModList;
-import net.neoforged.fml.event.lifecycle.InterModEnqueueEvent;
 
 /**
  * Every Compat (Wood Good) registration handler for Storage Delight.
@@ -11,21 +9,15 @@ import net.neoforged.fml.event.lifecycle.InterModEnqueueEvent;
  */
 public final class EveryCompatIntegration {
 
-    private static final String EVERYCOMP_MOD_ID = "everycomp";
-
     private EveryCompatIntegration() {
     }
 
     /**
-     * Called during InterModEnqueueEvent to register Storage Delight withEvery Compat (Wood Good).
+     * Registers the Storage Delight module with Every Compat (Wood Good).
+     * Must be called during mod construction, after EveryCompat presence is confirmed.
      */
-    public static void onEnqueueIMC(InterModEnqueueEvent event) {
-        if (!ModList.get().isLoaded(EVERYCOMP_MOD_ID)) {
-            return;
-        }
-
+    public static void register() {
         try {
-            // Register the Storage Delight module with Every Compat (Wood Good) API
             EveryCompatAPI.registerModule(new StorageDelightEveryCompatModule(StorageDelight.MOD_ID));
             StorageDelight.LOGGER.info("Successfully registered Storage Delight module with Every Compat (Wood Good)");
         } catch (Exception e) {

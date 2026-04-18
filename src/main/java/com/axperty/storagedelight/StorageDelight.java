@@ -16,7 +16,7 @@ public class StorageDelight {
         ItemRegistry.ITEMS.register(modEventBus);
         BlockRegistry.BLOCKS.register(modEventBus);
         EntityTypesRegistry.TILES.register(modEventBus);
-        modEventBus.addListener(WoodGoodCompat::enqueueImc);
+        WoodGoodCompat.init();
         CreativeTabRegistry.CREATIVE_TABS.register(modEventBus);
     }
 }
