@@ -6,8 +6,8 @@ import net.minecraftforge.fml.ModList;
 import net.minecraftforge.fml.event.lifecycle.InterModEnqueueEvent;
 
 /**
- * EveryCompat registration handler for Storage Delight.
- * Automatically registers the mod's blocks with EveryCompat when present.
+ * Every Compat (Wood Good) registration handler for Storage Delight.
+ * Automatically registers the mod's blocks with Every Compat (Wood Good) when present.
  */
 public final class EveryCompatIntegration {
 
@@ -17,7 +17,7 @@ public final class EveryCompatIntegration {
     }
 
     /**
-     * Called during InterModEnqueueEvent to register Storage Delight with EveryCompat.
+     * Called during InterModEnqueueEvent to register Storage Delight withEvery Compat (Wood Good).
      */
     public static void onEnqueueIMC(InterModEnqueueEvent event) {
         if (!ModList.get().isLoaded(EVERYCOMP_MOD_ID)) {
@@ -25,11 +25,11 @@ public final class EveryCompatIntegration {
         }
 
         try {
-            // Register the Storage Delight module with EveryCompat API
+            // Register the Storage Delight module with Every Compat (Wood Good) API
             EveryCompatAPI.registerModule(new StorageDelightEveryCompatModule(StorageDelight.MOD_ID));
-            StorageDelight.LOGGER.info("Successfully registered Storage Delight module with EveryCompat");
+            StorageDelight.LOGGER.info("Successfully registered Storage Delight module with Every Compat (Wood Good)");
         } catch (Exception e) {
-            StorageDelight.LOGGER.error("Failed to register Storage Delight with EveryCompat", e);
+            StorageDelight.LOGGER.error("Failed to register Storage Delight with Every Compat (Wood Good)", e);
         }
     }
 }

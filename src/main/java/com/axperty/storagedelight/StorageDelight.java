@@ -1,6 +1,6 @@
 package com.axperty.storagedelight;
 
-import com.axperty.storagedelight.compat.WoodGoodCompat;
+import com.axperty.storagedelight.compat.everycompat.WoodGoodCompat;
 import com.axperty.storagedelight.registry.*;
 import com.mojang.logging.LogUtils;
 import net.minecraftforge.common.MinecraftForge;

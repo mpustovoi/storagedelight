@@ -11,8 +11,6 @@
 
 Storage Delight is a mod for Farmer's Delight that adds more storage options to the game, letting the player craft multiple options from drawers to glass cabinets.
 
-WoodGood / EveryCompat support is now included as optional compatibility and is enabled automatically when that mod is present.
-
 ### Contributing
 
 Your contributions to this project allows Storage Delight to be improved to deliver a better gameplay experience for all players. Feel free to submit your code suggestions, bug reports, texture improvements, or translations.
@@ -28,3 +26,7 @@ This mod adds four new type of blocks to the game that are useful to decorate an
 - Glass Cabinets.
 - Cabinets with Glass Doors.
 - Single Door Cabinets.
+
+### Compatibility
+
+- EveryCompat (WoodGood) support is included as optional compatibility and is enabled automatically when that mod is present.

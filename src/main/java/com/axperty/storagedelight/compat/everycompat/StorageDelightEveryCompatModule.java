@@ -11,8 +11,8 @@ import net.minecraft.world.level.block.Block;
 import java.util.Locale;
 
 /**
- * EveryCompat module for Storage Delight.
- * Generates Storage Delight blocks for all available wood types via EveryCompat.
+ * Every Compat (Wood Good) module for Storage Delight.
+ * Generates Storage Delight blocks for all available wood types via Every Compat (Wood Good).
  */
 public class StorageDelightEveryCompatModule extends SimpleModule {
 
