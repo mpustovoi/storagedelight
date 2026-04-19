@@ -1,5 +1,6 @@
 package com.axperty.storagedelight;
 
+import com.axperty.storagedelight.compat.everycompat.WoodGoodCompat;
 import com.axperty.storagedelight.registry.EntityTypesRegistry;
 import com.axperty.storagedelight.registry.BlockRegistry;
 import com.axperty.storagedelight.registry.CreativeTabRegistry;
@@ -18,6 +19,7 @@ public class StorageDelight implements ModInitializer {
         BlockRegistry.register();
         EntityTypesRegistry.register();
         FuelBlockRegistry.register();
+        WoodGoodCompat.init();
         CreativeTabRegistry.register();
     }
 }
