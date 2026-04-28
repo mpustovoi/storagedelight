@@ -1,7 +1,6 @@
 package com.axperty.storagedelight.registry;
 
 import com.axperty.storagedelight.StorageDelight;
-import com.axperty.storagedelight.block.CabinetCountertopBlock;
 import com.axperty.storagedelight.block.entity.*;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.world.level.block.entity.BlockEntityType;

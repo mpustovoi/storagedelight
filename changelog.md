@@ -4,7 +4,7 @@
 
 ### 🛠️ Minor Changes:
 
-- Fixed issue where Storage Delight wouldn't let the Minecraft instance launch in version 26.1.2 (thanks, SDUBZGAMING!).
+- Fixed a similar issue to last version where Storage Delight wouldn't let the Minecraft instance launch in version 26.1.2 (thanks, SnakeTheNoob!)
 
 ***
 
