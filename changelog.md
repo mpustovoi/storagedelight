@@ -2,10 +2,15 @@
 
 ***
 
-### ✨ What's New
+### ✨ What's New:
 
-- Added support for Minecraft 26.1.
+- Added Cabinets with Polished Blackstone Countertops for all wood types.
+- Added Cabinets with Polished Diorite Countertops for all wood types.
+- Added Cabinets with Stone Bricks Countertops for all wood types.
 
 ***
 
-Send your suggestions or report any issues on [GitHub](https://github.com/axperty/storagedelight/issues/new). Support Storage Delight by [creating your own server](https://url-shortener.curseforge.com/p5i2k) or [donating on PayPal](https://paypal.me/kevgelhorn). 
+### 📝 Feedback and Support:
+
+- Found a bug or have suggestions? [Submit an issue on GitHub](https://github.com/axperty/storagedelight/issues/new).
+- Support this mod by [creating your own server](https://url-shortener.curseforge.com/OtRVJ) or [donating via PayPal](https://paypal.me/kevgelhorn).
