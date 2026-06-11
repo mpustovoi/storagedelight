@@ -39,9 +39,6 @@
     "storagedelight:oak_cabinet_with_polished_diorite_countertop": {
       "burn_time": 300
     },
-    "storagedelight:oak_cabinet_with_polished_granite_countertop": {
-      "burn_time": 300
-    },
     "storagedelight:birch_drawer": {
       "burn_time": 300
     },
@@ -79,9 +76,6 @@
       "burn_time": 300
     },
     "storagedelight:birch_cabinet_with_polished_diorite_countertop": {
-      "burn_time": 300
-    },
-    "storagedelight:birch_cabinet_with_polished_granite_countertop": {
       "burn_time": 300
     },
     "storagedelight:spruce_drawer": {
@@ -123,9 +117,6 @@
     "storagedelight:spruce_cabinet_with_polished_diorite_countertop": {
       "burn_time": 300
     },
-    "storagedelight:spruce_cabinet_with_polished_granite_countertop": {
-      "burn_time": 300
-    },
     "storagedelight:jungle_drawer": {
       "burn_time": 300
     },
@@ -163,9 +154,6 @@
       "burn_time": 300
     },
     "storagedelight:jungle_cabinet_with_polished_diorite_countertop": {
-      "burn_time": 300
-    },
-    "storagedelight:jungle_cabinet_with_polished_granite_countertop": {
       "burn_time": 300
     },
     "storagedelight:acacia_drawer": {
@@ -207,9 +195,6 @@
     "storagedelight:acacia_cabinet_with_polished_diorite_countertop": {
       "burn_time": 300
     },
-    "storagedelight:acacia_cabinet_with_polished_granite_countertop": {
-      "burn_time": 300
-    },
     "storagedelight:dark_oak_drawer": {
       "burn_time": 300
     },
@@ -247,9 +232,6 @@
       "burn_time": 300
     },
     "storagedelight:dark_oak_cabinet_with_polished_diorite_countertop": {
-      "burn_time": 300
-    },
-    "storagedelight:dark_oak_cabinet_with_polished_granite_countertop": {
       "burn_time": 300
     },
     "storagedelight:mangrove_drawer": {
@@ -291,9 +273,6 @@
     "storagedelight:mangrove_cabinet_with_polished_diorite_countertop": {
       "burn_time": 300
     },
-    "storagedelight:mangrove_cabinet_with_polished_granite_countertop": {
-      "burn_time": 300
-    },
     "storagedelight:cherry_drawer": {
       "burn_time": 300
     },
@@ -331,9 +310,6 @@
       "burn_time": 300
     },
     "storagedelight:cherry_cabinet_with_polished_diorite_countertop": {
-      "burn_time": 300
-    },
-    "storagedelight:cherry_cabinet_with_polished_granite_countertop": {
       "burn_time": 300
     },
     "storagedelight:pale_oak_drawer": {
@@ -375,9 +351,6 @@
     "storagedelight:pale_oak_cabinet_with_polished_diorite_countertop": {
       "burn_time": 300
     },
-    "storagedelight:pale_oak_cabinet_with_polished_granite_countertop": {
-      "burn_time": 300
-    },
     "storagedelight:bamboo_drawer": {
       "burn_time": 300
     },
@@ -415,9 +388,6 @@
       "burn_time": 300
     },
     "storagedelight:bamboo_cabinet_with_polished_diorite_countertop": {
-      "burn_time": 300
-    },
-    "storagedelight:bamboo_cabinet_with_polished_granite_countertop": {
       "burn_time": 300
     }
   }

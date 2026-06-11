@@ -6,7 +6,7 @@
 
 - Added Cabinets with Polished Blackstone Countertops for all wood types.
 - Added Cabinets with Polished Diorite Countertops for all wood types.
-- Added Cabinets with Polished Granite Countertops for all wood types.
+- Added Cabinets with Stone Bricks Countertops for all wood types.
 
 ***
 

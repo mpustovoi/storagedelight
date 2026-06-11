@@ -30,7 +30,7 @@ public class CreativeTabRegistry
                 output.accept(BlockRegistry.OAK_CABINET_WITH_POLISHED_TUFF_COUNTERTOP.get());
                 output.accept(BlockRegistry.OAK_CABINET_WITH_POLISHED_BLACKSTONE_COUNTERTOP.get());
                 output.accept(BlockRegistry.OAK_CABINET_WITH_POLISHED_DIORITE_COUNTERTOP.get());
-                output.accept(BlockRegistry.OAK_CABINET_WITH_POLISHED_GRANITE_COUNTERTOP.get());
+                output.accept(BlockRegistry.OAK_CABINET_WITH_STONE_BRICKS_COUNTERTOP.get());
 
                 output.accept(BlockRegistry.BIRCH_DRAWER.get());
                 output.accept(BlockRegistry.BIRCH_DRAWER_WITH_DOOR.get());
@@ -45,7 +45,7 @@ public class CreativeTabRegistry
                 output.accept(BlockRegistry.BIRCH_CABINET_WITH_POLISHED_TUFF_COUNTERTOP.get());
                 output.accept(BlockRegistry.BIRCH_CABINET_WITH_POLISHED_BLACKSTONE_COUNTERTOP.get());
                 output.accept(BlockRegistry.BIRCH_CABINET_WITH_POLISHED_DIORITE_COUNTERTOP.get());
-                output.accept(BlockRegistry.BIRCH_CABINET_WITH_POLISHED_GRANITE_COUNTERTOP.get());
+                output.accept(BlockRegistry.BIRCH_CABINET_WITH_STONE_BRICKS_COUNTERTOP.get());
 
                 output.accept(BlockRegistry.SPRUCE_DRAWER.get());
                 output.accept(BlockRegistry.SPRUCE_DRAWER_WITH_DOOR.get());
@@ -60,7 +60,7 @@ public class CreativeTabRegistry
                 output.accept(BlockRegistry.SPRUCE_CABINET_WITH_POLISHED_TUFF_COUNTERTOP.get());
                 output.accept(BlockRegistry.SPRUCE_CABINET_WITH_POLISHED_BLACKSTONE_COUNTERTOP.get());
                 output.accept(BlockRegistry.SPRUCE_CABINET_WITH_POLISHED_DIORITE_COUNTERTOP.get());
-                output.accept(BlockRegistry.SPRUCE_CABINET_WITH_POLISHED_GRANITE_COUNTERTOP.get());
+                output.accept(BlockRegistry.SPRUCE_CABINET_WITH_STONE_BRICKS_COUNTERTOP.get());
 
                 output.accept(BlockRegistry.JUNGLE_DRAWER.get());
                 output.accept(BlockRegistry.JUNGLE_DRAWER_WITH_DOOR.get());
@@ -75,7 +75,7 @@ public class CreativeTabRegistry
                 output.accept(BlockRegistry.JUNGLE_CABINET_WITH_POLISHED_TUFF_COUNTERTOP.get());
                 output.accept(BlockRegistry.JUNGLE_CABINET_WITH_POLISHED_BLACKSTONE_COUNTERTOP.get());
                 output.accept(BlockRegistry.JUNGLE_CABINET_WITH_POLISHED_DIORITE_COUNTERTOP.get());
-                output.accept(BlockRegistry.JUNGLE_CABINET_WITH_POLISHED_GRANITE_COUNTERTOP.get());
+                output.accept(BlockRegistry.JUNGLE_CABINET_WITH_STONE_BRICKS_COUNTERTOP.get());
 
                 output.accept(BlockRegistry.ACACIA_DRAWER.get());
                 output.accept(BlockRegistry.ACACIA_DRAWER_WITH_DOOR.get());
@@ -90,7 +90,7 @@ public class CreativeTabRegistry
                 output.accept(BlockRegistry.ACACIA_CABINET_WITH_POLISHED_TUFF_COUNTERTOP.get());
                 output.accept(BlockRegistry.ACACIA_CABINET_WITH_POLISHED_BLACKSTONE_COUNTERTOP.get());
                 output.accept(BlockRegistry.ACACIA_CABINET_WITH_POLISHED_DIORITE_COUNTERTOP.get());
-                output.accept(BlockRegistry.ACACIA_CABINET_WITH_POLISHED_GRANITE_COUNTERTOP.get());
+                output.accept(BlockRegistry.ACACIA_CABINET_WITH_STONE_BRICKS_COUNTERTOP.get());
 
                 output.accept(BlockRegistry.DARK_OAK_DRAWER.get());
                 output.accept(BlockRegistry.DARK_OAK_DRAWER_WITH_DOOR.get());
@@ -105,7 +105,7 @@ public class CreativeTabRegistry
                 output.accept(BlockRegistry.DARK_OAK_CABINET_WITH_POLISHED_TUFF_COUNTERTOP.get());
                 output.accept(BlockRegistry.DARK_OAK_CABINET_WITH_POLISHED_BLACKSTONE_COUNTERTOP.get());
                 output.accept(BlockRegistry.DARK_OAK_CABINET_WITH_POLISHED_DIORITE_COUNTERTOP.get());
-                output.accept(BlockRegistry.DARK_OAK_CABINET_WITH_POLISHED_GRANITE_COUNTERTOP.get());
+                output.accept(BlockRegistry.DARK_OAK_CABINET_WITH_STONE_BRICKS_COUNTERTOP.get());
 
                 output.accept(BlockRegistry.MANGROVE_DRAWER.get());
                 output.accept(BlockRegistry.MANGROVE_DRAWER_WITH_DOOR.get());
@@ -120,7 +120,7 @@ public class CreativeTabRegistry
                 output.accept(BlockRegistry.MANGROVE_CABINET_WITH_POLISHED_TUFF_COUNTERTOP.get());
                 output.accept(BlockRegistry.MANGROVE_CABINET_WITH_POLISHED_BLACKSTONE_COUNTERTOP.get());
                 output.accept(BlockRegistry.MANGROVE_CABINET_WITH_POLISHED_DIORITE_COUNTERTOP.get());
-                output.accept(BlockRegistry.MANGROVE_CABINET_WITH_POLISHED_GRANITE_COUNTERTOP.get());
+                output.accept(BlockRegistry.MANGROVE_CABINET_WITH_STONE_BRICKS_COUNTERTOP.get());
 
                 output.accept(BlockRegistry.CHERRY_DRAWER.get());
                 output.accept(BlockRegistry.CHERRY_DRAWER_WITH_DOOR.get());
@@ -135,7 +135,7 @@ public class CreativeTabRegistry
                 output.accept(BlockRegistry.CHERRY_CABINET_WITH_POLISHED_TUFF_COUNTERTOP.get());
                 output.accept(BlockRegistry.CHERRY_CABINET_WITH_POLISHED_BLACKSTONE_COUNTERTOP.get());
                 output.accept(BlockRegistry.CHERRY_CABINET_WITH_POLISHED_DIORITE_COUNTERTOP.get());
-                output.accept(BlockRegistry.CHERRY_CABINET_WITH_POLISHED_GRANITE_COUNTERTOP.get());
+                output.accept(BlockRegistry.CHERRY_CABINET_WITH_STONE_BRICKS_COUNTERTOP.get());
 
                 if (!ModList.get().isLoaded("farmersdelight")) {
                     output.accept(BlockRegistry.PALE_OAK_CABINET.get());
@@ -153,7 +153,7 @@ public class CreativeTabRegistry
                 output.accept(BlockRegistry.PALE_OAK_CABINET_WITH_POLISHED_TUFF_COUNTERTOP.get());
                 output.accept(BlockRegistry.PALE_OAK_CABINET_WITH_POLISHED_BLACKSTONE_COUNTERTOP.get());
                 output.accept(BlockRegistry.PALE_OAK_CABINET_WITH_POLISHED_DIORITE_COUNTERTOP.get());
-                output.accept(BlockRegistry.PALE_OAK_CABINET_WITH_POLISHED_GRANITE_COUNTERTOP.get());
+                output.accept(BlockRegistry.PALE_OAK_CABINET_WITH_STONE_BRICKS_COUNTERTOP.get());
 
                 output.accept(BlockRegistry.BAMBOO_DRAWER.get());
                 output.accept(BlockRegistry.BAMBOO_DRAWER_WITH_DOOR.get());
@@ -168,7 +168,7 @@ public class CreativeTabRegistry
                 output.accept(BlockRegistry.BAMBOO_CABINET_WITH_POLISHED_TUFF_COUNTERTOP.get());
                 output.accept(BlockRegistry.BAMBOO_CABINET_WITH_POLISHED_BLACKSTONE_COUNTERTOP.get());
                 output.accept(BlockRegistry.BAMBOO_CABINET_WITH_POLISHED_DIORITE_COUNTERTOP.get());
-                output.accept(BlockRegistry.BAMBOO_CABINET_WITH_POLISHED_GRANITE_COUNTERTOP.get());
+                output.accept(BlockRegistry.BAMBOO_CABINET_WITH_STONE_BRICKS_COUNTERTOP.get());
 
                 output.accept(BlockRegistry.CRIMSON_DRAWER.get());
                 output.accept(BlockRegistry.CRIMSON_DRAWER_WITH_DOOR.get());
@@ -183,7 +183,7 @@ public class CreativeTabRegistry
                 output.accept(BlockRegistry.CRIMSON_CABINET_WITH_POLISHED_TUFF_COUNTERTOP.get());
                 output.accept(BlockRegistry.CRIMSON_CABINET_WITH_POLISHED_BLACKSTONE_COUNTERTOP.get());
                 output.accept(BlockRegistry.CRIMSON_CABINET_WITH_POLISHED_DIORITE_COUNTERTOP.get());
-                output.accept(BlockRegistry.CRIMSON_CABINET_WITH_POLISHED_GRANITE_COUNTERTOP.get());
+                output.accept(BlockRegistry.CRIMSON_CABINET_WITH_STONE_BRICKS_COUNTERTOP.get());
 
                 output.accept(BlockRegistry.WARPED_DRAWER.get());
                 output.accept(BlockRegistry.WARPED_DRAWER_WITH_DOOR.get());
@@ -198,7 +198,7 @@ public class CreativeTabRegistry
                 output.accept(BlockRegistry.WARPED_CABINET_WITH_POLISHED_TUFF_COUNTERTOP.get());
                 output.accept(BlockRegistry.WARPED_CABINET_WITH_POLISHED_BLACKSTONE_COUNTERTOP.get());
                 output.accept(BlockRegistry.WARPED_CABINET_WITH_POLISHED_DIORITE_COUNTERTOP.get());
-                output.accept(BlockRegistry.WARPED_CABINET_WITH_POLISHED_GRANITE_COUNTERTOP.get());
+                output.accept(BlockRegistry.WARPED_CABINET_WITH_STONE_BRICKS_COUNTERTOP.get());
 
             }).build());
 }
