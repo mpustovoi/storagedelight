@@ -8,6 +8,14 @@
 - Added Cabinets with Polished Diorite Countertops for all wood types.
 - Added Cabinets with Stone Bricks Countertops for all wood types.
 
+### 🌐 Translations:
+
+- Updated translations for Chinese (thanks, [micrcraft](https://github.com/micrcraft/)!)
+
+### 🛠️ Bug Fixes:
+
+- Fixed console errors with certain languages (thanks, [Josh](https://github.com/alpinesox)!)
+
 ***
 
 ### 📝 Feedback and Support:
