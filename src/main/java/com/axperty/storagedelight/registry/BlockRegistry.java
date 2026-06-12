@@ -19,7 +19,7 @@ import java.util.function.Function;
 
 public class BlockRegistry {
 
-    // Oak Furniture Registry
+    // Oak Furniture
     public static final Block OAK_DRAWER = registerBlock("oak_drawer", DrawerBlock::new, Block.Properties.ofFullCopy(Blocks.BARREL));
     public static final Block OAK_DRAWER_WITH_DOOR = registerBlock("oak_drawer_with_door", DrawerDoorBlock::new, Block.Properties.ofFullCopy(Blocks.BARREL));
     public static final Block OAK_DRAWER_WITH_BOOKS = registerBlock("oak_drawer_with_books", DrawerBooksBlock::new, Block.Properties.ofFullCopy(Blocks.BARREL));
@@ -31,8 +31,11 @@ public class BlockRegistry {
     public static final Block OAK_CABINET_WITH_POLISHED_DEEPSLATE_COUNTERTOP = registerBlock("oak_cabinet_with_polished_deepslate_countertop", CabinetCountertopBlock::new, Block.Properties.ofFullCopy(Blocks.BARREL));
     public static final Block OAK_CABINET_WITH_POLISHED_ANDESITE_COUNTERTOP = registerBlock("oak_cabinet_with_polished_andesite_countertop", CabinetCountertopBlock::new, Block.Properties.ofFullCopy(Blocks.BARREL));
     public static final Block OAK_CABINET_WITH_POLISHED_TUFF_COUNTERTOP = registerBlock("oak_cabinet_with_polished_tuff_countertop", CabinetCountertopBlock::new, Block.Properties.ofFullCopy(Blocks.BARREL));
+    public static final Block OAK_CABINET_WITH_POLISHED_BLACKSTONE_COUNTERTOP = registerBlock("oak_cabinet_with_polished_blackstone_countertop", CabinetCountertopBlock::new, Block.Properties.ofFullCopy(Blocks.BARREL));
+    public static final Block OAK_CABINET_WITH_POLISHED_DIORITE_COUNTERTOP = registerBlock("oak_cabinet_with_polished_diorite_countertop", CabinetCountertopBlock::new, Block.Properties.ofFullCopy(Blocks.BARREL));
+    public static final Block OAK_CABINET_WITH_STONE_BRICKS_COUNTERTOP = registerBlock("oak_cabinet_with_stone_bricks_countertop", CabinetCountertopBlock::new, Block.Properties.ofFullCopy(Blocks.BARREL));
 
-    // Birch Furniture Registry
+    // Birch Furniture
     public static final Block BIRCH_DRAWER = registerBlock("birch_drawer", DrawerBlock::new, Block.Properties.ofFullCopy(Blocks.BARREL));
     public static final Block BIRCH_DRAWER_WITH_DOOR = registerBlock("birch_drawer_with_door", DrawerDoorBlock::new, Block.Properties.ofFullCopy(Blocks.BARREL));
     public static final Block BIRCH_DRAWER_WITH_BOOKS = registerBlock("birch_drawer_with_books", DrawerBooksBlock::new, Block.Properties.ofFullCopy(Blocks.BARREL));
@@ -44,8 +47,11 @@ public class BlockRegistry {
     public static final Block BIRCH_CABINET_WITH_POLISHED_DEEPSLATE_COUNTERTOP = registerBlock("birch_cabinet_with_polished_deepslate_countertop", CabinetCountertopBlock::new, Block.Properties.ofFullCopy(Blocks.BARREL));
     public static final Block BIRCH_CABINET_WITH_POLISHED_ANDESITE_COUNTERTOP = registerBlock("birch_cabinet_with_polished_andesite_countertop", CabinetCountertopBlock::new, Block.Properties.ofFullCopy(Blocks.BARREL));
     public static final Block BIRCH_CABINET_WITH_POLISHED_TUFF_COUNTERTOP = registerBlock("birch_cabinet_with_polished_tuff_countertop", CabinetCountertopBlock::new, Block.Properties.ofFullCopy(Blocks.BARREL));
+    public static final Block BIRCH_CABINET_WITH_POLISHED_BLACKSTONE_COUNTERTOP = registerBlock("birch_cabinet_with_polished_blackstone_countertop", CabinetCountertopBlock::new, Block.Properties.ofFullCopy(Blocks.BARREL));
+    public static final Block BIRCH_CABINET_WITH_POLISHED_DIORITE_COUNTERTOP = registerBlock("birch_cabinet_with_polished_diorite_countertop", CabinetCountertopBlock::new, Block.Properties.ofFullCopy(Blocks.BARREL));
+    public static final Block BIRCH_CABINET_WITH_STONE_BRICKS_COUNTERTOP = registerBlock("birch_cabinet_with_stone_bricks_countertop", CabinetCountertopBlock::new, Block.Properties.ofFullCopy(Blocks.BARREL));
 
-    // Spruce Furniture Registry
+    // Spruce Furniture
     public static final Block SPRUCE_DRAWER = registerBlock("spruce_drawer", DrawerBlock::new, Block.Properties.ofFullCopy(Blocks.BARREL));
     public static final Block SPRUCE_DRAWER_WITH_DOOR = registerBlock("spruce_drawer_with_door", DrawerDoorBlock::new, Block.Properties.ofFullCopy(Blocks.BARREL));
     public static final Block SPRUCE_DRAWER_WITH_BOOKS = registerBlock("spruce_drawer_with_books", DrawerBooksBlock::new, Block.Properties.ofFullCopy(Blocks.BARREL));
@@ -57,8 +63,11 @@ public class BlockRegistry {
     public static final Block SPRUCE_CABINET_WITH_POLISHED_DEEPSLATE_COUNTERTOP = registerBlock("spruce_cabinet_with_polished_deepslate_countertop", CabinetCountertopBlock::new, Block.Properties.ofFullCopy(Blocks.BARREL));
     public static final Block SPRUCE_CABINET_WITH_POLISHED_ANDESITE_COUNTERTOP = registerBlock("spruce_cabinet_with_polished_andesite_countertop", CabinetCountertopBlock::new, Block.Properties.ofFullCopy(Blocks.BARREL));
     public static final Block SPRUCE_CABINET_WITH_POLISHED_TUFF_COUNTERTOP = registerBlock("spruce_cabinet_with_polished_tuff_countertop", CabinetCountertopBlock::new, Block.Properties.ofFullCopy(Blocks.BARREL));
+    public static final Block SPRUCE_CABINET_WITH_POLISHED_BLACKSTONE_COUNTERTOP = registerBlock("spruce_cabinet_with_polished_blackstone_countertop", CabinetCountertopBlock::new, Block.Properties.ofFullCopy(Blocks.BARREL));
+    public static final Block SPRUCE_CABINET_WITH_POLISHED_DIORITE_COUNTERTOP = registerBlock("spruce_cabinet_with_polished_diorite_countertop", CabinetCountertopBlock::new, Block.Properties.ofFullCopy(Blocks.BARREL));
+    public static final Block SPRUCE_CABINET_WITH_STONE_BRICKS_COUNTERTOP = registerBlock("spruce_cabinet_with_stone_bricks_countertop", CabinetCountertopBlock::new, Block.Properties.ofFullCopy(Blocks.BARREL));
 
-    // Jungle Furniture Registry
+    // Jungle Furniture
     public static final Block JUNGLE_DRAWER = registerBlock("jungle_drawer", DrawerBlock::new, Block.Properties.ofFullCopy(Blocks.BARREL));
     public static final Block JUNGLE_DRAWER_WITH_DOOR = registerBlock("jungle_drawer_with_door", DrawerDoorBlock::new, Block.Properties.ofFullCopy(Blocks.BARREL));
     public static final Block JUNGLE_DRAWER_WITH_BOOKS = registerBlock("jungle_drawer_with_books", DrawerBooksBlock::new, Block.Properties.ofFullCopy(Blocks.BARREL));
@@ -70,8 +79,11 @@ public class BlockRegistry {
     public static final Block JUNGLE_CABINET_WITH_POLISHED_DEEPSLATE_COUNTERTOP = registerBlock("jungle_cabinet_with_polished_deepslate_countertop", CabinetCountertopBlock::new, Block.Properties.ofFullCopy(Blocks.BARREL));
     public static final Block JUNGLE_CABINET_WITH_POLISHED_ANDESITE_COUNTERTOP = registerBlock("jungle_cabinet_with_polished_andesite_countertop", CabinetCountertopBlock::new, Block.Properties.ofFullCopy(Blocks.BARREL));
     public static final Block JUNGLE_CABINET_WITH_POLISHED_TUFF_COUNTERTOP = registerBlock("jungle_cabinet_with_polished_tuff_countertop", CabinetCountertopBlock::new, Block.Properties.ofFullCopy(Blocks.BARREL));
+    public static final Block JUNGLE_CABINET_WITH_POLISHED_BLACKSTONE_COUNTERTOP = registerBlock("jungle_cabinet_with_polished_blackstone_countertop", CabinetCountertopBlock::new, Block.Properties.ofFullCopy(Blocks.BARREL));
+    public static final Block JUNGLE_CABINET_WITH_POLISHED_DIORITE_COUNTERTOP = registerBlock("jungle_cabinet_with_polished_diorite_countertop", CabinetCountertopBlock::new, Block.Properties.ofFullCopy(Blocks.BARREL));
+    public static final Block JUNGLE_CABINET_WITH_STONE_BRICKS_COUNTERTOP = registerBlock("jungle_cabinet_with_stone_bricks_countertop", CabinetCountertopBlock::new, Block.Properties.ofFullCopy(Blocks.BARREL));
 
-    // Acacia Furniture Registry
+    // Acacia Furniture
     public static final Block ACACIA_DRAWER = registerBlock("acacia_drawer", DrawerBlock::new, Block.Properties.ofFullCopy(Blocks.BARREL));
     public static final Block ACACIA_DRAWER_WITH_DOOR = registerBlock("acacia_drawer_with_door", DrawerDoorBlock::new, Block.Properties.ofFullCopy(Blocks.BARREL));
     public static final Block ACACIA_DRAWER_WITH_BOOKS = registerBlock("acacia_drawer_with_books", DrawerBooksBlock::new, Block.Properties.ofFullCopy(Blocks.BARREL));
@@ -83,8 +95,11 @@ public class BlockRegistry {
     public static final Block ACACIA_CABINET_WITH_POLISHED_DEEPSLATE_COUNTERTOP = registerBlock("acacia_cabinet_with_polished_deepslate_countertop", CabinetCountertopBlock::new, Block.Properties.ofFullCopy(Blocks.BARREL));
     public static final Block ACACIA_CABINET_WITH_POLISHED_ANDESITE_COUNTERTOP = registerBlock("acacia_cabinet_with_polished_andesite_countertop", CabinetCountertopBlock::new, Block.Properties.ofFullCopy(Blocks.BARREL));
     public static final Block ACACIA_CABINET_WITH_POLISHED_TUFF_COUNTERTOP = registerBlock("acacia_cabinet_with_polished_tuff_countertop", CabinetCountertopBlock::new, Block.Properties.ofFullCopy(Blocks.BARREL));
+    public static final Block ACACIA_CABINET_WITH_POLISHED_BLACKSTONE_COUNTERTOP = registerBlock("acacia_cabinet_with_polished_blackstone_countertop", CabinetCountertopBlock::new, Block.Properties.ofFullCopy(Blocks.BARREL));
+    public static final Block ACACIA_CABINET_WITH_POLISHED_DIORITE_COUNTERTOP = registerBlock("acacia_cabinet_with_polished_diorite_countertop", CabinetCountertopBlock::new, Block.Properties.ofFullCopy(Blocks.BARREL));
+    public static final Block ACACIA_CABINET_WITH_STONE_BRICKS_COUNTERTOP = registerBlock("acacia_cabinet_with_stone_bricks_countertop", CabinetCountertopBlock::new, Block.Properties.ofFullCopy(Blocks.BARREL));
 
-    // Dark Oak Furniture Registry
+    // Dark Oak Furniture
     public static final Block DARK_OAK_DRAWER = registerBlock("dark_oak_drawer", DrawerBlock::new, Block.Properties.ofFullCopy(Blocks.BARREL));
     public static final Block DARK_OAK_DRAWER_WITH_DOOR = registerBlock("dark_oak_drawer_with_door", DrawerDoorBlock::new, Block.Properties.ofFullCopy(Blocks.BARREL));
     public static final Block DARK_OAK_DRAWER_WITH_BOOKS = registerBlock("dark_oak_drawer_with_books", DrawerBooksBlock::new, Block.Properties.ofFullCopy(Blocks.BARREL));
@@ -96,8 +111,11 @@ public class BlockRegistry {
     public static final Block DARK_OAK_CABINET_WITH_POLISHED_DEEPSLATE_COUNTERTOP = registerBlock("dark_oak_cabinet_with_polished_deepslate_countertop", CabinetCountertopBlock::new, Block.Properties.ofFullCopy(Blocks.BARREL));
     public static final Block DARK_OAK_CABINET_WITH_POLISHED_ANDESITE_COUNTERTOP = registerBlock("dark_oak_cabinet_with_polished_andesite_countertop", CabinetCountertopBlock::new, Block.Properties.ofFullCopy(Blocks.BARREL));
     public static final Block DARK_OAK_CABINET_WITH_POLISHED_TUFF_COUNTERTOP = registerBlock("dark_oak_cabinet_with_polished_tuff_countertop", CabinetCountertopBlock::new, Block.Properties.ofFullCopy(Blocks.BARREL));
+    public static final Block DARK_OAK_CABINET_WITH_POLISHED_BLACKSTONE_COUNTERTOP = registerBlock("dark_oak_cabinet_with_polished_blackstone_countertop", CabinetCountertopBlock::new, Block.Properties.ofFullCopy(Blocks.BARREL));
+    public static final Block DARK_OAK_CABINET_WITH_POLISHED_DIORITE_COUNTERTOP = registerBlock("dark_oak_cabinet_with_polished_diorite_countertop", CabinetCountertopBlock::new, Block.Properties.ofFullCopy(Blocks.BARREL));
+    public static final Block DARK_OAK_CABINET_WITH_STONE_BRICKS_COUNTERTOP = registerBlock("dark_oak_cabinet_with_stone_bricks_countertop", CabinetCountertopBlock::new, Block.Properties.ofFullCopy(Blocks.BARREL));
 
-    // Mangrove Furniture Registry
+    // Mangrove Furniture
     public static final Block MANGROVE_DRAWER = registerBlock("mangrove_drawer", DrawerBlock::new, Block.Properties.ofFullCopy(Blocks.BARREL));
     public static final Block MANGROVE_DRAWER_WITH_DOOR = registerBlock("mangrove_drawer_with_door", DrawerDoorBlock::new, Block.Properties.ofFullCopy(Blocks.BARREL));
     public static final Block MANGROVE_DRAWER_WITH_BOOKS = registerBlock("mangrove_drawer_with_books", DrawerBooksBlock::new, Block.Properties.ofFullCopy(Blocks.BARREL));
@@ -109,8 +127,11 @@ public class BlockRegistry {
     public static final Block MANGROVE_CABINET_WITH_POLISHED_DEEPSLATE_COUNTERTOP = registerBlock("mangrove_cabinet_with_polished_deepslate_countertop", CabinetCountertopBlock::new, Block.Properties.ofFullCopy(Blocks.BARREL));
     public static final Block MANGROVE_CABINET_WITH_POLISHED_ANDESITE_COUNTERTOP = registerBlock("mangrove_cabinet_with_polished_andesite_countertop", CabinetCountertopBlock::new, Block.Properties.ofFullCopy(Blocks.BARREL));
     public static final Block MANGROVE_CABINET_WITH_POLISHED_TUFF_COUNTERTOP = registerBlock("mangrove_cabinet_with_polished_tuff_countertop", CabinetCountertopBlock::new, Block.Properties.ofFullCopy(Blocks.BARREL));
+    public static final Block MANGROVE_CABINET_WITH_POLISHED_BLACKSTONE_COUNTERTOP = registerBlock("mangrove_cabinet_with_polished_blackstone_countertop", CabinetCountertopBlock::new, Block.Properties.ofFullCopy(Blocks.BARREL));
+    public static final Block MANGROVE_CABINET_WITH_POLISHED_DIORITE_COUNTERTOP = registerBlock("mangrove_cabinet_with_polished_diorite_countertop", CabinetCountertopBlock::new, Block.Properties.ofFullCopy(Blocks.BARREL));
+    public static final Block MANGROVE_CABINET_WITH_STONE_BRICKS_COUNTERTOP = registerBlock("mangrove_cabinet_with_stone_bricks_countertop", CabinetCountertopBlock::new, Block.Properties.ofFullCopy(Blocks.BARREL));
 
-    // Cherry Furniture Registry
+    // Cherry Furniture
     public static final Block CHERRY_DRAWER = registerBlock("cherry_drawer", DrawerBlock::new, Block.Properties.ofFullCopy(Blocks.BARREL).sound(SoundType.CHERRY_WOOD));
     public static final Block CHERRY_DRAWER_WITH_DOOR = registerBlock("cherry_drawer_with_door", DrawerDoorBlock::new, Block.Properties.ofFullCopy(Blocks.BARREL).sound(SoundType.CHERRY_WOOD));
     public static final Block CHERRY_DRAWER_WITH_BOOKS = registerBlock("cherry_drawer_with_books", DrawerBooksBlock::new, Block.Properties.ofFullCopy(Blocks.BARREL).sound(SoundType.CHERRY_WOOD));
@@ -122,8 +143,11 @@ public class BlockRegistry {
     public static final Block CHERRY_CABINET_WITH_POLISHED_DEEPSLATE_COUNTERTOP = registerBlock("cherry_cabinet_with_polished_deepslate_countertop", CabinetCountertopBlock::new, Block.Properties.ofFullCopy(Blocks.BARREL).sound(SoundType.CHERRY_WOOD));
     public static final Block CHERRY_CABINET_WITH_POLISHED_ANDESITE_COUNTERTOP = registerBlock("cherry_cabinet_with_polished_andesite_countertop", CabinetCountertopBlock::new, Block.Properties.ofFullCopy(Blocks.BARREL).sound(SoundType.CHERRY_WOOD));
     public static final Block CHERRY_CABINET_WITH_POLISHED_TUFF_COUNTERTOP = registerBlock("cherry_cabinet_with_polished_tuff_countertop", CabinetCountertopBlock::new, Block.Properties.ofFullCopy(Blocks.BARREL).sound(SoundType.CHERRY_WOOD));
+    public static final Block CHERRY_CABINET_WITH_POLISHED_BLACKSTONE_COUNTERTOP = registerBlock("cherry_cabinet_with_polished_blackstone_countertop", CabinetCountertopBlock::new, Block.Properties.ofFullCopy(Blocks.BARREL).sound(SoundType.CHERRY_WOOD));
+    public static final Block CHERRY_CABINET_WITH_POLISHED_DIORITE_COUNTERTOP = registerBlock("cherry_cabinet_with_polished_diorite_countertop", CabinetCountertopBlock::new, Block.Properties.ofFullCopy(Blocks.BARREL).sound(SoundType.CHERRY_WOOD));
+    public static final Block CHERRY_CABINET_WITH_STONE_BRICKS_COUNTERTOP = registerBlock("cherry_cabinet_with_stone_bricks_countertop", CabinetCountertopBlock::new, Block.Properties.ofFullCopy(Blocks.BARREL).sound(SoundType.CHERRY_WOOD));
 
-    // Pale Oak Furniture Registry
+    // Pale Oak Furniture
     public static final Block PALE_OAK_CABINET = registerBlock("pale_oak_cabinet", CabinetBlock::new, Block.Properties.ofFullCopy(Blocks.BARREL));
     public static final Block PALE_OAK_DRAWER = registerBlock("pale_oak_drawer", DrawerBlock::new, Block.Properties.ofFullCopy(Blocks.BARREL));
     public static final Block PALE_OAK_DRAWER_WITH_DOOR = registerBlock("pale_oak_drawer_with_door", DrawerDoorBlock::new, Block.Properties.ofFullCopy(Blocks.BARREL));
@@ -136,8 +160,11 @@ public class BlockRegistry {
     public static final Block PALE_OAK_CABINET_WITH_POLISHED_DEEPSLATE_COUNTERTOP = registerBlock("pale_oak_cabinet_with_polished_deepslate_countertop", CabinetCountertopBlock::new, Block.Properties.ofFullCopy(Blocks.BARREL));
     public static final Block PALE_OAK_CABINET_WITH_POLISHED_ANDESITE_COUNTERTOP = registerBlock("pale_oak_cabinet_with_polished_andesite_countertop", CabinetCountertopBlock::new, Block.Properties.ofFullCopy(Blocks.BARREL));
     public static final Block PALE_OAK_CABINET_WITH_POLISHED_TUFF_COUNTERTOP = registerBlock("pale_oak_cabinet_with_polished_tuff_countertop", CabinetCountertopBlock::new, Block.Properties.ofFullCopy(Blocks.BARREL));
+    public static final Block PALE_OAK_CABINET_WITH_POLISHED_BLACKSTONE_COUNTERTOP = registerBlock("pale_oak_cabinet_with_polished_blackstone_countertop", CabinetCountertopBlock::new, Block.Properties.ofFullCopy(Blocks.BARREL));
+    public static final Block PALE_OAK_CABINET_WITH_POLISHED_DIORITE_COUNTERTOP = registerBlock("pale_oak_cabinet_with_polished_diorite_countertop", CabinetCountertopBlock::new, Block.Properties.ofFullCopy(Blocks.BARREL));
+    public static final Block PALE_OAK_CABINET_WITH_STONE_BRICKS_COUNTERTOP = registerBlock("pale_oak_cabinet_with_stone_bricks_countertop", CabinetCountertopBlock::new, Block.Properties.ofFullCopy(Blocks.BARREL));
 
-    // Bamboo Furniture Registry
+    // Bamboo Furniture
     public static final Block BAMBOO_DRAWER = registerBlock("bamboo_drawer", DrawerBlock::new, Block.Properties.ofFullCopy(Blocks.BARREL).sound(SoundType.BAMBOO_WOOD));
     public static final Block BAMBOO_DRAWER_WITH_DOOR = registerBlock("bamboo_drawer_with_door", DrawerDoorBlock::new, Block.Properties.ofFullCopy(Blocks.BARREL).sound(SoundType.BAMBOO_WOOD));
     public static final Block BAMBOO_DRAWER_WITH_BOOKS = registerBlock("bamboo_drawer_with_books", DrawerBooksBlock::new, Block.Properties.ofFullCopy(Blocks.BARREL).sound(SoundType.BAMBOO_WOOD));
@@ -149,8 +176,11 @@ public class BlockRegistry {
     public static final Block BAMBOO_CABINET_WITH_POLISHED_DEEPSLATE_COUNTERTOP = registerBlock("bamboo_cabinet_with_polished_deepslate_countertop", CabinetCountertopBlock::new, Block.Properties.ofFullCopy(Blocks.BARREL).sound(SoundType.BAMBOO_WOOD));
     public static final Block BAMBOO_CABINET_WITH_POLISHED_ANDESITE_COUNTERTOP = registerBlock("bamboo_cabinet_with_polished_andesite_countertop", CabinetCountertopBlock::new, Block.Properties.ofFullCopy(Blocks.BARREL).sound(SoundType.BAMBOO_WOOD));
     public static final Block BAMBOO_CABINET_WITH_POLISHED_TUFF_COUNTERTOP = registerBlock("bamboo_cabinet_with_polished_tuff_countertop", CabinetCountertopBlock::new, Block.Properties.ofFullCopy(Blocks.BARREL).sound(SoundType.BAMBOO_WOOD));
+    public static final Block BAMBOO_CABINET_WITH_POLISHED_BLACKSTONE_COUNTERTOP = registerBlock("bamboo_cabinet_with_polished_blackstone_countertop", CabinetCountertopBlock::new, Block.Properties.ofFullCopy(Blocks.BARREL).sound(SoundType.BAMBOO_WOOD));
+    public static final Block BAMBOO_CABINET_WITH_POLISHED_DIORITE_COUNTERTOP = registerBlock("bamboo_cabinet_with_polished_diorite_countertop", CabinetCountertopBlock::new, Block.Properties.ofFullCopy(Blocks.BARREL).sound(SoundType.BAMBOO_WOOD));
+    public static final Block BAMBOO_CABINET_WITH_STONE_BRICKS_COUNTERTOP = registerBlock("bamboo_cabinet_with_stone_bricks_countertop", CabinetCountertopBlock::new, Block.Properties.ofFullCopy(Blocks.BARREL).sound(SoundType.BAMBOO_WOOD));
 
-    // Crimson Furniture Registry
+    // Crimson Furniture
     public static final Block CRIMSON_DRAWER = registerBlock("crimson_drawer", DrawerBlock::new, Block.Properties.ofFullCopy(Blocks.BARREL).sound(SoundType.NETHER_WOOD));
     public static final Block CRIMSON_DRAWER_WITH_DOOR = registerBlock("crimson_drawer_with_door", DrawerDoorBlock::new, Block.Properties.ofFullCopy(Blocks.BARREL).sound(SoundType.NETHER_WOOD));
     public static final Block CRIMSON_DRAWER_WITH_BOOKS = registerBlock("crimson_drawer_with_books", DrawerBooksBlock::new, Block.Properties.ofFullCopy(Blocks.BARREL).sound(SoundType.NETHER_WOOD));
@@ -162,8 +192,11 @@ public class BlockRegistry {
     public static final Block CRIMSON_CABINET_WITH_POLISHED_DEEPSLATE_COUNTERTOP = registerBlock("crimson_cabinet_with_polished_deepslate_countertop", CabinetCountertopBlock::new, Block.Properties.ofFullCopy(Blocks.BARREL).sound(SoundType.NETHER_WOOD));
     public static final Block CRIMSON_CABINET_WITH_POLISHED_ANDESITE_COUNTERTOP = registerBlock("crimson_cabinet_with_polished_andesite_countertop", CabinetCountertopBlock::new, Block.Properties.ofFullCopy(Blocks.BARREL).sound(SoundType.NETHER_WOOD));
     public static final Block CRIMSON_CABINET_WITH_POLISHED_TUFF_COUNTERTOP = registerBlock("crimson_cabinet_with_polished_tuff_countertop", CabinetCountertopBlock::new, Block.Properties.ofFullCopy(Blocks.BARREL).sound(SoundType.NETHER_WOOD));
+    public static final Block CRIMSON_CABINET_WITH_POLISHED_BLACKSTONE_COUNTERTOP = registerBlock("crimson_cabinet_with_polished_blackstone_countertop", CabinetCountertopBlock::new, Block.Properties.ofFullCopy(Blocks.BARREL).sound(SoundType.NETHER_WOOD));
+    public static final Block CRIMSON_CABINET_WITH_POLISHED_DIORITE_COUNTERTOP = registerBlock("crimson_cabinet_with_polished_diorite_countertop", CabinetCountertopBlock::new, Block.Properties.ofFullCopy(Blocks.BARREL).sound(SoundType.NETHER_WOOD));
+    public static final Block CRIMSON_CABINET_WITH_STONE_BRICKS_COUNTERTOP = registerBlock("crimson_cabinet_with_stone_bricks_countertop", CabinetCountertopBlock::new, Block.Properties.ofFullCopy(Blocks.BARREL).sound(SoundType.NETHER_WOOD));
 
-    // Warped Furniture Registry
+    // Warped Furniture
     public static final Block WARPED_DRAWER = registerBlock("warped_drawer", DrawerBlock::new, Block.Properties.ofFullCopy(Blocks.BARREL).sound(SoundType.NETHER_WOOD));
     public static final Block WARPED_DRAWER_WITH_DOOR = registerBlock("warped_drawer_with_door", DrawerDoorBlock::new, Block.Properties.ofFullCopy(Blocks.BARREL).sound(SoundType.NETHER_WOOD));
     public static final Block WARPED_DRAWER_WITH_BOOKS = registerBlock("warped_drawer_with_books", DrawerBooksBlock::new, Block.Properties.ofFullCopy(Blocks.BARREL).sound(SoundType.NETHER_WOOD));
@@ -175,6 +208,9 @@ public class BlockRegistry {
     public static final Block WARPED_CABINET_WITH_POLISHED_DEEPSLATE_COUNTERTOP = registerBlock("warped_cabinet_with_polished_deepslate_countertop", CabinetCountertopBlock::new, Block.Properties.ofFullCopy(Blocks.BARREL).sound(SoundType.NETHER_WOOD));
     public static final Block WARPED_CABINET_WITH_POLISHED_ANDESITE_COUNTERTOP = registerBlock("warped_cabinet_with_polished_andesite_countertop", CabinetCountertopBlock::new, Block.Properties.ofFullCopy(Blocks.BARREL).sound(SoundType.NETHER_WOOD));
     public static final Block WARPED_CABINET_WITH_POLISHED_TUFF_COUNTERTOP = registerBlock("warped_cabinet_with_polished_tuff_countertop", CabinetCountertopBlock::new, Block.Properties.ofFullCopy(Blocks.BARREL).sound(SoundType.NETHER_WOOD));
+    public static final Block WARPED_CABINET_WITH_POLISHED_BLACKSTONE_COUNTERTOP = registerBlock("warped_cabinet_with_polished_blackstone_countertop", CabinetCountertopBlock::new, Block.Properties.ofFullCopy(Blocks.BARREL).sound(SoundType.NETHER_WOOD));
+    public static final Block WARPED_CABINET_WITH_POLISHED_DIORITE_COUNTERTOP = registerBlock("warped_cabinet_with_polished_diorite_countertop", CabinetCountertopBlock::new, Block.Properties.ofFullCopy(Blocks.BARREL).sound(SoundType.NETHER_WOOD));
+    public static final Block WARPED_CABINET_WITH_STONE_BRICKS_COUNTERTOP = registerBlock("warped_cabinet_with_stone_bricks_countertop", CabinetCountertopBlock::new, Block.Properties.ofFullCopy(Blocks.BARREL).sound(SoundType.NETHER_WOOD));
 
     private static Block registerBlock(String path, Function<BlockBehaviour.Properties, Block> factory, BlockBehaviour.Properties settings) {
         final Identifier identifier = Identifier.fromNamespaceAndPath(StorageDelight.MOD_ID, path);
