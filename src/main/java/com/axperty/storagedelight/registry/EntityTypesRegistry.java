@@ -13,6 +13,7 @@ public class EntityTypesRegistry {
         public static final DeferredRegister<BlockEntityType<?>> TILES = DeferredRegister
                         .create(ForgeRegistries.BLOCK_ENTITY_TYPES, StorageDelight.MOD_ID);
 
+        // Drawers
         public static final RegistryObject<BlockEntityType<DrawerBlockEntity>> DRAWER = TILES.register("drawer",
                         () -> new BlockEntityType<>(DrawerBlockEntity::new, Set.of(
                                         BlockRegistry.OAK_DRAWER.get(),
@@ -28,6 +29,7 @@ public class EntityTypesRegistry {
                                         BlockRegistry.CRIMSON_DRAWER.get(),
                                         BlockRegistry.WARPED_DRAWER.get())));
 
+        // Drawers with Doors
         public static final RegistryObject<BlockEntityType<DrawerDoorBlockEntity>> DRAWER_DOOR = TILES.register(
                         "drawer_door",
                         () -> new BlockEntityType<>(DrawerDoorBlockEntity::new, Set.of(
@@ -44,6 +46,7 @@ public class EntityTypesRegistry {
                                         BlockRegistry.CRIMSON_DRAWER_WITH_DOOR.get(),
                                         BlockRegistry.WARPED_DRAWER_WITH_DOOR.get())));
 
+        // Drawers with Books
         public static final RegistryObject<BlockEntityType<DrawerBooksBlockEntity>> DRAWER_BOOKS = TILES.register(
                         "drawer_books",
                         () -> new BlockEntityType<>(DrawerBooksBlockEntity::new, Set.of(
@@ -60,6 +63,7 @@ public class EntityTypesRegistry {
                                         BlockRegistry.CRIMSON_DRAWER_WITH_BOOKS.get(),
                                         BlockRegistry.WARPED_DRAWER_WITH_BOOKS.get())));
 
+        // Glass Cabinets
         public static final RegistryObject<BlockEntityType<GlassCabinetBlockEntity>> GLASS_CABINET = TILES.register(
                         "glass_cabinet",
                         () -> new BlockEntityType<>(GlassCabinetBlockEntity::new, Set.of(
@@ -76,6 +80,7 @@ public class EntityTypesRegistry {
                                         BlockRegistry.GLASS_CRIMSON_CABINET.get(),
                                         BlockRegistry.GLASS_WARPED_CABINET.get())));
 
+        // Cabinet with Glass Doors and Single Door Cabinets
         public static final RegistryObject<BlockEntityType<CabinetVariantBlockEntity>> CABINET_VARIANT = TILES.register(
                         "cabinet_variant",
                         () -> new BlockEntityType<>(CabinetVariantBlockEntity::new, Set.of(
@@ -104,6 +109,7 @@ public class EntityTypesRegistry {
                                         BlockRegistry.CRIMSON_SINGLE_DOOR_CABINET.get(),
                                         BlockRegistry.WARPED_SINGLE_DOOR_CABINET.get())));
 
+        // Bookshelves with Doors
         public static final RegistryObject<BlockEntityType<BookshelfDoorBlockEntity>> BOOKSHELF_DOOR = TILES.register(
                         "bookshelf_door",
                         () -> new BlockEntityType<>(BookshelfDoorBlockEntity::new, Set.of(
@@ -120,6 +126,7 @@ public class EntityTypesRegistry {
                                         BlockRegistry.CRIMSON_BOOKSHELF_WITH_DOOR.get(),
                                         BlockRegistry.WARPED_BOOKSHELF_WITH_DOOR.get())));
 
+        // Small Drawers
         public static final RegistryObject<BlockEntityType<SmallDrawersBlockEntity>> SMALL_DRAWERS = TILES.register(
                         "small_drawers",
                         () -> new BlockEntityType<>(SmallDrawersBlockEntity::new, Set.of(
@@ -136,6 +143,7 @@ public class EntityTypesRegistry {
                                         BlockRegistry.SMALL_CRIMSON_DRAWERS.get(),
                                         BlockRegistry.SMALL_WARPED_DRAWERS.get())));
 
+        // Cabinets with Countertops
         public static final RegistryObject<BlockEntityType<CabinetCountertopBlockEntity>> COUNTERTOP = TILES.register(
                 "countertop",
                 () -> new BlockEntityType<>(CabinetCountertopBlockEntity::new, Set.of(
@@ -212,6 +220,7 @@ public class EntityTypesRegistry {
                         BlockRegistry.CRIMSON_CABINET_WITH_STONE_BRICKS_COUNTERTOP.get(),
                         BlockRegistry.WARPED_CABINET_WITH_STONE_BRICKS_COUNTERTOP.get())));
 
+        // Pale Oak Cabinet
         public static final RegistryObject<BlockEntityType<CabinetBlockEntity>> CABINET = TILES.register(
                 "cabinet",
                 () -> new BlockEntityType<>(CabinetBlockEntity::new, Set.of(

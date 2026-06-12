@@ -18,6 +18,8 @@ public class CreativeTabRegistry
             .title(Component.translatable("itemGroup.storagedelight"))
             .icon(() -> ItemRegistry.OAK_DRAWER.get().getDefaultInstance())
             .displayItems((parameters, output) -> {
+
+                // Oak Furniture
                 output.accept(BlockRegistry.OAK_DRAWER.get());
                 output.accept(BlockRegistry.OAK_DRAWER_WITH_DOOR.get());
                 output.accept(BlockRegistry.OAK_DRAWER_WITH_BOOKS.get());
@@ -36,6 +38,7 @@ public class CreativeTabRegistry
 //              Pantry cabinets are currently in testing phase. This feature will be available soon!
 //              output.accept(BlockRegistry.OAK_PANTRY_CABINET.get());
 
+                // Birch Furniture
                 output.accept(BlockRegistry.BIRCH_DRAWER.get());
                 output.accept(BlockRegistry.BIRCH_DRAWER_WITH_DOOR.get());
                 output.accept(BlockRegistry.BIRCH_DRAWER_WITH_BOOKS.get());
@@ -51,6 +54,7 @@ public class CreativeTabRegistry
                 output.accept(BlockRegistry.BIRCH_CABINET_WITH_POLISHED_DIORITE_COUNTERTOP.get());
                 output.accept(BlockRegistry.BIRCH_CABINET_WITH_STONE_BRICKS_COUNTERTOP.get());
 
+                // Spruce Furniture
                 output.accept(BlockRegistry.SPRUCE_DRAWER.get());
                 output.accept(BlockRegistry.SPRUCE_DRAWER_WITH_DOOR.get());
                 output.accept(BlockRegistry.SPRUCE_DRAWER_WITH_BOOKS.get());
@@ -66,6 +70,7 @@ public class CreativeTabRegistry
                 output.accept(BlockRegistry.SPRUCE_CABINET_WITH_POLISHED_DIORITE_COUNTERTOP.get());
                 output.accept(BlockRegistry.SPRUCE_CABINET_WITH_STONE_BRICKS_COUNTERTOP.get());
 
+                // Jungle Furniture
                 output.accept(BlockRegistry.JUNGLE_DRAWER.get());
                 output.accept(BlockRegistry.JUNGLE_DRAWER_WITH_DOOR.get());
                 output.accept(BlockRegistry.JUNGLE_DRAWER_WITH_BOOKS.get());
@@ -81,6 +86,7 @@ public class CreativeTabRegistry
                 output.accept(BlockRegistry.JUNGLE_CABINET_WITH_POLISHED_DIORITE_COUNTERTOP.get());
                 output.accept(BlockRegistry.JUNGLE_CABINET_WITH_STONE_BRICKS_COUNTERTOP.get());
 
+                // Acacia Furniture
                 output.accept(BlockRegistry.ACACIA_DRAWER.get());
                 output.accept(BlockRegistry.ACACIA_DRAWER_WITH_DOOR.get());
                 output.accept(BlockRegistry.ACACIA_DRAWER_WITH_BOOKS.get());
@@ -96,6 +102,7 @@ public class CreativeTabRegistry
                 output.accept(BlockRegistry.ACACIA_CABINET_WITH_POLISHED_DIORITE_COUNTERTOP.get());
                 output.accept(BlockRegistry.ACACIA_CABINET_WITH_STONE_BRICKS_COUNTERTOP.get());
 
+                // Dark Oak Furniture
                 output.accept(BlockRegistry.DARK_OAK_DRAWER.get());
                 output.accept(BlockRegistry.DARK_OAK_DRAWER_WITH_DOOR.get());
                 output.accept(BlockRegistry.DARK_OAK_DRAWER_WITH_BOOKS.get());
@@ -111,6 +118,7 @@ public class CreativeTabRegistry
                 output.accept(BlockRegistry.DARK_OAK_CABINET_WITH_POLISHED_DIORITE_COUNTERTOP.get());
                 output.accept(BlockRegistry.DARK_OAK_CABINET_WITH_STONE_BRICKS_COUNTERTOP.get());
 
+                // Mangrove Furniture
                 output.accept(BlockRegistry.MANGROVE_DRAWER.get());
                 output.accept(BlockRegistry.MANGROVE_DRAWER_WITH_DOOR.get());
                 output.accept(BlockRegistry.MANGROVE_DRAWER_WITH_BOOKS.get());
@@ -126,6 +134,7 @@ public class CreativeTabRegistry
                 output.accept(BlockRegistry.MANGROVE_CABINET_WITH_POLISHED_DIORITE_COUNTERTOP.get());
                 output.accept(BlockRegistry.MANGROVE_CABINET_WITH_STONE_BRICKS_COUNTERTOP.get());
 
+                // Cherry Furniture
                 output.accept(BlockRegistry.CHERRY_DRAWER.get());
                 output.accept(BlockRegistry.CHERRY_DRAWER_WITH_DOOR.get());
                 output.accept(BlockRegistry.CHERRY_DRAWER_WITH_BOOKS.get());
@@ -141,6 +150,7 @@ public class CreativeTabRegistry
                 output.accept(BlockRegistry.CHERRY_CABINET_WITH_POLISHED_DIORITE_COUNTERTOP.get());
                 output.accept(BlockRegistry.CHERRY_CABINET_WITH_STONE_BRICKS_COUNTERTOP.get());
 
+                // Pale Oak Furniture
                 output.accept(BlockRegistry.PALE_OAK_CABINET.get());
                 output.accept(BlockRegistry.PALE_OAK_DRAWER.get());
                 output.accept(BlockRegistry.PALE_OAK_DRAWER_WITH_DOOR.get());
@@ -157,6 +167,7 @@ public class CreativeTabRegistry
                 output.accept(BlockRegistry.PALE_OAK_CABINET_WITH_POLISHED_DIORITE_COUNTERTOP.get());
                 output.accept(BlockRegistry.PALE_OAK_CABINET_WITH_STONE_BRICKS_COUNTERTOP.get());
 
+                // Bamboo Furniture
                 output.accept(BlockRegistry.BAMBOO_DRAWER.get());
                 output.accept(BlockRegistry.BAMBOO_DRAWER_WITH_DOOR.get());
                 output.accept(BlockRegistry.BAMBOO_DRAWER_WITH_BOOKS.get());
@@ -172,6 +183,7 @@ public class CreativeTabRegistry
                 output.accept(BlockRegistry.BAMBOO_CABINET_WITH_POLISHED_DIORITE_COUNTERTOP.get());
                 output.accept(BlockRegistry.BAMBOO_CABINET_WITH_STONE_BRICKS_COUNTERTOP.get());
 
+                // Crimson Furniture
                 output.accept(BlockRegistry.CRIMSON_DRAWER.get());
                 output.accept(BlockRegistry.CRIMSON_DRAWER_WITH_DOOR.get());
                 output.accept(BlockRegistry.CRIMSON_DRAWER_WITH_BOOKS.get());
@@ -187,6 +199,7 @@ public class CreativeTabRegistry
                 output.accept(BlockRegistry.CRIMSON_CABINET_WITH_POLISHED_DIORITE_COUNTERTOP.get());
                 output.accept(BlockRegistry.CRIMSON_CABINET_WITH_STONE_BRICKS_COUNTERTOP.get());
 
+                // Warped Furniture
                 output.accept(BlockRegistry.WARPED_DRAWER.get());
                 output.accept(BlockRegistry.WARPED_DRAWER_WITH_DOOR.get());
                 output.accept(BlockRegistry.WARPED_DRAWER_WITH_BOOKS.get());
