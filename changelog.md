@@ -11,6 +11,7 @@
 ### 🌐 Translations:
 
 - Updated translations for Chinese (thanks, [micrcraft](https://github.com/micrcraft/)!)
+- Updated translations for Portuguese from Brazil (thanks, [PrincessStellar](https://github.com/PrincessStellar/)!)
 
 ### 🛠️ Bug Fixes:
 
