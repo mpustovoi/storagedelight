@@ -17,5 +17,6 @@ public final class StorageDelight {
         BlockRegistry.BLOCKS.register(modBusGroup);
         EntityTypesRegistry.TILES.register(modBusGroup);
         CreativeTabRegistry.CREATIVE_MODE_TABS.register(modBusGroup);
+        LOGGER.info("Storage Delight loaded");
     }
 }
