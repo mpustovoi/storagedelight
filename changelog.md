@@ -17,6 +17,7 @@
 
 ### 🛠️ Bug Fixes:
 
+- Fixed a bug where certain storage blocks weren't suitable for use as fuel in the furnace.
 - Fixed console errors with certain languages (thanks, [Josh](https://github.com/alpinesox)!)
 
 ***
