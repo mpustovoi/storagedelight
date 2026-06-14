@@ -16,5 +16,6 @@ public class StorageDelight {
         BlockRegistry.BLOCKS.register(modEventBus);
         EntityTypesRegistry.BLOCK_ENTITY_TYPES.register(modEventBus);
         CreativeTabRegistry.CREATIVE_MODE_TABS.register(modEventBus);
+        LOGGER.info("Storage Delight loaded");
     }
 }
