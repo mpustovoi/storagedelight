@@ -18,153 +18,201 @@ public class CreativeTabRegistry
                     .icon(() -> ItemRegistry.OAK_DRAWER.get().getDefaultInstance())
                     .displayItems((parameters, output) -> {
 
+                        // Oak Furniture
                         output.accept(BlockRegistry.OAK_DRAWER.get());
                         output.accept(BlockRegistry.OAK_DRAWER_WITH_DOOR.get());
                         output.accept(BlockRegistry.OAK_DRAWER_WITH_BOOKS.get());
-                        output.accept(BlockRegistry.SMALL_OAK_DRAWERS.get());
                         output.accept(BlockRegistry.OAK_BOOKSHELF_WITH_DOOR.get());
+                        output.accept(BlockRegistry.SMALL_OAK_DRAWERS.get());
                         output.accept(BlockRegistry.GLASS_OAK_CABINET.get());
                         output.accept(BlockRegistry.OAK_CABINET_WITH_GLASS_DOORS.get());
                         output.accept(BlockRegistry.OAK_SINGLE_DOOR_CABINET.get());
                         output.accept(BlockRegistry.OAK_CABINET_WITH_POLISHED_DEEPSLATE_COUNTERTOP.get());
                         output.accept(BlockRegistry.OAK_CABINET_WITH_POLISHED_ANDESITE_COUNTERTOP.get());
                         output.accept(BlockRegistry.OAK_CABINET_WITH_POLISHED_TUFF_COUNTERTOP.get());
+                        output.accept(BlockRegistry.OAK_CABINET_WITH_POLISHED_BLACKSTONE_COUNTERTOP.get());
+                        output.accept(BlockRegistry.OAK_CABINET_WITH_POLISHED_DIORITE_COUNTERTOP.get());
+                        output.accept(BlockRegistry.OAK_CABINET_WITH_STONE_BRICKS_COUNTERTOP.get());
 
 //              Pantry cabinets are currently in testing phase. This feature will be available soon!
 //              output.accept(BlockRegistry.OAK_PANTRY_CABINET.get());
 
+                        // Birch Furniture
                         output.accept(BlockRegistry.BIRCH_DRAWER.get());
                         output.accept(BlockRegistry.BIRCH_DRAWER_WITH_DOOR.get());
                         output.accept(BlockRegistry.BIRCH_DRAWER_WITH_BOOKS.get());
-                        output.accept(BlockRegistry.SMALL_BIRCH_DRAWERS.get());
                         output.accept(BlockRegistry.BIRCH_BOOKSHELF_WITH_DOOR.get());
+                        output.accept(BlockRegistry.SMALL_BIRCH_DRAWERS.get());
                         output.accept(BlockRegistry.GLASS_BIRCH_CABINET.get());
                         output.accept(BlockRegistry.BIRCH_CABINET_WITH_GLASS_DOORS.get());
                         output.accept(BlockRegistry.BIRCH_SINGLE_DOOR_CABINET.get());
                         output.accept(BlockRegistry.BIRCH_CABINET_WITH_POLISHED_DEEPSLATE_COUNTERTOP.get());
                         output.accept(BlockRegistry.BIRCH_CABINET_WITH_POLISHED_ANDESITE_COUNTERTOP.get());
                         output.accept(BlockRegistry.BIRCH_CABINET_WITH_POLISHED_TUFF_COUNTERTOP.get());
+                        output.accept(BlockRegistry.BIRCH_CABINET_WITH_POLISHED_BLACKSTONE_COUNTERTOP.get());
+                        output.accept(BlockRegistry.BIRCH_CABINET_WITH_POLISHED_DIORITE_COUNTERTOP.get());
+                        output.accept(BlockRegistry.BIRCH_CABINET_WITH_STONE_BRICKS_COUNTERTOP.get());
 
+                        // Spruce Furniture
                         output.accept(BlockRegistry.SPRUCE_DRAWER.get());
                         output.accept(BlockRegistry.SPRUCE_DRAWER_WITH_DOOR.get());
                         output.accept(BlockRegistry.SPRUCE_DRAWER_WITH_BOOKS.get());
-                        output.accept(BlockRegistry.SMALL_SPRUCE_DRAWERS.get());
                         output.accept(BlockRegistry.SPRUCE_BOOKSHELF_WITH_DOOR.get());
+                        output.accept(BlockRegistry.SMALL_SPRUCE_DRAWERS.get());
                         output.accept(BlockRegistry.GLASS_SPRUCE_CABINET.get());
                         output.accept(BlockRegistry.SPRUCE_CABINET_WITH_GLASS_DOORS.get());
                         output.accept(BlockRegistry.SPRUCE_SINGLE_DOOR_CABINET.get());
                         output.accept(BlockRegistry.SPRUCE_CABINET_WITH_POLISHED_DEEPSLATE_COUNTERTOP.get());
                         output.accept(BlockRegistry.SPRUCE_CABINET_WITH_POLISHED_ANDESITE_COUNTERTOP.get());
                         output.accept(BlockRegistry.SPRUCE_CABINET_WITH_POLISHED_TUFF_COUNTERTOP.get());
+                        output.accept(BlockRegistry.SPRUCE_CABINET_WITH_POLISHED_BLACKSTONE_COUNTERTOP.get());
+                        output.accept(BlockRegistry.SPRUCE_CABINET_WITH_POLISHED_DIORITE_COUNTERTOP.get());
+                        output.accept(BlockRegistry.SPRUCE_CABINET_WITH_STONE_BRICKS_COUNTERTOP.get());
 
+                        // Jungle Furniture
                         output.accept(BlockRegistry.JUNGLE_DRAWER.get());
                         output.accept(BlockRegistry.JUNGLE_DRAWER_WITH_DOOR.get());
                         output.accept(BlockRegistry.JUNGLE_DRAWER_WITH_BOOKS.get());
-                        output.accept(BlockRegistry.SMALL_JUNGLE_DRAWERS.get());
                         output.accept(BlockRegistry.JUNGLE_BOOKSHELF_WITH_DOOR.get());
+                        output.accept(BlockRegistry.SMALL_JUNGLE_DRAWERS.get());
                         output.accept(BlockRegistry.GLASS_JUNGLE_CABINET.get());
                         output.accept(BlockRegistry.JUNGLE_CABINET_WITH_GLASS_DOORS.get());
                         output.accept(BlockRegistry.JUNGLE_SINGLE_DOOR_CABINET.get());
                         output.accept(BlockRegistry.JUNGLE_CABINET_WITH_POLISHED_DEEPSLATE_COUNTERTOP.get());
                         output.accept(BlockRegistry.JUNGLE_CABINET_WITH_POLISHED_ANDESITE_COUNTERTOP.get());
                         output.accept(BlockRegistry.JUNGLE_CABINET_WITH_POLISHED_TUFF_COUNTERTOP.get());
+                        output.accept(BlockRegistry.JUNGLE_CABINET_WITH_POLISHED_BLACKSTONE_COUNTERTOP.get());
+                        output.accept(BlockRegistry.JUNGLE_CABINET_WITH_POLISHED_DIORITE_COUNTERTOP.get());
+                        output.accept(BlockRegistry.JUNGLE_CABINET_WITH_STONE_BRICKS_COUNTERTOP.get());
 
+                        // Acacia Furniture
                         output.accept(BlockRegistry.ACACIA_DRAWER.get());
                         output.accept(BlockRegistry.ACACIA_DRAWER_WITH_DOOR.get());
                         output.accept(BlockRegistry.ACACIA_DRAWER_WITH_BOOKS.get());
-                        output.accept(BlockRegistry.SMALL_ACACIA_DRAWERS.get());
                         output.accept(BlockRegistry.ACACIA_BOOKSHELF_WITH_DOOR.get());
+                        output.accept(BlockRegistry.SMALL_ACACIA_DRAWERS.get());
                         output.accept(BlockRegistry.GLASS_ACACIA_CABINET.get());
                         output.accept(BlockRegistry.ACACIA_CABINET_WITH_GLASS_DOORS.get());
                         output.accept(BlockRegistry.ACACIA_SINGLE_DOOR_CABINET.get());
                         output.accept(BlockRegistry.ACACIA_CABINET_WITH_POLISHED_DEEPSLATE_COUNTERTOP.get());
                         output.accept(BlockRegistry.ACACIA_CABINET_WITH_POLISHED_ANDESITE_COUNTERTOP.get());
                         output.accept(BlockRegistry.ACACIA_CABINET_WITH_POLISHED_TUFF_COUNTERTOP.get());
+                        output.accept(BlockRegistry.ACACIA_CABINET_WITH_POLISHED_BLACKSTONE_COUNTERTOP.get());
+                        output.accept(BlockRegistry.ACACIA_CABINET_WITH_POLISHED_DIORITE_COUNTERTOP.get());
+                        output.accept(BlockRegistry.ACACIA_CABINET_WITH_STONE_BRICKS_COUNTERTOP.get());
 
+                        // Dark Oak Furniture
                         output.accept(BlockRegistry.DARK_OAK_DRAWER.get());
                         output.accept(BlockRegistry.DARK_OAK_DRAWER_WITH_DOOR.get());
                         output.accept(BlockRegistry.DARK_OAK_DRAWER_WITH_BOOKS.get());
-                        output.accept(BlockRegistry.SMALL_DARK_OAK_DRAWERS.get());
                         output.accept(BlockRegistry.DARK_OAK_BOOKSHELF_WITH_DOOR.get());
+                        output.accept(BlockRegistry.SMALL_DARK_OAK_DRAWERS.get());
                         output.accept(BlockRegistry.GLASS_DARK_OAK_CABINET.get());
                         output.accept(BlockRegistry.DARK_OAK_CABINET_WITH_GLASS_DOORS.get());
                         output.accept(BlockRegistry.DARK_OAK_SINGLE_DOOR_CABINET.get());
                         output.accept(BlockRegistry.DARK_OAK_CABINET_WITH_POLISHED_DEEPSLATE_COUNTERTOP.get());
                         output.accept(BlockRegistry.DARK_OAK_CABINET_WITH_POLISHED_ANDESITE_COUNTERTOP.get());
                         output.accept(BlockRegistry.DARK_OAK_CABINET_WITH_POLISHED_TUFF_COUNTERTOP.get());
+                        output.accept(BlockRegistry.DARK_OAK_CABINET_WITH_POLISHED_BLACKSTONE_COUNTERTOP.get());
+                        output.accept(BlockRegistry.DARK_OAK_CABINET_WITH_POLISHED_DIORITE_COUNTERTOP.get());
+                        output.accept(BlockRegistry.DARK_OAK_CABINET_WITH_STONE_BRICKS_COUNTERTOP.get());
 
+                        // Mangrove Furniture
                         output.accept(BlockRegistry.MANGROVE_DRAWER.get());
                         output.accept(BlockRegistry.MANGROVE_DRAWER_WITH_DOOR.get());
                         output.accept(BlockRegistry.MANGROVE_DRAWER_WITH_BOOKS.get());
-                        output.accept(BlockRegistry.SMALL_MANGROVE_DRAWERS.get());
                         output.accept(BlockRegistry.MANGROVE_BOOKSHELF_WITH_DOOR.get());
+                        output.accept(BlockRegistry.SMALL_MANGROVE_DRAWERS.get());
                         output.accept(BlockRegistry.GLASS_MANGROVE_CABINET.get());
                         output.accept(BlockRegistry.MANGROVE_CABINET_WITH_GLASS_DOORS.get());
                         output.accept(BlockRegistry.MANGROVE_SINGLE_DOOR_CABINET.get());
                         output.accept(BlockRegistry.MANGROVE_CABINET_WITH_POLISHED_DEEPSLATE_COUNTERTOP.get());
                         output.accept(BlockRegistry.MANGROVE_CABINET_WITH_POLISHED_ANDESITE_COUNTERTOP.get());
                         output.accept(BlockRegistry.MANGROVE_CABINET_WITH_POLISHED_TUFF_COUNTERTOP.get());
+                        output.accept(BlockRegistry.MANGROVE_CABINET_WITH_POLISHED_BLACKSTONE_COUNTERTOP.get());
+                        output.accept(BlockRegistry.MANGROVE_CABINET_WITH_POLISHED_DIORITE_COUNTERTOP.get());
+                        output.accept(BlockRegistry.MANGROVE_CABINET_WITH_STONE_BRICKS_COUNTERTOP.get());
 
+                        // Cherry Furniture
                         output.accept(BlockRegistry.CHERRY_DRAWER.get());
                         output.accept(BlockRegistry.CHERRY_DRAWER_WITH_DOOR.get());
                         output.accept(BlockRegistry.CHERRY_DRAWER_WITH_BOOKS.get());
-                        output.accept(BlockRegistry.SMALL_CHERRY_DRAWERS.get());
                         output.accept(BlockRegistry.CHERRY_BOOKSHELF_WITH_DOOR.get());
+                        output.accept(BlockRegistry.SMALL_CHERRY_DRAWERS.get());
                         output.accept(BlockRegistry.GLASS_CHERRY_CABINET.get());
                         output.accept(BlockRegistry.CHERRY_CABINET_WITH_GLASS_DOORS.get());
                         output.accept(BlockRegistry.CHERRY_SINGLE_DOOR_CABINET.get());
                         output.accept(BlockRegistry.CHERRY_CABINET_WITH_POLISHED_DEEPSLATE_COUNTERTOP.get());
                         output.accept(BlockRegistry.CHERRY_CABINET_WITH_POLISHED_ANDESITE_COUNTERTOP.get());
                         output.accept(BlockRegistry.CHERRY_CABINET_WITH_POLISHED_TUFF_COUNTERTOP.get());
+                        output.accept(BlockRegistry.CHERRY_CABINET_WITH_POLISHED_BLACKSTONE_COUNTERTOP.get());
+                        output.accept(BlockRegistry.CHERRY_CABINET_WITH_POLISHED_DIORITE_COUNTERTOP.get());
+                        output.accept(BlockRegistry.CHERRY_CABINET_WITH_STONE_BRICKS_COUNTERTOP.get());
 
+                        // Pale Oak Furniture
                         output.accept(BlockRegistry.PALE_OAK_CABINET.get());
                         output.accept(BlockRegistry.PALE_OAK_DRAWER.get());
                         output.accept(BlockRegistry.PALE_OAK_DRAWER_WITH_DOOR.get());
                         output.accept(BlockRegistry.PALE_OAK_DRAWER_WITH_BOOKS.get());
-                        output.accept(BlockRegistry.SMALL_PALE_OAK_DRAWERS.get());
                         output.accept(BlockRegistry.PALE_OAK_BOOKSHELF_WITH_DOOR.get());
+                        output.accept(BlockRegistry.SMALL_PALE_OAK_DRAWERS.get());
                         output.accept(BlockRegistry.GLASS_PALE_OAK_CABINET.get());
                         output.accept(BlockRegistry.PALE_OAK_CABINET_WITH_GLASS_DOORS.get());
                         output.accept(BlockRegistry.PALE_OAK_SINGLE_DOOR_CABINET.get());
                         output.accept(BlockRegistry.PALE_OAK_CABINET_WITH_POLISHED_DEEPSLATE_COUNTERTOP.get());
                         output.accept(BlockRegistry.PALE_OAK_CABINET_WITH_POLISHED_ANDESITE_COUNTERTOP.get());
                         output.accept(BlockRegistry.PALE_OAK_CABINET_WITH_POLISHED_TUFF_COUNTERTOP.get());
+                        output.accept(BlockRegistry.PALE_OAK_CABINET_WITH_POLISHED_BLACKSTONE_COUNTERTOP.get());
+                        output.accept(BlockRegistry.PALE_OAK_CABINET_WITH_POLISHED_DIORITE_COUNTERTOP.get());
+                        output.accept(BlockRegistry.PALE_OAK_CABINET_WITH_STONE_BRICKS_COUNTERTOP.get());
 
+                        // Bamboo Furniture
                         output.accept(BlockRegistry.BAMBOO_DRAWER.get());
                         output.accept(BlockRegistry.BAMBOO_DRAWER_WITH_DOOR.get());
                         output.accept(BlockRegistry.BAMBOO_DRAWER_WITH_BOOKS.get());
-                        output.accept(BlockRegistry.SMALL_BAMBOO_DRAWERS.get());
                         output.accept(BlockRegistry.BAMBOO_BOOKSHELF_WITH_DOOR.get());
+                        output.accept(BlockRegistry.SMALL_BAMBOO_DRAWERS.get());
                         output.accept(BlockRegistry.GLASS_BAMBOO_CABINET.get());
                         output.accept(BlockRegistry.BAMBOO_CABINET_WITH_GLASS_DOORS.get());
                         output.accept(BlockRegistry.BAMBOO_SINGLE_DOOR_CABINET.get());
                         output.accept(BlockRegistry.BAMBOO_CABINET_WITH_POLISHED_DEEPSLATE_COUNTERTOP.get());
                         output.accept(BlockRegistry.BAMBOO_CABINET_WITH_POLISHED_ANDESITE_COUNTERTOP.get());
                         output.accept(BlockRegistry.BAMBOO_CABINET_WITH_POLISHED_TUFF_COUNTERTOP.get());
+                        output.accept(BlockRegistry.BAMBOO_CABINET_WITH_POLISHED_BLACKSTONE_COUNTERTOP.get());
+                        output.accept(BlockRegistry.BAMBOO_CABINET_WITH_POLISHED_DIORITE_COUNTERTOP.get());
+                        output.accept(BlockRegistry.BAMBOO_CABINET_WITH_STONE_BRICKS_COUNTERTOP.get());
 
+                        // Crimson Furniture
                         output.accept(BlockRegistry.CRIMSON_DRAWER.get());
                         output.accept(BlockRegistry.CRIMSON_DRAWER_WITH_DOOR.get());
                         output.accept(BlockRegistry.CRIMSON_DRAWER_WITH_BOOKS.get());
-                        output.accept(BlockRegistry.SMALL_CRIMSON_DRAWERS.get());
                         output.accept(BlockRegistry.CRIMSON_BOOKSHELF_WITH_DOOR.get());
+                        output.accept(BlockRegistry.SMALL_CRIMSON_DRAWERS.get());
                         output.accept(BlockRegistry.GLASS_CRIMSON_CABINET.get());
                         output.accept(BlockRegistry.CRIMSON_CABINET_WITH_GLASS_DOORS.get());
                         output.accept(BlockRegistry.CRIMSON_SINGLE_DOOR_CABINET.get());
                         output.accept(BlockRegistry.CRIMSON_CABINET_WITH_POLISHED_DEEPSLATE_COUNTERTOP.get());
                         output.accept(BlockRegistry.CRIMSON_CABINET_WITH_POLISHED_ANDESITE_COUNTERTOP.get());
                         output.accept(BlockRegistry.CRIMSON_CABINET_WITH_POLISHED_TUFF_COUNTERTOP.get());
+                        output.accept(BlockRegistry.CRIMSON_CABINET_WITH_POLISHED_BLACKSTONE_COUNTERTOP.get());
+                        output.accept(BlockRegistry.CRIMSON_CABINET_WITH_POLISHED_DIORITE_COUNTERTOP.get());
+                        output.accept(BlockRegistry.CRIMSON_CABINET_WITH_STONE_BRICKS_COUNTERTOP.get());
 
+                        // Warped Furniture
                         output.accept(BlockRegistry.WARPED_DRAWER.get());
                         output.accept(BlockRegistry.WARPED_DRAWER_WITH_DOOR.get());
                         output.accept(BlockRegistry.WARPED_DRAWER_WITH_BOOKS.get());
-                        output.accept(BlockRegistry.SMALL_WARPED_DRAWERS.get());
                         output.accept(BlockRegistry.WARPED_BOOKSHELF_WITH_DOOR.get());
+                        output.accept(BlockRegistry.SMALL_WARPED_DRAWERS.get());
                         output.accept(BlockRegistry.GLASS_WARPED_CABINET.get());
                         output.accept(BlockRegistry.WARPED_CABINET_WITH_GLASS_DOORS.get());
                         output.accept(BlockRegistry.WARPED_SINGLE_DOOR_CABINET.get());
                         output.accept(BlockRegistry.WARPED_CABINET_WITH_POLISHED_DEEPSLATE_COUNTERTOP.get());
                         output.accept(BlockRegistry.WARPED_CABINET_WITH_POLISHED_ANDESITE_COUNTERTOP.get());
                         output.accept(BlockRegistry.WARPED_CABINET_WITH_POLISHED_TUFF_COUNTERTOP.get());
+                        output.accept(BlockRegistry.WARPED_CABINET_WITH_POLISHED_BLACKSTONE_COUNTERTOP.get());
+                        output.accept(BlockRegistry.WARPED_CABINET_WITH_POLISHED_DIORITE_COUNTERTOP.get());
+                        output.accept(BlockRegistry.WARPED_CABINET_WITH_STONE_BRICKS_COUNTERTOP.get());
 
                     }).build());
 }
