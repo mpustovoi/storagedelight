@@ -10,7 +10,7 @@ public class FuelBlockRegistry {
 
         FuelRegistryEvents.BUILD.register((registry, context) -> {
 
-            // Oak
+            // Oak Furniture
             registry.add(BlockRegistry.OAK_DRAWER, 300);
             registry.add(BlockRegistry.OAK_DRAWER_WITH_DOOR, 300);
             registry.add(BlockRegistry.OAK_DRAWER_WITH_BOOKS, 300);
@@ -22,8 +22,11 @@ public class FuelBlockRegistry {
             registry.add(BlockRegistry.OAK_CABINET_WITH_POLISHED_DEEPSLATE_COUNTERTOP, 300);
             registry.add(BlockRegistry.OAK_CABINET_WITH_POLISHED_ANDESITE_COUNTERTOP, 300);
             registry.add(BlockRegistry.OAK_CABINET_WITH_POLISHED_TUFF_COUNTERTOP, 300);
+            registry.add(BlockRegistry.OAK_CABINET_WITH_POLISHED_BLACKSTONE_COUNTERTOP, 300);
+            registry.add(BlockRegistry.OAK_CABINET_WITH_POLISHED_DIORITE_COUNTERTOP, 300);
+            registry.add(BlockRegistry.OAK_CABINET_WITH_STONE_BRICKS_COUNTERTOP, 300);
 
-            // Birch
+            // Birch Furniture
             registry.add(BlockRegistry.BIRCH_DRAWER, 300);
             registry.add(BlockRegistry.BIRCH_DRAWER_WITH_DOOR, 300);
             registry.add(BlockRegistry.BIRCH_DRAWER_WITH_BOOKS, 300);
@@ -35,8 +38,11 @@ public class FuelBlockRegistry {
             registry.add(BlockRegistry.BIRCH_CABINET_WITH_POLISHED_DEEPSLATE_COUNTERTOP, 300);
             registry.add(BlockRegistry.BIRCH_CABINET_WITH_POLISHED_ANDESITE_COUNTERTOP, 300);
             registry.add(BlockRegistry.BIRCH_CABINET_WITH_POLISHED_TUFF_COUNTERTOP, 300);
+            registry.add(BlockRegistry.BIRCH_CABINET_WITH_POLISHED_BLACKSTONE_COUNTERTOP, 300);
+            registry.add(BlockRegistry.BIRCH_CABINET_WITH_POLISHED_DIORITE_COUNTERTOP, 300);
+            registry.add(BlockRegistry.BIRCH_CABINET_WITH_STONE_BRICKS_COUNTERTOP, 300);
 
-            // Spruce
+            // Spruce Furniture
             registry.add(BlockRegistry.SPRUCE_DRAWER, 300);
             registry.add(BlockRegistry.SPRUCE_DRAWER_WITH_DOOR, 300);
             registry.add(BlockRegistry.SPRUCE_DRAWER_WITH_BOOKS, 300);
@@ -48,8 +54,11 @@ public class FuelBlockRegistry {
             registry.add(BlockRegistry.SPRUCE_CABINET_WITH_POLISHED_DEEPSLATE_COUNTERTOP, 300);
             registry.add(BlockRegistry.SPRUCE_CABINET_WITH_POLISHED_ANDESITE_COUNTERTOP, 300);
             registry.add(BlockRegistry.SPRUCE_CABINET_WITH_POLISHED_TUFF_COUNTERTOP, 300);
+            registry.add(BlockRegistry.SPRUCE_CABINET_WITH_POLISHED_BLACKSTONE_COUNTERTOP, 300);
+            registry.add(BlockRegistry.SPRUCE_CABINET_WITH_POLISHED_DIORITE_COUNTERTOP, 300);
+            registry.add(BlockRegistry.SPRUCE_CABINET_WITH_STONE_BRICKS_COUNTERTOP, 300);
 
-            // Jungle
+            // Jungle Furniture
             registry.add(BlockRegistry.JUNGLE_DRAWER, 300);
             registry.add(BlockRegistry.JUNGLE_DRAWER_WITH_DOOR, 300);
             registry.add(BlockRegistry.JUNGLE_DRAWER_WITH_BOOKS, 300);
@@ -61,8 +70,11 @@ public class FuelBlockRegistry {
             registry.add(BlockRegistry.JUNGLE_CABINET_WITH_POLISHED_DEEPSLATE_COUNTERTOP, 300);
             registry.add(BlockRegistry.JUNGLE_CABINET_WITH_POLISHED_ANDESITE_COUNTERTOP, 300);
             registry.add(BlockRegistry.JUNGLE_CABINET_WITH_POLISHED_TUFF_COUNTERTOP, 300);
+            registry.add(BlockRegistry.JUNGLE_CABINET_WITH_POLISHED_BLACKSTONE_COUNTERTOP, 300);
+            registry.add(BlockRegistry.JUNGLE_CABINET_WITH_POLISHED_DIORITE_COUNTERTOP, 300);
+            registry.add(BlockRegistry.JUNGLE_CABINET_WITH_STONE_BRICKS_COUNTERTOP, 300);
 
-            // Acacia
+            // Acacia Furniture
             registry.add(BlockRegistry.ACACIA_DRAWER, 300);
             registry.add(BlockRegistry.ACACIA_DRAWER_WITH_DOOR, 300);
             registry.add(BlockRegistry.ACACIA_DRAWER_WITH_BOOKS, 300);
@@ -74,8 +86,11 @@ public class FuelBlockRegistry {
             registry.add(BlockRegistry.ACACIA_CABINET_WITH_POLISHED_DEEPSLATE_COUNTERTOP, 300);
             registry.add(BlockRegistry.ACACIA_CABINET_WITH_POLISHED_ANDESITE_COUNTERTOP, 300);
             registry.add(BlockRegistry.ACACIA_CABINET_WITH_POLISHED_TUFF_COUNTERTOP, 300);
+            registry.add(BlockRegistry.ACACIA_CABINET_WITH_POLISHED_BLACKSTONE_COUNTERTOP, 300);
+            registry.add(BlockRegistry.ACACIA_CABINET_WITH_POLISHED_DIORITE_COUNTERTOP, 300);
+            registry.add(BlockRegistry.ACACIA_CABINET_WITH_STONE_BRICKS_COUNTERTOP, 300);
 
-            // Dark Oak
+            // Dark Oak Furniture
             registry.add(BlockRegistry.DARK_OAK_DRAWER, 300);
             registry.add(BlockRegistry.DARK_OAK_DRAWER_WITH_DOOR, 300);
             registry.add(BlockRegistry.DARK_OAK_DRAWER_WITH_BOOKS, 300);
@@ -87,8 +102,11 @@ public class FuelBlockRegistry {
             registry.add(BlockRegistry.DARK_OAK_CABINET_WITH_POLISHED_DEEPSLATE_COUNTERTOP, 300);
             registry.add(BlockRegistry.DARK_OAK_CABINET_WITH_POLISHED_ANDESITE_COUNTERTOP, 300);
             registry.add(BlockRegistry.DARK_OAK_CABINET_WITH_POLISHED_TUFF_COUNTERTOP, 300);
+            registry.add(BlockRegistry.DARK_OAK_CABINET_WITH_POLISHED_BLACKSTONE_COUNTERTOP, 300);
+            registry.add(BlockRegistry.DARK_OAK_CABINET_WITH_POLISHED_DIORITE_COUNTERTOP, 300);
+            registry.add(BlockRegistry.DARK_OAK_CABINET_WITH_STONE_BRICKS_COUNTERTOP, 300);
 
-            // Mangrove
+            // Mangrove Furniture
             registry.add(BlockRegistry.MANGROVE_DRAWER, 300);
             registry.add(BlockRegistry.MANGROVE_DRAWER_WITH_DOOR, 300);
             registry.add(BlockRegistry.MANGROVE_DRAWER_WITH_BOOKS, 300);
@@ -100,8 +118,11 @@ public class FuelBlockRegistry {
             registry.add(BlockRegistry.MANGROVE_CABINET_WITH_POLISHED_DEEPSLATE_COUNTERTOP, 300);
             registry.add(BlockRegistry.MANGROVE_CABINET_WITH_POLISHED_ANDESITE_COUNTERTOP, 300);
             registry.add(BlockRegistry.MANGROVE_CABINET_WITH_POLISHED_TUFF_COUNTERTOP, 300);
+            registry.add(BlockRegistry.MANGROVE_CABINET_WITH_POLISHED_BLACKSTONE_COUNTERTOP, 300);
+            registry.add(BlockRegistry.MANGROVE_CABINET_WITH_POLISHED_DIORITE_COUNTERTOP, 300);
+            registry.add(BlockRegistry.MANGROVE_CABINET_WITH_STONE_BRICKS_COUNTERTOP, 300);
 
-            // Cherry
+            // Cherry Furniture
             registry.add(BlockRegistry.CHERRY_DRAWER, 300);
             registry.add(BlockRegistry.CHERRY_DRAWER_WITH_DOOR, 300);
             registry.add(BlockRegistry.CHERRY_DRAWER_WITH_BOOKS, 300);
@@ -113,8 +134,11 @@ public class FuelBlockRegistry {
             registry.add(BlockRegistry.CHERRY_CABINET_WITH_POLISHED_DEEPSLATE_COUNTERTOP, 300);
             registry.add(BlockRegistry.CHERRY_CABINET_WITH_POLISHED_ANDESITE_COUNTERTOP, 300);
             registry.add(BlockRegistry.CHERRY_CABINET_WITH_POLISHED_TUFF_COUNTERTOP, 300);
+            registry.add(BlockRegistry.CHERRY_CABINET_WITH_POLISHED_BLACKSTONE_COUNTERTOP, 300);
+            registry.add(BlockRegistry.CHERRY_CABINET_WITH_POLISHED_DIORITE_COUNTERTOP, 300);
+            registry.add(BlockRegistry.CHERRY_CABINET_WITH_STONE_BRICKS_COUNTERTOP, 300);
 
-            // Pale Oak
+            // Pale Oak Furniture
             registry.add(BlockRegistry.PALE_OAK_CABINET, 300);
             registry.add(BlockRegistry.PALE_OAK_DRAWER, 300);
             registry.add(BlockRegistry.PALE_OAK_DRAWER_WITH_DOOR, 300);
@@ -127,8 +151,11 @@ public class FuelBlockRegistry {
             registry.add(BlockRegistry.PALE_OAK_CABINET_WITH_POLISHED_DEEPSLATE_COUNTERTOP, 300);
             registry.add(BlockRegistry.PALE_OAK_CABINET_WITH_POLISHED_ANDESITE_COUNTERTOP, 300);
             registry.add(BlockRegistry.PALE_OAK_CABINET_WITH_POLISHED_TUFF_COUNTERTOP, 300);
+            registry.add(BlockRegistry.PALE_OAK_CABINET_WITH_POLISHED_BLACKSTONE_COUNTERTOP, 300);
+            registry.add(BlockRegistry.PALE_OAK_CABINET_WITH_POLISHED_DIORITE_COUNTERTOP, 300);
+            registry.add(BlockRegistry.PALE_OAK_CABINET_WITH_STONE_BRICKS_COUNTERTOP, 300);
 
-            // Bamboo
+            // Bamboo Furniture
             registry.add(BlockRegistry.BAMBOO_DRAWER, 300);
             registry.add(BlockRegistry.BAMBOO_DRAWER_WITH_DOOR, 300);
             registry.add(BlockRegistry.BAMBOO_DRAWER_WITH_BOOKS, 300);
@@ -140,6 +167,9 @@ public class FuelBlockRegistry {
             registry.add(BlockRegistry.BAMBOO_CABINET_WITH_POLISHED_DEEPSLATE_COUNTERTOP, 300);
             registry.add(BlockRegistry.BAMBOO_CABINET_WITH_POLISHED_ANDESITE_COUNTERTOP, 300);
             registry.add(BlockRegistry.BAMBOO_CABINET_WITH_POLISHED_TUFF_COUNTERTOP, 300);
+            registry.add(BlockRegistry.BAMBOO_CABINET_WITH_POLISHED_BLACKSTONE_COUNTERTOP, 300);
+            registry.add(BlockRegistry.BAMBOO_CABINET_WITH_POLISHED_DIORITE_COUNTERTOP, 300);
+            registry.add(BlockRegistry.BAMBOO_CABINET_WITH_STONE_BRICKS_COUNTERTOP, 300);
         });
     }
 }
