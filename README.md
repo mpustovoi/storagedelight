@@ -20,13 +20,10 @@ Your contributions to this project allows Storage Delight to be improved to deli
 This mod adds four new type of blocks to the game that are useful to decorate any place, new blocks are constantly added with updates:
 
 - Drawers.
-- Drawers with doors.
-- Drawers with books.
-- Bookshelves with doors.
+- Drawers with Doors.
+- Drawers with Books.
+- Bookshelves with Doors.
 - Glass Cabinets.
 - Cabinets with Glass Doors.
 - Single Door Cabinets.
-
-### Compatibility
-
-- EveryCompat (WoodGood) support is included as optional compatibility and is enabled automatically when that mod is present.
+- Cabinets with Countertops.
