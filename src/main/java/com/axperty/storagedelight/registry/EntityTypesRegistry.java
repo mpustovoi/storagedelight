@@ -12,6 +12,7 @@ import java.util.Set;
 public class EntityTypesRegistry {
     public static final DeferredRegister<BlockEntityType<?>> TILES = DeferredRegister.create(ForgeRegistries.BLOCK_ENTITY_TYPES, StorageDelight.MOD_ID);
 
+    // Drawers
     public static final RegistryObject<BlockEntityType<DrawerBlockEntity>> DRAWER = TILES.register("drawer",
             () -> new BlockEntityType<>(DrawerBlockEntity::new, Set.of(
                     BlockRegistry.OAK_DRAWER.get(),
@@ -24,10 +25,11 @@ public class EntityTypesRegistry {
                     BlockRegistry.CHERRY_DRAWER.get(),
                     BlockRegistry.MANGROVE_DRAWER.get(),
                     BlockRegistry.CRIMSON_DRAWER.get(),
-                    BlockRegistry.WARPED_DRAWER.get()
-            )));
+                    BlockRegistry.WARPED_DRAWER.get())));
 
-    public static final RegistryObject<BlockEntityType<DrawerDoorBlockEntity>> DRAWER_DOOR = TILES.register("drawer_door",
+    // Drawers with Doors
+    public static final RegistryObject<BlockEntityType<DrawerDoorBlockEntity>> DRAWER_DOOR = TILES.register(
+            "drawer_door",
             () -> new BlockEntityType<>(DrawerDoorBlockEntity::new, Set.of(
                     BlockRegistry.OAK_DRAWER_WITH_DOOR.get(),
                     BlockRegistry.BIRCH_DRAWER_WITH_DOOR.get(),
@@ -39,10 +41,11 @@ public class EntityTypesRegistry {
                     BlockRegistry.CHERRY_DRAWER_WITH_DOOR.get(),
                     BlockRegistry.MANGROVE_DRAWER_WITH_DOOR.get(),
                     BlockRegistry.CRIMSON_DRAWER_WITH_DOOR.get(),
-                    BlockRegistry.WARPED_DRAWER_WITH_DOOR.get()
-            )));
+                    BlockRegistry.WARPED_DRAWER_WITH_DOOR.get())));
 
-    public static final RegistryObject<BlockEntityType<DrawerBooksBlockEntity>> DRAWER_BOOKS = TILES.register("drawer_books",
+    // Drawers with Books
+    public static final RegistryObject<BlockEntityType<DrawerBooksBlockEntity>> DRAWER_BOOKS = TILES.register(
+            "drawer_books",
             () -> new BlockEntityType<>(DrawerBooksBlockEntity::new, Set.of(
                     BlockRegistry.OAK_DRAWER_WITH_BOOKS.get(),
                     BlockRegistry.BIRCH_DRAWER_WITH_BOOKS.get(),
@@ -54,10 +57,11 @@ public class EntityTypesRegistry {
                     BlockRegistry.CHERRY_DRAWER_WITH_BOOKS.get(),
                     BlockRegistry.MANGROVE_DRAWER_WITH_BOOKS.get(),
                     BlockRegistry.CRIMSON_DRAWER_WITH_BOOKS.get(),
-                    BlockRegistry.WARPED_DRAWER_WITH_BOOKS.get()
-            )));
+                    BlockRegistry.WARPED_DRAWER_WITH_BOOKS.get())));
 
-    public static final RegistryObject<BlockEntityType<GlassCabinetBlockEntity>> GLASS_CABINET = TILES.register("glass_cabinet",
+    // Glass Cabinets
+    public static final RegistryObject<BlockEntityType<GlassCabinetBlockEntity>> GLASS_CABINET = TILES.register(
+            "glass_cabinet",
             () -> new BlockEntityType<>(GlassCabinetBlockEntity::new, Set.of(
                     BlockRegistry.GLASS_OAK_CABINET.get(),
                     BlockRegistry.GLASS_BIRCH_CABINET.get(),
@@ -69,10 +73,11 @@ public class EntityTypesRegistry {
                     BlockRegistry.GLASS_CHERRY_CABINET.get(),
                     BlockRegistry.GLASS_MANGROVE_CABINET.get(),
                     BlockRegistry.GLASS_CRIMSON_CABINET.get(),
-                    BlockRegistry.GLASS_WARPED_CABINET.get()
-            )));
+                    BlockRegistry.GLASS_WARPED_CABINET.get())));
 
-    public static final RegistryObject<BlockEntityType<CabinetVariantBlockEntity>> CABINET_VARIANT = TILES.register("cabinet_variant",
+    // Cabinet with Glass Doors and Single Door Cabinets
+    public static final RegistryObject<BlockEntityType<CabinetVariantBlockEntity>> CABINET_VARIANT = TILES.register(
+            "cabinet_variant",
             () -> new BlockEntityType<>(CabinetVariantBlockEntity::new, Set.of(
                     BlockRegistry.OAK_CABINET_WITH_GLASS_DOORS.get(),
                     BlockRegistry.BIRCH_CABINET_WITH_GLASS_DOORS.get(),
@@ -95,10 +100,11 @@ public class EntityTypesRegistry {
                     BlockRegistry.CHERRY_SINGLE_DOOR_CABINET.get(),
                     BlockRegistry.MANGROVE_SINGLE_DOOR_CABINET.get(),
                     BlockRegistry.CRIMSON_SINGLE_DOOR_CABINET.get(),
-                    BlockRegistry.WARPED_SINGLE_DOOR_CABINET.get()
-            )));
+                    BlockRegistry.WARPED_SINGLE_DOOR_CABINET.get())));
 
-    public static final RegistryObject<BlockEntityType<BookshelfDoorBlockEntity>> BOOKSHELF_DOOR = TILES.register("bookshelf_door",
+    // Bookshelves with Doors
+    public static final RegistryObject<BlockEntityType<BookshelfDoorBlockEntity>> BOOKSHELF_DOOR = TILES.register(
+            "bookshelf_door",
             () -> new BlockEntityType<>(BookshelfDoorBlockEntity::new, Set.of(
                     BlockRegistry.OAK_BOOKSHELF_WITH_DOOR.get(),
                     BlockRegistry.BIRCH_BOOKSHELF_WITH_DOOR.get(),
@@ -110,10 +116,11 @@ public class EntityTypesRegistry {
                     BlockRegistry.CHERRY_BOOKSHELF_WITH_DOOR.get(),
                     BlockRegistry.BAMBOO_BOOKSHELF_WITH_DOOR.get(),
                     BlockRegistry.CRIMSON_BOOKSHELF_WITH_DOOR.get(),
-                    BlockRegistry.WARPED_BOOKSHELF_WITH_DOOR.get()
-            )));
+                    BlockRegistry.WARPED_BOOKSHELF_WITH_DOOR.get())));
 
-    public static final RegistryObject<BlockEntityType<SmallDrawersBlockEntity>> SMALL_DRAWERS = TILES.register("small_drawers",
+    // Small Drawers
+    public static final RegistryObject<BlockEntityType<SmallDrawersBlockEntity>> SMALL_DRAWERS = TILES.register(
+            "small_drawers",
             () -> new BlockEntityType<>(SmallDrawersBlockEntity::new, Set.of(
                     BlockRegistry.SMALL_OAK_DRAWERS.get(),
                     BlockRegistry.SMALL_BIRCH_DRAWERS.get(),
@@ -125,10 +132,11 @@ public class EntityTypesRegistry {
                     BlockRegistry.SMALL_CHERRY_DRAWERS.get(),
                     BlockRegistry.SMALL_MANGROVE_DRAWERS.get(),
                     BlockRegistry.SMALL_CRIMSON_DRAWERS.get(),
-                    BlockRegistry.SMALL_WARPED_DRAWERS.get()
-            )));
+                    BlockRegistry.SMALL_WARPED_DRAWERS.get())));
 
-    public static final RegistryObject<BlockEntityType<CabinetCountertopBlockEntity>> COUNTERTOP = TILES.register("countertop",
+    // Cabinets with Countertops
+    public static final RegistryObject<BlockEntityType<CabinetCountertopBlockEntity>> COUNTERTOP = TILES.register(
+            "countertop",
             () -> new BlockEntityType<>(CabinetCountertopBlockEntity::new, Set.of(
                     BlockRegistry.OAK_CABINET_WITH_POLISHED_DEEPSLATE_COUNTERTOP.get(),
                     BlockRegistry.BIRCH_CABINET_WITH_POLISHED_DEEPSLATE_COUNTERTOP.get(),
@@ -162,9 +170,44 @@ public class EntityTypesRegistry {
                     BlockRegistry.CHERRY_CABINET_WITH_POLISHED_TUFF_COUNTERTOP.get(),
                     BlockRegistry.MANGROVE_CABINET_WITH_POLISHED_TUFF_COUNTERTOP.get(),
                     BlockRegistry.CRIMSON_CABINET_WITH_POLISHED_TUFF_COUNTERTOP.get(),
-                    BlockRegistry.WARPED_CABINET_WITH_POLISHED_TUFF_COUNTERTOP.get())));
+                    BlockRegistry.WARPED_CABINET_WITH_POLISHED_TUFF_COUNTERTOP.get(),
+                    BlockRegistry.OAK_CABINET_WITH_POLISHED_BLACKSTONE_COUNTERTOP.get(),
+                    BlockRegistry.BIRCH_CABINET_WITH_POLISHED_BLACKSTONE_COUNTERTOP.get(),
+                    BlockRegistry.SPRUCE_CABINET_WITH_POLISHED_BLACKSTONE_COUNTERTOP.get(),
+                    BlockRegistry.JUNGLE_CABINET_WITH_POLISHED_BLACKSTONE_COUNTERTOP.get(),
+                    BlockRegistry.ACACIA_CABINET_WITH_POLISHED_BLACKSTONE_COUNTERTOP.get(),
+                    BlockRegistry.DARK_OAK_CABINET_WITH_POLISHED_BLACKSTONE_COUNTERTOP.get(),
+                    BlockRegistry.BAMBOO_CABINET_WITH_POLISHED_BLACKSTONE_COUNTERTOP.get(),
+                    BlockRegistry.CHERRY_CABINET_WITH_POLISHED_BLACKSTONE_COUNTERTOP.get(),
+                    BlockRegistry.MANGROVE_CABINET_WITH_POLISHED_BLACKSTONE_COUNTERTOP.get(),
+                    BlockRegistry.CRIMSON_CABINET_WITH_POLISHED_BLACKSTONE_COUNTERTOP.get(),
+                    BlockRegistry.WARPED_CABINET_WITH_POLISHED_BLACKSTONE_COUNTERTOP.get(),
+                    BlockRegistry.OAK_CABINET_WITH_POLISHED_DIORITE_COUNTERTOP.get(),
+                    BlockRegistry.BIRCH_CABINET_WITH_POLISHED_DIORITE_COUNTERTOP.get(),
+                    BlockRegistry.SPRUCE_CABINET_WITH_POLISHED_DIORITE_COUNTERTOP.get(),
+                    BlockRegistry.JUNGLE_CABINET_WITH_POLISHED_DIORITE_COUNTERTOP.get(),
+                    BlockRegistry.ACACIA_CABINET_WITH_POLISHED_DIORITE_COUNTERTOP.get(),
+                    BlockRegistry.DARK_OAK_CABINET_WITH_POLISHED_DIORITE_COUNTERTOP.get(),
+                    BlockRegistry.BAMBOO_CABINET_WITH_POLISHED_DIORITE_COUNTERTOP.get(),
+                    BlockRegistry.CHERRY_CABINET_WITH_POLISHED_DIORITE_COUNTERTOP.get(),
+                    BlockRegistry.MANGROVE_CABINET_WITH_POLISHED_DIORITE_COUNTERTOP.get(),
+                    BlockRegistry.CRIMSON_CABINET_WITH_POLISHED_DIORITE_COUNTERTOP.get(),
+                    BlockRegistry.WARPED_CABINET_WITH_POLISHED_DIORITE_COUNTERTOP.get(),
+                    BlockRegistry.OAK_CABINET_WITH_STONE_BRICKS_COUNTERTOP.get(),
+                    BlockRegistry.BIRCH_CABINET_WITH_STONE_BRICKS_COUNTERTOP.get(),
+                    BlockRegistry.SPRUCE_CABINET_WITH_STONE_BRICKS_COUNTERTOP.get(),
+                    BlockRegistry.JUNGLE_CABINET_WITH_STONE_BRICKS_COUNTERTOP.get(),
+                    BlockRegistry.ACACIA_CABINET_WITH_STONE_BRICKS_COUNTERTOP.get(),
+                    BlockRegistry.DARK_OAK_CABINET_WITH_STONE_BRICKS_COUNTERTOP.get(),
+                    BlockRegistry.BAMBOO_CABINET_WITH_STONE_BRICKS_COUNTERTOP.get(),
+                    BlockRegistry.CHERRY_CABINET_WITH_STONE_BRICKS_COUNTERTOP.get(),
+                    BlockRegistry.MANGROVE_CABINET_WITH_STONE_BRICKS_COUNTERTOP.get(),
+                    BlockRegistry.CRIMSON_CABINET_WITH_STONE_BRICKS_COUNTERTOP.get(),
+                    BlockRegistry.WARPED_CABINET_WITH_STONE_BRICKS_COUNTERTOP.get())));
 
-//    public static final RegistryObject<BlockEntityType<CabinetBlockEntity>> CABINET = TILES.register("cabinet",
-//            () -> new BlockEntityType<>(CabinetBlockEntity::new, Set.of(
-//                    BlockRegistry.PALE_OAK_CABINET.get())));
+//        Pantry cabinets are currently in testing phase. This feature will be available soon!
+//        public static final RegistryObject<BlockEntityType<PantryCabinetBlockEntity>> PANTRY_CABINET = TILES.register(
+//                "pantry_cabinet",
+//                () -> new BlockEntityType<>(PantryCabinetBlockEntity::new, Set.of(
+//                        BlockRegistry.OAK_PANTRY_CABINET.get())));
 }
