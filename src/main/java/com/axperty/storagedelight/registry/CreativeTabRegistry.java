@@ -16,6 +16,8 @@ public class CreativeTabRegistry {
                     .displayName(Text.translatable("itemGroup.storagedelight"))
                     .icon(() -> new ItemStack(BlockRegistry.OAK_DRAWER))
                     .entries((displayContext, entries) -> {
+
+                        // Oak Furniture
                         entries.add(BlockRegistry.OAK_DRAWER);
                         entries.add(BlockRegistry.OAK_DRAWER_WITH_DOOR);
                         entries.add(BlockRegistry.OAK_DRAWER_WITH_BOOKS);
@@ -26,7 +28,11 @@ public class CreativeTabRegistry {
                         entries.add(BlockRegistry.OAK_SINGLE_DOOR_CABINET);
                         entries.add(BlockRegistry.OAK_CABINET_WITH_POLISHED_DEEPSLATE_COUNTERTOP);
                         entries.add(BlockRegistry.OAK_CABINET_WITH_POLISHED_ANDESITE_COUNTERTOP);
+                        entries.add(BlockRegistry.OAK_CABINET_WITH_POLISHED_BLACKSTONE_COUNTERTOP);
+                        entries.add(BlockRegistry.OAK_CABINET_WITH_POLISHED_DIORITE_COUNTERTOP);
+                        entries.add(BlockRegistry.OAK_CABINET_WITH_STONE_BRICKS_COUNTERTOP);
 
+                        // Birch Furniture
                         entries.add(BlockRegistry.BIRCH_DRAWER);
                         entries.add(BlockRegistry.BIRCH_DRAWER_WITH_DOOR);
                         entries.add(BlockRegistry.BIRCH_DRAWER_WITH_BOOKS);
@@ -37,7 +43,11 @@ public class CreativeTabRegistry {
                         entries.add(BlockRegistry.BIRCH_SINGLE_DOOR_CABINET);
                         entries.add(BlockRegistry.BIRCH_CABINET_WITH_POLISHED_DEEPSLATE_COUNTERTOP);
                         entries.add(BlockRegistry.BIRCH_CABINET_WITH_POLISHED_ANDESITE_COUNTERTOP);
+                        entries.add(BlockRegistry.BIRCH_CABINET_WITH_POLISHED_BLACKSTONE_COUNTERTOP);
+                        entries.add(BlockRegistry.BIRCH_CABINET_WITH_POLISHED_DIORITE_COUNTERTOP);
+                        entries.add(BlockRegistry.BIRCH_CABINET_WITH_STONE_BRICKS_COUNTERTOP);
 
+                        // Spruce Furniture
                         entries.add(BlockRegistry.SPRUCE_DRAWER);
                         entries.add(BlockRegistry.SPRUCE_DRAWER_WITH_DOOR);
                         entries.add(BlockRegistry.SPRUCE_DRAWER_WITH_BOOKS);
@@ -48,7 +58,11 @@ public class CreativeTabRegistry {
                         entries.add(BlockRegistry.SPRUCE_SINGLE_DOOR_CABINET);
                         entries.add(BlockRegistry.SPRUCE_CABINET_WITH_POLISHED_DEEPSLATE_COUNTERTOP);
                         entries.add(BlockRegistry.SPRUCE_CABINET_WITH_POLISHED_ANDESITE_COUNTERTOP);
+                        entries.add(BlockRegistry.SPRUCE_CABINET_WITH_POLISHED_BLACKSTONE_COUNTERTOP);
+                        entries.add(BlockRegistry.SPRUCE_CABINET_WITH_POLISHED_DIORITE_COUNTERTOP);
+                        entries.add(BlockRegistry.SPRUCE_CABINET_WITH_STONE_BRICKS_COUNTERTOP);
 
+                        // Jungle Furniture
                         entries.add(BlockRegistry.JUNGLE_DRAWER);
                         entries.add(BlockRegistry.JUNGLE_DRAWER_WITH_DOOR);
                         entries.add(BlockRegistry.JUNGLE_DRAWER_WITH_BOOKS);
@@ -59,7 +73,11 @@ public class CreativeTabRegistry {
                         entries.add(BlockRegistry.JUNGLE_SINGLE_DOOR_CABINET);
                         entries.add(BlockRegistry.JUNGLE_CABINET_WITH_POLISHED_DEEPSLATE_COUNTERTOP);
                         entries.add(BlockRegistry.JUNGLE_CABINET_WITH_POLISHED_ANDESITE_COUNTERTOP);
+                        entries.add(BlockRegistry.JUNGLE_CABINET_WITH_POLISHED_BLACKSTONE_COUNTERTOP);
+                        entries.add(BlockRegistry.JUNGLE_CABINET_WITH_POLISHED_DIORITE_COUNTERTOP);
+                        entries.add(BlockRegistry.JUNGLE_CABINET_WITH_STONE_BRICKS_COUNTERTOP);
 
+                        // Acacia Furniture
                         entries.add(BlockRegistry.ACACIA_DRAWER);
                         entries.add(BlockRegistry.ACACIA_DRAWER_WITH_DOOR);
                         entries.add(BlockRegistry.ACACIA_DRAWER_WITH_BOOKS);
@@ -70,7 +88,11 @@ public class CreativeTabRegistry {
                         entries.add(BlockRegistry.ACACIA_SINGLE_DOOR_CABINET);
                         entries.add(BlockRegistry.ACACIA_CABINET_WITH_POLISHED_DEEPSLATE_COUNTERTOP);
                         entries.add(BlockRegistry.ACACIA_CABINET_WITH_POLISHED_ANDESITE_COUNTERTOP);
+                        entries.add(BlockRegistry.ACACIA_CABINET_WITH_POLISHED_BLACKSTONE_COUNTERTOP);
+                        entries.add(BlockRegistry.ACACIA_CABINET_WITH_POLISHED_DIORITE_COUNTERTOP);
+                        entries.add(BlockRegistry.ACACIA_CABINET_WITH_STONE_BRICKS_COUNTERTOP);
 
+                        // Dark Oak Furniture
                         entries.add(BlockRegistry.DARK_OAK_DRAWER);
                         entries.add(BlockRegistry.DARK_OAK_DRAWER_WITH_DOOR);
                         entries.add(BlockRegistry.DARK_OAK_DRAWER_WITH_BOOKS);
@@ -81,7 +103,11 @@ public class CreativeTabRegistry {
                         entries.add(BlockRegistry.DARK_OAK_SINGLE_DOOR_CABINET);
                         entries.add(BlockRegistry.DARK_OAK_CABINET_WITH_POLISHED_DEEPSLATE_COUNTERTOP);
                         entries.add(BlockRegistry.DARK_OAK_CABINET_WITH_POLISHED_ANDESITE_COUNTERTOP);
+                        entries.add(BlockRegistry.DARK_OAK_CABINET_WITH_POLISHED_BLACKSTONE_COUNTERTOP);
+                        entries.add(BlockRegistry.DARK_OAK_CABINET_WITH_POLISHED_DIORITE_COUNTERTOP);
+                        entries.add(BlockRegistry.DARK_OAK_CABINET_WITH_STONE_BRICKS_COUNTERTOP);
 
+                        // Mangrove Furniture
                         entries.add(BlockRegistry.MANGROVE_DRAWER);
                         entries.add(BlockRegistry.MANGROVE_DRAWER_WITH_DOOR);
                         entries.add(BlockRegistry.MANGROVE_DRAWER_WITH_BOOKS);
@@ -92,7 +118,11 @@ public class CreativeTabRegistry {
                         entries.add(BlockRegistry.MANGROVE_SINGLE_DOOR_CABINET);
                         entries.add(BlockRegistry.MANGROVE_CABINET_WITH_POLISHED_DEEPSLATE_COUNTERTOP);
                         entries.add(BlockRegistry.MANGROVE_CABINET_WITH_POLISHED_ANDESITE_COUNTERTOP);
+                        entries.add(BlockRegistry.MANGROVE_CABINET_WITH_POLISHED_BLACKSTONE_COUNTERTOP);
+                        entries.add(BlockRegistry.MANGROVE_CABINET_WITH_POLISHED_DIORITE_COUNTERTOP);
+                        entries.add(BlockRegistry.MANGROVE_CABINET_WITH_STONE_BRICKS_COUNTERTOP);
 
+                        // Cherry Furniture
                         entries.add(BlockRegistry.CHERRY_DRAWER);
                         entries.add(BlockRegistry.CHERRY_DRAWER_WITH_DOOR);
                         entries.add(BlockRegistry.CHERRY_DRAWER_WITH_BOOKS);
@@ -103,7 +133,11 @@ public class CreativeTabRegistry {
                         entries.add(BlockRegistry.CHERRY_SINGLE_DOOR_CABINET);
                         entries.add(BlockRegistry.CHERRY_CABINET_WITH_POLISHED_DEEPSLATE_COUNTERTOP);
                         entries.add(BlockRegistry.CHERRY_CABINET_WITH_POLISHED_ANDESITE_COUNTERTOP);
+                        entries.add(BlockRegistry.CHERRY_CABINET_WITH_POLISHED_BLACKSTONE_COUNTERTOP);
+                        entries.add(BlockRegistry.CHERRY_CABINET_WITH_POLISHED_DIORITE_COUNTERTOP);
+                        entries.add(BlockRegistry.CHERRY_CABINET_WITH_STONE_BRICKS_COUNTERTOP);
 
+                        // Bamboo Furniture
                         entries.add(BlockRegistry.BAMBOO_DRAWER);
                         entries.add(BlockRegistry.BAMBOO_DRAWER_WITH_DOOR);
                         entries.add(BlockRegistry.BAMBOO_DRAWER_WITH_BOOKS);
@@ -114,7 +148,11 @@ public class CreativeTabRegistry {
                         entries.add(BlockRegistry.BAMBOO_SINGLE_DOOR_CABINET);
                         entries.add(BlockRegistry.BAMBOO_CABINET_WITH_POLISHED_DEEPSLATE_COUNTERTOP);
                         entries.add(BlockRegistry.BAMBOO_CABINET_WITH_POLISHED_ANDESITE_COUNTERTOP);
+                        entries.add(BlockRegistry.BAMBOO_CABINET_WITH_POLISHED_BLACKSTONE_COUNTERTOP);
+                        entries.add(BlockRegistry.BAMBOO_CABINET_WITH_POLISHED_DIORITE_COUNTERTOP);
+                        entries.add(BlockRegistry.BAMBOO_CABINET_WITH_STONE_BRICKS_COUNTERTOP);
 
+                        // Crimson Furniture
                         entries.add(BlockRegistry.CRIMSON_DRAWER);
                         entries.add(BlockRegistry.CRIMSON_DRAWER_WITH_DOOR);
                         entries.add(BlockRegistry.CRIMSON_DRAWER_WITH_BOOKS);
@@ -125,7 +163,11 @@ public class CreativeTabRegistry {
                         entries.add(BlockRegistry.CRIMSON_SINGLE_DOOR_CABINET);
                         entries.add(BlockRegistry.CRIMSON_CABINET_WITH_POLISHED_DEEPSLATE_COUNTERTOP);
                         entries.add(BlockRegistry.CRIMSON_CABINET_WITH_POLISHED_ANDESITE_COUNTERTOP);
+                        entries.add(BlockRegistry.CRIMSON_CABINET_WITH_POLISHED_BLACKSTONE_COUNTERTOP);
+                        entries.add(BlockRegistry.CRIMSON_CABINET_WITH_POLISHED_DIORITE_COUNTERTOP);
+                        entries.add(BlockRegistry.CRIMSON_CABINET_WITH_STONE_BRICKS_COUNTERTOP);
 
+                        // Warped Furniture
                         entries.add(BlockRegistry.WARPED_DRAWER);
                         entries.add(BlockRegistry.WARPED_DRAWER_WITH_DOOR);
                         entries.add(BlockRegistry.WARPED_DRAWER_WITH_BOOKS);
@@ -136,10 +178,11 @@ public class CreativeTabRegistry {
                         entries.add(BlockRegistry.WARPED_SINGLE_DOOR_CABINET);
                         entries.add(BlockRegistry.WARPED_CABINET_WITH_POLISHED_DEEPSLATE_COUNTERTOP);
                         entries.add(BlockRegistry.WARPED_CABINET_WITH_POLISHED_ANDESITE_COUNTERTOP);
+                        entries.add(BlockRegistry.WARPED_CABINET_WITH_POLISHED_BLACKSTONE_COUNTERTOP);
+                        entries.add(BlockRegistry.WARPED_CABINET_WITH_POLISHED_DIORITE_COUNTERTOP);
+                        entries.add(BlockRegistry.WARPED_CABINET_WITH_STONE_BRICKS_COUNTERTOP);
                     })
                     .build());
 
-    public static void register() {
-        StorageDelight.LOGGER.info("Registering creative mode tab for " + StorageDelight.MOD_ID);
-    }
+    public static void register() {}
 }

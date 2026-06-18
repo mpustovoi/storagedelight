@@ -19,5 +19,6 @@ public class StorageDelight implements ModInitializer {
         EntityTypesRegistry.register();
         FuelBlockRegistry.register();
         CreativeTabRegistry.register();
+        LOGGER.info("Storage Delight loaded");
     }
 }

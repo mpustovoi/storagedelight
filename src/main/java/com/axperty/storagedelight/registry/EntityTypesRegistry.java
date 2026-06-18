@@ -13,6 +13,7 @@ public class EntityTypesRegistry {
         return Registry.register(Registries.BLOCK_ENTITY_TYPE, Identifier.of(StorageDelight.MOD_ID, path), blockEntityType);
     }
 
+    // Drawers
     public static final BlockEntityType<DrawerBlockEntity> DRAWER = register(
             "drawer", FabricBlockEntityTypeBuilder.create(DrawerBlockEntity::new,
                             BlockRegistry.OAK_DRAWER,
@@ -29,6 +30,7 @@ public class EntityTypesRegistry {
                     .build()
     );
 
+    // Drawers with Doors
     public static final BlockEntityType<DrawerDoorBlockEntity> DRAWER_DOOR = register(
             "drawer_door", FabricBlockEntityTypeBuilder.create(DrawerDoorBlockEntity::new,
                             BlockRegistry.OAK_DRAWER_WITH_DOOR,
@@ -45,6 +47,7 @@ public class EntityTypesRegistry {
                     .build()
     );
 
+    // Drawers with Books
     public static final BlockEntityType<DrawerBooksBlockEntity> DRAWER_BOOKS = register(
             "drawer_books", FabricBlockEntityTypeBuilder.create(DrawerBooksBlockEntity::new,
                             BlockRegistry.OAK_DRAWER_WITH_BOOKS,
@@ -61,6 +64,7 @@ public class EntityTypesRegistry {
                     .build()
     );
 
+    // Glass Cabinets
     public static final BlockEntityType<GlassCabinetBlockEntity> GLASS_CABINET = register(
             "glass_cabinet", FabricBlockEntityTypeBuilder.create(GlassCabinetBlockEntity::new,
                             BlockRegistry.GLASS_OAK_CABINET,
@@ -77,6 +81,7 @@ public class EntityTypesRegistry {
                     .build()
     );
 
+    // Cabinets with Glass Doors and Single Door Cabinets
     public static final BlockEntityType<CabinetVariantBlockEntity> CABINET_VARIANT = register(
             "cabinet_variant", FabricBlockEntityTypeBuilder.create(CabinetVariantBlockEntity::new,
                             BlockRegistry.OAK_CABINET_WITH_GLASS_DOORS,
@@ -104,6 +109,7 @@ public class EntityTypesRegistry {
                     .build()
     );
 
+    // Bookshelves with Doors
     public static final BlockEntityType<BookshelfDoorBlockEntity> BOOKSHELF_DOOR = register(
             "bookshelf_door", FabricBlockEntityTypeBuilder.create(BookshelfDoorBlockEntity::new,
                             BlockRegistry.OAK_BOOKSHELF_WITH_DOOR,
@@ -120,6 +126,7 @@ public class EntityTypesRegistry {
                     .build()
     );
 
+    // Small Drawers
     public static final BlockEntityType<SmallDrawersBlockEntity> SMALL_DRAWERS = register(
             "small_drawers", FabricBlockEntityTypeBuilder.create(SmallDrawersBlockEntity::new,
                             BlockRegistry.SMALL_OAK_DRAWERS,
@@ -136,6 +143,7 @@ public class EntityTypesRegistry {
                     .build()
     );
 
+    // Cabinets with Countertops
     public static final BlockEntityType<CabinetCountertopBlockEntity> COUNTERTOP = register(
             "countertop", FabricBlockEntityTypeBuilder.create(CabinetCountertopBlockEntity::new,
                             BlockRegistry.OAK_CABINET_WITH_POLISHED_DEEPSLATE_COUNTERTOP,
@@ -159,17 +167,42 @@ public class EntityTypesRegistry {
                             BlockRegistry.CHERRY_CABINET_WITH_POLISHED_ANDESITE_COUNTERTOP,
                             BlockRegistry.MANGROVE_CABINET_WITH_POLISHED_ANDESITE_COUNTERTOP,
                             BlockRegistry.CRIMSON_CABINET_WITH_POLISHED_ANDESITE_COUNTERTOP,
-                            BlockRegistry.WARPED_CABINET_WITH_POLISHED_ANDESITE_COUNTERTOP)
+                            BlockRegistry.WARPED_CABINET_WITH_POLISHED_ANDESITE_COUNTERTOP,
+                            BlockRegistry.OAK_CABINET_WITH_POLISHED_BLACKSTONE_COUNTERTOP,
+                            BlockRegistry.BIRCH_CABINET_WITH_POLISHED_BLACKSTONE_COUNTERTOP,
+                            BlockRegistry.SPRUCE_CABINET_WITH_POLISHED_BLACKSTONE_COUNTERTOP,
+                            BlockRegistry.JUNGLE_CABINET_WITH_POLISHED_BLACKSTONE_COUNTERTOP,
+                            BlockRegistry.ACACIA_CABINET_WITH_POLISHED_BLACKSTONE_COUNTERTOP,
+                            BlockRegistry.DARK_OAK_CABINET_WITH_POLISHED_BLACKSTONE_COUNTERTOP,
+                            BlockRegistry.BAMBOO_CABINET_WITH_POLISHED_BLACKSTONE_COUNTERTOP,
+                            BlockRegistry.CHERRY_CABINET_WITH_POLISHED_BLACKSTONE_COUNTERTOP,
+                            BlockRegistry.MANGROVE_CABINET_WITH_POLISHED_BLACKSTONE_COUNTERTOP,
+                            BlockRegistry.CRIMSON_CABINET_WITH_POLISHED_BLACKSTONE_COUNTERTOP,
+                            BlockRegistry.WARPED_CABINET_WITH_POLISHED_BLACKSTONE_COUNTERTOP,
+                            BlockRegistry.OAK_CABINET_WITH_POLISHED_DIORITE_COUNTERTOP,
+                            BlockRegistry.BIRCH_CABINET_WITH_POLISHED_DIORITE_COUNTERTOP,
+                            BlockRegistry.SPRUCE_CABINET_WITH_POLISHED_DIORITE_COUNTERTOP,
+                            BlockRegistry.JUNGLE_CABINET_WITH_POLISHED_DIORITE_COUNTERTOP,
+                            BlockRegistry.ACACIA_CABINET_WITH_POLISHED_DIORITE_COUNTERTOP,
+                            BlockRegistry.DARK_OAK_CABINET_WITH_POLISHED_DIORITE_COUNTERTOP,
+                            BlockRegistry.BAMBOO_CABINET_WITH_POLISHED_DIORITE_COUNTERTOP,
+                            BlockRegistry.CHERRY_CABINET_WITH_POLISHED_DIORITE_COUNTERTOP,
+                            BlockRegistry.MANGROVE_CABINET_WITH_POLISHED_DIORITE_COUNTERTOP,
+                            BlockRegistry.CRIMSON_CABINET_WITH_POLISHED_DIORITE_COUNTERTOP,
+                            BlockRegistry.WARPED_CABINET_WITH_POLISHED_DIORITE_COUNTERTOP,
+                            BlockRegistry.OAK_CABINET_WITH_STONE_BRICKS_COUNTERTOP,
+                            BlockRegistry.BIRCH_CABINET_WITH_STONE_BRICKS_COUNTERTOP,
+                            BlockRegistry.SPRUCE_CABINET_WITH_STONE_BRICKS_COUNTERTOP,
+                            BlockRegistry.JUNGLE_CABINET_WITH_STONE_BRICKS_COUNTERTOP,
+                            BlockRegistry.ACACIA_CABINET_WITH_STONE_BRICKS_COUNTERTOP,
+                            BlockRegistry.DARK_OAK_CABINET_WITH_STONE_BRICKS_COUNTERTOP,
+                            BlockRegistry.BAMBOO_CABINET_WITH_STONE_BRICKS_COUNTERTOP,
+                            BlockRegistry.CHERRY_CABINET_WITH_STONE_BRICKS_COUNTERTOP,
+                            BlockRegistry.MANGROVE_CABINET_WITH_STONE_BRICKS_COUNTERTOP,
+                            BlockRegistry.CRIMSON_CABINET_WITH_STONE_BRICKS_COUNTERTOP,
+                            BlockRegistry.WARPED_CABINET_WITH_STONE_BRICKS_COUNTERTOP)
                     .build()
     );
 
-//    public static final BlockEntityType<CabinetBlockEntity> CABINET = register(
-//            "cabinet", FabricBlockEntityTypeBuilder.create(CabinetBlockEntity::new,
-//                            BlockRegistry.PALE_OAK_CABINET)
-//                    .build()
-//    );
-
-    public static void register() {
-        StorageDelight.LOGGER.info("Registering block entity types for " + StorageDelight.MOD_ID);
-    }
+    public static void register() {}
 }
