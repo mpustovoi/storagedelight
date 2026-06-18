@@ -9,10 +9,10 @@
     "storagedelight:oak_drawer_with_books": {
       "burn_time": 300
     },
-    "storagedelight:oak_bookshelf_with_door": {
+    "storagedelight:small_oak_drawers": {
       "burn_time": 300
     },
-    "storagedelight:small_oak_drawers": {
+    "storagedelight:oak_bookshelf_with_door": {
       "burn_time": 300
     },
     "storagedelight:glass_oak_cabinet": {
@@ -33,6 +33,12 @@
     "storagedelight:oak_cabinet_with_polished_tuff_countertop": {
       "burn_time": 300
     },
+    "storagedelight:oak_cabinet_with_polished_blackstone_countertop": {
+      "burn_time": 300
+    },
+    "storagedelight:oak_cabinet_with_polished_diorite_countertop": {
+      "burn_time": 300
+    },
     "storagedelight:birch_drawer": {
       "burn_time": 300
     },
@@ -42,10 +48,10 @@
     "storagedelight:birch_drawer_with_books": {
       "burn_time": 300
     },
-    "storagedelight:birch_bookshelf_with_door": {
+    "storagedelight:small_birch_drawers": {
       "burn_time": 300
     },
-    "storagedelight:small_birch_drawers": {
+    "storagedelight:birch_bookshelf_with_door": {
       "burn_time": 300
     },
     "storagedelight:glass_birch_cabinet": {
@@ -66,6 +72,12 @@
     "storagedelight:birch_cabinet_with_polished_tuff_countertop": {
       "burn_time": 300
     },
+    "storagedelight:birch_cabinet_with_polished_blackstone_countertop": {
+      "burn_time": 300
+    },
+    "storagedelight:birch_cabinet_with_polished_diorite_countertop": {
+      "burn_time": 300
+    },
     "storagedelight:spruce_drawer": {
       "burn_time": 300
     },
@@ -75,10 +87,10 @@
     "storagedelight:spruce_drawer_with_books": {
       "burn_time": 300
     },
-    "storagedelight:spruce_bookshelf_with_door": {
+    "storagedelight:small_spruce_drawers": {
       "burn_time": 300
     },
-    "storagedelight:small_spruce_drawers": {
+    "storagedelight:spruce_bookshelf_with_door": {
       "burn_time": 300
     },
     "storagedelight:glass_spruce_cabinet": {
@@ -99,6 +111,12 @@
     "storagedelight:spruce_cabinet_with_polished_tuff_countertop": {
       "burn_time": 300
     },
+    "storagedelight:spruce_cabinet_with_polished_blackstone_countertop": {
+      "burn_time": 300
+    },
+    "storagedelight:spruce_cabinet_with_polished_diorite_countertop": {
+      "burn_time": 300
+    },
     "storagedelight:jungle_drawer": {
       "burn_time": 300
     },
@@ -108,10 +126,10 @@
     "storagedelight:jungle_drawer_with_books": {
       "burn_time": 300
     },
-    "storagedelight:jungle_bookshelf_with_door": {
+    "storagedelight:small_jungle_drawers": {
       "burn_time": 300
     },
-    "storagedelight:small_jungle_drawers": {
+    "storagedelight:jungle_bookshelf_with_door": {
       "burn_time": 300
     },
     "storagedelight:glass_jungle_cabinet": {
@@ -132,6 +150,12 @@
     "storagedelight:jungle_cabinet_with_polished_tuff_countertop": {
       "burn_time": 300
     },
+    "storagedelight:jungle_cabinet_with_polished_blackstone_countertop": {
+      "burn_time": 300
+    },
+    "storagedelight:jungle_cabinet_with_polished_diorite_countertop": {
+      "burn_time": 300
+    },
     "storagedelight:acacia_drawer": {
       "burn_time": 300
     },
@@ -141,10 +165,10 @@
     "storagedelight:acacia_drawer_with_books": {
       "burn_time": 300
     },
-    "storagedelight:acacia_bookshelf_with_door": {
+    "storagedelight:small_acacia_drawers": {
       "burn_time": 300
     },
-    "storagedelight:small_acacia_drawers": {
+    "storagedelight:acacia_bookshelf_with_door": {
       "burn_time": 300
     },
     "storagedelight:glass_acacia_cabinet": {
@@ -165,6 +189,12 @@
     "storagedelight:acacia_cabinet_with_polished_tuff_countertop": {
       "burn_time": 300
     },
+    "storagedelight:acacia_cabinet_with_polished_blackstone_countertop": {
+      "burn_time": 300
+    },
+    "storagedelight:acacia_cabinet_with_polished_diorite_countertop": {
+      "burn_time": 300
+    },
     "storagedelight:dark_oak_drawer": {
       "burn_time": 300
     },
@@ -174,10 +204,10 @@
     "storagedelight:dark_oak_drawer_with_books": {
       "burn_time": 300
     },
-    "storagedelight:dark_oak_bookshelf_with_door": {
+    "storagedelight:small_dark_oak_drawers": {
       "burn_time": 300
     },
-    "storagedelight:small_dark_oak_drawers": {
+    "storagedelight:dark_oak_bookshelf_with_door": {
       "burn_time": 300
     },
     "storagedelight:glass_dark_oak_cabinet": {
@@ -198,6 +228,12 @@
     "storagedelight:dark_oak_cabinet_with_polished_tuff_countertop": {
       "burn_time": 300
     },
+    "storagedelight:dark_oak_cabinet_with_polished_blackstone_countertop": {
+      "burn_time": 300
+    },
+    "storagedelight:dark_oak_cabinet_with_polished_diorite_countertop": {
+      "burn_time": 300
+    },
     "storagedelight:mangrove_drawer": {
       "burn_time": 300
     },
@@ -207,10 +243,10 @@
     "storagedelight:mangrove_drawer_with_books": {
       "burn_time": 300
     },
-    "storagedelight:mangrove_bookshelf_with_door": {
+    "storagedelight:small_mangrove_drawers": {
       "burn_time": 300
     },
-    "storagedelight:small_mangrove_drawers": {
+    "storagedelight:mangrove_bookshelf_with_door": {
       "burn_time": 300
     },
     "storagedelight:glass_mangrove_cabinet": {
@@ -231,6 +267,12 @@
     "storagedelight:mangrove_cabinet_with_polished_tuff_countertop": {
       "burn_time": 300
     },
+    "storagedelight:mangrove_cabinet_with_polished_blackstone_countertop": {
+      "burn_time": 300
+    },
+    "storagedelight:mangrove_cabinet_with_polished_diorite_countertop": {
+      "burn_time": 300
+    },
     "storagedelight:cherry_drawer": {
       "burn_time": 300
     },
@@ -240,10 +282,10 @@
     "storagedelight:cherry_drawer_with_books": {
       "burn_time": 300
     },
-    "storagedelight:cherry_bookshelf_with_door": {
+    "storagedelight:small_cherry_drawers": {
       "burn_time": 300
     },
-    "storagedelight:small_cherry_drawers": {
+    "storagedelight:cherry_bookshelf_with_door": {
       "burn_time": 300
     },
     "storagedelight:glass_cherry_cabinet": {
@@ -264,6 +306,12 @@
     "storagedelight:cherry_cabinet_with_polished_tuff_countertop": {
       "burn_time": 300
     },
+    "storagedelight:cherry_cabinet_with_polished_blackstone_countertop": {
+      "burn_time": 300
+    },
+    "storagedelight:cherry_cabinet_with_polished_diorite_countertop": {
+      "burn_time": 300
+    },
     "storagedelight:bamboo_drawer": {
       "burn_time": 300
     },
@@ -273,10 +321,10 @@
     "storagedelight:bamboo_drawer_with_books": {
       "burn_time": 300
     },
-    "storagedelight:bamboo_bookshelf_with_door": {
+    "storagedelight:small_bamboo_drawers": {
       "burn_time": 300
     },
-    "storagedelight:small_bamboo_drawers": {
+    "storagedelight:bamboo_bookshelf_with_door": {
       "burn_time": 300
     },
     "storagedelight:glass_bamboo_cabinet": {
@@ -295,6 +343,12 @@
       "burn_time": 300
     },
     "storagedelight:bamboo_cabinet_with_polished_tuff_countertop": {
+      "burn_time": 300
+    },
+    "storagedelight:bamboo_cabinet_with_polished_blackstone_countertop": {
+      "burn_time": 300
+    },
+    "storagedelight:bamboo_cabinet_with_polished_diorite_countertop": {
       "burn_time": 300
     }
   }

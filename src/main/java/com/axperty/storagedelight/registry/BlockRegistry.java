@@ -37,6 +37,12 @@ public class BlockRegistry {
             registryName -> new CabinetCountertopBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.BARREL).setId(ResourceKey.create(Registries.BLOCK, registryName))));
     public static final DeferredBlock<Block> OAK_CABINET_WITH_POLISHED_TUFF_COUNTERTOP = BLOCKS.register("oak_cabinet_with_polished_tuff_countertop",
             registryName -> new CabinetCountertopBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.BARREL).setId(ResourceKey.create(Registries.BLOCK, registryName))));
+    public static final DeferredBlock<Block> OAK_CABINET_WITH_POLISHED_BLACKSTONE_COUNTERTOP = BLOCKS.register("oak_cabinet_with_polished_blackstone_countertop",
+            registryName -> new CabinetCountertopBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.BARREL).setId(ResourceKey.create(Registries.BLOCK, registryName))));
+    public static final DeferredBlock<Block> OAK_CABINET_WITH_POLISHED_DIORITE_COUNTERTOP = BLOCKS.register("oak_cabinet_with_polished_diorite_countertop",
+            registryName -> new CabinetCountertopBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.BARREL).setId(ResourceKey.create(Registries.BLOCK, registryName))));
+    public static final DeferredBlock<Block> OAK_CABINET_WITH_STONE_BRICKS_COUNTERTOP = BLOCKS.register("oak_cabinet_with_stone_bricks_countertop",
+            registryName -> new CabinetCountertopBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.BARREL).setId(ResourceKey.create(Registries.BLOCK, registryName))));
 
     // Birch Furniture
     public static final DeferredBlock<Block> BIRCH_DRAWER = BLOCKS.register("birch_drawer",
@@ -60,6 +66,12 @@ public class BlockRegistry {
     public static final DeferredBlock<Block> BIRCH_CABINET_WITH_POLISHED_ANDESITE_COUNTERTOP = BLOCKS.register("birch_cabinet_with_polished_andesite_countertop",
             registryName -> new CabinetCountertopBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.BARREL).setId(ResourceKey.create(Registries.BLOCK, registryName))));
     public static final DeferredBlock<Block> BIRCH_CABINET_WITH_POLISHED_TUFF_COUNTERTOP = BLOCKS.register("birch_cabinet_with_polished_tuff_countertop",
+            registryName -> new CabinetCountertopBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.BARREL).setId(ResourceKey.create(Registries.BLOCK, registryName))));
+    public static final DeferredBlock<Block> BIRCH_CABINET_WITH_POLISHED_BLACKSTONE_COUNTERTOP = BLOCKS.register("birch_cabinet_with_polished_blackstone_countertop",
+            registryName -> new CabinetCountertopBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.BARREL).setId(ResourceKey.create(Registries.BLOCK, registryName))));
+    public static final DeferredBlock<Block> BIRCH_CABINET_WITH_POLISHED_DIORITE_COUNTERTOP = BLOCKS.register("birch_cabinet_with_polished_diorite_countertop",
+            registryName -> new CabinetCountertopBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.BARREL).setId(ResourceKey.create(Registries.BLOCK, registryName))));
+    public static final DeferredBlock<Block> BIRCH_CABINET_WITH_STONE_BRICKS_COUNTERTOP = BLOCKS.register("birch_cabinet_with_stone_bricks_countertop",
             registryName -> new CabinetCountertopBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.BARREL).setId(ResourceKey.create(Registries.BLOCK, registryName))));
 
     // Spruce Furniture
@@ -85,6 +97,12 @@ public class BlockRegistry {
             registryName -> new CabinetCountertopBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.BARREL).setId(ResourceKey.create(Registries.BLOCK, registryName))));
     public static final DeferredBlock<Block> SPRUCE_CABINET_WITH_POLISHED_TUFF_COUNTERTOP = BLOCKS.register("spruce_cabinet_with_polished_tuff_countertop",
             registryName -> new CabinetCountertopBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.BARREL).setId(ResourceKey.create(Registries.BLOCK, registryName))));
+    public static final DeferredBlock<Block> SPRUCE_CABINET_WITH_POLISHED_BLACKSTONE_COUNTERTOP = BLOCKS.register("spruce_cabinet_with_polished_blackstone_countertop",
+            registryName -> new CabinetCountertopBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.BARREL).setId(ResourceKey.create(Registries.BLOCK, registryName))));
+    public static final DeferredBlock<Block> SPRUCE_CABINET_WITH_POLISHED_DIORITE_COUNTERTOP = BLOCKS.register("spruce_cabinet_with_polished_diorite_countertop",
+            registryName -> new CabinetCountertopBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.BARREL).setId(ResourceKey.create(Registries.BLOCK, registryName))));
+    public static final DeferredBlock<Block> SPRUCE_CABINET_WITH_STONE_BRICKS_COUNTERTOP = BLOCKS.register("spruce_cabinet_with_stone_bricks_countertop",
+            registryName -> new CabinetCountertopBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.BARREL).setId(ResourceKey.create(Registries.BLOCK, registryName))));
 
     // Jungle Furniture
     public static final DeferredBlock<Block> JUNGLE_DRAWER = BLOCKS.register("jungle_drawer",
@@ -108,6 +126,12 @@ public class BlockRegistry {
     public static final DeferredBlock<Block> JUNGLE_CABINET_WITH_POLISHED_ANDESITE_COUNTERTOP = BLOCKS.register("jungle_cabinet_with_polished_andesite_countertop",
             registryName -> new CabinetCountertopBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.BARREL).setId(ResourceKey.create(Registries.BLOCK, registryName))));
     public static final DeferredBlock<Block> JUNGLE_CABINET_WITH_POLISHED_TUFF_COUNTERTOP = BLOCKS.register("jungle_cabinet_with_polished_tuff_countertop",
+            registryName -> new CabinetCountertopBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.BARREL).setId(ResourceKey.create(Registries.BLOCK, registryName))));
+    public static final DeferredBlock<Block> JUNGLE_CABINET_WITH_POLISHED_BLACKSTONE_COUNTERTOP = BLOCKS.register("jungle_cabinet_with_polished_blackstone_countertop",
+            registryName -> new CabinetCountertopBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.BARREL).setId(ResourceKey.create(Registries.BLOCK, registryName))));
+    public static final DeferredBlock<Block> JUNGLE_CABINET_WITH_POLISHED_DIORITE_COUNTERTOP = BLOCKS.register("jungle_cabinet_with_polished_diorite_countertop",
+            registryName -> new CabinetCountertopBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.BARREL).setId(ResourceKey.create(Registries.BLOCK, registryName))));
+    public static final DeferredBlock<Block> JUNGLE_CABINET_WITH_STONE_BRICKS_COUNTERTOP = BLOCKS.register("jungle_cabinet_with_stone_bricks_countertop",
             registryName -> new CabinetCountertopBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.BARREL).setId(ResourceKey.create(Registries.BLOCK, registryName))));
 
     // Acacia Furniture
@@ -133,6 +157,12 @@ public class BlockRegistry {
             registryName -> new CabinetCountertopBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.BARREL).setId(ResourceKey.create(Registries.BLOCK, registryName))));
     public static final DeferredBlock<Block> ACACIA_CABINET_WITH_POLISHED_TUFF_COUNTERTOP = BLOCKS.register("acacia_cabinet_with_polished_tuff_countertop",
             registryName -> new CabinetCountertopBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.BARREL).setId(ResourceKey.create(Registries.BLOCK, registryName))));
+    public static final DeferredBlock<Block> ACACIA_CABINET_WITH_POLISHED_BLACKSTONE_COUNTERTOP = BLOCKS.register("acacia_cabinet_with_polished_blackstone_countertop",
+            registryName -> new CabinetCountertopBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.BARREL).setId(ResourceKey.create(Registries.BLOCK, registryName))));
+    public static final DeferredBlock<Block> ACACIA_CABINET_WITH_POLISHED_DIORITE_COUNTERTOP = BLOCKS.register("acacia_cabinet_with_polished_diorite_countertop",
+            registryName -> new CabinetCountertopBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.BARREL).setId(ResourceKey.create(Registries.BLOCK, registryName))));
+    public static final DeferredBlock<Block> ACACIA_CABINET_WITH_STONE_BRICKS_COUNTERTOP = BLOCKS.register("acacia_cabinet_with_stone_bricks_countertop",
+            registryName -> new CabinetCountertopBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.BARREL).setId(ResourceKey.create(Registries.BLOCK, registryName))));
 
     // Dark Oak Furniture
     public static final DeferredBlock<Block> DARK_OAK_DRAWER = BLOCKS.register("dark_oak_drawer",
@@ -156,6 +186,12 @@ public class BlockRegistry {
     public static final DeferredBlock<Block> DARK_OAK_CABINET_WITH_POLISHED_ANDESITE_COUNTERTOP = BLOCKS.register("dark_oak_cabinet_with_polished_andesite_countertop",
             registryName -> new CabinetCountertopBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.BARREL).setId(ResourceKey.create(Registries.BLOCK, registryName))));
     public static final DeferredBlock<Block> DARK_OAK_CABINET_WITH_POLISHED_TUFF_COUNTERTOP = BLOCKS.register("dark_oak_cabinet_with_polished_tuff_countertop",
+            registryName -> new CabinetCountertopBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.BARREL).setId(ResourceKey.create(Registries.BLOCK, registryName))));
+    public static final DeferredBlock<Block> DARK_OAK_CABINET_WITH_POLISHED_BLACKSTONE_COUNTERTOP = BLOCKS.register("dark_oak_cabinet_with_polished_blackstone_countertop",
+            registryName -> new CabinetCountertopBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.BARREL).setId(ResourceKey.create(Registries.BLOCK, registryName))));
+    public static final DeferredBlock<Block> DARK_OAK_CABINET_WITH_POLISHED_DIORITE_COUNTERTOP = BLOCKS.register("dark_oak_cabinet_with_polished_diorite_countertop",
+            registryName -> new CabinetCountertopBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.BARREL).setId(ResourceKey.create(Registries.BLOCK, registryName))));
+    public static final DeferredBlock<Block> DARK_OAK_CABINET_WITH_STONE_BRICKS_COUNTERTOP = BLOCKS.register("dark_oak_cabinet_with_stone_bricks_countertop",
             registryName -> new CabinetCountertopBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.BARREL).setId(ResourceKey.create(Registries.BLOCK, registryName))));
 
     // Mangrove Furniture
@@ -181,6 +217,12 @@ public class BlockRegistry {
             registryName -> new CabinetCountertopBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.BARREL).setId(ResourceKey.create(Registries.BLOCK, registryName))));
     public static final DeferredBlock<Block> MANGROVE_CABINET_WITH_POLISHED_TUFF_COUNTERTOP = BLOCKS.register("mangrove_cabinet_with_polished_tuff_countertop",
             registryName -> new CabinetCountertopBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.BARREL).setId(ResourceKey.create(Registries.BLOCK, registryName))));
+    public static final DeferredBlock<Block> MANGROVE_CABINET_WITH_POLISHED_BLACKSTONE_COUNTERTOP = BLOCKS.register("mangrove_cabinet_with_polished_blackstone_countertop",
+            registryName -> new CabinetCountertopBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.BARREL).setId(ResourceKey.create(Registries.BLOCK, registryName))));
+    public static final DeferredBlock<Block> MANGROVE_CABINET_WITH_POLISHED_DIORITE_COUNTERTOP = BLOCKS.register("mangrove_cabinet_with_polished_diorite_countertop",
+            registryName -> new CabinetCountertopBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.BARREL).setId(ResourceKey.create(Registries.BLOCK, registryName))));
+    public static final DeferredBlock<Block> MANGROVE_CABINET_WITH_STONE_BRICKS_COUNTERTOP = BLOCKS.register("mangrove_cabinet_with_stone_bricks_countertop",
+            registryName -> new CabinetCountertopBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.BARREL).setId(ResourceKey.create(Registries.BLOCK, registryName))));
 
     // Cherry Furniture
     public static final DeferredBlock<Block> CHERRY_DRAWER = BLOCKS.register("cherry_drawer",
@@ -205,6 +247,12 @@ public class BlockRegistry {
             registryName -> new CabinetCountertopBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.BARREL).sound(SoundType.CHERRY_WOOD).setId(ResourceKey.create(Registries.BLOCK, registryName))));
     public static final DeferredBlock<Block> CHERRY_CABINET_WITH_POLISHED_TUFF_COUNTERTOP = BLOCKS.register("cherry_cabinet_with_polished_tuff_countertop",
             registryName -> new CabinetCountertopBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.BARREL).sound(SoundType.CHERRY_WOOD).setId(ResourceKey.create(Registries.BLOCK, registryName))));
+    public static final DeferredBlock<Block> CHERRY_CABINET_WITH_POLISHED_BLACKSTONE_COUNTERTOP = BLOCKS.register("cherry_cabinet_with_polished_blackstone_countertop",
+            registryName -> new CabinetCountertopBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.BARREL).sound(SoundType.CHERRY_WOOD).setId(ResourceKey.create(Registries.BLOCK, registryName))));
+    public static final DeferredBlock<Block> CHERRY_CABINET_WITH_POLISHED_DIORITE_COUNTERTOP = BLOCKS.register("cherry_cabinet_with_polished_diorite_countertop",
+            registryName -> new CabinetCountertopBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.BARREL).sound(SoundType.CHERRY_WOOD).setId(ResourceKey.create(Registries.BLOCK, registryName))));
+    public static final DeferredBlock<Block> CHERRY_CABINET_WITH_STONE_BRICKS_COUNTERTOP = BLOCKS.register("cherry_cabinet_with_stone_bricks_countertop",
+            registryName -> new CabinetCountertopBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.BARREL).sound(SoundType.CHERRY_WOOD).setId(ResourceKey.create(Registries.BLOCK, registryName))));
 
     // Bamboo Furniture
     public static final DeferredBlock<Block> BAMBOO_DRAWER = BLOCKS.register("bamboo_drawer",
@@ -212,11 +260,11 @@ public class BlockRegistry {
     public static final DeferredBlock<Block> BAMBOO_DRAWER_WITH_DOOR = BLOCKS.register("bamboo_drawer_with_door",
             registryName -> new DrawerDoorBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.BARREL).sound(SoundType.BAMBOO_WOOD).setId(ResourceKey.create(Registries.BLOCK, registryName))));
     public static final DeferredBlock<Block> BAMBOO_DRAWER_WITH_BOOKS = BLOCKS.register("bamboo_drawer_with_books",
-            registryName -> new DrawerBooksBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.BARREL).sound(SoundType.BAMBOO_WOOD).setId(ResourceKey.create(Registries.BLOCK, registryName)))); // Added sound consistent with other Bamboo items
+            registryName -> new DrawerBooksBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.BARREL).sound(SoundType.BAMBOO_WOOD).setId(ResourceKey.create(Registries.BLOCK, registryName))));
     public static final DeferredBlock<Block> SMALL_BAMBOO_DRAWERS = BLOCKS.register("small_bamboo_drawers",
             registryName -> new SmallDrawersBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.BARREL).sound(SoundType.BAMBOO_WOOD).setId(ResourceKey.create(Registries.BLOCK, registryName))));
     public static final DeferredBlock<Block> BAMBOO_BOOKSHELF_WITH_DOOR = BLOCKS.register("bamboo_bookshelf_with_door",
-            registryName -> new BookshelfDoorBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.BARREL).sound(SoundType.BAMBOO_WOOD).setId(ResourceKey.create(Registries.BLOCK, registryName)))); // Added sound consistent with other Bamboo items
+            registryName -> new BookshelfDoorBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.BARREL).sound(SoundType.BAMBOO_WOOD).setId(ResourceKey.create(Registries.BLOCK, registryName))));
     public static final DeferredBlock<Block> GLASS_BAMBOO_CABINET = BLOCKS.register("glass_bamboo_cabinet",
             registryName -> new GlassCabinetBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.BARREL).sound(SoundType.BAMBOO_WOOD).setId(ResourceKey.create(Registries.BLOCK, registryName))));
     public static final DeferredBlock<Block> BAMBOO_CABINET_WITH_GLASS_DOORS = BLOCKS.register("bamboo_cabinet_with_glass_doors",
@@ -229,6 +277,12 @@ public class BlockRegistry {
             registryName -> new CabinetCountertopBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.BARREL).sound(SoundType.BAMBOO_WOOD).setId(ResourceKey.create(Registries.BLOCK, registryName))));
     public static final DeferredBlock<Block> BAMBOO_CABINET_WITH_POLISHED_TUFF_COUNTERTOP = BLOCKS.register("bamboo_cabinet_with_polished_tuff_countertop",
             registryName -> new CabinetCountertopBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.BARREL).sound(SoundType.BAMBOO_WOOD).setId(ResourceKey.create(Registries.BLOCK, registryName))));
+    public static final DeferredBlock<Block> BAMBOO_CABINET_WITH_POLISHED_BLACKSTONE_COUNTERTOP = BLOCKS.register("bamboo_cabinet_with_polished_blackstone_countertop",
+            registryName -> new CabinetCountertopBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.BARREL).sound(SoundType.BAMBOO_WOOD).setId(ResourceKey.create(Registries.BLOCK, registryName))));
+    public static final DeferredBlock<Block> BAMBOO_CABINET_WITH_POLISHED_DIORITE_COUNTERTOP = BLOCKS.register("bamboo_cabinet_with_polished_diorite_countertop",
+            registryName -> new CabinetCountertopBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.BARREL).sound(SoundType.BAMBOO_WOOD).setId(ResourceKey.create(Registries.BLOCK, registryName))));
+    public static final DeferredBlock<Block> BAMBOO_CABINET_WITH_STONE_BRICKS_COUNTERTOP = BLOCKS.register("bamboo_cabinet_with_stone_bricks_countertop",
+            registryName -> new CabinetCountertopBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.BARREL).sound(SoundType.BAMBOO_WOOD).setId(ResourceKey.create(Registries.BLOCK, registryName))));
 
     // Crimson Furniture
     public static final DeferredBlock<Block> CRIMSON_DRAWER = BLOCKS.register("crimson_drawer",
@@ -236,11 +290,11 @@ public class BlockRegistry {
     public static final DeferredBlock<Block> CRIMSON_DRAWER_WITH_DOOR = BLOCKS.register("crimson_drawer_with_door",
             registryName -> new DrawerDoorBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.BARREL).sound(SoundType.NETHER_WOOD).setId(ResourceKey.create(Registries.BLOCK, registryName))));
     public static final DeferredBlock<Block> CRIMSON_DRAWER_WITH_BOOKS = BLOCKS.register("crimson_drawer_with_books",
-            registryName -> new DrawerBooksBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.BARREL).sound(SoundType.NETHER_WOOD).setId(ResourceKey.create(Registries.BLOCK, registryName)))); // Added sound consistent with other Crimson items
+            registryName -> new DrawerBooksBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.BARREL).sound(SoundType.NETHER_WOOD).setId(ResourceKey.create(Registries.BLOCK, registryName))));
     public static final DeferredBlock<Block> SMALL_CRIMSON_DRAWERS = BLOCKS.register("small_crimson_drawers",
             registryName -> new SmallDrawersBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.BARREL).sound(SoundType.NETHER_WOOD).setId(ResourceKey.create(Registries.BLOCK, registryName))));
     public static final DeferredBlock<Block> CRIMSON_BOOKSHELF_WITH_DOOR = BLOCKS.register("crimson_bookshelf_with_door",
-            registryName -> new BookshelfDoorBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.BARREL).sound(SoundType.NETHER_WOOD).setId(ResourceKey.create(Registries.BLOCK, registryName)))); // Added sound consistent with other Crimson items
+            registryName -> new BookshelfDoorBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.BARREL).sound(SoundType.NETHER_WOOD).setId(ResourceKey.create(Registries.BLOCK, registryName))));
     public static final DeferredBlock<Block> GLASS_CRIMSON_CABINET = BLOCKS.register("glass_crimson_cabinet",
             registryName -> new GlassCabinetBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.BARREL).sound(SoundType.NETHER_WOOD).setId(ResourceKey.create(Registries.BLOCK, registryName))));
     public static final DeferredBlock<Block> CRIMSON_CABINET_WITH_GLASS_DOORS = BLOCKS.register("crimson_cabinet_with_glass_doors",
@@ -253,6 +307,12 @@ public class BlockRegistry {
             registryName -> new CabinetCountertopBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.BARREL).sound(SoundType.NETHER_WOOD).setId(ResourceKey.create(Registries.BLOCK, registryName))));
     public static final DeferredBlock<Block> CRIMSON_CABINET_WITH_POLISHED_TUFF_COUNTERTOP = BLOCKS.register("crimson_cabinet_with_polished_tuff_countertop",
             registryName -> new CabinetCountertopBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.BARREL).sound(SoundType.NETHER_WOOD).setId(ResourceKey.create(Registries.BLOCK, registryName))));
+    public static final DeferredBlock<Block> CRIMSON_CABINET_WITH_POLISHED_BLACKSTONE_COUNTERTOP = BLOCKS.register("crimson_cabinet_with_polished_blackstone_countertop",
+            registryName -> new CabinetCountertopBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.BARREL).sound(SoundType.NETHER_WOOD).setId(ResourceKey.create(Registries.BLOCK, registryName))));
+    public static final DeferredBlock<Block> CRIMSON_CABINET_WITH_POLISHED_DIORITE_COUNTERTOP = BLOCKS.register("crimson_cabinet_with_polished_diorite_countertop",
+            registryName -> new CabinetCountertopBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.BARREL).sound(SoundType.NETHER_WOOD).setId(ResourceKey.create(Registries.BLOCK, registryName))));
+    public static final DeferredBlock<Block> CRIMSON_CABINET_WITH_STONE_BRICKS_COUNTERTOP = BLOCKS.register("crimson_cabinet_with_stone_bricks_countertop",
+            registryName -> new CabinetCountertopBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.BARREL).sound(SoundType.NETHER_WOOD).setId(ResourceKey.create(Registries.BLOCK, registryName))));
 
     // Warped Furniture
     public static final DeferredBlock<Block> WARPED_DRAWER = BLOCKS.register("warped_drawer",
@@ -260,11 +320,11 @@ public class BlockRegistry {
     public static final DeferredBlock<Block> WARPED_DRAWER_WITH_DOOR = BLOCKS.register("warped_drawer_with_door",
             registryName -> new DrawerDoorBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.BARREL).sound(SoundType.NETHER_WOOD).setId(ResourceKey.create(Registries.BLOCK, registryName))));
     public static final DeferredBlock<Block> WARPED_DRAWER_WITH_BOOKS = BLOCKS.register("warped_drawer_with_books",
-            registryName -> new DrawerBooksBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.BARREL).sound(SoundType.NETHER_WOOD).setId(ResourceKey.create(Registries.BLOCK, registryName)))); // Added sound consistent with other Warped items
+            registryName -> new DrawerBooksBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.BARREL).sound(SoundType.NETHER_WOOD).setId(ResourceKey.create(Registries.BLOCK, registryName))));
     public static final DeferredBlock<Block> SMALL_WARPED_DRAWERS = BLOCKS.register("small_warped_drawers",
             registryName -> new SmallDrawersBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.BARREL).sound(SoundType.NETHER_WOOD).setId(ResourceKey.create(Registries.BLOCK, registryName))));
     public static final DeferredBlock<Block> WARPED_BOOKSHELF_WITH_DOOR = BLOCKS.register("warped_bookshelf_with_door",
-            registryName -> new BookshelfDoorBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.BARREL).sound(SoundType.NETHER_WOOD).setId(ResourceKey.create(Registries.BLOCK, registryName)))); // Added sound consistent with other Warped items
+            registryName -> new BookshelfDoorBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.BARREL).sound(SoundType.NETHER_WOOD).setId(ResourceKey.create(Registries.BLOCK, registryName))));
     public static final DeferredBlock<Block> GLASS_WARPED_CABINET = BLOCKS.register("glass_warped_cabinet",
             registryName -> new GlassCabinetBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.BARREL).sound(SoundType.NETHER_WOOD).setId(ResourceKey.create(Registries.BLOCK, registryName))));
     public static final DeferredBlock<Block> WARPED_CABINET_WITH_GLASS_DOORS = BLOCKS.register("warped_cabinet_with_glass_doors",
@@ -276,5 +336,11 @@ public class BlockRegistry {
     public static final DeferredBlock<Block> WARPED_CABINET_WITH_POLISHED_ANDESITE_COUNTERTOP = BLOCKS.register("warped_cabinet_with_polished_andesite_countertop",
             registryName -> new CabinetCountertopBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.BARREL).sound(SoundType.NETHER_WOOD).setId(ResourceKey.create(Registries.BLOCK, registryName))));
     public static final DeferredBlock<Block> WARPED_CABINET_WITH_POLISHED_TUFF_COUNTERTOP = BLOCKS.register("warped_cabinet_with_polished_tuff_countertop",
+            registryName -> new CabinetCountertopBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.BARREL).sound(SoundType.NETHER_WOOD).setId(ResourceKey.create(Registries.BLOCK, registryName))));
+    public static final DeferredBlock<Block> WARPED_CABINET_WITH_POLISHED_BLACKSTONE_COUNTERTOP = BLOCKS.register("warped_cabinet_with_polished_blackstone_countertop",
+            registryName -> new CabinetCountertopBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.BARREL).sound(SoundType.NETHER_WOOD).setId(ResourceKey.create(Registries.BLOCK, registryName))));
+    public static final DeferredBlock<Block> WARPED_CABINET_WITH_POLISHED_DIORITE_COUNTERTOP = BLOCKS.register("warped_cabinet_with_polished_diorite_countertop",
+            registryName -> new CabinetCountertopBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.BARREL).sound(SoundType.NETHER_WOOD).setId(ResourceKey.create(Registries.BLOCK, registryName))));
+    public static final DeferredBlock<Block> WARPED_CABINET_WITH_STONE_BRICKS_COUNTERTOP = BLOCKS.register("warped_cabinet_with_stone_bricks_countertop",
             registryName -> new CabinetCountertopBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.BARREL).sound(SoundType.NETHER_WOOD).setId(ResourceKey.create(Registries.BLOCK, registryName))));
 }

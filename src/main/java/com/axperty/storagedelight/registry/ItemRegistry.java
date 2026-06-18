@@ -21,6 +21,9 @@ public class ItemRegistry {
     public static final DeferredItem<BlockItem> OAK_CABINET_WITH_POLISHED_DEEPSLATE_COUNTERTOP = ITEMS.registerSimpleBlockItem("oak_cabinet_with_polished_deepslate_countertop", BlockRegistry.OAK_CABINET_WITH_POLISHED_DEEPSLATE_COUNTERTOP, new Item.Properties());
     public static final DeferredItem<BlockItem> OAK_CABINET_WITH_POLISHED_ANDESITE_COUNTERTOP = ITEMS.registerSimpleBlockItem("oak_cabinet_with_polished_andesite_countertop", BlockRegistry.OAK_CABINET_WITH_POLISHED_ANDESITE_COUNTERTOP, new Item.Properties());
     public static final DeferredItem<BlockItem> OAK_CABINET_WITH_POLISHED_TUFF_COUNTERTOP = ITEMS.registerSimpleBlockItem("oak_cabinet_with_polished_tuff_countertop", BlockRegistry.OAK_CABINET_WITH_POLISHED_TUFF_COUNTERTOP, new Item.Properties());
+    public static final DeferredItem<BlockItem> OAK_CABINET_WITH_POLISHED_BLACKSTONE_COUNTERTOP = ITEMS.registerSimpleBlockItem("oak_cabinet_with_polished_blackstone_countertop", BlockRegistry.OAK_CABINET_WITH_POLISHED_BLACKSTONE_COUNTERTOP, new Item.Properties());
+    public static final DeferredItem<BlockItem> OAK_CABINET_WITH_POLISHED_DIORITE_COUNTERTOP = ITEMS.registerSimpleBlockItem("oak_cabinet_with_polished_diorite_countertop", BlockRegistry.OAK_CABINET_WITH_POLISHED_DIORITE_COUNTERTOP, new Item.Properties());
+    public static final DeferredItem<BlockItem> OAK_CABINET_WITH_STONE_BRICKS_COUNTERTOP = ITEMS.registerSimpleBlockItem("oak_cabinet_with_stone_bricks_countertop", BlockRegistry.OAK_CABINET_WITH_STONE_BRICKS_COUNTERTOP, new Item.Properties());
 
     // Birch Furniture
     public static final DeferredItem<BlockItem> BIRCH_DRAWER = ITEMS.registerSimpleBlockItem("birch_drawer", BlockRegistry.BIRCH_DRAWER, new Item.Properties());
@@ -34,6 +37,9 @@ public class ItemRegistry {
     public static final DeferredItem<BlockItem> BIRCH_CABINET_WITH_POLISHED_DEEPSLATE_COUNTERTOP = ITEMS.registerSimpleBlockItem("birch_cabinet_with_polished_deepslate_countertop", BlockRegistry.BIRCH_CABINET_WITH_POLISHED_DEEPSLATE_COUNTERTOP, new Item.Properties());
     public static final DeferredItem<BlockItem> BIRCH_CABINET_WITH_POLISHED_ANDESITE_COUNTERTOP = ITEMS.registerSimpleBlockItem("birch_cabinet_with_polished_andesite_countertop", BlockRegistry.BIRCH_CABINET_WITH_POLISHED_ANDESITE_COUNTERTOP, new Item.Properties());
     public static final DeferredItem<BlockItem> BIRCH_CABINET_WITH_POLISHED_TUFF_COUNTERTOP = ITEMS.registerSimpleBlockItem("birch_cabinet_with_polished_tuff_countertop", BlockRegistry.BIRCH_CABINET_WITH_POLISHED_TUFF_COUNTERTOP, new Item.Properties());
+    public static final DeferredItem<BlockItem> BIRCH_CABINET_WITH_POLISHED_BLACKSTONE_COUNTERTOP = ITEMS.registerSimpleBlockItem("birch_cabinet_with_polished_blackstone_countertop", BlockRegistry.BIRCH_CABINET_WITH_POLISHED_BLACKSTONE_COUNTERTOP, new Item.Properties());
+    public static final DeferredItem<BlockItem> BIRCH_CABINET_WITH_POLISHED_DIORITE_COUNTERTOP = ITEMS.registerSimpleBlockItem("birch_cabinet_with_polished_diorite_countertop", BlockRegistry.BIRCH_CABINET_WITH_POLISHED_DIORITE_COUNTERTOP, new Item.Properties());
+    public static final DeferredItem<BlockItem> BIRCH_CABINET_WITH_STONE_BRICKS_COUNTERTOP = ITEMS.registerSimpleBlockItem("birch_cabinet_with_stone_bricks_countertop", BlockRegistry.BIRCH_CABINET_WITH_STONE_BRICKS_COUNTERTOP, new Item.Properties());
 
     // Spruce Furniture
     public static final DeferredItem<BlockItem> SPRUCE_DRAWER = ITEMS.registerSimpleBlockItem("spruce_drawer", BlockRegistry.SPRUCE_DRAWER, new Item.Properties());
@@ -47,6 +53,9 @@ public class ItemRegistry {
     public static final DeferredItem<BlockItem> SPRUCE_CABINET_WITH_POLISHED_DEEPSLATE_COUNTERTOP = ITEMS.registerSimpleBlockItem("spruce_cabinet_with_polished_deepslate_countertop", BlockRegistry.SPRUCE_CABINET_WITH_POLISHED_DEEPSLATE_COUNTERTOP, new Item.Properties());
     public static final DeferredItem<BlockItem> SPRUCE_CABINET_WITH_POLISHED_ANDESITE_COUNTERTOP = ITEMS.registerSimpleBlockItem("spruce_cabinet_with_polished_andesite_countertop", BlockRegistry.SPRUCE_CABINET_WITH_POLISHED_ANDESITE_COUNTERTOP, new Item.Properties());
     public static final DeferredItem<BlockItem> SPRUCE_CABINET_WITH_POLISHED_TUFF_COUNTERTOP = ITEMS.registerSimpleBlockItem("spruce_cabinet_with_polished_tuff_countertop", BlockRegistry.SPRUCE_CABINET_WITH_POLISHED_TUFF_COUNTERTOP, new Item.Properties());
+    public static final DeferredItem<BlockItem> SPRUCE_CABINET_WITH_POLISHED_BLACKSTONE_COUNTERTOP = ITEMS.registerSimpleBlockItem("spruce_cabinet_with_polished_blackstone_countertop", BlockRegistry.SPRUCE_CABINET_WITH_POLISHED_BLACKSTONE_COUNTERTOP, new Item.Properties());
+    public static final DeferredItem<BlockItem> SPRUCE_CABINET_WITH_POLISHED_DIORITE_COUNTERTOP = ITEMS.registerSimpleBlockItem("spruce_cabinet_with_polished_diorite_countertop", BlockRegistry.SPRUCE_CABINET_WITH_POLISHED_DIORITE_COUNTERTOP, new Item.Properties());
+    public static final DeferredItem<BlockItem> SPRUCE_CABINET_WITH_STONE_BRICKS_COUNTERTOP = ITEMS.registerSimpleBlockItem("spruce_cabinet_with_stone_bricks_countertop", BlockRegistry.SPRUCE_CABINET_WITH_STONE_BRICKS_COUNTERTOP, new Item.Properties());
 
     // Jungle Furniture
     public static final DeferredItem<BlockItem> JUNGLE_DRAWER = ITEMS.registerSimpleBlockItem("jungle_drawer", BlockRegistry.JUNGLE_DRAWER, new Item.Properties());
@@ -60,6 +69,9 @@ public class ItemRegistry {
     public static final DeferredItem<BlockItem> JUNGLE_CABINET_WITH_POLISHED_DEEPSLATE_COUNTERTOP = ITEMS.registerSimpleBlockItem("jungle_cabinet_with_polished_deepslate_countertop", BlockRegistry.JUNGLE_CABINET_WITH_POLISHED_DEEPSLATE_COUNTERTOP, new Item.Properties());
     public static final DeferredItem<BlockItem> JUNGLE_CABINET_WITH_POLISHED_ANDESITE_COUNTERTOP = ITEMS.registerSimpleBlockItem("jungle_cabinet_with_polished_andesite_countertop", BlockRegistry.JUNGLE_CABINET_WITH_POLISHED_ANDESITE_COUNTERTOP, new Item.Properties());
     public static final DeferredItem<BlockItem> JUNGLE_CABINET_WITH_POLISHED_TUFF_COUNTERTOP = ITEMS.registerSimpleBlockItem("jungle_cabinet_with_polished_tuff_countertop", BlockRegistry.JUNGLE_CABINET_WITH_POLISHED_TUFF_COUNTERTOP, new Item.Properties());
+    public static final DeferredItem<BlockItem> JUNGLE_CABINET_WITH_POLISHED_BLACKSTONE_COUNTERTOP = ITEMS.registerSimpleBlockItem("jungle_cabinet_with_polished_blackstone_countertop", BlockRegistry.JUNGLE_CABINET_WITH_POLISHED_BLACKSTONE_COUNTERTOP, new Item.Properties());
+    public static final DeferredItem<BlockItem> JUNGLE_CABINET_WITH_POLISHED_DIORITE_COUNTERTOP = ITEMS.registerSimpleBlockItem("jungle_cabinet_with_polished_diorite_countertop", BlockRegistry.JUNGLE_CABINET_WITH_POLISHED_DIORITE_COUNTERTOP, new Item.Properties());
+    public static final DeferredItem<BlockItem> JUNGLE_CABINET_WITH_STONE_BRICKS_COUNTERTOP = ITEMS.registerSimpleBlockItem("jungle_cabinet_with_stone_bricks_countertop", BlockRegistry.JUNGLE_CABINET_WITH_STONE_BRICKS_COUNTERTOP, new Item.Properties());
 
     // Acacia Furniture
     public static final DeferredItem<BlockItem> ACACIA_DRAWER = ITEMS.registerSimpleBlockItem("acacia_drawer", BlockRegistry.ACACIA_DRAWER, new Item.Properties());
@@ -73,6 +85,9 @@ public class ItemRegistry {
     public static final DeferredItem<BlockItem> ACACIA_CABINET_WITH_POLISHED_DEEPSLATE_COUNTERTOP = ITEMS.registerSimpleBlockItem("acacia_cabinet_with_polished_deepslate_countertop", BlockRegistry.ACACIA_CABINET_WITH_POLISHED_DEEPSLATE_COUNTERTOP, new Item.Properties());
     public static final DeferredItem<BlockItem> ACACIA_CABINET_WITH_POLISHED_ANDESITE_COUNTERTOP = ITEMS.registerSimpleBlockItem("acacia_cabinet_with_polished_andesite_countertop", BlockRegistry.ACACIA_CABINET_WITH_POLISHED_ANDESITE_COUNTERTOP, new Item.Properties());
     public static final DeferredItem<BlockItem> ACACIA_CABINET_WITH_POLISHED_TUFF_COUNTERTOP = ITEMS.registerSimpleBlockItem("acacia_cabinet_with_polished_tuff_countertop", BlockRegistry.ACACIA_CABINET_WITH_POLISHED_TUFF_COUNTERTOP, new Item.Properties());
+    public static final DeferredItem<BlockItem> ACACIA_CABINET_WITH_POLISHED_BLACKSTONE_COUNTERTOP = ITEMS.registerSimpleBlockItem("acacia_cabinet_with_polished_blackstone_countertop", BlockRegistry.ACACIA_CABINET_WITH_POLISHED_BLACKSTONE_COUNTERTOP, new Item.Properties());
+    public static final DeferredItem<BlockItem> ACACIA_CABINET_WITH_POLISHED_DIORITE_COUNTERTOP = ITEMS.registerSimpleBlockItem("acacia_cabinet_with_polished_diorite_countertop", BlockRegistry.ACACIA_CABINET_WITH_POLISHED_DIORITE_COUNTERTOP, new Item.Properties());
+    public static final DeferredItem<BlockItem> ACACIA_CABINET_WITH_STONE_BRICKS_COUNTERTOP = ITEMS.registerSimpleBlockItem("acacia_cabinet_with_stone_bricks_countertop", BlockRegistry.ACACIA_CABINET_WITH_STONE_BRICKS_COUNTERTOP, new Item.Properties());
 
     // Dark Oak Furniture
     public static final DeferredItem<BlockItem> DARK_OAK_DRAWER = ITEMS.registerSimpleBlockItem("dark_oak_drawer", BlockRegistry.DARK_OAK_DRAWER, new Item.Properties());
@@ -86,6 +101,9 @@ public class ItemRegistry {
     public static final DeferredItem<BlockItem> DARK_OAK_CABINET_WITH_POLISHED_DEEPSLATE_COUNTERTOP = ITEMS.registerSimpleBlockItem("dark_oak_cabinet_with_polished_deepslate_countertop", BlockRegistry.DARK_OAK_CABINET_WITH_POLISHED_DEEPSLATE_COUNTERTOP, new Item.Properties());
     public static final DeferredItem<BlockItem> DARK_OAK_CABINET_WITH_POLISHED_ANDESITE_COUNTERTOP = ITEMS.registerSimpleBlockItem("dark_oak_cabinet_with_polished_andesite_countertop", BlockRegistry.DARK_OAK_CABINET_WITH_POLISHED_ANDESITE_COUNTERTOP, new Item.Properties());
     public static final DeferredItem<BlockItem> DARK_OAK_CABINET_WITH_POLISHED_TUFF_COUNTERTOP = ITEMS.registerSimpleBlockItem("dark_oak_cabinet_with_polished_tuff_countertop", BlockRegistry.DARK_OAK_CABINET_WITH_POLISHED_TUFF_COUNTERTOP, new Item.Properties());
+    public static final DeferredItem<BlockItem> DARK_OAK_CABINET_WITH_POLISHED_BLACKSTONE_COUNTERTOP = ITEMS.registerSimpleBlockItem("dark_oak_cabinet_with_polished_blackstone_countertop", BlockRegistry.DARK_OAK_CABINET_WITH_POLISHED_BLACKSTONE_COUNTERTOP, new Item.Properties());
+    public static final DeferredItem<BlockItem> DARK_OAK_CABINET_WITH_POLISHED_DIORITE_COUNTERTOP = ITEMS.registerSimpleBlockItem("dark_oak_cabinet_with_polished_diorite_countertop", BlockRegistry.DARK_OAK_CABINET_WITH_POLISHED_DIORITE_COUNTERTOP, new Item.Properties());
+    public static final DeferredItem<BlockItem> DARK_OAK_CABINET_WITH_STONE_BRICKS_COUNTERTOP = ITEMS.registerSimpleBlockItem("dark_oak_cabinet_with_stone_bricks_countertop", BlockRegistry.DARK_OAK_CABINET_WITH_STONE_BRICKS_COUNTERTOP, new Item.Properties());
 
     // Mangrove Furniture
     public static final DeferredItem<BlockItem> MANGROVE_DRAWER = ITEMS.registerSimpleBlockItem("mangrove_drawer", BlockRegistry.MANGROVE_DRAWER, new Item.Properties());
@@ -99,6 +117,9 @@ public class ItemRegistry {
     public static final DeferredItem<BlockItem> MANGROVE_CABINET_WITH_POLISHED_DEEPSLATE_COUNTERTOP = ITEMS.registerSimpleBlockItem("mangrove_cabinet_with_polished_deepslate_countertop", BlockRegistry.MANGROVE_CABINET_WITH_POLISHED_DEEPSLATE_COUNTERTOP, new Item.Properties());
     public static final DeferredItem<BlockItem> MANGROVE_CABINET_WITH_POLISHED_ANDESITE_COUNTERTOP = ITEMS.registerSimpleBlockItem("mangrove_cabinet_with_polished_andesite_countertop", BlockRegistry.MANGROVE_CABINET_WITH_POLISHED_ANDESITE_COUNTERTOP, new Item.Properties());
     public static final DeferredItem<BlockItem> MANGROVE_CABINET_WITH_POLISHED_TUFF_COUNTERTOP = ITEMS.registerSimpleBlockItem("mangrove_cabinet_with_polished_tuff_countertop", BlockRegistry.MANGROVE_CABINET_WITH_POLISHED_TUFF_COUNTERTOP, new Item.Properties());
+    public static final DeferredItem<BlockItem> MANGROVE_CABINET_WITH_POLISHED_BLACKSTONE_COUNTERTOP = ITEMS.registerSimpleBlockItem("mangrove_cabinet_with_polished_blackstone_countertop", BlockRegistry.MANGROVE_CABINET_WITH_POLISHED_BLACKSTONE_COUNTERTOP, new Item.Properties());
+    public static final DeferredItem<BlockItem> MANGROVE_CABINET_WITH_POLISHED_DIORITE_COUNTERTOP = ITEMS.registerSimpleBlockItem("mangrove_cabinet_with_polished_diorite_countertop", BlockRegistry.MANGROVE_CABINET_WITH_POLISHED_DIORITE_COUNTERTOP, new Item.Properties());
+    public static final DeferredItem<BlockItem> MANGROVE_CABINET_WITH_STONE_BRICKS_COUNTERTOP = ITEMS.registerSimpleBlockItem("mangrove_cabinet_with_stone_bricks_countertop", BlockRegistry.MANGROVE_CABINET_WITH_STONE_BRICKS_COUNTERTOP, new Item.Properties());
 
     // Cherry Furniture
     public static final DeferredItem<BlockItem> CHERRY_DRAWER = ITEMS.registerSimpleBlockItem("cherry_drawer", BlockRegistry.CHERRY_DRAWER, new Item.Properties());
@@ -112,6 +133,9 @@ public class ItemRegistry {
     public static final DeferredItem<BlockItem> CHERRY_CABINET_WITH_POLISHED_DEEPSLATE_COUNTERTOP = ITEMS.registerSimpleBlockItem("cherry_cabinet_with_polished_deepslate_countertop", BlockRegistry.CHERRY_CABINET_WITH_POLISHED_DEEPSLATE_COUNTERTOP, new Item.Properties());
     public static final DeferredItem<BlockItem> CHERRY_CABINET_WITH_POLISHED_ANDESITE_COUNTERTOP = ITEMS.registerSimpleBlockItem("cherry_cabinet_with_polished_andesite_countertop", BlockRegistry.CHERRY_CABINET_WITH_POLISHED_ANDESITE_COUNTERTOP, new Item.Properties());
     public static final DeferredItem<BlockItem> CHERRY_CABINET_WITH_POLISHED_TUFF_COUNTERTOP = ITEMS.registerSimpleBlockItem("cherry_cabinet_with_polished_tuff_countertop", BlockRegistry.CHERRY_CABINET_WITH_POLISHED_TUFF_COUNTERTOP, new Item.Properties());
+    public static final DeferredItem<BlockItem> CHERRY_CABINET_WITH_POLISHED_BLACKSTONE_COUNTERTOP = ITEMS.registerSimpleBlockItem("cherry_cabinet_with_polished_blackstone_countertop", BlockRegistry.CHERRY_CABINET_WITH_POLISHED_BLACKSTONE_COUNTERTOP, new Item.Properties());
+    public static final DeferredItem<BlockItem> CHERRY_CABINET_WITH_POLISHED_DIORITE_COUNTERTOP = ITEMS.registerSimpleBlockItem("cherry_cabinet_with_polished_diorite_countertop", BlockRegistry.CHERRY_CABINET_WITH_POLISHED_DIORITE_COUNTERTOP, new Item.Properties());
+    public static final DeferredItem<BlockItem> CHERRY_CABINET_WITH_STONE_BRICKS_COUNTERTOP = ITEMS.registerSimpleBlockItem("cherry_cabinet_with_stone_bricks_countertop", BlockRegistry.CHERRY_CABINET_WITH_STONE_BRICKS_COUNTERTOP, new Item.Properties());
 
     // Bamboo Furniture
     public static final DeferredItem<BlockItem> BAMBOO_DRAWER = ITEMS.registerSimpleBlockItem("bamboo_drawer", BlockRegistry.BAMBOO_DRAWER, new Item.Properties());
@@ -125,6 +149,9 @@ public class ItemRegistry {
     public static final DeferredItem<BlockItem> BAMBOO_CABINET_WITH_POLISHED_DEEPSLATE_COUNTERTOP = ITEMS.registerSimpleBlockItem("bamboo_cabinet_with_polished_deepslate_countertop", BlockRegistry.BAMBOO_CABINET_WITH_POLISHED_DEEPSLATE_COUNTERTOP, new Item.Properties());
     public static final DeferredItem<BlockItem> BAMBOO_CABINET_WITH_POLISHED_ANDESITE_COUNTERTOP = ITEMS.registerSimpleBlockItem("bamboo_cabinet_with_polished_andesite_countertop", BlockRegistry.BAMBOO_CABINET_WITH_POLISHED_ANDESITE_COUNTERTOP, new Item.Properties());
     public static final DeferredItem<BlockItem> BAMBOO_CABINET_WITH_POLISHED_TUFF_COUNTERTOP = ITEMS.registerSimpleBlockItem("bamboo_cabinet_with_polished_tuff_countertop", BlockRegistry.BAMBOO_CABINET_WITH_POLISHED_TUFF_COUNTERTOP, new Item.Properties());
+    public static final DeferredItem<BlockItem> BAMBOO_CABINET_WITH_POLISHED_BLACKSTONE_COUNTERTOP = ITEMS.registerSimpleBlockItem("bamboo_cabinet_with_polished_blackstone_countertop", BlockRegistry.BAMBOO_CABINET_WITH_POLISHED_BLACKSTONE_COUNTERTOP, new Item.Properties());
+    public static final DeferredItem<BlockItem> BAMBOO_CABINET_WITH_POLISHED_DIORITE_COUNTERTOP = ITEMS.registerSimpleBlockItem("bamboo_cabinet_with_polished_diorite_countertop", BlockRegistry.BAMBOO_CABINET_WITH_POLISHED_DIORITE_COUNTERTOP, new Item.Properties());
+    public static final DeferredItem<BlockItem> BAMBOO_CABINET_WITH_STONE_BRICKS_COUNTERTOP = ITEMS.registerSimpleBlockItem("bamboo_cabinet_with_stone_bricks_countertop", BlockRegistry.BAMBOO_CABINET_WITH_STONE_BRICKS_COUNTERTOP, new Item.Properties());
 
     // Crimson Furniture
     public static final DeferredItem<BlockItem> CRIMSON_DRAWER = ITEMS.registerSimpleBlockItem("crimson_drawer", BlockRegistry.CRIMSON_DRAWER, new Item.Properties());
@@ -138,6 +165,9 @@ public class ItemRegistry {
     public static final DeferredItem<BlockItem> CRIMSON_CABINET_WITH_POLISHED_DEEPSLATE_COUNTERTOP = ITEMS.registerSimpleBlockItem("crimson_cabinet_with_polished_deepslate_countertop", BlockRegistry.CRIMSON_CABINET_WITH_POLISHED_DEEPSLATE_COUNTERTOP, new Item.Properties());
     public static final DeferredItem<BlockItem> CRIMSON_CABINET_WITH_POLISHED_ANDESITE_COUNTERTOP = ITEMS.registerSimpleBlockItem("crimson_cabinet_with_polished_andesite_countertop", BlockRegistry.CRIMSON_CABINET_WITH_POLISHED_ANDESITE_COUNTERTOP, new Item.Properties());
     public static final DeferredItem<BlockItem> CRIMSON_CABINET_WITH_POLISHED_TUFF_COUNTERTOP = ITEMS.registerSimpleBlockItem("crimson_cabinet_with_polished_tuff_countertop", BlockRegistry.CRIMSON_CABINET_WITH_POLISHED_TUFF_COUNTERTOP, new Item.Properties());
+    public static final DeferredItem<BlockItem> CRIMSON_CABINET_WITH_POLISHED_BLACKSTONE_COUNTERTOP = ITEMS.registerSimpleBlockItem("crimson_cabinet_with_polished_blackstone_countertop", BlockRegistry.CRIMSON_CABINET_WITH_POLISHED_BLACKSTONE_COUNTERTOP, new Item.Properties());
+    public static final DeferredItem<BlockItem> CRIMSON_CABINET_WITH_POLISHED_DIORITE_COUNTERTOP = ITEMS.registerSimpleBlockItem("crimson_cabinet_with_polished_diorite_countertop", BlockRegistry.CRIMSON_CABINET_WITH_POLISHED_DIORITE_COUNTERTOP, new Item.Properties());
+    public static final DeferredItem<BlockItem> CRIMSON_CABINET_WITH_STONE_BRICKS_COUNTERTOP = ITEMS.registerSimpleBlockItem("crimson_cabinet_with_stone_bricks_countertop", BlockRegistry.CRIMSON_CABINET_WITH_STONE_BRICKS_COUNTERTOP, new Item.Properties());
 
     // Warped Furniture
     public static final DeferredItem<BlockItem> WARPED_DRAWER = ITEMS.registerSimpleBlockItem("warped_drawer", BlockRegistry.WARPED_DRAWER, new Item.Properties());
@@ -151,4 +181,7 @@ public class ItemRegistry {
     public static final DeferredItem<BlockItem> WARPED_CABINET_WITH_POLISHED_DEEPSLATE_COUNTERTOP = ITEMS.registerSimpleBlockItem("warped_cabinet_with_polished_deepslate_countertop", BlockRegistry.WARPED_CABINET_WITH_POLISHED_DEEPSLATE_COUNTERTOP, new Item.Properties());
     public static final DeferredItem<BlockItem> WARPED_CABINET_WITH_POLISHED_ANDESITE_COUNTERTOP = ITEMS.registerSimpleBlockItem("warped_cabinet_with_polished_andesite_countertop", BlockRegistry.WARPED_CABINET_WITH_POLISHED_ANDESITE_COUNTERTOP, new Item.Properties());
     public static final DeferredItem<BlockItem> WARPED_CABINET_WITH_POLISHED_TUFF_COUNTERTOP = ITEMS.registerSimpleBlockItem("warped_cabinet_with_polished_tuff_countertop", BlockRegistry.WARPED_CABINET_WITH_POLISHED_TUFF_COUNTERTOP, new Item.Properties());
+    public static final DeferredItem<BlockItem> WARPED_CABINET_WITH_POLISHED_BLACKSTONE_COUNTERTOP = ITEMS.registerSimpleBlockItem("warped_cabinet_with_polished_blackstone_countertop", BlockRegistry.WARPED_CABINET_WITH_POLISHED_BLACKSTONE_COUNTERTOP, new Item.Properties());
+    public static final DeferredItem<BlockItem> WARPED_CABINET_WITH_POLISHED_DIORITE_COUNTERTOP = ITEMS.registerSimpleBlockItem("warped_cabinet_with_polished_diorite_countertop", BlockRegistry.WARPED_CABINET_WITH_POLISHED_DIORITE_COUNTERTOP, new Item.Properties());
+    public static final DeferredItem<BlockItem> WARPED_CABINET_WITH_STONE_BRICKS_COUNTERTOP = ITEMS.registerSimpleBlockItem("warped_cabinet_with_stone_bricks_countertop", BlockRegistry.WARPED_CABINET_WITH_STONE_BRICKS_COUNTERTOP, new Item.Properties());
 }
