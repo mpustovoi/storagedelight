@@ -2,9 +2,12 @@ package com.axperty.storagedelight;
 
 import com.axperty.storagedelight.registry.*;
 import net.fabricmc.api.ModInitializer;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 public class StorageDelight implements ModInitializer {
 	public static final String MOD_ID = "storagedelight";
+    public static final Logger LOGGER = LoggerFactory.getLogger(MOD_ID);
 
 	@Override
 	public void onInitialize() {
@@ -12,5 +15,6 @@ public class StorageDelight implements ModInitializer {
         EntityTypesRegistry.register();
         FuelBlockRegistry.register();
         CreativeTabRegistry.register();
+        LOGGER.info("Storage Delight loaded");
 	}
 }
