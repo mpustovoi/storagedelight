@@ -1,5 +1,6 @@
 package com.axperty.storagedelight;
 
+import com.axperty.storagedelight.compat.aeronautics.AeronauticsCompat;
 import com.axperty.storagedelight.compat.everycompat.WoodGoodCompat;
 import com.axperty.storagedelight.registry.*;
 import com.mojang.logging.LogUtils;
@@ -16,6 +17,7 @@ public class StorageDelight {
         ItemRegistry.ITEMS.register(modEventBus);
         BlockRegistry.BLOCKS.register(modEventBus);
         EntityTypesRegistry.TILES.register(modEventBus);
+        modEventBus.addListener(AeronauticsCompat::registerCapabilities);
         WoodGoodCompat.init();
         CreativeTabRegistry.CREATIVE_TABS.register(modEventBus);
         LOGGER.info("Storage Delight loaded");

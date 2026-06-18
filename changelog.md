@@ -10,6 +10,8 @@
 
 <img width="300" alt="file" src="https://github.com/user-attachments/assets/843659de-aa3b-449d-8365-cab67108fe29" />
 
+- Added compatibility for Create: Aeronautics, making storage blocks now usable with auger shafts (thanks, [GorelyPopCorn](https://github.com/GorelyPopCorn)!)
+
 ### 🌐 Translations:
 
 - Updated translations for Chinese (thanks, [micrcraft](https://github.com/micrcraft/)!)
