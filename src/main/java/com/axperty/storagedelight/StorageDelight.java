@@ -18,5 +18,6 @@ public class StorageDelight {
         EntityTypesRegistry.TILES.register(modEventBus);
         WoodGoodCompat.init();
         CreativeTabRegistry.CREATIVE_TABS.register(modEventBus);
+        LOGGER.info("Storage Delight loaded");
     }
 }

@@ -11,6 +11,7 @@ import java.util.function.Supplier;
 public class EntityTypesRegistry {
     public static final DeferredRegister<BlockEntityType<?>> TILES = DeferredRegister.create(Registries.BLOCK_ENTITY_TYPE, StorageDelight.MOD_ID);
 
+    // Drawers
     public static final Supplier<BlockEntityType<DrawerBlockEntity>> DRAWER = TILES.register("drawer",
             () -> BlockEntityType.Builder.of(DrawerBlockEntity::new,
                             BlockRegistry.OAK_DRAWER.get(),
@@ -26,6 +27,7 @@ public class EntityTypesRegistry {
                             BlockRegistry.WARPED_DRAWER.get())
                     .build(null));
 
+    // Drawers with Doors
     public static final Supplier<BlockEntityType<DrawerDoorBlockEntity>> DRAWER_DOOR = TILES.register("drawer_door",
             () -> BlockEntityType.Builder.of(DrawerDoorBlockEntity::new,
                             BlockRegistry.OAK_DRAWER_WITH_DOOR.get(),
@@ -41,6 +43,7 @@ public class EntityTypesRegistry {
                             BlockRegistry.WARPED_DRAWER_WITH_DOOR.get())
                     .build(null));
 
+    // Drawers with Books
     public static final Supplier<BlockEntityType<DrawerBooksBlockEntity>> DRAWER_BOOKS = TILES.register("drawer_books",
             () -> BlockEntityType.Builder.of(DrawerBooksBlockEntity::new,
                             BlockRegistry.OAK_DRAWER_WITH_BOOKS.get(),
@@ -56,6 +59,7 @@ public class EntityTypesRegistry {
                             BlockRegistry.WARPED_DRAWER_WITH_BOOKS.get())
                     .build(null));
 
+    // Glass Cabinets
     public static final Supplier<BlockEntityType<GlassCabinetBlockEntity>> GLASS_CABINET = TILES.register("glass_cabinet",
             () -> BlockEntityType.Builder.of(GlassCabinetBlockEntity::new,
                             BlockRegistry.GLASS_OAK_CABINET.get(),
@@ -71,6 +75,7 @@ public class EntityTypesRegistry {
                             BlockRegistry.GLASS_WARPED_CABINET.get())
                     .build(null));
 
+    // Cabinets with Glass Doors and Cabinets with Door Cabinets
     public static final Supplier<BlockEntityType<CabinetVariantBlockEntity>> CABINET_VARIANT = TILES.register("cabinet_variant",
             () -> BlockEntityType.Builder.of(CabinetVariantBlockEntity::new,
                             BlockRegistry.OAK_CABINET_WITH_GLASS_DOORS.get(),
@@ -97,6 +102,7 @@ public class EntityTypesRegistry {
                             BlockRegistry.WARPED_SINGLE_DOOR_CABINET.get())
                     .build(null));
 
+    // Bookshelves with Doors
     public static final Supplier<BlockEntityType<BookshelfDoorBlockEntity>> BOOKSHELF_DOOR = TILES.register("bookshelf_door",
             () -> BlockEntityType.Builder.of(BookshelfDoorBlockEntity::new,
                         BlockRegistry.OAK_BOOKSHELF_WITH_DOOR.get(),
@@ -112,6 +118,7 @@ public class EntityTypesRegistry {
                         BlockRegistry.WARPED_BOOKSHELF_WITH_DOOR.get())
                     .build(null));
 
+    // Small Drawers
     public static final Supplier<BlockEntityType<SmallDrawersBlockEntity>> SMALL_DRAWERS = TILES.register("small_drawers",
             () -> BlockEntityType.Builder.of(SmallDrawersBlockEntity::new,
                             BlockRegistry.SMALL_OAK_DRAWERS.get(),
@@ -127,6 +134,7 @@ public class EntityTypesRegistry {
                             BlockRegistry.SMALL_WARPED_DRAWERS.get())
                     .build(null));
 
+    // Cabinets with Countertops
     public static final Supplier<BlockEntityType<CabinetCountertopBlockEntity>> COUNTERTOP = TILES.register("countertop",
             () -> BlockEntityType.Builder.of(CabinetCountertopBlockEntity::new,
                             BlockRegistry.OAK_CABINET_WITH_POLISHED_DEEPSLATE_COUNTERTOP.get(),
@@ -161,11 +169,39 @@ public class EntityTypesRegistry {
                             BlockRegistry.CHERRY_CABINET_WITH_POLISHED_TUFF_COUNTERTOP.get(),
                             BlockRegistry.BAMBOO_CABINET_WITH_POLISHED_TUFF_COUNTERTOP.get(),
                             BlockRegistry.CRIMSON_CABINET_WITH_POLISHED_TUFF_COUNTERTOP.get(),
-                            BlockRegistry.WARPED_CABINET_WITH_POLISHED_TUFF_COUNTERTOP.get())
+                            BlockRegistry.WARPED_CABINET_WITH_POLISHED_TUFF_COUNTERTOP.get(),
+                            BlockRegistry.OAK_CABINET_WITH_POLISHED_BLACKSTONE_COUNTERTOP.get(),
+                            BlockRegistry.BIRCH_CABINET_WITH_POLISHED_BLACKSTONE_COUNTERTOP.get(),
+                            BlockRegistry.SPRUCE_CABINET_WITH_POLISHED_BLACKSTONE_COUNTERTOP.get(),
+                            BlockRegistry.JUNGLE_CABINET_WITH_POLISHED_BLACKSTONE_COUNTERTOP.get(),
+                            BlockRegistry.ACACIA_CABINET_WITH_POLISHED_BLACKSTONE_COUNTERTOP.get(),
+                            BlockRegistry.DARK_OAK_CABINET_WITH_POLISHED_BLACKSTONE_COUNTERTOP.get(),
+                            BlockRegistry.MANGROVE_CABINET_WITH_POLISHED_BLACKSTONE_COUNTERTOP.get(),
+                            BlockRegistry.CHERRY_CABINET_WITH_POLISHED_BLACKSTONE_COUNTERTOP.get(),
+                            BlockRegistry.BAMBOO_CABINET_WITH_POLISHED_BLACKSTONE_COUNTERTOP.get(),
+                            BlockRegistry.CRIMSON_CABINET_WITH_POLISHED_BLACKSTONE_COUNTERTOP.get(),
+                            BlockRegistry.WARPED_CABINET_WITH_POLISHED_BLACKSTONE_COUNTERTOP.get(),
+                            BlockRegistry.OAK_CABINET_WITH_POLISHED_DIORITE_COUNTERTOP.get(),
+                            BlockRegistry.BIRCH_CABINET_WITH_POLISHED_DIORITE_COUNTERTOP.get(),
+                            BlockRegistry.SPRUCE_CABINET_WITH_POLISHED_DIORITE_COUNTERTOP.get(),
+                            BlockRegistry.JUNGLE_CABINET_WITH_POLISHED_DIORITE_COUNTERTOP.get(),
+                            BlockRegistry.ACACIA_CABINET_WITH_POLISHED_DIORITE_COUNTERTOP.get(),
+                            BlockRegistry.DARK_OAK_CABINET_WITH_POLISHED_DIORITE_COUNTERTOP.get(),
+                            BlockRegistry.MANGROVE_CABINET_WITH_POLISHED_DIORITE_COUNTERTOP.get(),
+                            BlockRegistry.CHERRY_CABINET_WITH_POLISHED_DIORITE_COUNTERTOP.get(),
+                            BlockRegistry.BAMBOO_CABINET_WITH_POLISHED_DIORITE_COUNTERTOP.get(),
+                            BlockRegistry.CRIMSON_CABINET_WITH_POLISHED_DIORITE_COUNTERTOP.get(),
+                            BlockRegistry.WARPED_CABINET_WITH_POLISHED_DIORITE_COUNTERTOP.get(),
+                            BlockRegistry.OAK_CABINET_WITH_STONE_BRICKS_COUNTERTOP.get(),
+                            BlockRegistry.BIRCH_CABINET_WITH_STONE_BRICKS_COUNTERTOP.get(),
+                            BlockRegistry.SPRUCE_CABINET_WITH_STONE_BRICKS_COUNTERTOP.get(),
+                            BlockRegistry.JUNGLE_CABINET_WITH_STONE_BRICKS_COUNTERTOP.get(),
+                            BlockRegistry.ACACIA_CABINET_WITH_STONE_BRICKS_COUNTERTOP.get(),
+                            BlockRegistry.DARK_OAK_CABINET_WITH_STONE_BRICKS_COUNTERTOP.get(),
+                            BlockRegistry.MANGROVE_CABINET_WITH_STONE_BRICKS_COUNTERTOP.get(),
+                            BlockRegistry.CHERRY_CABINET_WITH_STONE_BRICKS_COUNTERTOP.get(),
+                            BlockRegistry.BAMBOO_CABINET_WITH_STONE_BRICKS_COUNTERTOP.get(),
+                            BlockRegistry.CRIMSON_CABINET_WITH_STONE_BRICKS_COUNTERTOP.get(),
+                            BlockRegistry.WARPED_CABINET_WITH_STONE_BRICKS_COUNTERTOP.get())
                     .build(null));
-
-//    public static final Supplier<BlockEntityType<CabinetBlockEntity>> CABINET = TILES.register("cabinet",
-//            () -> BlockEntityType.Builder.of(CabinetBlockEntity::new,
-//                            BlockRegistry.PALE_OAK_CABINET.get())
-//                    .build(null));
 }
