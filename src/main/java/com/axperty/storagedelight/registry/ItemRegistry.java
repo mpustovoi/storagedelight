@@ -2,17 +2,17 @@ package com.axperty.storagedelight.registry;
 
 import com.axperty.storagedelight.StorageDelight;
 import com.axperty.storagedelight.item.FuelBlockItem;
-import net.minecraft.world.item.*;
+import net.minecraft.world.item.BlockItem;
+import net.minecraft.world.item.Item;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 
 public class ItemRegistry {
-
     public static final DeferredRegister<Item> ITEMS = DeferredRegister.create(ForgeRegistries.ITEMS, StorageDelight.MOD_ID);
 
     public static Item.Properties basicItem() {
-        return new Item.Properties().tab(CreativeTabRegistry.CREATIVE_TAB);
+        return new Item.Properties().tab(CreativeTabRegistry.STORAGEDELIGHT_TAB);
     }
 
     // Oak Furniture
@@ -36,6 +36,12 @@ public class ItemRegistry {
             () -> new FuelBlockItem(BlockRegistry.OAK_CABINET_WITH_POLISHED_DEEPSLATE_COUNTERTOP.get(), basicItem(), 300));
     public static final RegistryObject<Item> OAK_CABINET_WITH_POLISHED_ANDESITE_COUNTERTOP = ITEMS.register("oak_cabinet_with_polished_andesite_countertop",
             () -> new FuelBlockItem(BlockRegistry.OAK_CABINET_WITH_POLISHED_ANDESITE_COUNTERTOP.get(), basicItem(), 300));
+    public static final RegistryObject<Item> OAK_CABINET_WITH_POLISHED_BLACKSTONE_COUNTERTOP = ITEMS.register("oak_cabinet_with_polished_blackstone_countertop",
+            () -> new FuelBlockItem(BlockRegistry.OAK_CABINET_WITH_POLISHED_BLACKSTONE_COUNTERTOP.get(), basicItem(), 300));
+    public static final RegistryObject<Item> OAK_CABINET_WITH_POLISHED_DIORITE_COUNTERTOP = ITEMS.register("oak_cabinet_with_polished_diorite_countertop",
+            () -> new FuelBlockItem(BlockRegistry.OAK_CABINET_WITH_POLISHED_DIORITE_COUNTERTOP.get(), basicItem(), 300));
+    public static final RegistryObject<Item> OAK_CABINET_WITH_STONE_BRICKS_COUNTERTOP = ITEMS.register("oak_cabinet_with_stone_bricks_countertop",
+            () -> new FuelBlockItem(BlockRegistry.OAK_CABINET_WITH_STONE_BRICKS_COUNTERTOP.get(), basicItem(), 300));
 
     // Spruce Furniture
     public static final RegistryObject<Item> SPRUCE_DRAWER = ITEMS.register("spruce_drawer",
@@ -58,6 +64,12 @@ public class ItemRegistry {
             () -> new FuelBlockItem(BlockRegistry.SPRUCE_CABINET_WITH_POLISHED_DEEPSLATE_COUNTERTOP.get(), basicItem(), 300));
     public static final RegistryObject<Item> SPRUCE_CABINET_WITH_POLISHED_ANDESITE_COUNTERTOP = ITEMS.register("spruce_cabinet_with_polished_andesite_countertop",
             () -> new FuelBlockItem(BlockRegistry.SPRUCE_CABINET_WITH_POLISHED_ANDESITE_COUNTERTOP.get(), basicItem(), 300));
+    public static final RegistryObject<Item> SPRUCE_CABINET_WITH_POLISHED_BLACKSTONE_COUNTERTOP = ITEMS.register("spruce_cabinet_with_polished_blackstone_countertop",
+            () -> new FuelBlockItem(BlockRegistry.SPRUCE_CABINET_WITH_POLISHED_BLACKSTONE_COUNTERTOP.get(), basicItem(), 300));
+    public static final RegistryObject<Item> SPRUCE_CABINET_WITH_POLISHED_DIORITE_COUNTERTOP = ITEMS.register("spruce_cabinet_with_polished_diorite_countertop",
+            () -> new FuelBlockItem(BlockRegistry.SPRUCE_CABINET_WITH_POLISHED_DIORITE_COUNTERTOP.get(), basicItem(), 300));
+    public static final RegistryObject<Item> SPRUCE_CABINET_WITH_STONE_BRICKS_COUNTERTOP = ITEMS.register("spruce_cabinet_with_stone_bricks_countertop",
+            () -> new FuelBlockItem(BlockRegistry.SPRUCE_CABINET_WITH_STONE_BRICKS_COUNTERTOP.get(), basicItem(), 300));
 
     // Birch Furniture
     public static final RegistryObject<Item> BIRCH_DRAWER = ITEMS.register("birch_drawer",
@@ -80,6 +92,12 @@ public class ItemRegistry {
             () -> new FuelBlockItem(BlockRegistry.BIRCH_CABINET_WITH_POLISHED_DEEPSLATE_COUNTERTOP.get(), basicItem(), 300));
     public static final RegistryObject<Item> BIRCH_CABINET_WITH_POLISHED_ANDESITE_COUNTERTOP = ITEMS.register("birch_cabinet_with_polished_andesite_countertop",
             () -> new FuelBlockItem(BlockRegistry.BIRCH_CABINET_WITH_POLISHED_ANDESITE_COUNTERTOP.get(), basicItem(), 300));
+    public static final RegistryObject<Item> BIRCH_CABINET_WITH_POLISHED_BLACKSTONE_COUNTERTOP = ITEMS.register("birch_cabinet_with_polished_blackstone_countertop",
+            () -> new FuelBlockItem(BlockRegistry.BIRCH_CABINET_WITH_POLISHED_BLACKSTONE_COUNTERTOP.get(), basicItem(), 300));
+    public static final RegistryObject<Item> BIRCH_CABINET_WITH_POLISHED_DIORITE_COUNTERTOP = ITEMS.register("birch_cabinet_with_polished_diorite_countertop",
+            () -> new FuelBlockItem(BlockRegistry.BIRCH_CABINET_WITH_POLISHED_DIORITE_COUNTERTOP.get(), basicItem(), 300));
+    public static final RegistryObject<Item> BIRCH_CABINET_WITH_STONE_BRICKS_COUNTERTOP = ITEMS.register("birch_cabinet_with_stone_bricks_countertop",
+            () -> new FuelBlockItem(BlockRegistry.BIRCH_CABINET_WITH_STONE_BRICKS_COUNTERTOP.get(), basicItem(), 300));
 
     // Jungle Furniture
     public static final RegistryObject<Item> JUNGLE_DRAWER = ITEMS.register("jungle_drawer",
@@ -102,6 +120,12 @@ public class ItemRegistry {
             () -> new FuelBlockItem(BlockRegistry.JUNGLE_CABINET_WITH_POLISHED_DEEPSLATE_COUNTERTOP.get(), basicItem(), 300));
     public static final RegistryObject<Item> JUNGLE_CABINET_WITH_POLISHED_ANDESITE_COUNTERTOP = ITEMS.register("jungle_cabinet_with_polished_andesite_countertop",
             () -> new FuelBlockItem(BlockRegistry.JUNGLE_CABINET_WITH_POLISHED_ANDESITE_COUNTERTOP.get(), basicItem(), 300));
+    public static final RegistryObject<Item> JUNGLE_CABINET_WITH_POLISHED_BLACKSTONE_COUNTERTOP = ITEMS.register("jungle_cabinet_with_polished_blackstone_countertop",
+            () -> new FuelBlockItem(BlockRegistry.JUNGLE_CABINET_WITH_POLISHED_BLACKSTONE_COUNTERTOP.get(), basicItem(), 300));
+    public static final RegistryObject<Item> JUNGLE_CABINET_WITH_POLISHED_DIORITE_COUNTERTOP = ITEMS.register("jungle_cabinet_with_polished_diorite_countertop",
+            () -> new FuelBlockItem(BlockRegistry.JUNGLE_CABINET_WITH_POLISHED_DIORITE_COUNTERTOP.get(), basicItem(), 300));
+    public static final RegistryObject<Item> JUNGLE_CABINET_WITH_STONE_BRICKS_COUNTERTOP = ITEMS.register("jungle_cabinet_with_stone_bricks_countertop",
+            () -> new FuelBlockItem(BlockRegistry.JUNGLE_CABINET_WITH_STONE_BRICKS_COUNTERTOP.get(), basicItem(), 300));
 
     // Acacia Furniture
     public static final RegistryObject<Item> ACACIA_DRAWER = ITEMS.register("acacia_drawer",
@@ -124,6 +148,12 @@ public class ItemRegistry {
             () -> new FuelBlockItem(BlockRegistry.ACACIA_CABINET_WITH_POLISHED_DEEPSLATE_COUNTERTOP.get(), basicItem(), 300));
     public static final RegistryObject<Item> ACACIA_CABINET_WITH_POLISHED_ANDESITE_COUNTERTOP = ITEMS.register("acacia_cabinet_with_polished_andesite_countertop",
             () -> new FuelBlockItem(BlockRegistry.ACACIA_CABINET_WITH_POLISHED_ANDESITE_COUNTERTOP.get(), basicItem(), 300));
+    public static final RegistryObject<Item> ACACIA_CABINET_WITH_POLISHED_BLACKSTONE_COUNTERTOP = ITEMS.register("acacia_cabinet_with_polished_blackstone_countertop",
+            () -> new FuelBlockItem(BlockRegistry.ACACIA_CABINET_WITH_POLISHED_BLACKSTONE_COUNTERTOP.get(), basicItem(), 300));
+    public static final RegistryObject<Item> ACACIA_CABINET_WITH_POLISHED_DIORITE_COUNTERTOP = ITEMS.register("acacia_cabinet_with_polished_diorite_countertop",
+            () -> new FuelBlockItem(BlockRegistry.ACACIA_CABINET_WITH_POLISHED_DIORITE_COUNTERTOP.get(), basicItem(), 300));
+    public static final RegistryObject<Item> ACACIA_CABINET_WITH_STONE_BRICKS_COUNTERTOP = ITEMS.register("acacia_cabinet_with_stone_bricks_countertop",
+            () -> new FuelBlockItem(BlockRegistry.ACACIA_CABINET_WITH_STONE_BRICKS_COUNTERTOP.get(), basicItem(), 300));
 
     // Dark Oak Furniture
     public static final RegistryObject<Item> DARK_OAK_DRAWER = ITEMS.register("dark_oak_drawer",
@@ -146,6 +176,12 @@ public class ItemRegistry {
             () -> new FuelBlockItem(BlockRegistry.DARK_OAK_CABINET_WITH_POLISHED_DEEPSLATE_COUNTERTOP.get(), basicItem(), 300));
     public static final RegistryObject<Item> DARK_OAK_CABINET_WITH_POLISHED_ANDESITE_COUNTERTOP = ITEMS.register("dark_oak_cabinet_with_polished_andesite_countertop",
             () -> new FuelBlockItem(BlockRegistry.DARK_OAK_CABINET_WITH_POLISHED_ANDESITE_COUNTERTOP.get(), basicItem(), 300));
+    public static final RegistryObject<Item> DARK_OAK_CABINET_WITH_POLISHED_BLACKSTONE_COUNTERTOP = ITEMS.register("dark_oak_cabinet_with_polished_blackstone_countertop",
+            () -> new FuelBlockItem(BlockRegistry.DARK_OAK_CABINET_WITH_POLISHED_BLACKSTONE_COUNTERTOP.get(), basicItem(), 300));
+    public static final RegistryObject<Item> DARK_OAK_CABINET_WITH_POLISHED_DIORITE_COUNTERTOP = ITEMS.register("dark_oak_cabinet_with_polished_diorite_countertop",
+            () -> new FuelBlockItem(BlockRegistry.DARK_OAK_CABINET_WITH_POLISHED_DIORITE_COUNTERTOP.get(), basicItem(), 300));
+    public static final RegistryObject<Item> DARK_OAK_CABINET_WITH_STONE_BRICKS_COUNTERTOP = ITEMS.register("dark_oak_cabinet_with_stone_bricks_countertop",
+            () -> new FuelBlockItem(BlockRegistry.DARK_OAK_CABINET_WITH_STONE_BRICKS_COUNTERTOP.get(), basicItem(), 300));
 
     // Mangrove Furniture
     public static final RegistryObject<Item> MANGROVE_DRAWER = ITEMS.register("mangrove_drawer",
@@ -168,6 +204,12 @@ public class ItemRegistry {
             () -> new FuelBlockItem(BlockRegistry.MANGROVE_CABINET_WITH_POLISHED_DEEPSLATE_COUNTERTOP.get(), basicItem(), 300));
     public static final RegistryObject<Item> MANGROVE_CABINET_WITH_POLISHED_ANDESITE_COUNTERTOP = ITEMS.register("mangrove_cabinet_with_polished_andesite_countertop",
             () -> new FuelBlockItem(BlockRegistry.MANGROVE_CABINET_WITH_POLISHED_ANDESITE_COUNTERTOP.get(), basicItem(), 300));
+    public static final RegistryObject<Item> MANGROVE_CABINET_WITH_POLISHED_BLACKSTONE_COUNTERTOP = ITEMS.register("mangrove_cabinet_with_polished_blackstone_countertop",
+            () -> new FuelBlockItem(BlockRegistry.MANGROVE_CABINET_WITH_POLISHED_BLACKSTONE_COUNTERTOP.get(), basicItem(), 300));
+    public static final RegistryObject<Item> MANGROVE_CABINET_WITH_POLISHED_DIORITE_COUNTERTOP = ITEMS.register("mangrove_cabinet_with_polished_diorite_countertop",
+            () -> new FuelBlockItem(BlockRegistry.MANGROVE_CABINET_WITH_POLISHED_DIORITE_COUNTERTOP.get(), basicItem(), 300));
+    public static final RegistryObject<Item> MANGROVE_CABINET_WITH_STONE_BRICKS_COUNTERTOP = ITEMS.register("mangrove_cabinet_with_stone_bricks_countertop",
+            () -> new FuelBlockItem(BlockRegistry.MANGROVE_CABINET_WITH_STONE_BRICKS_COUNTERTOP.get(), basicItem(), 300));
 
     // Crimson Furniture
     public static final RegistryObject<Item> CRIMSON_DRAWER = ITEMS.register("crimson_drawer",
@@ -190,6 +232,12 @@ public class ItemRegistry {
             () -> new BlockItem(BlockRegistry.CRIMSON_CABINET_WITH_POLISHED_DEEPSLATE_COUNTERTOP.get(), basicItem()));
     public static final RegistryObject<Item> CRIMSON_CABINET_WITH_POLISHED_ANDESITE_COUNTERTOP = ITEMS.register("crimson_cabinet_with_polished_andesite_countertop",
             () -> new BlockItem(BlockRegistry.CRIMSON_CABINET_WITH_POLISHED_ANDESITE_COUNTERTOP.get(), basicItem()));
+    public static final RegistryObject<Item> CRIMSON_CABINET_WITH_POLISHED_BLACKSTONE_COUNTERTOP = ITEMS.register("crimson_cabinet_with_polished_blackstone_countertop",
+            () -> new BlockItem(BlockRegistry.CRIMSON_CABINET_WITH_POLISHED_BLACKSTONE_COUNTERTOP.get(), basicItem()));
+    public static final RegistryObject<Item> CRIMSON_CABINET_WITH_POLISHED_DIORITE_COUNTERTOP = ITEMS.register("crimson_cabinet_with_polished_diorite_countertop",
+            () -> new BlockItem(BlockRegistry.CRIMSON_CABINET_WITH_POLISHED_DIORITE_COUNTERTOP.get(), basicItem()));
+    public static final RegistryObject<Item> CRIMSON_CABINET_WITH_STONE_BRICKS_COUNTERTOP = ITEMS.register("crimson_cabinet_with_stone_bricks_countertop",
+            () -> new BlockItem(BlockRegistry.CRIMSON_CABINET_WITH_STONE_BRICKS_COUNTERTOP.get(), basicItem()));
 
     // Warped Furniture
     public static final RegistryObject<Item> WARPED_DRAWER = ITEMS.register("warped_drawer",
@@ -212,4 +260,10 @@ public class ItemRegistry {
             () -> new BlockItem(BlockRegistry.WARPED_CABINET_WITH_POLISHED_DEEPSLATE_COUNTERTOP.get(), basicItem()));
     public static final RegistryObject<Item> WARPED_CABINET_WITH_POLISHED_ANDESITE_COUNTERTOP = ITEMS.register("warped_cabinet_with_polished_andesite_countertop",
             () -> new BlockItem(BlockRegistry.WARPED_CABINET_WITH_POLISHED_ANDESITE_COUNTERTOP.get(), basicItem()));
+    public static final RegistryObject<Item> WARPED_CABINET_WITH_POLISHED_BLACKSTONE_COUNTERTOP = ITEMS.register("warped_cabinet_with_polished_blackstone_countertop",
+            () -> new BlockItem(BlockRegistry.WARPED_CABINET_WITH_POLISHED_BLACKSTONE_COUNTERTOP.get(), basicItem()));
+    public static final RegistryObject<Item> WARPED_CABINET_WITH_POLISHED_DIORITE_COUNTERTOP = ITEMS.register("warped_cabinet_with_polished_diorite_countertop",
+            () -> new BlockItem(BlockRegistry.WARPED_CABINET_WITH_POLISHED_DIORITE_COUNTERTOP.get(), basicItem()));
+    public static final RegistryObject<Item> WARPED_CABINET_WITH_STONE_BRICKS_COUNTERTOP = ITEMS.register("warped_cabinet_with_stone_bricks_countertop",
+            () -> new BlockItem(BlockRegistry.WARPED_CABINET_WITH_STONE_BRICKS_COUNTERTOP.get(), basicItem()));
 }

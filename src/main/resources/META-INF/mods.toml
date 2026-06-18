@@ -1,26 +1,25 @@
-
 modLoader="javafml"
 loaderVersion="[41,)"
-license="MIT License"
+license="MIT"
 
 [[mods]]
 modId="storagedelight"
-version="25.12.09-1.19-forge"
+version="26.07.01-1.19-forge"
 displayName="Storage Delight"
-logoFile="logo.png"
 authors="Axperty"
-description='''A mod that adds more storage options to the game.'''
+description="A mod that adds more storage options to the game."
+logoFile="assets/storagedelight/logo.png"
 
 [[dependencies.storagedelight]]
-    modId="forge"
-    mandatory=true
-    versionRange="[41.1.0,)"
-    ordering="NONE"
-    side="BOTH"
+modId="forge"
+mandatory=true
+versionRange="[41.1.0,)"
+ordering="NONE"
+side="BOTH"
 
 [[dependencies.storagedelight]]
-    modId="minecraft"
-    mandatory=true
-    versionRange="[1.19,1.20)"
-    ordering="NONE"
-    side="BOTH"
+modId="minecraft"
+mandatory=true
+versionRange="[1.19,1.20)"
+ordering="NONE"
+side="BOTH"
