@@ -18,7 +18,8 @@ public class StorageDelight {
         ItemRegistry.ITEMS.register(modEventBus);
         BlockRegistry.BLOCKS.register(modEventBus);
         EntityTypesRegistry.TILES.register(modEventBus);
-        CreativeTabRegistry.CREATIVE_TABS.register(modEventBus);
+        CreativeTabRegistry.CREATIVE_MODE_TABS.register(modEventBus);
         MinecraftForge.EVENT_BUS.register(this);
+        LOGGER.info("Storage Delight loaded");
     }
 }
