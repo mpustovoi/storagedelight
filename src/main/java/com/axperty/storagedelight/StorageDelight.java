@@ -21,5 +21,6 @@ public class StorageDelight implements ModInitializer {
         FuelBlockRegistry.register();
         WoodGoodCompat.init();
         CreativeTabRegistry.register();
+        LOGGER.info("Storage Delight loaded");
     }
 }

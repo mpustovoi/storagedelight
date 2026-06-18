@@ -2,19 +2,26 @@
 
 ***
 
-### ✨ What's New
+### ✨ What's New:
 
-- Added support for [Every Compat (Wood Good)](https://www.curseforge.com/minecraft/mc-mods/every-compat), thanks [Jakub Matuszczyk](https://github.com/K8bus)!
+- Added Cabinets with Polished Blackstone Countertops for all wood types.
+- Added Cabinets with Polished Diorite Countertops for all wood types.
+- Added Cabinets with Stone Bricks Countertops for all wood types.
 
-### 🌐 Translations
-- Improved translations for Chinese (zh_cn), thanks [micrcraft](https://github.com/micrcraft)!
-- Improved translations for Portuguese (pt_br), thanks [PrincessStellar](https://github.com/PrincessStellar)!
-- Improved translations for Russian (ru_ru), thanks [Karbin Drem](https://github.com/mpustovoi)!
+<img width="300" alt="file" src="https://github.com/user-attachments/assets/843659de-aa3b-449d-8365-cab67108fe29" />
+
+### 🌐 Translations:
+
+- Updated translations for Chinese (thanks, [micrcraft](https://github.com/micrcraft/)!)
+- Updated translations for Portuguese from Brazil (thanks, [PrincessStellar](https://github.com/PrincessStellar/)!)
+
+### 🛠️ Bug Fixes:
+
+- Fixed console errors with certain languages (thanks, [Josh](https://github.com/alpinesox)!)
 
 ***
-
 
 ### 📝 Feedback and Support:
 
 - Found a bug or have suggestions? [Submit an issue on GitHub](https://github.com/axperty/storagedelight/issues/new).
-- Support this mod by [creating your own server](https://url-shortener.curseforge.com/p5i2k) or [donating via PayPal](https://paypal.me/kevgelhorn).
+- Support this mod by [creating your own server](https://url-shortener.curseforge.com/OtRVJ) or [donating via PayPal](https://paypal.me/kevgelhorn).
