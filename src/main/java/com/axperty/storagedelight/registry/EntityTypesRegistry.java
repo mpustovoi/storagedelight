@@ -235,7 +235,5 @@ public class EntityTypesRegistry {
                     .build()
     );
 
-    public static void register() {
-        StorageDelight.LOGGER.info("Registering block entity types for " + StorageDelight.MOD_ID);
-    }
+    public static void register() {}
 }

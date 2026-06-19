@@ -230,7 +230,5 @@ public class BlockRegistry {
         return Registry.register(BuiltInRegistries.ITEM, registryKey, item);
     }
 
-    public static void register() {
-        StorageDelight.LOGGER.info("Registering blocks for " + StorageDelight.MOD_ID);
-    }
+    public static void register() {}
 }

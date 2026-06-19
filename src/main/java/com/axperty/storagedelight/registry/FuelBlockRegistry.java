@@ -6,8 +6,6 @@ import net.fabricmc.fabric.api.registry.FuelValueEvents;
 public class FuelBlockRegistry {
 
     public static void register() {
-        StorageDelight.LOGGER.info("Registering furniture fuels for " + StorageDelight.MOD_ID);
-
         FuelValueEvents.BUILD.register((registry, context) -> {
 
             // Oak Furniture
