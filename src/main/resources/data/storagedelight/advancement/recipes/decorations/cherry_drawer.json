@@ -13,7 +13,9 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "storagedelight:cherry_drawer"
+        "recipes": [
+          "storagedelight:cherry_drawer"
+        ]
       },
       "trigger": "minecraft:recipe_unlocked"
     }

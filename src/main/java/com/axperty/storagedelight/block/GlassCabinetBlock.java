@@ -1,7 +1,6 @@
 package com.axperty.storagedelight.block;
 
 import com.axperty.storagedelight.block.entity.GlassCabinetBlockEntity;
-import com.mojang.serialization.MapCodec;
 import net.minecraft.world.level.block.BaseEntityBlock;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.Blocks;
@@ -33,17 +32,12 @@ import net.minecraft.world.level.Level;
 import org.jetbrains.annotations.Nullable;
 
 public class GlassCabinetBlock extends BaseEntityBlock {
-    public static final MapCodec<GlassCabinetBlock> CODEC = simpleCodec(GlassCabinetBlock::new);
     public static final EnumProperty<Direction> FACING = BlockStateProperties.HORIZONTAL_FACING;
     public static final BooleanProperty OPEN = BlockStateProperties.OPEN;
 
     public GlassCabinetBlock() {
         super(Properties.ofFullCopy(Blocks.BARREL));
         registerDefaultState(getStateDefinition().any().setValue(FACING, Direction.NORTH).setValue(OPEN, false));
-    }
-
-    public MapCodec<GlassCabinetBlock> codec() {
-        return CODEC;
     }
 
     public GlassCabinetBlock(Properties settings) {

@@ -13,7 +13,9 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "storagedelight:spruce_cabinet_with_polished_andesite_countertop"
+        "recipes": [
+          "storagedelight:spruce_cabinet_with_polished_andesite_countertop"
+        ]
       },
       "trigger": "minecraft:recipe_unlocked"
     }

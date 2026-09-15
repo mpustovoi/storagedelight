@@ -1,7 +1,6 @@
 package com.axperty.storagedelight.block;
 
 import com.axperty.storagedelight.block.entity.CabinetCountertopBlockEntity;
-import com.mojang.serialization.MapCodec;
 import net.minecraft.world.level.block.BaseEntityBlock;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.Blocks;
@@ -31,8 +30,6 @@ import net.minecraft.world.level.Level;
 import org.jetbrains.annotations.Nullable;
 
 public class CabinetCountertopBlock extends BaseEntityBlock {
-    public static final MapCodec<CabinetCountertopBlock> CODEC = simpleCodec(CabinetCountertopBlock::new);
-
     public static final EnumProperty<Direction> FACING = BlockStateProperties.HORIZONTAL_FACING;
     public static final BooleanProperty OPEN = BlockStateProperties.OPEN;
 
@@ -41,9 +38,6 @@ public class CabinetCountertopBlock extends BaseEntityBlock {
         registerDefaultState(getStateDefinition().any().setValue(FACING, Direction.NORTH).setValue(OPEN, false));
     }
 
-    public MapCodec<CabinetCountertopBlock> codec() {
-        return CODEC;
-    }
 
     public CabinetCountertopBlock(Properties settings) {
         super(settings);

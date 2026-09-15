@@ -13,7 +13,9 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "storagedelight:glass_bamboo_cabinet"
+        "recipes": [
+          "storagedelight:glass_bamboo_cabinet"
+        ]
       },
       "trigger": "minecraft:recipe_unlocked"
     }

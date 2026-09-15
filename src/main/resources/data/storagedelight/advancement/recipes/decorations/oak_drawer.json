@@ -13,7 +13,9 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "storagedelight:oak_drawer"
+        "recipes": [
+          "storagedelight:oak_drawer"
+        ]
       },
       "trigger": "minecraft:recipe_unlocked"
     }

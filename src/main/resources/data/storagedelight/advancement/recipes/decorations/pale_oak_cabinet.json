@@ -24,7 +24,9 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "storagedelight:pale_oak_cabinet"
+        "recipes": [
+          "storagedelight:pale_oak_cabinet"
+        ]
       },
       "trigger": "minecraft:recipe_unlocked"
     }

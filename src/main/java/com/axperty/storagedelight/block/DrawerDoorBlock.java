@@ -1,7 +1,6 @@
 package com.axperty.storagedelight.block;
 
 import com.axperty.storagedelight.block.entity.DrawerDoorBlockEntity;
-import com.mojang.serialization.MapCodec;
 import net.minecraft.world.level.block.BaseEntityBlock;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.Blocks;
@@ -32,17 +31,12 @@ import net.minecraft.world.level.Level;
 import org.jetbrains.annotations.Nullable;
 
 public class DrawerDoorBlock extends BaseEntityBlock {
-    public static final MapCodec<DrawerDoorBlock> CODEC = simpleCodec(DrawerDoorBlock::new);
     public static final EnumProperty<Direction> FACING = BlockStateProperties.HORIZONTAL_FACING;
     public static final BooleanProperty OPEN = BlockStateProperties.OPEN;
 
     public DrawerDoorBlock() {
         super(Properties.ofFullCopy(Blocks.BARREL));
         registerDefaultState(getStateDefinition().any().setValue(FACING, Direction.NORTH).setValue(OPEN, false));
-    }
-
-    public MapCodec<DrawerDoorBlock> codec() {
-        return CODEC;
     }
 
     public DrawerDoorBlock(Properties settings) {

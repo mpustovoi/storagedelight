@@ -13,7 +13,9 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "storagedelight:dark_oak_cabinet_with_polished_andesite_countertop"
+        "recipes": [
+          "storagedelight:dark_oak_cabinet_with_polished_andesite_countertop"
+        ]
       },
       "trigger": "minecraft:recipe_unlocked"
     }

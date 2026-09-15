@@ -13,7 +13,9 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "storagedelight:bamboo_cabinet_with_polished_tuff_countertop"
+        "recipes": [
+          "storagedelight:bamboo_cabinet_with_polished_tuff_countertop"
+        ]
       },
       "trigger": "minecraft:recipe_unlocked"
     }

@@ -13,7 +13,9 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "storagedelight:small_crimson_drawers"
+        "recipes": [
+          "storagedelight:small_crimson_drawers"
+        ]
       },
       "trigger": "minecraft:recipe_unlocked"
     }

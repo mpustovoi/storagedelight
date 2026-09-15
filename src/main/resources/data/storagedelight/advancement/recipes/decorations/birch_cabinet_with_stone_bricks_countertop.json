@@ -1,4 +1,4 @@
-﻿{
+{
   "parent": "minecraft:recipes/root",
   "criteria": {
     "has_stone_bricks_slab": {
@@ -13,7 +13,9 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "storagedelight:birch_cabinet_with_stone_bricks_countertop"
+        "recipes": [
+          "storagedelight:birch_cabinet_with_stone_bricks_countertop"
+        ]
       },
       "trigger": "minecraft:recipe_unlocked"
     }

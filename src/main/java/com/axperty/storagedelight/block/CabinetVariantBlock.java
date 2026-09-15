@@ -1,6 +1,5 @@
 package com.axperty.storagedelight.block;
 
-import com.mojang.serialization.MapCodec;
 import com.axperty.storagedelight.block.entity.CabinetVariantBlockEntity;
 import net.minecraft.world.level.block.BaseEntityBlock;
 import net.minecraft.world.level.block.Block;
@@ -33,8 +32,6 @@ import net.minecraft.world.level.Level;
 import org.jetbrains.annotations.Nullable;
 
 public class CabinetVariantBlock extends BaseEntityBlock {
-    public static final MapCodec<CabinetVariantBlock> CODEC = simpleCodec(CabinetVariantBlock::new);
-
     public static final EnumProperty<Direction> FACING = BlockStateProperties.HORIZONTAL_FACING;
     public static final BooleanProperty OPEN = BlockStateProperties.OPEN;
 
@@ -43,9 +40,6 @@ public class CabinetVariantBlock extends BaseEntityBlock {
         registerDefaultState(getStateDefinition().any().setValue(FACING, Direction.NORTH).setValue(OPEN, false));
     }
 
-    public MapCodec<CabinetVariantBlock> codec() {
-        return CODEC;
-    }
 
     public CabinetVariantBlock(BlockBehaviour.Properties settings) {
         super(settings);

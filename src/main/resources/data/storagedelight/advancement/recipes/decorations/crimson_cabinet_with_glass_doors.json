@@ -13,7 +13,9 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "storagedelight:crimson_cabinet_with_glass_doors"
+        "recipes": [
+          "storagedelight:crimson_cabinet_with_glass_doors"
+        ]
       },
       "trigger": "minecraft:recipe_unlocked"
     }
