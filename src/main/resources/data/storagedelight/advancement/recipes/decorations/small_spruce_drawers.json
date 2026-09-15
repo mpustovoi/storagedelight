@@ -13,7 +13,9 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "storagedelight:small_spruce_drawers"
+        "recipes": [
+          "storagedelight:small_spruce_drawers"
+        ]
       },
       "trigger": "minecraft:recipe_unlocked"
     }

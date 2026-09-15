@@ -13,7 +13,9 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "storagedelight:jungle_single_door_cabinet"
+        "recipes": [
+          "storagedelight:jungle_single_door_cabinet"
+        ]
       },
       "trigger": "minecraft:recipe_unlocked"
     }

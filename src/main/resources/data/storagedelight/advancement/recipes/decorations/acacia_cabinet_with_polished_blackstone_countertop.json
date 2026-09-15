@@ -1,4 +1,4 @@
-﻿{
+{
   "parent": "minecraft:recipes/root",
   "criteria": {
     "has_polished_blackstone_slab": {
@@ -13,7 +13,9 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "storagedelight:acacia_cabinet_with_polished_blackstone_countertop"
+        "recipes": [
+          "storagedelight:acacia_cabinet_with_polished_blackstone_countertop"
+        ]
       },
       "trigger": "minecraft:recipe_unlocked"
     }

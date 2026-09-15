@@ -13,7 +13,9 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "storagedelight:acacia_drawer"
+        "recipes": [
+          "storagedelight:acacia_drawer"
+        ]
       },
       "trigger": "minecraft:recipe_unlocked"
     }

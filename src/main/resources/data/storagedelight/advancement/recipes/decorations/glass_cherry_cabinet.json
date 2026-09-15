@@ -13,7 +13,9 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "storagedelight:glass_cherry_cabinet"
+        "recipes": [
+          "storagedelight:glass_cherry_cabinet"
+        ]
       },
       "trigger": "minecraft:recipe_unlocked"
     }

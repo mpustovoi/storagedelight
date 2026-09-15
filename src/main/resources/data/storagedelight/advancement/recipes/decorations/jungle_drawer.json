@@ -13,7 +13,9 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "storagedelight:jungle_drawer"
+        "recipes": [
+          "storagedelight:jungle_drawer"
+        ]
       },
       "trigger": "minecraft:recipe_unlocked"
     }

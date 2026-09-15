@@ -13,7 +13,9 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "storagedelight:warped_drawer_with_books"
+        "recipes": [
+          "storagedelight:warped_drawer_with_books"
+        ]
       },
       "trigger": "minecraft:recipe_unlocked"
     }

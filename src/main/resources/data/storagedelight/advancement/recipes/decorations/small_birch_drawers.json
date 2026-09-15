@@ -13,7 +13,9 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "storagedelight:small_birch_drawers"
+        "recipes": [
+          "storagedelight:small_birch_drawers"
+        ]
       },
       "trigger": "minecraft:recipe_unlocked"
     }

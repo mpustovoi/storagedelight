@@ -13,7 +13,9 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "storagedelight:acacia_bookshelf_with_door"
+        "recipes": [
+          "storagedelight:acacia_bookshelf_with_door"
+        ]
       },
       "trigger": "minecraft:recipe_unlocked"
     }
