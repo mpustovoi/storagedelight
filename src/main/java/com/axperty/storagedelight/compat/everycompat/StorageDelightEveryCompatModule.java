@@ -164,5 +164,47 @@ public class StorageDelightEveryCompatModule extends SimpleModule {
                 .setTab(getModTab(modId))
                 .defaultRecipe()
                 .build());
+
+        // Cabinet with Polished Blackstone Countertop
+        this.addEntry(SimpleEntrySet.builder(WoodType.class, "cabinet_with_polished_blackstone_countertop",
+                        () -> BlockRegistry.OAK_CABINET_WITH_POLISHED_BLACKSTONE_COUNTERTOP.get(), () -> VanillaWoodTypes.OAK,
+                        w -> new CabinetCountertopBlock(Utils.copyPropertySafe(w.planks)))
+                .addTile(() -> EntityTypesRegistry.COUNTERTOP.get())
+                .addTexture(modRes("block/oak_cabinet_with_polished_blackstone_countertop_front"), PaletteStrategies.PLANKS_STANDARD)
+                .addTexture(modRes("block/oak_cabinet_with_polished_blackstone_countertop_front_open"), PaletteStrategies.PLANKS_STANDARD)
+                .addTexture(modRes("block/oak_cabinet_with_polished_blackstone_countertop_side"), PaletteStrategies.PLANKS_STANDARD)
+                .addTexture(modRes("block/oak_cabinet_side"), PaletteStrategies.PLANKS_STANDARD)
+                .addTexture(modRes("block/oak_cabinet_top"), PaletteStrategies.PLANKS_STANDARD)
+                .setTab(getModTab(modId))
+                .defaultRecipe()
+                .build());
+
+        // Cabinet with Polished Diorite Countertop
+        this.addEntry(SimpleEntrySet.builder(WoodType.class, "cabinet_with_polished_diorite_countertop",
+                        () -> BlockRegistry.OAK_CABINET_WITH_POLISHED_DIORITE_COUNTERTOP.get(), () -> VanillaWoodTypes.OAK,
+                        w -> new CabinetCountertopBlock(Utils.copyPropertySafe(w.planks)))
+                .addTile(() -> EntityTypesRegistry.COUNTERTOP.get())
+                .addTexture(modRes("block/oak_cabinet_with_polished_diorite_countertop_front"), PaletteStrategies.PLANKS_STANDARD)
+                .addTexture(modRes("block/oak_cabinet_with_polished_diorite_countertop_front_open"), PaletteStrategies.PLANKS_STANDARD)
+                .addTexture(modRes("block/oak_cabinet_with_polished_diorite_countertop_side"), PaletteStrategies.PLANKS_STANDARD)
+                .addTexture(modRes("block/oak_cabinet_side"), PaletteStrategies.PLANKS_STANDARD)
+                .addTexture(modRes("block/oak_cabinet_top"), PaletteStrategies.PLANKS_STANDARD)
+                .setTab(getModTab(modId))
+                .defaultRecipe()
+                .build());
+
+        // Cabinet with Polished Stone Bricks Countertop
+        this.addEntry(SimpleEntrySet.builder(WoodType.class, "cabinet_with_stone_bricks_countertop",
+                        () -> BlockRegistry.OAK_CABINET_WITH_STONE_BRICKS_COUNTERTOP.get(), () -> VanillaWoodTypes.OAK,
+                        w -> new CabinetCountertopBlock(Utils.copyPropertySafe(w.planks)))
+                .addTile(() -> EntityTypesRegistry.COUNTERTOP.get())
+                .addTexture(modRes("block/oak_cabinet_with_stone_bricks_countertop_front"), PaletteStrategies.PLANKS_STANDARD)
+                .addTexture(modRes("block/oak_cabinet_with_stone_bricks_countertop_front_open"), PaletteStrategies.PLANKS_STANDARD)
+                .addTexture(modRes("block/oak_cabinet_with_stone_bricks_countertop_side"), PaletteStrategies.PLANKS_STANDARD)
+                .addTexture(modRes("block/oak_cabinet_side"), PaletteStrategies.PLANKS_STANDARD)
+                .addTexture(modRes("block/oak_cabinet_top"), PaletteStrategies.PLANKS_STANDARD)
+                .setTab(getModTab(modId))
+                .defaultRecipe()
+                .build());
     }
 }

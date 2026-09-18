@@ -2,10 +2,12 @@
 
 ***
 
-### 🛠️ Bug Fixes:
+### 🛠️ Minor Changes:
 
-- Fixed a bug where the game crashed with Every Compat (Wood Good) installed along Storage Delight (thanks, [SpinWin](https://github.com/SpinWin) and [brisingraerowing](https://github.com/brisingraerowing)!)
-
+- Added Every Compat (Wood Good) compatibility for these storage blocks:
+  - Cabinets with Polished Blackstone Countertop
+  - Cabinets with Polished Diorite Countertop
+  - Cabinets with Stone Bricks Countertop
 ***
 
 ### 📝 Feedback and Support:
